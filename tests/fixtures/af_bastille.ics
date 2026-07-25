@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wp-events-plugin.com//7.4.0.1//EN
+TZID:Asia/Kolkata
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:388@afdelhi.org
+DTSTART;TZID=Asia/Kolkata:20260716T183000
+DTEND;TZID=Asia/Kolkata:20260730T200000
+DTSTAMP:20260715T101651Z
+URL:https://afdelhi.org/events/bastille-day-french-film-screenings-afd-cin
+ e-club-july-2026/
+SUMMARY:Bastille Day French Film Screenings | AFD Ciné Club | July 2026
+DESCRIPTION:Bastille Day French Film Screenings | AFD Ciné Club | July 202
+ 6\nCelebrate Bastille Day with Alliance Française de Delhi through a cura
+ ted selection of iconic French films that reflect the richness of French c
+ inema—from timeless classics to contemporary masterpieces. Experience st
+ ories of ambition\, resilience\, history\, and identity\, while celebratin
+ g France's cultural heritage on the big screen.\nVenue: M.L. Bhartia Audit
+ orium\, Alliance Française de Delhi\nLanguage: French with English Subtit
+ les\nEntry: Free and Open to All\n\n\n\n\nLost Illusions (Illusions Perdue
+ s)\n\n16 July 2026 | 6:30 PM\n\nSet in 19th-century France\, Lost Illusion
+ s follows Lucien\, a young poet who leaves his provincial hometown for Par
+ is in search of fame and success. As he enters the glamorous yet ruthless 
+ world of journalism and literature\, he discovers the price of ambition an
+ d the illusions behind power\, wealth\, and recognition.\n\nClick here for
+  Trailer\n\n&nbsp\;\n\n\n\nThe Great Escape (La Grande Vadrouille)\n\n23 J
+ uly 2026 | 6:30 PM\n\nOne of France's most beloved comedy classics\, The G
+ reat Escape follows two ordinary French civilians who unexpectedly find th
+ emselves helping British airmen escape Nazi-occupied Paris during World Wa
+ r II. Filled with humor\, adventure\, and unforgettable moments\, the film
+  remains a timeless celebration of courage and solidarity.\n\nThe Great Es
+ cape\n\nClick here for Trailer\n\n\n\nNous / We\n\n30 July 2026 | 6:30 PM\
+ n\nAcclaimed filmmaker Alice Diop presents a poetic documentary that journ
+ eys through the communities living along Paris' RER B railway line. Throug
+ h intimate encounters with people from diverse backgrounds\, Nous (We) off
+ ers a moving portrait of contemporary France\, exploring themes of belongi
+ ng\, memory\, and shared humanity.\n\nClick here for Trailer
+ATTACH;FMTTYPE=image/jpeg:https://afdelhi.org/wp-content/uploads/2026/07/m
+ ovies-BASTILLE-DAY.webp
+CATEGORIES:Active,Cine Club,Events
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+DTSTART:20250716T183000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

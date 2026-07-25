@@ -1,0 +1,192 @@
+"""Event identity, deduplication, and the published artefacts."""
+
+from __future__ import annotations
+
+from datetime import datetime, timedelta
+
+import pytest
+from icalendar import Calendar
+
+from delhi_events import build as build_mod
+from delhi_events import db
+from delhi_events.llm import date_is_supported
+from delhi_events.models import IST, Event, Format, Topic
+
+
+def make_event(**overrides) -> Event:
+    base = dict(
+        source_id="test",
+        title="A Talk on Yamuna Ecology",
+        start=datetime(2099, 3, 4, 18, 30),
+        venue="India International Centre",
+        format=Format.TALK,
+        topics=[Topic.NATURE],
+    )
+    base.update(overrides)
+    return Event(**base)
+
+
+@pytest.fixture
+def conn(tmp_path):
+    connection = db.connect(tmp_path / "test.db")
+    yield connection
+    connection.close()
+
+
+# -- identity --------------------------------------------------------------
+
+def test_id_survives_url_and_description_changes():
+    a = make_event(source_url="https://old.example/1", description="draft")
+    b = make_event(source_url="https://new.example/9", description="final copy")
+    assert a.id == b.id
+    assert a.content_hash != b.content_hash
+
+
+def test_id_distinguishes_concurrent_shows_in_different_rooms():
+    a = make_event(title="Illumination", sub_venue="Visual Arts Gallery")
+    b = make_event(title="Illumination", sub_venue="Open Palm Court Gallery")
+    assert a.id != b.id
+
+
+def test_naive_datetimes_are_treated_as_ist():
+    """A datetime that reaches the store without a timezone would shift by
+    5h30m in the ICS export."""
+    event = make_event(start=datetime(2099, 3, 4, 18, 30))
+    assert event.start.utcoffset().total_seconds() == 5.5 * 3600
+
+
+def test_end_before_start_is_read_as_crossing_midnight():
+    event = make_event(start=datetime(2099, 3, 4, 22, 0), end=datetime(2099, 3, 4, 1, 0))
+    assert event.end.day == 5
+
+
+def test_absurd_end_is_dropped_rather_than_shifted():
+    event = make_event(start=datetime(2099, 3, 4, 18, 0), end=datetime(2098, 1, 1, 9, 0))
+    assert event.end is None
+
+
+# -- store -----------------------------------------------------------------
+
+def test_upsert_reports_new_then_unchanged_then_updated(conn):
+    event = make_event()
+    assert db.upsert(conn, event) == "new"
+    assert db.upsert(conn, event) == "unchanged"
+    assert db.upsert(conn, make_event(description="now with a blurb")) == "updated"
+
+
+def test_near_identical_titles_are_merged(conn):
+    db.upsert(conn, make_event(title="Flux of Being", source_id="a"))
+    outcome = db.upsert(conn, make_event(title="Exhibition- Flux of Being", source_id="b"))
+    assert outcome == "duplicate"
+    assert len(db.active_events(conn, include_past=True)) == 1
+
+
+def test_different_rooms_are_not_merged(conn):
+    db.upsert(conn, make_event(title="Illumination", sub_venue="Visual Arts Gallery"))
+    outcome = db.upsert(conn, make_event(title="Illumination", sub_venue="Open Palm Court"))
+    assert outcome == "new"
+    assert len(db.active_events(conn, include_past=True)) == 2
+
+
+def test_reconcile_flags_only_future_events(conn):
+    past = make_event(title="Already Happened", start=datetime.now(IST) - timedelta(days=10))
+    future = make_event(title="Still Listed", start=datetime.now(IST) + timedelta(days=10))
+    db.upsert(conn, past)
+    db.upsert(conn, future)
+
+    gone = db.reconcile(conn, "test", seen_ids=set())
+    assert gone == 1  # the past event is left alone; it simply happened
+
+    remaining = {e.title for e in db.active_events(conn, include_past=True)}
+    assert "Already Happened" in remaining
+    assert "Still Listed" not in remaining
+
+
+def test_multi_day_show_stays_active_until_its_last_day(conn):
+    now = datetime.now(IST)
+    db.upsert(conn, make_event(
+        title="Ongoing Exhibition",
+        start=now - timedelta(days=3),
+        end=now + timedelta(days=3),
+        all_day=True,
+    ))
+    assert [e.title for e in db.active_events(conn)] == ["Ongoing Exhibition"]
+
+
+# -- build -----------------------------------------------------------------
+
+def test_ics_is_parseable_and_keeps_ist(conn):
+    # An explicit clock time, not now() -- the point is that 18:30 IST survives
+    # the round trip through UTC in the feed.
+    future = (datetime.now(IST) + timedelta(days=5)).replace(hour=18, minute=30, second=0)
+    db.upsert(conn, make_event(start=future))
+    events = db.active_events(conn)
+    calendar = Calendar.from_ical(build_mod.build_ics(events, "test", "Test"))
+
+    vevents = list(calendar.walk("VEVENT"))
+    assert len(vevents) == 1
+    assert vevents[0]["DTSTART"].dt.astimezone(IST).hour == 18
+
+
+def test_all_day_ics_uses_exclusive_end_date(conn):
+    """RFC 5545 DTEND is exclusive, so a show ending on the 30th must write the
+    31st or calendar clients drop the final day."""
+    start = datetime.now(IST) + timedelta(days=2)
+    db.upsert(conn, make_event(start=start, end=start + timedelta(days=4), all_day=True))
+
+    vevent = list(Calendar.from_ical(
+        build_mod.build_ics(db.active_events(conn), "t", "T")
+    ).walk("VEVENT"))[0]
+
+    assert (vevent["DTEND"].dt - vevent["DTSTART"].dt).days == 5
+
+
+def test_ics_lines_respect_the_75_octet_limit(conn):
+    """Folding is done on encoded bytes -- Delhi listings contain Devanagari."""
+    db.upsert(conn, make_event(
+        title="झड़पें / Skirmishes " + "अनुवाद " * 30,
+        start=datetime.now(IST) + timedelta(days=1),
+    ))
+    raw = build_mod.build_ics(db.active_events(conn), "t", "T").encode("utf-8")
+
+    assert all(len(line) <= 75 for line in raw.split(b"\r\n"))
+    assert list(Calendar.from_ical(raw).walk("VEVENT"))
+
+
+def test_build_writes_site_json_and_feeds(conn, tmp_path):
+    db.upsert(conn, make_event(start=datetime.now(IST) + timedelta(days=1)))
+    counts = build_mod.build(conn, tmp_path)
+
+    assert counts["events"] == 1
+    assert counts["nature.ics"] == 1  # the topic feed picked it up
+    assert (tmp_path / "index.html").exists()
+    assert (tmp_path / "events.json").exists()
+
+    html = (tmp_path / "index.html").read_text()
+    assert "A Talk on Yamuna Ecology" in html
+
+
+def test_embedded_json_cannot_close_the_script_tag(conn, tmp_path):
+    db.upsert(conn, make_event(
+        title="Hack </script><script>alert(1)</script>",
+        start=datetime.now(IST) + timedelta(days=1),
+    ))
+    build_mod.build(conn, tmp_path)
+    html = (tmp_path / "index.html").read_text()
+
+    assert "</script><script>alert(1)" not in html
+    assert "\\u003c/script" in html
+
+
+# -- llm guardrail ---------------------------------------------------------
+
+@pytest.mark.parametrize("date_str,source,expected", [
+    ("2026-08-15", "Walk on 15th August 2026", True),
+    ("2026-08-15", "Walk on 15 Aug", True),
+    ("2026-08-22", "Walk on 15th August 2026", False),   # day absent
+    ("2026-07-15", "Walk on 15th August 2026", False),   # month absent
+    ("2026-09-03", "Also 3 Sep at the gallery", True),
+    ("not-a-date", "anything", False),
+])
+def test_llm_dates_must_appear_in_the_source(date_str, source, expected):
+    assert date_is_supported(date_str, source) is expected

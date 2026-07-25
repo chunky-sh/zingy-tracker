@@ -1,0 +1,111 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//delhi-events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Delhi Culture — talks & ideas
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:005acb795fe4988d@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART:20260727T123000Z
+DTEND:20260727T143000Z
+SUMMARY:BOOK DISCUSSION GROUP -Busy Women: Building Commerce and Culture 
+ in Middle India
+LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
+ Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/book-discussion-group-busy-women-build
+ ing-commerce-and-culture-middle-india
+DESCRIPTION:BOOK DISCUSSION GROUP\nBusy Women: Building Commerce and Cult
+ ure in Middle India\nBy Shinjini Kumar (Penguin\, 2026)\nModerator: Nisht
+ ha Gautam\, Journalist\, author-translator\, Academic\nDiscussants: Amb. 
+ Pavan K Varma\, Politician\, Author\, Former Diplomat\; Milee Ashwarya\, 
+ Publisher and Group Senior VP\, Penguin Random House India\; Shinjini Kum
+ ar\, Author of the book\n\nhttps://iicdelhi.in/programmes/book-discussion
+ -group-busy-women-building-commerce-and-culture-middle-india
+CATEGORIES:talk\,literature
+END:VEVENT
+BEGIN:VEVENT
+UID:3ce6d8a7d8f588dd@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART:20260728T130000Z
+DTEND:20260728T150000Z
+SUMMARY:AAJ KAVITA
+LOCATION:Lecture Room II\, IIC Annexe\, India International Centre\, 40 M
+ ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/aaj-kavita-48
+DESCRIPTION:AAJ KAVITA\nPoetry reading by Braj Ratan Joshi (Bikaner)\, Sh
+ ivangi Goel (Prayagraj)\, Soumitra Mohan and Alok Kumar Mishra (Delhi)\n(
+ Collaboration: Raza Foundation)\n\nhttps://iicdelhi.in/programmes/aaj-kav
+ ita-48
+CATEGORIES:talk\,literature
+END:VEVENT
+BEGIN:VEVENT
+UID:30fd7f51b599d526@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART:20260729T123000Z
+DTEND:20260729T143000Z
+SUMMARY:(Se)Elections\, Violence & State: Analysing Developments in Pakis
+ tan-Occupied Jammu & Kashmir
+LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1319
+DESCRIPTION:Panel Discussion on (Se)Elections\, Violence & State: Analysi
+ ng Developments in Pakistan-Occupied Jammu & Kashmir . Collab. India Foun
+ dation .\n\nhttps://indiahabitat.org/Events_details/1319
+CATEGORIES:talk\,sociology
+END:VEVENT
+BEGIN:VEVENT
+UID:a69772a5e51bb71f@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART:20260729T130000Z
+DTEND:20260729T150000Z
+SUMMARY:The Democracy to Come-Ambedkar\, Fanon\, and the Time of Counter-
+ Revolution
+LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
+ ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/democracy-come-ambedkar-fanon-and-time
+ -counter-revolution
+DESCRIPTION:The Democracy to Come\nAmbedkar\, Fanon\, and the Time of Cou
+ nter-Revolution\nSpeaker: Dr Aishwary Kumar\, Professor of History of Pol
+ itical Thought and Institutions\, and Director of The Democracy Institute
+  at Cal Poly Pomona\, Chair\, The GIFT Project and the American Instituti
+ ons Common Core\nChair: Dr Mujibur Rehman\, faculty\, Jamia Millia Centra
+ l University\, New Delhi\nIntroductory Remarks: Dr Usha Munshi\, Chief Li
+ brarian\, IIC\nThe concept of “counter-revolution” occupies a galvani
+ zing place in B. R. Ambedkar’s political thought and moral psychology. 
+ Unlike nationalists of his time\, Ambedkar rarely speaks of extreme viole
+ nce and exploitation as a function simply of modern colonial bondage. Ins
+ tead\, for him\, “inequality” is force\, a spectrum of compulsions\, 
+ a desire even. Which is why its cruelty can be grasped only as a counter-
+ revolutionary form that alters our very relationship to time and authorit
+ y. Counter-revolution as a neo-democratic form: this singular insight—w
+ hat I call "the caste contract"—puts Ambedkar in an exemplary constella
+ tion of abolitionist thinkers on human freedom and moral judgment who ret
+ urn to us today with a dark urgency.\n\nhttps://iicdelhi.in/programmes/de
+ mocracy-come-ambedkar-fanon-and-time-counter-revolution
+CATEGORIES:talk\,sociology
+END:VEVENT
+BEGIN:VEVENT
+UID:84d4d11a1997e179@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART:20260731T123000Z
+DTEND:20260731T143000Z
+SUMMARY:BOOK DISCUSSION GROUP- Stories Carved in Stone Voices Rooted in E
+ arth Silent Walls\, Speaking Stones & Indigenized/ Tribalized: Poems
+LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
+ Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/book-discussion-group-stories-carved-s
+ tone-voices-rooted-earth-silent-walls-speaking
+DESCRIPTION:BOOK DISCUSSION GROUP\nStories Carved in Stone Voices Rooted 
+ in Earth\nSilent Walls\, Speaking Stones & Indigenized/ Tribalized: Poems
+ \nBy Nishi Chawla (Human Error Publishing\, 2026)\nDiscussants: Prof. Amr
+ ita Bhalla\, Academician\, Author and critic\, Associate Professor\, Depa
+ rtment of English\, Jesus and Mary College\, University of Delhi\; Prof. 
+ Sukrita Paul Kumar\, Guest Editor\, Indian Literature\, Poet\, Academic a
+ nd Critic\; Prof Ratna Raman\, Dept of English\, Sri Venkateswara College
+ \, DU\; Dr Nishi Chawla\, Author of the book\n\nhttps://iicdelhi.in/progr
+ ammes/book-discussion-group-stories-carved-stone-voices-rooted-earth-sile
+ nt-walls-speaking
+CATEGORIES:talk\,literature
+END:VEVENT
+END:VCALENDAR

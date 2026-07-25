@@ -1,0 +1,88 @@
+name: Refresh events
+
+on:
+  schedule:
+    # 06:00 IST. Venues publish in the morning; this picks up same-day changes.
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+    inputs:
+      use_llm:
+        description: "Tag ambiguous events with Claude (needs ANTHROPIC_API_KEY)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "delhi_events/**"
+      - "site/template.html"
+      - "config/sources.yaml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pytest anthropic pypdf
+
+      # Parsers are tested against saved fixtures before they touch live data,
+      # so a bad commit fails here rather than corrupting the store.
+      - name: Test parsers
+        run: pytest tests/ -q
+
+      - name: Refresh
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ inputs.use_llm }}" = "true" ] && [ -n "$ANTHROPIC_API_KEY" ]; then
+            python -m delhi_events.cli refresh --llm
+          else
+            python -m delhi_events.cli refresh
+          fi
+
+      - name: Build site
+        run: python -m delhi_events.cli build
+
+      # Runs after the build so a partial scrape still publishes what it got,
+      # but the job is still marked failed and you get an email.
+      - name: Check source health
+        run: python -m delhi_events.cli doctor
+
+      - name: Commit updated data
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/events.db site/dist
+          if git diff --staged --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Refresh events ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+        if: always()
+      - uses: actions/upload-pages-artifact@v3
+        if: always()
+        with:
+          path: site/dist
+      - uses: actions/deploy-pages@v4
+        if: always()

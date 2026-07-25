@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//delhi-events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Delhi Culture — art & photography
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:62347b227f6806eb@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART:20260722T053000Z
+DTEND:20260804T133000Z
+SUMMARY:UNSUNG: Celebrating the Extraordinary Grandeur of Smallness
+LOCATION:Art Gallery\, Kamaladevi Complex\, IIC\, India International Cen
+ tre\, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/exhibition-unsung-celebrating-extraord
+ inary-grandeur-smallness
+DESCRIPTION:UNSUNG: Celebrating the Extraordinary Grandeur of Smallness\n
+ A photography exhibition curated by Amit Mehra\, photographer\, curator\,
+  and founder of the UNSUNG project\, an ongoing initiative that celebrate
+ s the lives and contributions of extraordinary yet often overlooked indiv
+ iduals.\nThe photographs explore the beauty and significance of lives\, p
+ laces\, and ideas that often go unnoticed. Through visual narratives by c
+ ontemporary artists\, the exhibition reflects on ordinary people and unse
+ en worlds whose stories reveal resilience\, conviction\, and human connec
+ tion.\nThe exhibition will be inaugurated on Tuesday\, 21 July’26 at 18
+ :00 hrs by Amb Shyam Saran\, President\, IIC\nThe exhibition will remain 
+ open daily from 11:00 to 19:00 hrs\n(Collaboration: Srishti Manipal Insti
+ tute of Art\, Design and Technology (a constituent of MAHE\, Manipal) and
+  Manipal Academy of Higher Education (MAHE)\, Manipal (Institution of Emi
+ nence Deemed to be University)\n\nhttps://iicdelhi.in/programmes/exhibiti
+ on-unsung-celebrating-extraordinary-grandeur-smallness
+CATEGORIES:exhibition\,art\,photography
+END:VEVENT
+BEGIN:VEVENT
+UID:887e569eddceee41@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260731
+SUMMARY:The Collective Colour Palette
+LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:26 th Jul - 30 th Jul | Convention Centre Foyer The Collectiv
+ e Colour Palette An art exhibition by ArghaArts .\n\nhttps://indiahabitat
+ .org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:571e8403cd7afc39@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART:20260726T053000Z
+DTEND:20260802T133000Z
+SUMMARY:Flux of Being
+LOCATION:Art Gallery\, IIC Annexe\, India International Centre\, 40 Max M
+ ueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/exhibition-flux-being
+DESCRIPTION:Flux of Being\nA Solo Exhibition by Ravi Kant Jha\, National 
+ award-winning artist\, his practice investigates themes of consciousness\
+ , memory\, and transformation.\nThe exhibition presents a series of paint
+ ings that explore consciousness as a state of constant transformation. Th
+ rough fluid forms\, layered compositions\, and evocative color fields\, t
+ he works blur the boundaries between memory\, imagination\, and reality.\
+ nThe exhibition will be inaugurated on Saturday\, 25 July’26 at 17:00 h
+ rs\nThe exhibition will remain open daily from 11:00 to 19:00 hrs\n\nhttp
+ s://iicdelhi.in/programmes/exhibition-flux-being
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:39536e9ba1be1a30@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260730
+SUMMARY:Threads of Freedom 2.0 - A Journey From Soil to Soul
+LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
+ lhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:27 th Jul - 29 th Jul | Visual Arts Gallery Threads of Freedo
+ m 2.0 - A Journey From Soil to Soul A group painting and sculpture exhibi
+ tion by Nawal Kishor\, Vijaya Ved\, Asur Ved\, Kiran Soni Gupta\, Sohini 
+ Banerjee\, Piya Thakur\, Ramesh Shah\, Jasmeen Kaur\, Aditi\, Jaspreet Si
+ ngh\, Malika\, Anansita Sengupta\, Ritu Singh\, Raksha Jaswal\, Varonika\
+ , Aditya Shankar Prasad\, Kamal Kishor \, & Mahua Sinha .\n\nhttps://indi
+ ahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:d799ead59b8260bc@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260801
+SUMMARY:Splendour 2026
+LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
+ lhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:30 th Jul - 31 st Jul | Visual Arts Gallery Splendour 2026 A 
+ group exhibition of paintings by Ram Kumar\, Lalu Prasad Shaw\, T. Vaikun
+ tam\, Shobha Broota\, Sunil Das\, Sudip Roy\, S. Harshavardhana etc.\n\nh
+ ttps://indiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:6794c843651626ca@delhi-events
+DTSTAMP:20260725T221423Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260805
+SUMMARY:Shilpa-Abadhani
+LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:1 st Aug - 4 th Aug | Convention Centre Foyer Shilpa-Abadhani
+  A group exhibition by Dana Ghosh\, Anjana Kirtania & Sandip Das .\n\nhtt
+ ps://indiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+END:VCALENDAR

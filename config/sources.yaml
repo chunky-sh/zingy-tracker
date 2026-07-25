@@ -1,0 +1,60 @@
+# Venue registry. `adapter` names a module in delhi_events/sources/.
+# Disable a source here rather than deleting it -- `doctor` only checks enabled ones.
+
+sources:
+  - id: alliance_francaise
+    adapter: alliance_francaise
+    name: Alliance Française de Delhi
+    address: 72 Lodhi Estate, New Delhi 110003
+    url: https://afdelhi.org/events/
+    enabled: true
+
+  - id: iic
+    adapter: iic
+    name: India International Centre
+    address: 40 Max Mueller Marg, Lodhi Gardens, New Delhi 110003
+    url: https://iicdelhi.in/programmes/current
+    enabled: true
+
+  - id: ihc
+    adapter: ihc
+    name: India Habitat Centre
+    address: Lodhi Road, New Delhi 110003
+    url: https://indiahabitat.org/Events
+    enabled: true
+
+  # Nature walks. BNHS lists nationally and is usually all-Mumbai, so an empty
+  # Delhi result is normal rather than a broken parser.
+  - id: bnhs
+    adapter: bnhs
+    name: BNHS Conservation Education Centre
+    address: Asola Bhatti Wildlife Sanctuary, New Delhi 110044
+    url: https://www.bnhs.org/nature-trails
+    enabled: true
+    allow_empty: true
+
+  # Declared, not scraped -- see config/recurring.yaml and sources/recurring.py.
+  - id: sunder_nursery
+    adapter: recurring
+    name: Sunder Nursery
+    address: Nizamuddin, New Delhi 110013
+    url: https://www.sundernursery.org/heritage-and-nature-walk.php
+    enabled: true
+    allow_empty: true
+
+  # Backfill beyond the ~2 months the IHC HTML calendar shows. Needs
+  # ANTHROPIC_API_KEY and pypdf; overlapping events are merged by title+date.
+  # Enable when you want the extra lead time.
+  - id: ihc_pdf
+    adapter: ihc_pdf
+    name: India Habitat Centre
+    address: Lodhi Road, New Delhi 110003
+    url: https://indiahabitat.org/assets/user/calendar/monthly-calendar.pdf
+    enabled: false
+
+  - id: goethe
+    adapter: goethe
+    name: Goethe-Institut / Max Mueller Bhavan
+    address: 3 Kasturba Gandhi Marg, New Delhi 110001
+    url: https://www.goethe.de/ins/in/en/sta/del/ver.cfm
+    enabled: true

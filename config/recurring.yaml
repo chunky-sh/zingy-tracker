@@ -1,0 +1,48 @@
+# Standing weekly walks that no venue publishes as dated events.
+#
+# Unlike every other source, these are DECLARED rather than scraped. Read
+# delhi_events/sources/recurring.py before editing. Two fields keep it honest:
+#
+#   marker           text that must still appear on `url`, or generation stops
+#   confirmed_until  the date a human last confirmed the walk actually runs;
+#                    past it, nothing is generated until you re-confirm
+#
+# To re-confirm: phone the number in `caveat`, ask whether the walk is still
+# running, then push `confirmed_until` forward.
+
+schedules:
+  - source_id: sunder_nursery
+    title: Heritage & Nature Walk
+    venue: Sunder Nursery
+    address: Nizamuddin, New Delhi 110013
+    sub_venue: Coffee Kiosk (meeting point)
+    url: https://www.sundernursery.org/heritage-and-nature-walk.php
+    marker: Heritage & Nature Walk
+    # The page advertises "Every Weekend" but is dated 2025 and the site's
+    # copyright reads 2019, so this is a short leash. Re-confirm before Oct.
+    confirmed_until: 2026-10-31
+    weekdays: [saturday, sunday]
+    times: ["11:00", "16:00"]
+    duration_minutes: 90
+    # Four weeks, not the 60-day default: two sessions every weekend adds up
+    # fast, and a longer horizon buried the one-off talks and exhibitions
+    # under the same walk repeated.
+    horizon_days: 28
+    format: walk
+    topics: [heritage, nature]
+    price: Rs 20
+    description: >-
+      A guided walk through Sunder Nursery's heritage monuments and gardens,
+      led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.
+    caveat: >-
+      Scheduled from Sunder Nursery's published standing timetable, not from a
+      dated listing — the venue does not publish one. Confirm before travelling:
+      9871066025 / 9911949854.
+
+# NOT scheduled, deliberately:
+#
+# Sunder Nursery bird walk (bird-walk.php, with Ishtiyak Ahamad of Give Me Trees
+# Trust, 08:00–10:00, #8800623154). The page shows one undated line, "Sunday,
+# 23rd February", and its booking link still carries date=...2023 — there is no
+# recurrence claim to expand and no evidence it currently runs. Phone first; if
+# it is running weekly or monthly, add it here with a real confirmed_until.

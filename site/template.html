@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --surface: #ffffff;
+    --line: #e4e0d8;
+    --ink: #1c1b18;
+    --muted: #6d6a62;
+    --accent: #9f1111;
+    --chip: #f1eee8;
+    --radius: 10px;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161513;
+      --surface: #1e1d1a;
+      --line: #33312c;
+      --ink: #ece9e3;
+      --muted: #9a958a;
+      --accent: #e2756f;
+      --chip: #2a2825;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.5 ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 940px; margin: 0 auto; padding: 0 20px 80px; }
+
+  header { padding: 40px 0 20px; }
+  h1 { margin: 0 0 6px; font-size: 30px; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0; }
+  .sub a { color: var(--muted); }
+
+  .controls {
+    position: sticky; top: 0; z-index: 20;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+    padding: 12px 0;
+    margin-bottom: 8px;
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .row + .row { margin-top: 8px; }
+
+  input[type=search], select {
+    font: inherit; color: inherit;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 8px 12px;
+  }
+  input[type=search] { flex: 1 1 220px; min-width: 0; }
+  input[type=search]:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  .chip {
+    font: inherit; font-size: 13px; color: var(--muted);
+    background: var(--chip);
+    border: 1px solid transparent;
+    border-radius: 999px;
+    padding: 5px 12px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .chip:hover { border-color: var(--line); }
+  .chip[aria-pressed="true"] {
+    background: var(--accent); border-color: var(--accent);
+    color: #fff; font-weight: 500;
+  }
+  .chip .n { opacity: .6; margin-left: 5px; font-variant-numeric: tabular-nums; }
+
+  .label { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-right: 2px; }
+
+  .count { color: var(--muted); font-size: 13px; padding: 14px 0 4px; }
+
+  .day { margin-top: 26px; }
+  .day h2 {
+    position: sticky; top: 116px;
+    margin: 0 0 10px;
+    font-size: 13px; font-weight: 600;
+    letter-spacing: .06em; text-transform: uppercase;
+    color: var(--muted);
+    background: var(--bg);
+    padding: 6px 0;
+  }
+  .day.today h2 { color: var(--accent); }
+
+  .event {
+    display: grid;
+    grid-template-columns: 74px 1fr;
+    gap: 14px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    margin-bottom: 8px;
+  }
+  .time { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; }
+  .title { margin: 0 0 4px; font-size: 16.5px; font-weight: 600; line-height: 1.35; }
+  .title a { color: inherit; text-decoration: none; }
+  .title a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
+  .where { font-size: 13.5px; color: var(--muted); margin: 0 0 8px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 5px; }
+  .tag {
+    font-size: 11px; letter-spacing: .04em; text-transform: uppercase;
+    color: var(--muted); background: var(--chip);
+    border-radius: 4px; padding: 2px 7px;
+  }
+  .tag.fmt { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  .runs { font-size: 12px; color: var(--muted); font-style: italic; }
+
+  details.body { margin-top: 8px; }
+  details.body summary {
+    cursor: pointer; font-size: 13px; color: var(--accent); list-style: none;
+  }
+  details.body summary::-webkit-details-marker { display: none; }
+  details.body summary::after { content: " ↓"; }
+  details.body[open] summary::after { content: " ↑"; }
+  details.body p { font-size: 14.5px; color: var(--muted); margin: 8px 0 0; white-space: pre-wrap; }
+
+  .empty { padding: 60px 0; text-align: center; color: var(--muted); }
+
+  footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+  footer a { color: var(--accent); }
+  footer code { background: var(--chip); padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+
+  @media (max-width: 560px) {
+    .event { grid-template-columns: 1fr; gap: 4px; }
+    .day h2 { top: 150px; }
+    h1 { font-size: 25px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>{{ title }}</h1>
+    <p class="sub">
+      {{ event_count }} upcoming events across Delhi&rsquo;s cultural centres &middot;
+      updated {{ generated_at[:10] }}
+    </p>
+  </header>
+
+  <div class="controls">
+    <div class="row">
+      <input type="search" id="q" placeholder="Search titles, venues, descriptions&hellip;" aria-label="Search events">
+      <select id="when" aria-label="Date range">
+        <option value="all">Any date</option>
+        <option value="today">Today</option>
+        <option value="week">Next 7 days</option>
+        <option value="month">Next 30 days</option>
+      </select>
+      <select id="venue" aria-label="Venue"><option value="">All venues</option></select>
+    </div>
+    <div class="row" id="formats"><span class="label">Type</span></div>
+    <div class="row" id="topics"><span class="label">About</span></div>
+  </div>
+
+  <p class="count" id="count"></p>
+  <div id="list"></div>
+
+  <footer>
+    <p><strong>Subscribe in your calendar</strong> &mdash; add any of these by URL:</p>
+    <p>
+      {% for slug, name in feeds %}<code>{{ slug }}.ics</code>{% if not loop.last %} &middot; {% endif %}{% endfor %}
+    </p>
+    <p>Sources are the venues&rsquo; own programme pages. Times are IST. Always confirm with the venue before travelling.</p>
+  </footer>
+
+</div>
+
+<script id="data" type="application/json">{{ payload|safe }}</script>
+<script>
+(function () {
+  "use strict";
+
+  const DATA = JSON.parse(document.getElementById("data").textContent);
+  const EVENTS = DATA.events;
+  const BY_ID = new Map(EVENTS.map(e => [e.id, e]));
+
+  const state = { q: "", when: "all", venue: "", formats: new Set(), topics: new Set() };
+
+  const el = {
+    list: document.getElementById("list"),
+    count: document.getElementById("count"),
+    q: document.getElementById("q"),
+    when: document.getElementById("when"),
+    venue: document.getElementById("venue"),
+    formats: document.getElementById("formats"),
+    topics: document.getElementById("topics"),
+  };
+
+  // -- filter controls, built from whatever the data actually contains ----
+
+  DATA.venues.forEach(v => {
+    const opt = document.createElement("option");
+    opt.value = v; opt.textContent = v;
+    el.venue.appendChild(opt);
+  });
+
+  function tally(key) {
+    const counts = new Map();
+    EVENTS.forEach(e => {
+      const values = key === "format" ? [e.format] : e.topics;
+      values.forEach(v => counts.set(v, (counts.get(v) || 0) + 1));
+    });
+    return counts;
+  }
+
+  function buildChips(container, key, set) {
+    const counts = tally(key);
+    [...counts.entries()].sort((a, b) => b[1] - a[1]).forEach(([value, n]) => {
+      const btn = document.createElement("button");
+      btn.className = "chip";
+      btn.type = "button";
+      btn.setAttribute("aria-pressed", "false");
+      btn.innerHTML = value + '<span class="n">' + n + "</span>";
+      btn.addEventListener("click", () => {
+        if (set.has(value)) { set.delete(value); btn.setAttribute("aria-pressed", "false"); }
+        else { set.add(value); btn.setAttribute("aria-pressed", "true"); }
+        render();
+      });
+      container.appendChild(btn);
+    });
+  }
+
+  buildChips(el.formats, "format", state.formats);
+  buildChips(el.topics, "topic", state.topics);
+
+  // -- filtering ---------------------------------------------------------
+
+  function horizon() {
+    if (state.when === "all") return null;
+    const days = state.when === "today" ? 0 : state.when === "week" ? 6 : 29;
+    const d = new Date();
+    d.setDate(d.getDate() + days);
+    return d.toISOString().slice(0, 10);
+  }
+
+  function matches(e, limit) {
+    if (state.venue && e.venue !== state.venue) return false;
+    if (state.formats.size && !state.formats.has(e.format)) return false;
+    if (state.topics.size && !e.topics.some(t => state.topics.has(t))) return false;
+    if (limit && e.start_date > limit) return false;
+    if (state.q) {
+      const hay = (e.title + " " + e.venue + " " + e.sub_venue + " " +
+                   e.description + " " + e.topics.join(" ") + " " + e.format).toLowerCase();
+      if (!state.q.split(/\s+/).every(term => hay.includes(term))) return false;
+    }
+    return true;
+  }
+
+  // -- rendering ---------------------------------------------------------
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  function eventHtml(e, day) {
+    const where = [e.sub_venue, e.venue].filter(Boolean).map(escapeHtml).join(" &middot; ");
+    const tags = ['<span class="tag fmt">' + escapeHtml(e.format) + "</span>"]
+      .concat(e.topics.map(t => '<span class="tag">' + escapeHtml(t) + "</span>"))
+      .join("");
+
+    let runs = "";
+    if (e.multi_day) {
+      const fmt = d => new Date(d + "T00:00:00").toLocaleDateString("en-GB",
+        { day: "numeric", month: "short" });
+      runs = '<span class="runs">runs ' + fmt(e.start_date) + " &ndash; " + fmt(e.end_date) + "</span>";
+    }
+
+    const titleText = escapeHtml(e.title);
+    const title = e.source_url
+      ? '<a href="' + escapeHtml(e.source_url) + '" target="_blank" rel="noopener">' + titleText + "</a>"
+      : titleText;
+
+    const body = e.description
+      ? '<details class="body"><summary>Details</summary><p>' +
+        escapeHtml(e.description.slice(0, 1400)) + "</p></details>"
+      : "";
+
+    // On a repeated day of a run, the start time belongs to the opening day only.
+    const timeLabel = e.all_day ? "all day"
+      : (e.multi_day && day !== e.start_date) ? "ongoing"
+      : (e.time_label || "");
+
+    return '<article class="event">' +
+      '<div class="time">' + escapeHtml(timeLabel) + "</div>" +
+      "<div>" +
+        '<h3 class="title">' + title + "</h3>" +
+        '<p class="where">' + where + (runs ? " &middot; " + runs : "") + "</p>" +
+        '<div class="tags">' + tags + "</div>" +
+        body +
+      "</div>" +
+    "</article>";
+  }
+
+  function render() {
+    const limit = horizon();
+    const seen = new Set();
+    let html = "";
+    let shown = 0;
+
+    DATA.days.forEach(day => {
+      if (limit && day.date > limit) return;
+      const events = day.event_ids.map(id => BY_ID.get(id)).filter(e => e && matches(e, limit));
+      if (!events.length) return;
+
+      shown += events.length;
+      events.forEach(e => seen.add(e.id));
+      html += '<section class="day' + (day.is_today ? " today" : "") + '">' +
+              "<h2>" + escapeHtml(day.label) + (day.is_today ? " &middot; today" : "") + "</h2>" +
+              events.map(e => eventHtml(e, day.date)).join("") +
+              "</section>";
+    });
+
+    el.list.innerHTML = html || '<p class="empty">Nothing matches those filters.</p>';
+    el.count.textContent = shown
+      ? seen.size + " event" + (seen.size === 1 ? "" : "s") +
+        (shown !== seen.size ? " (" + shown + " listings across days)" : "")
+      : "";
+  }
+
+  let timer;
+  el.q.addEventListener("input", () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { state.q = el.q.value.trim().toLowerCase(); render(); }, 120);
+  });
+  el.when.addEventListener("change", () => { state.when = el.when.value; render(); });
+  el.venue.addEventListener("change", () => { state.venue = el.venue.value; render(); });
+
+  render();
+})();
+</script>
+</body>
+</html>

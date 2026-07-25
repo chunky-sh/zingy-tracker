@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Alliance Française - Events</title>
+		<link>https://afdelhi.org/events/</link>
+		<description>de Delhi - Events</description>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		<pubDate>Thu, 23 Jul 2026 08:39:03 +0000</pubDate>
+		<atom:link href="https://afdelhi.org/events/feed/" rel="self" type="application/rss+xml" />
+						<item>
+					<title>Bastille Day French Film Screenings | AFD Ciné Club | July 2026</title>
+					<link>https://afdelhi.org/events/bastille-day-french-film-screenings-afd-cine-club-july-2026/</link>
+					<guid>https://afdelhi.org/events/bastille-day-french-film-screenings-afd-cine-club-july-2026/</guid>
+					<pubDate>Thu, 16 Jul 2026 13:00:00 +0000</pubDate>
+					<description><![CDATA[July 16, 2026 - July 30, 2026 - 6:30 pm - 8:00 pm <br /> <br /> <br />]]></description>
+				</item>
+						
+	</channel>
+</rss>
