@@ -29,20 +29,33 @@ adapter already uses — start by copying `_parse_exhibition` from `sources/ihc.
 
 ## Nature, birds and walks
 
-This is the weakest-covered interest in v1 (`nature.ics` is currently empty) and
-the hardest to automate — most of it is announced on WhatsApp, mailing lists and
-Instagram rather than a programme page.
+**BNHS and Sunder Nursery are now built** — see the README for how each works and
+why neither is an ordinary scrape. What that exercise established:
+
+- **BNHS Delhi CEC has no public dated listing.** `cecdelhi.org` no longer
+  resolves (NXDOMAIN); `bnhs.org/content-details/delhi-cec` is prose with no
+  programme. The only dated BNHS feed is the national `nature-trails` page, and
+  Delhi appears on it rarely. CEC bookings go through `cecbnhsdelhi@bnhs.org`
+  and 011-26042010.
+- **Sunder Nursery publishes nothing dated.** `workshops-&-events.php` still
+  contains Lorem Ipsum, `bird-walk.php`'s booking link carries `date=...2023`,
+  the site copyright reads 2019, and both "Programmes & Events" and
+  "Tours & Walks" in the footer link to Facebook. Their live programme is on
+  Facebook and Instagram, not the website.
+
+Still open:
 
 | Organiser | Notes |
 |---|---|
-| **BNHS Conservation Education Centre, Delhi** | Runs the Asola Bhatti Wildlife Sanctuary walks — roughly weekly, Sundays and holidays, ~25 people, online registration. The single highest-value addition for the `nature`/`birds` topics. Registration flow needs inspecting for a listing page. |
-| **Sunder Nursery** | `sundernursery.org/bird-walk.php` and `/heritage-and-nature-walk.php`. Bird walks 08:00–10:00 with Ishtiyak Ahamad (Give Me Trees Trust). Static pages describing a recurring walk rather than dated events — may be better modelled as a recurring rule than scraped. |
+| **Sunder Nursery bird walk** | 08:00–10:00 with Ishtiyak Ahamad (Give Me Trees Trust), #8800623154. Deliberately *not* scheduled — the page shows one undated line and a 2023 booking link, so there is no recurrence to expand. Phone first; if it runs, add it to `config/recurring.yaml`. |
 | **Delhi Earth Walks** (Asian Ecotours) | `earthwalks.asianecotours.com` — trip reports rather than a forward calendar. |
 | **Delhi Bird Society** | Historically a Google Group. No scrapeable calendar; a mail-to-event bridge would be the path. |
 | **WWF India** | Runs occasional nature education events in Delhi. |
+| **Asola Bhatti / Delhi Forest Dept.** | Sanctuary access is event-based; worth checking whether the forest department publishes a permit or walk calendar. |
 
-Because so much of this is announced informally, the `add-manual` path
-(below) matters more here than anywhere else.
+Because so much of this is announced informally, the `add-manual` path matters
+more here than anywhere else — and a Facebook-page bridge would now be worth as
+much as an Instagram one.
 
 ## Theatre and performance
 
@@ -93,10 +106,9 @@ argument for an aggregator is discovering venues not yet on the list.
 
 ## Platform work worth doing
 
-- **Recurring events.** Sunder Nursery's weekly bird walk is a rule, not a
-  listing. The `Event` model has no recurrence field; adding one (or expanding
-  rules into concrete events at build time) is a prerequisite for several
-  nature sources.
+- **Recurrence is built** (`sources/recurring.py`) but is weekday-and-time only.
+  Monthly rules ("first Sunday"), seasonal windows (birding is a winter sport in
+  Delhi) and blackout dates would all be needed before it covers much more.
 - **Cross-source dedupe.** `db.find_duplicate` currently requires the same
   `venue`, which is right for v1 (each centre lists only its own events) but
   will not catch a gallery show that appears on both the gallery's site and its

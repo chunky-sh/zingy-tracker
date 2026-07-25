@@ -36,7 +36,34 @@ make refresh-llm             # refresh + Claude tagging (needs ANTHROPIC_API_KEY
 | India Habitat Centre | `indiahabitat.org/Events` calendar grid + `/Exhibitions_Details` |
 | Alliance Française | Per-event iCal at `/events/<slug>/ical/`, discovered from the listing and RSS |
 | Goethe-Institut / MMB | The REST endpoint behind its Vue calendar |
+| BNHS nature trails | `bnhs.org/nature-trails`, filtered to Delhi/NCR — see the caveat below |
+| Sunder Nursery | **Declared, not scraped** — `config/recurring.yaml`, see below |
 | IHC monthly PDF | Claude-extracted backfill — **disabled by default**, see `config/sources.yaml` |
+
+### The two nature sources need context
+
+Neither publishes a usable dated calendar, so they work differently from the rest.
+
+**BNHS** lists nationally and is usually all-Mumbai — an empty Delhi result is
+normal, so it is marked `allow_empty` and `doctor` reports it as a note rather
+than a failure. Its Delhi Conservation Education Centre runs the Asola Bhatti
+walks but mostly takes bookings by phone and email (`cecbnhsdelhi@bnhs.org`,
+011-26042010) rather than listing them; the centre's old site `cecdelhi.org` no
+longer resolves. This adapter catches Delhi trails when BNHS does publish them.
+
+**Sunder Nursery** publishes no dated events at all — `workshops-&-events.php`
+is placeholder text and the footer's "Programmes & Events" link goes to
+Facebook. Its standing weekend heritage walk is therefore *declared* in
+`config/recurring.yaml` rather than scraped, which is a weaker claim than the
+other sources make. Three things keep it honest:
+
+- a **marker** string re-checked on the venue's page each run, so generation
+  stops if the walk is dropped from the site;
+- **`confirmed_until`**, the date a human last confirmed the walk actually runs
+  — past it, nothing is generated until you re-confirm and push the date out;
+- a **caveat with the venue's phone number** on every generated event.
+
+A test fails once `confirmed_until` lapses, so this cannot rot silently.
 
 Everything not built yet, with the reconnaissance already done, is in
 [FUTURE_SCOPE.md](FUTURE_SCOPE.md) — museums and galleries, bird walks, theatre,
