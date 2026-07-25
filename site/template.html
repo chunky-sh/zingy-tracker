@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title }}</title>
 <style>
-  :root {
+  /* Palette taken from the venues themselves: the ground is the warm paper of
+     a printed programme card, the accent is the red IIC uses on its own
+     programme badges. Neutrals are warmed toward that red rather than grey. */
+  :root, :root[data-theme="light"] {
     --bg: #fbfaf7;
     --surface: #ffffff;
     --line: #e4e0d8;
@@ -13,9 +16,11 @@
     --muted: #6d6a62;
     --accent: #9f1111;
     --chip: #f1eee8;
-    --radius: 10px;
     color-scheme: light;
   }
+  /* The OS preference is the default; the explicit attribute below is stamped
+     on the root by a viewer's own theme toggle and has to win in both
+     directions, so it is repeated at higher specificity rather than nested. */
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #161513;
@@ -28,6 +33,17 @@
       color-scheme: dark;
     }
   }
+  :root[data-theme="dark"] {
+    --bg: #161513;
+    --surface: #1e1d1a;
+    --line: #33312c;
+    --ink: #ece9e3;
+    --muted: #9a958a;
+    --accent: #e2756f;
+    --chip: #2a2825;
+    color-scheme: dark;
+  }
+  :root { --radius: 10px; }
   * { box-sizing: border-box; }
   body {
     margin: 0;
