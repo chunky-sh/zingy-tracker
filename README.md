@@ -13,7 +13,18 @@ their programme separately, and the interesting things get lost between them.
 ```sh
 make install     # .venv + dependencies
 make refresh     # scrape every enabled source
-make serve       # build and serve the site at localhost:8000
+make dev         # live site at localhost:8000
+```
+
+`make dev` watches the template, the adapters and the store; when any of them
+change it rebuilds and the open page reloads itself. The reload snippet is
+injected at serve time, so it never reaches `site/dist` and cannot ship to
+GitHub Pages.
+
+```sh
+PORT=8001 make dev           # if 8000 is taken
+make dev REFRESH=30          # also re-scrape the venues every 30 minutes
+make serve                   # build once, serve statically, no watching
 ```
 
 Other commands:
