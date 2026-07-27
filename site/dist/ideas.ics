@@ -6,28 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Delhi Culture — talks & ideas
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:005acb795fe4988d@delhi-events
-DTSTAMP:20260726T103100Z
-DTSTART:20260727T123000Z
-DTEND:20260727T143000Z
-SUMMARY:BOOK DISCUSSION GROUP -Busy Women: Building Commerce and Culture 
- in Middle India
-LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
- Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/book-discussion-group-busy-women-build
- ing-commerce-and-culture-middle-india
-DESCRIPTION:BOOK DISCUSSION GROUP\nBusy Women: Building Commerce and Cult
- ure in Middle India\nBy Shinjini Kumar (Penguin\, 2026)\nModerator: Nisht
- ha Gautam\, Journalist\, author-translator\, Academic\nDiscussants: Amb. 
- Pavan K Varma\, Politician\, Author\, Former Diplomat\; Milee Ashwarya\, 
- Publisher and Group Senior VP\, Penguin Random House India\; Shinjini Kum
- ar\, Author of the book\n\nhttps://iicdelhi.in/programmes/book-discussion
- -group-busy-women-building-commerce-and-culture-middle-india
-CATEGORIES:talk\,literature
-END:VEVENT
-BEGIN:VEVENT
 UID:3ce6d8a7d8f588dd@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260728T130000Z
 DTEND:20260728T150000Z
 SUMMARY:AAJ KAVITA
@@ -42,7 +22,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:30fd7f51b599d526@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260729T123000Z
 DTEND:20260729T143000Z
 SUMMARY:(Se)Elections\, Violence & State: Analysing Developments in Pakis
@@ -50,13 +30,18 @@ SUMMARY:(Se)Elections\, Violence & State: Analysing Developments in Pakis
 LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
 URL:https://indiahabitat.org/Events_details/1319
 DESCRIPTION:Panel Discussion on (Se)Elections\, Violence & State: Analysi
- ng Developments in Pakistan-Occupied Jammu & Kashmir . Collab. India Foun
- dation .\n\nhttps://indiahabitat.org/Events_details/1319
+ ng Developments in Pakistan-Occupied Jammu & Kashmir . Discussants: Alok 
+ Bansal \, Executive Vice President\, India Foundation\; Tara Kartha\, For
+ mer Director\, National Security Council Secretariat\; Ajay Bisaria\, dis
+ tinguished fellow\, ORF and Former High Commissioner of India to Pakistan
+ . The session will be moderated by Rami Niranjan Desai \, fellow\, India 
+ Foundation. Collab. India Foundation .\n\nhttps://indiahabitat.org/Events
+ _details/1319
 CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:a69772a5e51bb71f@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260729T130000Z
 DTEND:20260729T150000Z
 SUMMARY:The Democracy to Come-Ambedkar\, Fanon\, and the Time of Counter-
@@ -86,8 +71,33 @@ DESCRIPTION:The Democracy to Come\nAmbedkar\, Fanon\, and the Time of Cou
 CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
+UID:26ba3ca1d563f984@delhi-events
+DTSTAMP:20260727T194028Z
+DTSTART:20260731T033000Z
+DTEND:20260801T113000Z
+SUMMARY:3rd All India Conference of East Asian Studies
+LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
+ ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/3rd-all-india-conference-east-asian-st
+ udies
+DESCRIPTION:3rd All India Conference of East Asian Studies\nKeynote Addre
+ ss by Prof. Kan Kimura\, Graduate School of International Cooperation Stu
+ dies\, Kobe University\nFollowed by Thematic discussions and a Special Le
+ cture by eminent academicians\, policy experts and researchers on contemp
+ orary issues in East Asian Studies\, international politics\, regional se
+ curity\, technology\, economics and the environment.\nThe conference will
+  examine the evolving geopolitical\, economic and strategic landscape of 
+ East Asia and the Indo-Pacific\, with a particular focus on Japan's role 
+ in shaping a free\, open and rules-based regional order. Discussions will
+  explore regional security\, economic resilience\, technology\, climate a
+ nd multilateral cooperation.\n(Collaboration: Institute of Chinese Studie
+ s and Japan Foundation)\n\nhttps://iicdelhi.in/programmes/3rd-all-india-c
+ onference-east-asian-studies
+CATEGORIES:talk\,sociology
+END:VEVENT
+BEGIN:VEVENT
 UID:84d4d11a1997e179@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260731T123000Z
 DTEND:20260731T143000Z
 SUMMARY:BOOK DISCUSSION GROUP- Stories Carved in Stone Voices Rooted in E
@@ -96,16 +106,16 @@ LOCATION:Conference Room II\, IIC main\, India International Centre\, 40
  Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
 URL:https://iicdelhi.in/programmes/book-discussion-group-stories-carved-s
  tone-voices-rooted-earth-silent-walls-speaking
-DESCRIPTION:BOOK DISCUSSION GROUP\nStories Carved in Stone Voices Rooted 
- in Earth\nSilent Walls\, Speaking Stones & Indigenized/ Tribalized: Poems
- \nBy Nishi Chawla (Human Error Publishing\, 2026)\nDiscussants: Prof. Amr
- ita Bhalla\, Academician\, Author and critic\, Associate Professor\, Depa
- rtment of English\, Jesus and Mary College\, University of Delhi\; Prof. 
- Sukrita Paul Kumar\, Guest Editor\, Indian Literature\, Poet\, Academic a
- nd Critic\; Prof Ratna Raman\, Dept of English\, Sri Venkateswara College
- \, DU\; Dr Nishi Chawla\, Author of the book\n\nhttps://iicdelhi.in/progr
- ammes/book-discussion-group-stories-carved-stone-voices-rooted-earth-sile
- nt-walls-speaking
+DESCRIPTION:Book Discussion Group\nStories Carved in Stone Voices Rooted 
+ in Earth\nSilent Walls\, Speaking Stones & Indigenized/ Tribalized\nBy Ni
+ shi Chawla (Human Error Publishing\, 2026)\nDiscussants: Prof. Amrita Bha
+ lla\, Academician\, Author and critic\, Associate Professor\, Department 
+ of English\, Jesus and Mary College\, University of Delhi\; Prof. Sukrita
+  Paul Kumar\, Guest Editor\, Indian Literature\, Poet\, Academic and Crit
+ ic\; Prof Ratna Raman\, Dept of English\, Sri Venkateswara College\, DU\;
+  Dr Nishi Chawla\, Author of the book\n\nhttps://iicdelhi.in/programmes/b
+ ook-discussion-group-stories-carved-stone-voices-rooted-earth-silent-wall
+ s-speaking
 CATEGORIES:talk\,literature
 END:VEVENT
 END:VCALENDAR

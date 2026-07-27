@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-26T16:01:00+05:30",
+ "generated_at": "2026-07-28T01:10:28+05:30",
  "events": [
   {
    "id": "3be8d4cd0802ac58",
@@ -99,80 +99,6 @@
    "price": ""
   },
   {
-   "id": "cd24dd80ee74c8c5",
-   "title": "Heritage & Nature Walk",
-   "description": "A guided walk through Sunder Nursery's heritage monuments and gardens, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nScheduled from Sunder Nursery's published standing timetable, not from a dated listing — the venue does not publish one. Confirm before travelling: 9871066025 / 9911949854.",
-   "start": "2026-07-26T11:00:00+05:30",
-   "end": "2026-07-26T12:30:00+05:30",
-   "start_date": "2026-07-26",
-   "end_date": "2026-07-26",
-   "time_label": "11:00 am",
-   "all_day": false,
-   "multi_day": false,
-   "venue": "Sunder Nursery",
-   "sub_venue": "Coffee Kiosk (meeting point)",
-   "address": "Nizamuddin, New Delhi 110013",
-   "source_id": "sunder_nursery",
-   "source_url": "https://www.sundernursery.org/heritage-and-nature-walk.php",
-   "format": "walk",
-   "topics": [
-    "heritage",
-    "nature"
-   ],
-   "image_url": "",
-   "booking_url": "",
-   "price": "Rs 20"
-  },
-  {
-   "id": "4fbb3ce36ef28702",
-   "title": "Heritage & Nature Walk",
-   "description": "A guided walk through Sunder Nursery's heritage monuments and gardens, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nScheduled from Sunder Nursery's published standing timetable, not from a dated listing — the venue does not publish one. Confirm before travelling: 9871066025 / 9911949854.",
-   "start": "2026-07-26T16:00:00+05:30",
-   "end": "2026-07-26T17:30:00+05:30",
-   "start_date": "2026-07-26",
-   "end_date": "2026-07-26",
-   "time_label": "4:00 pm",
-   "all_day": false,
-   "multi_day": false,
-   "venue": "Sunder Nursery",
-   "sub_venue": "Coffee Kiosk (meeting point)",
-   "address": "Nizamuddin, New Delhi 110013",
-   "source_id": "sunder_nursery",
-   "source_url": "https://www.sundernursery.org/heritage-and-nature-walk.php",
-   "format": "walk",
-   "topics": [
-    "heritage",
-    "nature"
-   ],
-   "image_url": "",
-   "booking_url": "",
-   "price": "Rs 20"
-  },
-  {
-   "id": "70ec952c463e80cd",
-   "title": "The Playboy of the Western World",
-   "description": "NT Live Broadcast . The Playboy of the Western World (English/ 140 mins with interval) by John Millington Synge . Dir. Caitríona McLaughlin . Cast: Nicola Coughlan, Éanna Hardwicke, Siobhán McSweeney & others. Pegeen Flaherty’s life is turned upside down when a young man walks into her pub claiming that he’s killed his father. Instead of being shunned, the killer becomes a local hero and begins to win hearts, that is until a second man unexpectedly arrives on the scene. Tickets at Rs.500, Rs.350 & Rs.250 are available online on bookmyshow.com and at the Habitat Programmes desk .",
-   "start": "2026-07-26T19:00:00+05:30",
-   "end": null,
-   "start_date": "2026-07-26",
-   "end_date": "2026-07-26",
-   "time_label": "7:00 pm",
-   "all_day": false,
-   "multi_day": false,
-   "venue": "India Habitat Centre",
-   "sub_venue": "The Stein Auditorium",
-   "address": "Lodhi Road, New Delhi 110003",
-   "source_id": "ihc",
-   "source_url": "https://indiahabitat.org/Events_details/1317",
-   "format": "film",
-   "topics": [
-    "cinema"
-   ],
-   "image_url": "https://indiahabitat.org//uploads/1782372947_a8e5ddeb6722613456fa.jpg",
-   "booking_url": "https://in.bookmyshow.com/plays/ntlive-broadcast-the-playboy-of-the-western-world/ET00503904",
-   "price": ""
-  },
-  {
    "id": "39536e9ba1be1a30",
    "title": "Threads of Freedom 2.0 - A Journey From Soil to Soul",
    "description": "27 th Jul - 29 th Jul | Visual Arts Gallery Threads of Freedom 2.0 - A Journey From Soil to Soul A group painting and sculpture exhibition by Nawal Kishor, Vijaya Ved, Asur Ved, Kiran Soni Gupta, Sohini Banerjee, Piya Thakur, Ramesh Shah, Jasmeen Kaur, Aditi, Jaspreet Singh, Malika, Anansita Sengupta, Ritu Singh, Raksha Jaswal, Varonika, Aditya Shankar Prasad, Kamal Kishor , & Mahua Sinha .",
@@ -193,78 +119,6 @@
     "art"
    ],
    "image_url": "https://indiahabitat.org/uploads/1784378098_94736fb03fd6eaa4352d.jpg",
-   "booking_url": "",
-   "price": ""
-  },
-  {
-   "id": "005acb795fe4988d",
-   "title": "BOOK DISCUSSION GROUP -Busy Women: Building Commerce and Culture in Middle India",
-   "description": "BOOK DISCUSSION GROUP\nBusy Women: Building Commerce and Culture in Middle India\nBy Shinjini Kumar (Penguin, 2026)\nModerator: Nishtha Gautam, Journalist, author-translator, Academic\nDiscussants: Amb. Pavan K Varma, Politician, Author, Former Diplomat; Milee Ashwarya, Publisher and Group Senior VP, Penguin Random House India; Shinjini Kumar, Author of the book",
-   "start": "2026-07-27T18:00:00+05:30",
-   "end": null,
-   "start_date": "2026-07-27",
-   "end_date": "2026-07-27",
-   "time_label": "6:00 pm",
-   "all_day": false,
-   "multi_day": false,
-   "venue": "India International Centre",
-   "sub_venue": "Conference Room II, IIC main",
-   "address": "40 Max Mueller Marg, Lodhi Gardens, New Delhi 110003",
-   "source_id": "iic",
-   "source_url": "https://iicdelhi.in/programmes/book-discussion-group-busy-women-building-commerce-and-culture-middle-india",
-   "format": "talk",
-   "topics": [
-    "literature"
-   ],
-   "image_url": "https://aws-static.iicdelhi.in/2026-06/Website%20Programme%20Image_27%20July%202026.jpg",
-   "booking_url": "",
-   "price": ""
-  },
-  {
-   "id": "632e090169511bc1",
-   "title": "Victoria",
-   "description": "Victoria\n(2024; 85 minutes; Malayalam with English subtitles)\nDirector: Sivaranjini\nWith Meenakshi Jayan, Stephy Zaviour, Jolly Chirayath\nRecipient of the FIPRESCI Award for Best Malayalam Film by a Debut Director at IFFK 2024; Official Selection, Shanghai International Film Festival (Asia New Talent Competition).\nVictoria is a young beautician working in a modest beauty parlour in Kerala. On a day that promises a new beginning, she prepares to leave behind the life she has always known and elope with the man she loves. As the hours unfold, however, a series of encounters with the women around her, friends, colleagues and clients compel her to reflect on the choices before her. As Victoria finds herself increasingly torn between duty and desire, certainty and doubt, the film becomes a sensitive exploration of agency, companionship and the courage required to chart one's own course.\n(Collaboration: FIPRESCI India)",
-   "start": "2026-07-27T18:30:00+05:30",
-   "end": null,
-   "start_date": "2026-07-27",
-   "end_date": "2026-07-27",
-   "time_label": "6:30 pm",
-   "all_day": false,
-   "multi_day": false,
-   "venue": "India International Centre",
-   "sub_venue": "C.D. Deshmukh Auditorium, IIC main",
-   "address": "40 Max Mueller Marg, Lodhi Gardens, New Delhi 110003",
-   "source_id": "iic",
-   "source_url": "https://iicdelhi.in/programmes/film-victoria",
-   "format": "film",
-   "topics": [
-    "cinema"
-   ],
-   "image_url": "https://aws-static.iicdelhi.in/2026-07/Website%20Programme%20Image_27%20July%202026%20%281%29.jpg",
-   "booking_url": "",
-   "price": ""
-  },
-  {
-   "id": "94c2e15b26d4faed",
-   "title": "झड़पें / Skirmishes",
-   "description": "झड़पें / Skirmishes (Hindi/100 Mins with interval) Dir. Keval Arora . Cast: Shalini Baxi, Shweta Pasricha, Harshini Misra, Chisha Kapoor . Produced by Gandharv Dewan . Skirmishes by Catherine Hayes is an intimate drama exploring sisterhood, caregiving, aging, and the emotional labour within families. Set in a single home, it follows two sisters caring for an aging parent while confronting years of unresolved tensions and shared history. Everyday disagreements gradually expose deeper emotional wounds, revealing a relationship shaped by love, resentment, dependence, and responsibility. The play presents caregiving as both an act of love and a source of profound emotional strain. Balancing tenderness with conflict, Skirmishes offers an honest and deeply human portrait of family life.",
-   "start": "2026-07-27T19:00:00+05:30",
-   "end": null,
-   "start_date": "2026-07-27",
-   "end_date": "2026-07-27",
-   "time_label": "7:00 pm",
-   "all_day": false,
-   "multi_day": false,
-   "venue": "India Habitat Centre",
-   "sub_venue": "The Theatre",
-   "address": "Lodhi Road, New Delhi 110003",
-   "source_id": "ihc",
-   "source_url": "https://indiahabitat.org/Events_details/1324",
-   "format": "performance",
-   "topics": [
-    "theatre"
-   ],
-   "image_url": "https://indiahabitat.org//uploads/1784199153_97d6ef7fa87e58450ac3.jpg",
    "booking_url": "",
    "price": ""
   },
@@ -320,7 +174,7 @@
   {
    "id": "30fd7f51b599d526",
    "title": "(Se)Elections, Violence & State: Analysing Developments in Pakistan-Occupied Jammu & Kashmir",
-   "description": "Panel Discussion on (Se)Elections, Violence & State: Analysing Developments in Pakistan-Occupied Jammu & Kashmir . Collab. India Foundation .",
+   "description": "Panel Discussion on (Se)Elections, Violence & State: Analysing Developments in Pakistan-Occupied Jammu & Kashmir . Discussants: Alok Bansal , Executive Vice President, India Foundation; Tara Kartha, Former Director, National Security Council Secretariat; Ajay Bisaria, distinguished fellow, ORF and Former High Commissioner of India to Pakistan. The session will be moderated by Rami Niranjan Desai , fellow, India Foundation. Collab. India Foundation .",
    "start": "2026-07-29T18:00:00+05:30",
    "end": null,
    "start_date": "2026-07-29",
@@ -337,7 +191,7 @@
    "topics": [
     "sociology"
    ],
-   "image_url": "https://indiahabitat.org//uploads/1782067531_dc14eb60d7eaf2c23b9a.jpg",
+   "image_url": "https://indiahabitat.org//uploads/1785151282_bab81c4d9b64292a3fe7.jpg",
    "booking_url": "",
    "price": ""
   },
@@ -439,9 +293,33 @@
    "price": ""
   },
   {
+   "id": "26ba3ca1d563f984",
+   "title": "3rd All India Conference of East Asian Studies",
+   "description": "3rd All India Conference of East Asian Studies\nKeynote Address by Prof. Kan Kimura, Graduate School of International Cooperation Studies, Kobe University\nFollowed by Thematic discussions and a Special Lecture by eminent academicians, policy experts and researchers on contemporary issues in East Asian Studies, international politics, regional security, technology, economics and the environment.\nThe conference will examine the evolving geopolitical, economic and strategic landscape of East Asia and the Indo-Pacific, with a particular focus on Japan's role in shaping a free, open and rules-based regional order. Discussions will explore regional security, economic resilience, technology, climate and multilateral cooperation.\n(Collaboration: Institute of Chinese Studies and Japan Foundation)",
+   "start": "2026-07-31T09:00:00+05:30",
+   "end": "2026-08-01T17:00:00+05:30",
+   "start_date": "2026-07-31",
+   "end_date": "2026-08-01",
+   "time_label": "9:00 am",
+   "all_day": false,
+   "multi_day": true,
+   "venue": "India International Centre",
+   "sub_venue": "Conference Room I, IIC main",
+   "address": "40 Max Mueller Marg, Lodhi Gardens, New Delhi 110003",
+   "source_id": "iic",
+   "source_url": "https://iicdelhi.in/programmes/3rd-all-india-conference-east-asian-studies",
+   "format": "talk",
+   "topics": [
+    "sociology"
+   ],
+   "image_url": "/themes/custom/quokka/img/default/horizontal.jpeg",
+   "booking_url": "",
+   "price": ""
+  },
+  {
    "id": "84d4d11a1997e179",
    "title": "BOOK DISCUSSION GROUP- Stories Carved in Stone Voices Rooted in Earth Silent Walls, Speaking Stones & Indigenized/ Tribalized: Poems",
-   "description": "BOOK DISCUSSION GROUP\nStories Carved in Stone Voices Rooted in Earth\nSilent Walls, Speaking Stones & Indigenized/ Tribalized: Poems\nBy Nishi Chawla (Human Error Publishing, 2026)\nDiscussants: Prof. Amrita Bhalla, Academician, Author and critic, Associate Professor, Department of English, Jesus and Mary College, University of Delhi; Prof. Sukrita Paul Kumar, Guest Editor, Indian Literature, Poet, Academic and Critic; Prof Ratna Raman, Dept of English, Sri Venkateswara College, DU; Dr Nishi Chawla, Author of the book",
+   "description": "Book Discussion Group\nStories Carved in Stone Voices Rooted in Earth\nSilent Walls, Speaking Stones & Indigenized/ Tribalized\nBy Nishi Chawla (Human Error Publishing, 2026)\nDiscussants: Prof. Amrita Bhalla, Academician, Author and critic, Associate Professor, Department of English, Jesus and Mary College, University of Delhi; Prof. Sukrita Paul Kumar, Guest Editor, Indian Literature, Poet, Academic and Critic; Prof Ratna Raman, Dept of English, Sri Venkateswara College, DU; Dr Nishi Chawla, Author of the book",
    "start": "2026-07-31T18:00:00+05:30",
    "end": null,
    "start_date": "2026-07-31",
@@ -1055,38 +933,9 @@
  ],
  "days": [
   {
-   "date": "2026-07-26",
-   "label": "Sunday 26 July",
-   "is_today": true,
-   "event_ids": [
-    "887e569eddceee41",
-    "3be8d4cd0802ac58",
-    "62347b227f6806eb",
-    "571e8403cd7afc39",
-    "cd24dd80ee74c8c5",
-    "4fbb3ce36ef28702",
-    "70ec952c463e80cd"
-   ]
-  },
-  {
-   "date": "2026-07-27",
-   "label": "Monday 27 July",
-   "is_today": false,
-   "event_ids": [
-    "887e569eddceee41",
-    "39536e9ba1be1a30",
-    "3be8d4cd0802ac58",
-    "62347b227f6806eb",
-    "571e8403cd7afc39",
-    "005acb795fe4988d",
-    "632e090169511bc1",
-    "94c2e15b26d4faed"
-   ]
-  },
-  {
    "date": "2026-07-28",
    "label": "Tuesday 28 July",
-   "is_today": false,
+   "is_today": true,
    "event_ids": [
     "887e569eddceee41",
     "39536e9ba1be1a30",
@@ -1133,6 +982,7 @@
     "d799ead59b8260bc",
     "62347b227f6806eb",
     "571e8403cd7afc39",
+    "26ba3ca1d563f984",
     "84d4d11a1997e179",
     "3a883197c0d56925",
     "31f3bc600136142f"
@@ -1147,6 +997,7 @@
     "c75ec54bf3f43dbd",
     "62347b227f6806eb",
     "571e8403cd7afc39",
+    "26ba3ca1d563f984",
     "9e835ca8ca254b1a",
     "9adef96dc8bf02b2",
     "ca779c654244651a"
@@ -1264,7 +1115,6 @@
   "music",
   "nature",
   "photography",
-  "sociology",
-  "theatre"
+  "sociology"
  ]
 }

@@ -25,7 +25,7 @@ import urllib.parse
 from datetime import datetime
 
 from ..fetch import Fetcher
-from ..models import Event
+from ..models import Event, is_placeholder_title
 from ..taxonomy import classify
 from .base import BaseSource
 
@@ -120,6 +120,14 @@ class Source(BaseSource):
     def _to_event(self, item: dict) -> Event | None:
         title = (item.get("headline") or "").strip()
         start_date = _parse_date(item.get("date_start_ical", ""))
+
+        if is_placeholder_title(title):
+            # A draft the institute has scheduled but not yet named. It will
+            # appear on a later run under its real title.
+            log.info("goethe: skipping unpublished draft %r (%s)",
+                     title, item.get("date_start_ical"))
+            return None
+
         if not title or start_date is None:
             return None
 

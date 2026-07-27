@@ -7,7 +7,7 @@ X-WR-CALNAME:Delhi Culture — everything
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 UID:3be8d4cd0802ac58@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260716T130000Z
 DTEND:20260730T143000Z
 SUMMARY:Bastille Day French Film Screenings | AFD Ciné Club | July 2026
@@ -45,7 +45,7 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:62347b227f6806eb@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260722T053000Z
 DTEND:20260804T133000Z
 SUMMARY:UNSUNG: Celebrating the Extraordinary Grandeur of Smallness
@@ -72,7 +72,7 @@ CATEGORIES:exhibition\,art\,photography
 END:VEVENT
 BEGIN:VEVENT
 UID:887e569eddceee41@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260731
 SUMMARY:The Collective Colour Palette
@@ -86,7 +86,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:571e8403cd7afc39@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260726T053000Z
 DTEND:20260802T133000Z
 SUMMARY:Flux of Being
@@ -105,62 +105,8 @@ DESCRIPTION:Flux of Being\nA Solo Exhibition by Ravi Kant Jha\, National
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:cd24dd80ee74c8c5@delhi-events
-DTSTAMP:20260726T103100Z
-DTSTART:20260726T053000Z
-DTEND:20260726T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:4fbb3ce36ef28702@delhi-events
-DTSTAMP:20260726T103100Z
-DTSTART:20260726T103000Z
-DTEND:20260726T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:70ec952c463e80cd@delhi-events
-DTSTAMP:20260726T103100Z
-DTSTART:20260726T133000Z
-DTEND:20260726T153000Z
-SUMMARY:The Playboy of the Western World
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1317
-DESCRIPTION:NT Live Broadcast . The Playboy of the Western World (English
- / 140 mins with interval) by John Millington Synge . Dir. Caitríona McLa
- ughlin . Cast: Nicola Coughlan\, Éanna Hardwicke\, Siobhán McSweeney & 
- others. Pegeen Flaherty’s life is turned upside down when a young man w
- alks into her pub claiming that he’s killed his father. Instead of bein
- g shunned\, the killer becomes a local hero and begins to win hearts\, th
- at is until a second man unexpectedly arrives on the scene. Tickets at Rs
- .500\, Rs.350 & Rs.250 are available online on bookmyshow.com and at the 
- Habitat Programmes desk .\n\nhttps://indiahabitat.org/Events_details/1317
-CATEGORIES:film\,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:39536e9ba1be1a30@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260730
 SUMMARY:Threads of Freedom 2.0 - A Journey From Soil to Soul
@@ -177,76 +123,8 @@ DESCRIPTION:27 th Jul - 29 th Jul | Visual Arts Gallery Threads of Freedo
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:005acb795fe4988d@delhi-events
-DTSTAMP:20260726T103100Z
-DTSTART:20260727T123000Z
-DTEND:20260727T143000Z
-SUMMARY:BOOK DISCUSSION GROUP -Busy Women: Building Commerce and Culture 
- in Middle India
-LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
- Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/book-discussion-group-busy-women-build
- ing-commerce-and-culture-middle-india
-DESCRIPTION:BOOK DISCUSSION GROUP\nBusy Women: Building Commerce and Cult
- ure in Middle India\nBy Shinjini Kumar (Penguin\, 2026)\nModerator: Nisht
- ha Gautam\, Journalist\, author-translator\, Academic\nDiscussants: Amb. 
- Pavan K Varma\, Politician\, Author\, Former Diplomat\; Milee Ashwarya\, 
- Publisher and Group Senior VP\, Penguin Random House India\; Shinjini Kum
- ar\, Author of the book\n\nhttps://iicdelhi.in/programmes/book-discussion
- -group-busy-women-building-commerce-and-culture-middle-india
-CATEGORIES:talk\,literature
-END:VEVENT
-BEGIN:VEVENT
-UID:632e090169511bc1@delhi-events
-DTSTAMP:20260726T103100Z
-DTSTART:20260727T130000Z
-DTEND:20260727T150000Z
-SUMMARY:Victoria
-LOCATION:C.D. Deshmukh Auditorium\, IIC main\, India International Centre
- \, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/film-victoria
-DESCRIPTION:Victoria\n(2024\; 85 minutes\; Malayalam with English subtitl
- es)\nDirector: Sivaranjini\nWith Meenakshi Jayan\, Stephy Zaviour\, Jolly
-  Chirayath\nRecipient of the FIPRESCI Award for Best Malayalam Film by a 
- Debut Director at IFFK 2024\; Official Selection\, Shanghai International
-  Film Festival (Asia New Talent Competition).\nVictoria is a young beauti
- cian working in a modest beauty parlour in Kerala. On a day that promises
-  a new beginning\, she prepares to leave behind the life she has always k
- nown and elope with the man she loves. As the hours unfold\, however\, a 
- series of encounters with the women around her\, friends\, colleagues and
-  clients compel her to reflect on the choices before her. As Victoria fin
- ds herself increasingly torn between duty and desire\, certainty and doub
- t\, the film becomes a sensitive exploration of agency\, companionship an
- d the courage required to chart one's own course.\n(Collaboration: FIPRES
- CI India)\n\nhttps://iicdelhi.in/programmes/film-victoria
-CATEGORIES:film\,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:94c2e15b26d4faed@delhi-events
-DTSTAMP:20260726T103100Z
-DTSTART:20260727T133000Z
-DTEND:20260727T153000Z
-SUMMARY:झड़पें / Skirmishes
-LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
- 03
-URL:https://indiahabitat.org/Events_details/1324
-DESCRIPTION:झड़पें / Skirmishes (Hindi/100 Mins with interval
- ) Dir. Keval Arora . Cast: Shalini Baxi\, Shweta Pasricha\, Harshini Misr
- a\, Chisha Kapoor . Produced by Gandharv Dewan . Skirmishes by Catherine 
- Hayes is an intimate drama exploring sisterhood\, caregiving\, aging\, an
- d the emotional labour within families. Set in a single home\, it follows
-  two sisters caring for an aging parent while confronting years of unreso
- lved tensions and shared history. Everyday disagreements gradually expose
-  deeper emotional wounds\, revealing a relationship shaped by love\, rese
- ntment\, dependence\, and responsibility. The play presents caregiving as
-  both an act of love and a source of profound emotional strain. Balancing
-  tenderness with conflict\, Skirmishes offers an honest and deeply human 
- portrait of family life.\n\nhttps://indiahabitat.org/Events_details/1324
-CATEGORIES:performance\,theatre
-END:VEVENT
-BEGIN:VEVENT
 UID:fe88ea185f502602@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260728T130000Z
 DTEND:20260728T150000Z
 SUMMARY:INDIAN ARCHAEOLOGY
@@ -273,7 +151,7 @@ CATEGORIES:talk\,cinema\,heritage
 END:VEVENT
 BEGIN:VEVENT
 UID:3ce6d8a7d8f588dd@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260728T130000Z
 DTEND:20260728T150000Z
 SUMMARY:AAJ KAVITA
@@ -288,7 +166,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:30fd7f51b599d526@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260729T123000Z
 DTEND:20260729T143000Z
 SUMMARY:(Se)Elections\, Violence & State: Analysing Developments in Pakis
@@ -296,13 +174,18 @@ SUMMARY:(Se)Elections\, Violence & State: Analysing Developments in Pakis
 LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
 URL:https://indiahabitat.org/Events_details/1319
 DESCRIPTION:Panel Discussion on (Se)Elections\, Violence & State: Analysi
- ng Developments in Pakistan-Occupied Jammu & Kashmir . Collab. India Foun
- dation .\n\nhttps://indiahabitat.org/Events_details/1319
+ ng Developments in Pakistan-Occupied Jammu & Kashmir . Discussants: Alok 
+ Bansal \, Executive Vice President\, India Foundation\; Tara Kartha\, For
+ mer Director\, National Security Council Secretariat\; Ajay Bisaria\, dis
+ tinguished fellow\, ORF and Former High Commissioner of India to Pakistan
+ . The session will be moderated by Rami Niranjan Desai \, fellow\, India 
+ Foundation. Collab. India Foundation .\n\nhttps://indiahabitat.org/Events
+ _details/1319
 CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:a69772a5e51bb71f@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260729T130000Z
 DTEND:20260729T150000Z
 SUMMARY:The Democracy to Come-Ambedkar\, Fanon\, and the Time of Counter-
@@ -333,7 +216,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:147fc16342a35688@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260729T133000Z
 DTEND:20260729T153000Z
 SUMMARY:Aarambh
@@ -348,7 +231,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:d799ead59b8260bc@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260801
 SUMMARY:Splendour 2026
@@ -363,7 +246,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:31e428f0516fe062@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260730T133000Z
 DTEND:20260730T153000Z
 SUMMARY:Austrian Musical Heritage: Piano Recital
@@ -379,8 +262,33 @@ DESCRIPTION:Austrian Musical Heritage: Piano Recital by Andreas König .
 CATEGORIES:performance\,heritage\,music
 END:VEVENT
 BEGIN:VEVENT
+UID:26ba3ca1d563f984@delhi-events
+DTSTAMP:20260727T194028Z
+DTSTART:20260731T033000Z
+DTEND:20260801T113000Z
+SUMMARY:3rd All India Conference of East Asian Studies
+LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
+ ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/3rd-all-india-conference-east-asian-st
+ udies
+DESCRIPTION:3rd All India Conference of East Asian Studies\nKeynote Addre
+ ss by Prof. Kan Kimura\, Graduate School of International Cooperation Stu
+ dies\, Kobe University\nFollowed by Thematic discussions and a Special Le
+ cture by eminent academicians\, policy experts and researchers on contemp
+ orary issues in East Asian Studies\, international politics\, regional se
+ curity\, technology\, economics and the environment.\nThe conference will
+  examine the evolving geopolitical\, economic and strategic landscape of 
+ East Asia and the Indo-Pacific\, with a particular focus on Japan's role 
+ in shaping a free\, open and rules-based regional order. Discussions will
+  explore regional security\, economic resilience\, technology\, climate a
+ nd multilateral cooperation.\n(Collaboration: Institute of Chinese Studie
+ s and Japan Foundation)\n\nhttps://iicdelhi.in/programmes/3rd-all-india-c
+ onference-east-asian-studies
+CATEGORIES:talk\,sociology
+END:VEVENT
+BEGIN:VEVENT
 UID:84d4d11a1997e179@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260731T123000Z
 DTEND:20260731T143000Z
 SUMMARY:BOOK DISCUSSION GROUP- Stories Carved in Stone Voices Rooted in E
@@ -389,21 +297,21 @@ LOCATION:Conference Room II\, IIC main\, India International Centre\, 40
  Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
 URL:https://iicdelhi.in/programmes/book-discussion-group-stories-carved-s
  tone-voices-rooted-earth-silent-walls-speaking
-DESCRIPTION:BOOK DISCUSSION GROUP\nStories Carved in Stone Voices Rooted 
- in Earth\nSilent Walls\, Speaking Stones & Indigenized/ Tribalized: Poems
- \nBy Nishi Chawla (Human Error Publishing\, 2026)\nDiscussants: Prof. Amr
- ita Bhalla\, Academician\, Author and critic\, Associate Professor\, Depa
- rtment of English\, Jesus and Mary College\, University of Delhi\; Prof. 
- Sukrita Paul Kumar\, Guest Editor\, Indian Literature\, Poet\, Academic a
- nd Critic\; Prof Ratna Raman\, Dept of English\, Sri Venkateswara College
- \, DU\; Dr Nishi Chawla\, Author of the book\n\nhttps://iicdelhi.in/progr
- ammes/book-discussion-group-stories-carved-stone-voices-rooted-earth-sile
- nt-walls-speaking
+DESCRIPTION:Book Discussion Group\nStories Carved in Stone Voices Rooted 
+ in Earth\nSilent Walls\, Speaking Stones & Indigenized/ Tribalized\nBy Ni
+ shi Chawla (Human Error Publishing\, 2026)\nDiscussants: Prof. Amrita Bha
+ lla\, Academician\, Author and critic\, Associate Professor\, Department 
+ of English\, Jesus and Mary College\, University of Delhi\; Prof. Sukrita
+  Paul Kumar\, Guest Editor\, Indian Literature\, Poet\, Academic and Crit
+ ic\; Prof Ratna Raman\, Dept of English\, Sri Venkateswara College\, DU\;
+  Dr Nishi Chawla\, Author of the book\n\nhttps://iicdelhi.in/programmes/b
+ ook-discussion-group-stories-carved-stone-voices-rooted-earth-silent-wall
+ s-speaking
 CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:3a883197c0d56925@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260731T130000Z
 DTEND:20260731T150000Z
 SUMMARY:Twamaham Vande
@@ -431,7 +339,7 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:31f3bc600136142f@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260731T133000Z
 DTEND:20260731T153000Z
 SUMMARY:Bharatanatyam Margam
@@ -444,7 +352,7 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:6794c843651626ca@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260805
 SUMMARY:Shilpa-Abadhani
@@ -458,7 +366,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:c75ec54bf3f43dbd@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260803
 SUMMARY:German Teachers' Conference 2026
@@ -473,7 +381,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:9e835ca8ca254b1a@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260801T053000Z
 DTEND:20260801T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -490,7 +398,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:9adef96dc8bf02b2@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260801T103000Z
 DTEND:20260801T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -507,7 +415,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:ca779c654244651a@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260801T123000Z
 DTEND:20260801T143000Z
 SUMMARY:Nar-Hari: 6 Verses from Shri Guru Granth Sahib & Panchvani
@@ -534,7 +442,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:a53e529ecb585913@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260802T053000Z
 DTEND:20260802T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -551,7 +459,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:2fb113e5b486b8a7@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260802T103000Z
 DTEND:20260802T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -568,7 +476,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:90c75d920bce0b25@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260804T133000Z
 DTEND:20260804T153000Z
 SUMMARY:Sophie Scholl - The Final Days | Directed by Marc Rothemund
@@ -583,7 +491,7 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:443d150aac34ae6e@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260808T053000Z
 DTEND:20260808T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -600,7 +508,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:89a4a78d43e21883@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260808T103000Z
 DTEND:20260808T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -617,7 +525,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:0ba96d9922a450d9@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260808T133000Z
 DTEND:20260808T153000Z
 SUMMARY:IHC Lok Sangeet Sammelan. Day 1
@@ -639,7 +547,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:c0ce86409368310f@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260809T053000Z
 DTEND:20260809T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -656,7 +564,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:29bdabd91e9ffbd1@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260809T103000Z
 DTEND:20260809T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -673,7 +581,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:a54477eb36c3eb8d@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260809T133000Z
 DTEND:20260809T153000Z
 SUMMARY:IHC Lok Sangeet Sammelan. Day 2
@@ -695,7 +603,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:89e985a7ff0c7032@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260815T053000Z
 DTEND:20260815T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -712,7 +620,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:8e2e8ff189fab728@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260815T103000Z
 DTEND:20260815T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -729,7 +637,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:eb6a610fb1ef0e5d@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260816T053000Z
 DTEND:20260816T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -746,7 +654,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:3f79364dd256a60e@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260816T103000Z
 DTEND:20260816T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -763,7 +671,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:904d952ff4a120c5@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260822T053000Z
 DTEND:20260822T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -780,7 +688,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:5c6f8f50d7c62e1c@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260822T103000Z
 DTEND:20260822T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -797,7 +705,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:da7dc7ea8bd676b1@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260823T053000Z
 DTEND:20260823T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -814,7 +722,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:f23ee2f3b704a2c2@delhi-events
-DTSTAMP:20260726T103100Z
+DTSTAMP:20260727T194028Z
 DTSTART:20260823T103000Z
 DTEND:20260823T120000Z
 SUMMARY:Heritage & Nature Walk

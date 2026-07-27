@@ -77,6 +77,23 @@ def clean_text(raw: str | None) -> str:
     return text.strip()
 
 
+# Titles a CMS emits for an event whose copy has not been written yet. Goethe's
+# API serves these with isDisplayed=true, so that flag is no help. Publishing
+# "Loading..." to a calendar is worse than publishing nothing: the entry gains a
+# real title later, and since ids derive from the title, the placeholder would
+# linger as a separate ghost record alongside the real one.
+_PLACEHOLDER_TITLES = re.compile(
+    r"^\s*(loading\.*|please wait\.*|untitled|tbd|tba|to be announced|"
+    r"coming soon|test|testing|xxx+|placeholder|lorem ipsum.*|n/?a|-+)\s*$",
+    re.I,
+)
+
+
+def is_placeholder_title(title: str) -> bool:
+    """True for a title that is CMS scaffolding rather than an event name."""
+    return not title.strip() or bool(_PLACEHOLDER_TITLES.match(title))
+
+
 class Event(BaseModel):
     source_id: str
     source_url: str = ""

@@ -112,3 +112,29 @@ def test_specific_category_is_confident():
     _, topics, confident = classify("Tragedy Mein Comedy", "", "Theatre")
     assert confident is True
     assert Topic.THEATRE in topics
+
+
+# -- placeholder titles ----------------------------------------------------
+
+@pytest.mark.parametrize("title", [
+    "Loading...", "loading", "TBD", "TBA", "To be announced", "Untitled",
+    "Coming soon", "test", "XXXX", "placeholder", "  ", "-", "N/A",
+])
+def test_cms_placeholders_are_rejected(title):
+    """Goethe's API serves unpublished drafts with isDisplayed=true and a
+    literal "Loading..." headline. Publishing one is worse than dropping it:
+    ids derive from the title, so the placeholder would linger as a ghost
+    record once the real name lands."""
+    from delhi_events.models import is_placeholder_title
+    assert is_placeholder_title(title)
+
+
+@pytest.mark.parametrize("title", [
+    "Sophie Scholl - The Final Days",
+    "Loading the Frame: Photographs of Delhi",   # 'loading' as a real word
+    "Test Match: A History of Cricket",
+    "TBA Collective in Concert",
+])
+def test_real_titles_are_not_mistaken_for_placeholders(title):
+    from delhi_events.models import is_placeholder_title
+    assert not is_placeholder_title(title)
