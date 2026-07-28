@@ -7,7 +7,7 @@ X-WR-CALNAME:Delhi Culture — art & photography
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 UID:62347b227f6806eb@delhi-events
-DTSTAMP:20260727T194028Z
+DTSTAMP:20260728T192328Z
 DTSTART:20260722T053000Z
 DTEND:20260804T133000Z
 SUMMARY:UNSUNG: Celebrating the Extraordinary Grandeur of Smallness
@@ -34,7 +34,7 @@ CATEGORIES:exhibition\,art\,photography
 END:VEVENT
 BEGIN:VEVENT
 UID:887e569eddceee41@delhi-events
-DTSTAMP:20260727T194028Z
+DTSTAMP:20260728T192328Z
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260731
 SUMMARY:The Collective Colour Palette
@@ -48,7 +48,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:571e8403cd7afc39@delhi-events
-DTSTAMP:20260727T194028Z
+DTSTAMP:20260728T192328Z
 DTSTART:20260726T053000Z
 DTEND:20260802T133000Z
 SUMMARY:Flux of Being
@@ -67,26 +67,8 @@ DESCRIPTION:Flux of Being\nA Solo Exhibition by Ravi Kant Jha\, National
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:39536e9ba1be1a30@delhi-events
-DTSTAMP:20260727T194028Z
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260730
-SUMMARY:Threads of Freedom 2.0 - A Journey From Soil to Soul
-LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
- lhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:27 th Jul - 29 th Jul | Visual Arts Gallery Threads of Freedo
- m 2.0 - A Journey From Soil to Soul A group painting and sculpture exhibi
- tion by Nawal Kishor\, Vijaya Ved\, Asur Ved\, Kiran Soni Gupta\, Sohini 
- Banerjee\, Piya Thakur\, Ramesh Shah\, Jasmeen Kaur\, Aditi\, Jaspreet Si
- ngh\, Malika\, Anansita Sengupta\, Ritu Singh\, Raksha Jaswal\, Varonika\
- , Aditya Shankar Prasad\, Kamal Kishor \, & Mahua Sinha .\n\nhttps://indi
- ahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
 UID:d799ead59b8260bc@delhi-events
-DTSTAMP:20260727T194028Z
+DTSTAMP:20260728T192328Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260801
 SUMMARY:Splendour 2026
@@ -101,7 +83,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:6794c843651626ca@delhi-events
-DTSTAMP:20260727T194028Z
+DTSTAMP:20260728T192328Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260805
 SUMMARY:Shilpa-Abadhani
@@ -111,6 +93,194 @@ URL:https://indiahabitat.org/Exhibitions_Details
 DESCRIPTION:1 st Aug - 4 th Aug | Convention Centre Foyer Shilpa-Abadhani
   A group exhibition by Dana Ghosh\, Anjana Kirtania & Sandip Das .\n\nhtt
  ps://indiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:39df2b1d11cefc54@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260810
+SUMMARY:Echoes of Time
+LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:5 th Aug - 9 th Aug | Convention Centre Foyer Echoes of Time 
+ A Solo show by Suchismita Majumdar .\n\nhttps://indiahabitat.org/Exhibiti
+ ons_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:f3d538ece4760070@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20270711
+SUMMARY:Soulscapes - Mountains and Sea
+LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:6 th Aug - 10 th Jul | Open Palm Court Gallery Soulscapes - M
+ ountains and Sea A solo painting exhibition by Pratap Chand .\n\nhttps://
+ indiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:8c24ed41aa163d3d@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260815
+SUMMARY:Moments of Village
+LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:10 th Aug - 14 th Aug | Convention Centre Foyer Moments of Vi
+ llage A painting exhibition by Yuvraj Patil .\n\nhttps://indiahabitat.org
+ /Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:8715a2ce8f1fe67b@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260817
+SUMMARY:Art Spectra
+LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:11 th Aug - 16 th Aug | Open Palm Court Gallery Art Spectra A
+  group painting exhibition by Neha Kaul\, Smita Singh\, Subuhi Khan\, Arp
+ ita Som \, and Vishaka Sehdev .\n\nhttps://indiahabitat.org/Exhibitions_D
+ etails
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:2a1d50473978f697@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260821
+SUMMARY:What Women Carry
+LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:16 th Aug - 20 th Aug | Convention Centre Foyer What Women Ca
+ rry A photographic exhibition by Margins to Access Project (MAP).\n\nhttp
+ s://indiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:a1bac38a036dd93f@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260820
+SUMMARY:उद्गम / Udgam
+LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
+ lhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:17 th Aug - 19 th Aug | Visual Arts Gallery उद्गम /
+  Udgam Shree Yash Art Gallery presents a group painting and sculpture exh
+ ibition by Anup Kumar Chand\, Dharmendra Rathore\, Dileep Sharma\, Faraad
+  Hussain\, G. Subramanian\, Goerge Martin PJ\, Manish Pushkale\, Niren Se
+ ngupta\, Phaneendranath Chaturvedi\, Pratul Dash\, Rajesh Ram\, Sidharth\
+ , Siddharth Singade\, Tapan Kumar Dash \, and Wahida Ahmed .\n\nhttps://i
+ ndiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:d2e4000b7d31bbd5@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260825
+SUMMARY:Collectively Independent 2026
+LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
+ lhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:20 th Aug - 24 th Aug | Visual Arts Gallery Collectively Inde
+ pendent 2026 A group art exhibition of paintings by Bharti Verma\, Ramos\
+ , Ruchi Chadha \, and Sapna Gupta .\n\nhttps://indiahabitat.org/Exhibitio
+ ns_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:4d8ad6ffaf0bb9c1@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260827
+SUMMARY:Nirbhay Edition 2
+LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:22 nd Aug - 26 th Aug | Open Palm Court Gallery Nirbhay Editi
+ on 2 Luna Arts presents a group painting exhibition by Ruchi Raveendran\,
+  Anjana Singh\, Sowmya Sebastian\, Tina Pillay\, Jay Gohil\, Jyotsna Shar
+ ma\, Shesalu\, Payal Verma\, Richa Agarwal\, Anindita Sengupta\, Reet Kau
+ r\, Arijit Sen\, Priyanka Nageshwari\, Sapna Gupta\, Neelam Kapoor\, Sohi
+ ni Banerjee\, Tanvi Lalan\, Monica Jain\, Deepak Nayal\, Shreng Labru\, B
+ harti Shrivastava\, Parul Arya\, Tripti Pandey\, Nikita Gupta\, Naila Pra
+ veen\, Huma Nadeem\, Saba Bawa\, Surendra Kumar \, and Avdhesh Kumar .\n\
+ nhttps://indiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:18840ee4ad987664@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260829
+SUMMARY:Village Lives
+LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:24 th Aug - 28 th Aug | Convention Centre Foyer Village Lives
+  An exhibition of watercolour paintings by Meenaxi Sadalge .\n\nhttps://i
+ ndiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:721d12a041af32d5@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260901
+SUMMARY:One - Many
+LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
+ lhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:26 th Aug - 31 st Aug | Visual Arts Gallery One - Many A grou
+ p painting and sculpture exhibition by Ashish Mridha\, Deb Dutta\, Debang
+ shu Biswas\, Monika Prasad\, Pabitra Pal\, Souman Basu\, Suprakash Nath\,
+  Susnata Chatterjee\, Supriyo Sahu\, Swapan Sutradhar\, Tarun Maity \, an
+ d Titas Das .\n\nhttps://indiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:52442b28a36485a8@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260901
+SUMMARY:Harmony
+LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:27 th Aug - 31 st Aug | Open Palm Court Gallery Harmony Maste
+ r Sansar Chand Baru Memorial Charitable Trust presents a group painting a
+ nd sculpture exhibition by Sharmila Sharma\, Rakhi Kumar\, Shambhu Nath G
+ oswami\, Aditya Shankar\, Rahul Mhetre\, Vijaylaxmi Deepak Mer\, Monalisa
+  Sirkar\, Apurba Kharati\, Pooja Kumar\, Shyamlal Mukherjee\, Manish Rao\
+ , Rakhi Kumari\, Chaitali Chanda\, Sandeep Aaher\, Nav Nath\, Javed Iqbal
+ \, Suraj Kumar Kashi\, Sachindra Nath Jha\, Naushad Gayoor\, Syed Mursale
+ en\, Renuka Sonde\, Vijay \, & Anubhab .\n\nhttps://indiahabitat.org/Exhi
+ bitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:0d9df1f1144306d9@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260903
+SUMMARY:Spandan
+LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:29 th Aug - 2 nd Sep | Convention Centre Foyer Spandan A Solo
+  art exhibition of watercolours and oil paintings by Achintya Hazra .\n\n
+ https://indiahabitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 END:VCALENDAR

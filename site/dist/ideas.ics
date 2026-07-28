@@ -6,23 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Delhi Culture — talks & ideas
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:3ce6d8a7d8f588dd@delhi-events
-DTSTAMP:20260727T194028Z
-DTSTART:20260728T130000Z
-DTEND:20260728T150000Z
-SUMMARY:AAJ KAVITA
-LOCATION:Lecture Room II\, IIC Annexe\, India International Centre\, 40 M
- ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/aaj-kavita-48
-DESCRIPTION:AAJ KAVITA\nPoetry reading by Braj Ratan Joshi (Bikaner)\, Sh
- ivangi Goel (Prayagraj)\, Soumitra Mohan and Alok Kumar Mishra (Delhi)\n(
- Collaboration: Raza Foundation)\n\nhttps://iicdelhi.in/programmes/aaj-kav
- ita-48
-CATEGORIES:talk\,literature
-END:VEVENT
-BEGIN:VEVENT
 UID:30fd7f51b599d526@delhi-events
-DTSTAMP:20260727T194028Z
+DTSTAMP:20260728T192328Z
 DTSTART:20260729T123000Z
 DTEND:20260729T143000Z
 SUMMARY:(Se)Elections\, Violence & State: Analysing Developments in Pakis
@@ -41,7 +26,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:a69772a5e51bb71f@delhi-events
-DTSTAMP:20260727T194028Z
+DTSTAMP:20260728T192328Z
 DTSTART:20260729T130000Z
 DTEND:20260729T150000Z
 SUMMARY:The Democracy to Come-Ambedkar\, Fanon\, and the Time of Counter-
@@ -72,7 +57,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:26ba3ca1d563f984@delhi-events
-DTSTAMP:20260727T194028Z
+DTSTAMP:20260728T192328Z
 DTSTART:20260731T033000Z
 DTEND:20260801T113000Z
 SUMMARY:3rd All India Conference of East Asian Studies
@@ -97,7 +82,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:84d4d11a1997e179@delhi-events
-DTSTAMP:20260727T194028Z
+DTSTAMP:20260728T192328Z
 DTSTART:20260731T123000Z
 DTEND:20260731T143000Z
 SUMMARY:BOOK DISCUSSION GROUP- Stories Carved in Stone Voices Rooted in E
@@ -117,5 +102,183 @@ DESCRIPTION:Book Discussion Group\nStories Carved in Stone Voices Rooted
  ook-discussion-group-stories-carved-stone-voices-rooted-earth-silent-wall
  s-speaking
 CATEGORIES:talk\,literature
+END:VEVENT
+BEGIN:VEVENT
+UID:ecd1eaa06b20ddd5@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART:20260802T053000Z
+DTEND:20260802T073000Z
+SUMMARY:The IHC Free Book X'Change
+LOCATION:Near the IHC Information Centre\, India Habitat Centre\, Lodhi R
+ oad\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1330
+DESCRIPTION:The IHC Free Book X'Change . A ‘book flea market’ where t
+ he books are free. A book lovers’ 'adda'. Meet fellow bookworms and exc
+ hange books and recommendations. Browse and pick up a read of your choice
+ \, or drop off books that you may no longer have space for and let others
+  enjoy them. You are requested to limit the number of books to take away 
+ to a Maximum of 2 books at every X'Change Sunday .\n\nhttps://indiahabita
+ t.org/Events_details/1330
+CATEGORIES:other\,literature
+END:VEVENT
+BEGIN:VEVENT
+UID:08a76e09e95f1990@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART:20260802T133000Z
+DTEND:20260802T153000Z
+SUMMARY:She Walked Anyway
+LOCATION:Casuarina\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1332
+DESCRIPTION:Book Launch & Discussion . She Walked Anyway by Dr. Sazina Kh
+ an . A collection of poems and a lyrical meditation on quiet courage\, in
+ ner reclamation\, and the profound strength of moving forward without per
+ mission or validation. Through evocative poems such as Unannounced Becomi
+ ng\, Permissionless\, Grace\, Unrequested\, The Yes I Gave Myself\, and B
+ ecoming Without Allowance \, this collection traces the inner evolution o
+ f a woman who chooses motion over hesitation and self-trust over approval
+ . Publisher: White Falcon . The author will be in conversation on Walking
+  Through Storms: Women\, Memory and the Making of the Inner Self with Oro
+ on Das \, actor\, theatre artist and Dr. Gilles Chuyen \, director\, chor
+ eographer\, actor. Moderator: Meera Khanna \, writer\, poet\, Trustee & P
+ resident\, The Guild for Service. Chief Guest: Prof. (Dr.) K. G. Suresh \
+ , Director\, India Habitat Centre.\n\nhttps://indiahabitat.org/Events_det
+ ails/1332
+CATEGORIES:talk\,literature
+END:VEVENT
+BEGIN:VEVENT
+UID:d63b893a4a2d8691@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART:20260803T130000Z
+DTEND:20260803T150000Z
+SUMMARY:Cleaning Transport – Tackling Vehicular Emissions and the Futur
+ e of Mobility Uniting Science\, Health\, Policy & People
+LOCATION:Lecture Room II\, IIC Annexe\, India International Centre\, 40 M
+ ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/cleaning-transport-tackling-vehicular-
+ emissions-and-future-mobility-uniting-science
+DESCRIPTION:Cleaning Transport – Tackling Vehicular Emissions and the F
+ uture of Mobility\nUniting Science\, Health\, Policy & People\nModerator:
+  Sarika Panda\, Co-founder\, Raahgiri Foundation and Director\, Nagarro\n
+ Discussants: Dr. Virinder Sharma\, Member (Technical)\, CAQM\; Niharika R
+ ai\, Secretary-cum-Commissioner\, Transport Dpt\, Govt of NCT of Delhi\; 
+ Mahmood Ahmed\, Additional Secretary (Transport)\, Ministry of Road Trans
+ port and Highways\; J. Ganesan\, Chairman\, Haryana State Pollution Contr
+ ol Board\; Amit Bhatt\, India Managing Director\, International Council o
+ n Clean Transportation\; Trupti Deshpande\, Energiva Ventures\nTransition
+ ing to clean urban mobility yields profound benefits—ranging from impro
+ ved air quality and reduced greenhouse gas emissions to quieter and more 
+ livable cities. This session will explore how to accelerate the shift tow
+ ard zero-emission transport by scaling up electric vehicle ecosystems\, m
+ odernizing public transit networks\, and enforcing stringent emission reg
+ ulations.\nThis is the fourth discussion in the series of dialogues under
+  the umbrella of ‘Uniting Science\, Health\, Policy & People’\n(Colla
+ boration: Commission for Air Quality Management (CAQM) and Raahgiri Found
+ ation)\n\nhttps://iicdelhi.in/programmes/cleaning-transport-tackling-vehi
+ cular-emissions-and-future-mobility-uniting-science
+CATEGORIES:talk\,science\,sociology
+END:VEVENT
+BEGIN:VEVENT
+UID:cf278686ae2e8f6c@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART:20260803T133000Z
+DTEND:20260803T153000Z
+SUMMARY:Choreographic Duets - The Poetry of Two
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1334
+DESCRIPTION:AAI Arts Festival . Choreographic Duets - The Poetry of Two .
+  To experiment within the classical framework\, engage in rhythmic interp
+ lay\, and discover new dimensions of laya\, abhinaya\, and samanvay (sync
+ hrony). Kathak Duets by Shailja Nalwade and Anasua Majumdar \; Gaurav Bha
+ tti and Aamrapali Bhandari \; Ashmita Aich and Sujata Gawade-Sawant . Col
+ lab. Artist Association of India .\n\nhttps://indiahabitat.org/Events_det
+ ails/1334
+CATEGORIES:performance\,dance\,literature
+END:VEVENT
+BEGIN:VEVENT
+UID:27b246994b7a5d92@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART:20260823T133000Z
+DTEND:20260823T153000Z
+SUMMARY:Dastan - e - Raahi
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1359
+DESCRIPTION:Dastan - e - Raahi (Hindustani\, Urdu\, Bhojpuri/90 mins with
+  interval) Adapted by Darain Shahidi . Performed by Darain Shahidi & Raje
+ sh Kumar . Dir. Mahmood Farooqui . Produced by Anusha Rizvi . Celebrating
+  the centenary of the great Hindi writer Dr. Rahi Masoom Raza\, this Dast
+ angoi performance traces his extraordinary journey from his childhood in 
+ Gangauli to his years as an uncompromising academic and the legendary wri
+ ter who gave us the rustic soul of Aadha Gaon \, a landmark of Hindi lite
+ rature. It narrates his remarkable career as a writer and lyricist in the
+  Bombay film industry\, culminating in his screenplay and dialogues for B
+ . R. Chopra's epoch-defining television serial Mahabharata . Prod. Dastan
+ goi Collective . Tickets at Rs.500\, Rs.350 & Rs.200 are available online
+  on bookmyshow.com and at the Habitat Programmes desk .\n\nhttps://indiah
+ abitat.org/Events_details/1359
+CATEGORIES:performance\,literature\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:d15f00cc8a23694c@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART:20260824T123000Z
+DTEND:20260824T143000Z
+SUMMARY:Hindutva and Hind Swaraj: History’s Unforgotten Ideas
+LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1375
+DESCRIPTION:Book Discussion on Hindutva and Hind Swaraj: History’s Unfo
+ rgotten Ideas by Prof. Makarand Paranjape. Collab. India Foundation .\n\n
+ https://indiahabitat.org/Events_details/1375
+CATEGORIES:talk\,history
+END:VEVENT
+BEGIN:VEVENT
+UID:86d5fe3f9501fb6b@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART:20260824T133000Z
+DTEND:20260824T153000Z
+SUMMARY:A Short History of PPP in India & The Way Forward
+LOCATION:Casuarina\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1361
+DESCRIPTION:RIS-IHC Maritime Lecture Series . A Short History of PPP in I
+ ndia & The Way Forward by Vinayak Chatterjee \, Founder & Managing Truste
+ e\, The Infravision Foundation. Collab. RIS (CMEC) .\n\nhttps://indiahabi
+ tat.org/Events_details/1361
+CATEGORIES:talk\,history
+END:VEVENT
+BEGIN:VEVENT
+UID:31921584f22effb5@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART:20260826T133000Z
+DTEND:20260826T153000Z
+SUMMARY:Conversations on Public Policy
+LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1365
+DESCRIPTION:Conversations on Public Policy . A series designed to bridge 
+ the gap between academic theory and real-world governance in India\, brin
+ ging together distinguished policymakers\, thought leaders\, and seasoned
+  practitioners to foster robust dialogue\, offering students and faculty 
+ nuanced insights into how grassroots challenges are addressed through pub
+ lic policy and strategic governance. Introduction by Prof. Rajat Kathuria
+  \, Pro Vice-Chancellor & Dean\, School of Humanities and Social Sciences
+ . Moderator: Indranil Sen Gupta \, Professor of Practice\, Department of 
+ Economics. Collab. Shiv Nadar University .\n\nhttps://indiahabitat.org/Ev
+ ents_details/1365
+CATEGORIES:talk\,sociology
+END:VEVENT
+BEGIN:VEVENT
+UID:b407d31019d356f8@delhi-events
+DTSTAMP:20260728T192328Z
+DTSTART:20260827T133000Z
+DTEND:20260827T153000Z
+SUMMARY:Indian Poetics on Trees / Natural World
+LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1367
+DESCRIPTION:IHC - ICPR Study Circle\, Lecture Series . Indian Poetics on 
+ Trees / Natural World presented by the Bharat Bodh Kendra\, Habitat Libra
+ ry & Research Centre . Talk by Prof. Dhananjay Singh \, Member Secretary\
+ , Indian Council of Social Science Research. Chair: Prof. (Dr.) K. G. Sur
+ esh \, Director\, IHC.\n\nhttps://indiahabitat.org/Events_details/1367
+CATEGORIES:talk\,nature\,science
 END:VEVENT
 END:VCALENDAR
