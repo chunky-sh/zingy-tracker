@@ -190,3 +190,33 @@ def test_embedded_json_cannot_close_the_script_tag(conn, tmp_path):
 ])
 def test_llm_dates_must_appear_in_the_source(date_str, source, expected):
     assert date_is_supported(date_str, source) is expected
+
+
+# -- cli list grouping ------------------------------------------------------
+
+def test_list_separates_already_running_from_upcoming(conn, capsys):
+    """An exhibition that opened a fortnight ago is still on, but printing it
+    under its opening date put a past heading inside a "next N days" query."""
+    import argparse
+
+    from delhi_events.cli import cmd_list
+
+    now = datetime.now(IST)
+    db.upsert(conn, make_event(
+        title="Opened Earlier", start=now - timedelta(days=14),
+        end=now + timedelta(days=3), all_day=True,
+    ))
+    db.upsert(conn, make_event(title="Starts Tomorrow", start=now + timedelta(days=1)))
+    conn.commit()
+
+    args = argparse.Namespace(db=conn.execute("PRAGMA database_list").fetchone()[2],
+                              days=5, topic=None, format=None, venue=None)
+    cmd_list(args)
+    out = capsys.readouterr().out
+
+    assert "Already running" in out
+    assert "Opened Earlier" in out
+    assert "Starts Tomorrow" in out
+    # The opening date is a fortnight back; it must not appear as a heading.
+    stale = (now - timedelta(days=14)).strftime("%A %d %B")
+    assert stale not in out

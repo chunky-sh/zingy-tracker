@@ -49,9 +49,13 @@ def cmd_build(args: argparse.Namespace) -> int:
 def cmd_list(args: argparse.Namespace) -> int:
     conn = db.connect(args.db)
     events = db.active_events(conn)
+    today = datetime.now(IST).date()
 
     if args.days:
-        cutoff = (datetime.now(IST) + timedelta(days=args.days)).date()
+        cutoff = (today + timedelta(days=args.days))
+        # An exhibition that opened a fortnight ago is still on, so it belongs
+        # in "the next N days" -- but printing it under its opening date put a
+        # past heading in the output. Split them out instead.
         events = [e for e in events if e.start.date() <= cutoff]
     if args.topic:
         events = [e for e in events if any(t.value == args.topic for t in e.topics)]
@@ -64,19 +68,34 @@ def cmd_list(args: argparse.Namespace) -> int:
         print("No matching events.")
         return 0
 
+    def show(event, when: str) -> None:
+        tags = ",".join(t.value for t in event.topics)
+        print(f"  {when:>9}  {event.title[:62]}")
+        print(f"             {event.venue}"
+              + (f" — {event.sub_venue}" if event.sub_venue else "")
+              + f"  [{event.format.value}{'/' + tags if tags else ''}]")
+
+    running = [e for e in events if e.start.date() < today]
+    upcoming = [e for e in events if e.start.date() >= today]
+
+    if running:
+        print("\n\033[1mAlready running\033[0m")
+        for event in running:
+            last = (event.end or event.start).date()
+            show(event, "until" if last != today else "today")
+            print(f"             \033[2mruns to {last:%a %d %b}\033[0m")
+
     current = None
-    for event in events:
+    for event in upcoming:
         day = event.start.date()
         if day != current:
             current = day
-            print(f"\n\033[1m{day:%A %d %B}\033[0m")
-        when = "all day" if event.all_day else f"{event.start:%H:%M}"
-        tags = ",".join(t.value for t in event.topics)
-        print(f"  {when:>7}  {event.title[:64]}")
-        print(f"           {event.venue}"
-              + (f" — {event.sub_venue}" if event.sub_venue else "")
-              + f"  [{event.format.value}{'/' + tags if tags else ''}]")
-    print(f"\n{len(events)} events.")
+            label = " · today" if day == today else ""
+            print(f"\n\033[1m{day:%A %d %B}\033[0m{label}")
+        show(event, "all day" if event.all_day else f"{event.start:%H:%M}")
+
+    print(f"\n{len(events)} events."
+          + (f" {len(running)} already running." if running else ""))
     conn.close()
     return 0
 
