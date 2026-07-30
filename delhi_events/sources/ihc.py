@@ -195,10 +195,21 @@ class Source(BaseSource):
             return None
 
         # The show's name is italicised; the rest of the paragraph is the blurb.
+        # Read the paragraphs only -- the <h4> inside this container is the
+        # date-and-gallery heading we have already parsed, and including it put
+        # "1 st Aug - 4 th Aug | Convention Centre Foyer" at the head of the
+        # blurb, and from there into the card summary and the ICS feeds.
         title_el = content_el.select_one("em")
-        description = content_el.get_text(" ", strip=True)
-        if title_el is not None and title_el.get_text(strip=True):
-            title = title_el.get_text(" ", strip=True)
+        em_title = title_el.get_text(" ", strip=True) if title_el is not None else ""
+        if em_title:
+            # Pull the name out of the paragraph once it has been read, so the
+            # blurb reads "A group exhibition by..." rather than repeating the
+            # heading immediately beneath it.
+            title_el.extract()
+        paragraphs = [p.get_text(" ", strip=True) for p in content_el.select("p")]
+        description = "\n".join(p for p in paragraphs if p)
+        if em_title:
+            title = em_title
         else:
             title = re.split(r"(?<=[.!?])\s", description)[0][:120] if description else ""
         if not title:

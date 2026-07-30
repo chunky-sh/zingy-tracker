@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import sqlite3
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -39,11 +40,81 @@ FEEDS: dict[str, tuple[str, set[Topic] | None]] = {
 }
 
 
+# Words that end in a full stop without ending a sentence. Without these,
+# "Keynote by Prof. Kan Kimura" gets truncated to "Keynote by Prof."
+_ABBREVIATIONS = {
+    "prof", "dr", "mr", "mrs", "ms", "st", "jr", "sr", "vs", "etc", "no",
+    "vol", "pp", "ave", "rd", "approx", "feat", "dir", "ed", "eds", "trans",
+}
+
+SUMMARY_CHARS = 180
+
+
+def _words(text: str) -> set[str]:
+    return {w for w in re.findall(r"[a-z0-9]+", text.lower()) if len(w) > 2}
+
+
+def summarise(description: str, title: str = "", limit: int = SUMMARY_CHARS) -> str:
+    """A one-line gist of an event, for the card itself.
+
+    Works line by line rather than on the flattened blurb. Venues put the lead
+    on its own line, so joining everything first ran a subtitle straight into
+    the next sentence ("...East Asia Keynote Address by Prof."). Leading lines
+    that merely restate the title are skipped -- a summary echoing the heading
+    above it tells the reader nothing.
+
+    Prefers to end on a sentence boundary inside the limit; falls back to a
+    word boundary with an ellipsis. Returns "" when there is nothing to say,
+    so the template can omit the line entirely rather than print a stub.
+    """
+    lines = [ln.strip() for ln in (description or "").split("\n") if ln.strip()]
+    title_words = _words(title)
+
+    while lines and title_words:
+        words = _words(lines[0])
+        if words and len(words & title_words) / len(words) >= 0.6:
+            lines.pop(0)
+        else:
+            break
+
+    if not lines:
+        return ""
+
+    text = lines[0]
+    # A very short opener is a label, not a description -- pull in the next line.
+    if len(text) < 60 and len(lines) > 1:
+        joiner = " " if re.search(r"[.!?:;,]$", text) else ". "
+        text = text + joiner + lines[1]
+    text = " ".join(text.split())
+
+    if not text:
+        return ""
+    if len(text) <= limit:
+        return text
+
+    window = text[: limit + 1]
+    best = 0
+    for match in re.finditer(r"[.!?](?=\s|$)", window):
+        preceding = re.search(r"([A-Za-z]+)$", window[: match.start()])
+        if preceding and preceding.group(1).lower() in _ABBREVIATIONS:
+            continue
+        best = match.end()
+
+    # Only accept a sentence break that actually says something; otherwise a
+    # description opening with "Free. " would summarise to one word.
+    if best >= limit // 3:
+        return window[:best].strip()
+
+    cut = window.rfind(" ")
+    return window[: cut if cut > 0 else limit].rstrip(" ,;:—-") + "…"
+
+
 def event_to_dict(event: Event) -> dict:
     return {
         "id": event.id,
         "title": event.title,
         "description": event.description,
+        "summary": summarise(event.description, event.title),
         "start": event.start.isoformat(),
         "end": event.end.isoformat() if event.end else None,
         "start_date": event.start.date().isoformat(),

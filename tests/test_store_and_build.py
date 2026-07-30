@@ -239,3 +239,60 @@ def test_a_merely_similar_first_line_is_kept():
         description="Flux of Being and Becoming: new work by six artists.",
     )
     assert event.description.startswith("Flux of Being and Becoming")
+
+
+# -- card summaries ---------------------------------------------------------
+
+def test_summary_prefers_the_lead_line_over_a_flattened_blurb():
+    """Venues put the lead on its own line. Flattening first ran a subtitle
+    straight into the next sentence: '...East Asia Keynote Address by Prof.'"""
+    from delhi_events.build import summarise
+    out = summarise(
+        "Dissonances in the World Order: Implications for Indo-Pacific & East Asia\n"
+        "Keynote Address by Prof. Kan Kimura, Kobe University",
+        "3rd All India Conference of East Asian Studies",
+    )
+    assert out == "Dissonances in the World Order: Implications for Indo-Pacific & East Asia"
+
+
+def test_summary_skips_a_line_that_restates_the_title():
+    """A summary echoing the heading directly above it tells you nothing."""
+    from delhi_events.build import summarise
+    out = summarise(
+        "Book Discussion Group Stories Carved in Stone\nBy Nishi Chawla, 2026.",
+        "BOOK DISCUSSION GROUP- Stories Carved in Stone",
+    )
+    assert out == "By Nishi Chawla, 2026."
+
+
+def test_summary_does_not_truncate_at_an_abbreviation():
+    from delhi_events.build import summarise
+    out = summarise("Keynote by Prof. Kan Kimura of Kobe University. " + "Filler. " * 40)
+    assert out.startswith("Keynote by Prof. Kan Kimura")
+
+
+def test_summary_falls_back_to_a_word_boundary():
+    from delhi_events.build import summarise
+    out = summarise("A photography exhibition " + "about many overlooked things " * 20)
+    assert out.endswith("…")
+    assert len(out) <= 181
+    assert not out.rstrip("…").endswith(" ")
+
+
+def test_summary_is_empty_when_there_is_nothing_to_say():
+    from delhi_events.build import summarise
+    assert summarise("") == ""
+    assert summarise("   \n  ") == ""
+    # A description that is only a restatement of the title leaves nothing.
+    assert summarise("Flux of Being", "Flux of Being") == ""
+
+
+def test_summary_reaches_events_json(conn, tmp_path):
+    db.upsert(conn, make_event(
+        start=datetime.now(IST) + timedelta(days=1),
+        description="A guided walk along the Yamuna. Meets at the gate.",
+    ))
+    build_mod.build(conn, tmp_path)
+    import json
+    payload = json.loads((tmp_path / "events.json").read_text())
+    assert payload["events"][0]["summary"].startswith("A guided walk along the Yamuna")

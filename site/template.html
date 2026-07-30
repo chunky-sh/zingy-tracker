@@ -257,7 +257,15 @@
     transition: background-size .25s ease, color .15s ease;
   }
   .title a:hover { color: var(--c); background-size: 100% 1px; }
-  .where { font-size: 14px; color: var(--muted); margin: 0 0 9px; }
+  .where { font-size: 14px; color: var(--muted); margin: 0 0 7px; }
+  .gist {
+    font-size: 14.5px;
+    line-height: 1.5;
+    color: var(--ink);
+    margin: 0 0 10px;
+    max-width: 68ch;
+    text-wrap: pretty;
+  }
   .where .sep { color: var(--faint); margin: 0 6px; }
   .runs { font-style: italic; color: var(--faint); }
 
@@ -562,7 +570,7 @@
       .join("");
 
     const body = paragraphs
-      ? '<details class="body"><summary>Details</summary>' +
+      ? '<details class="body"><summary>Read more</summary>' +
         '<div class="blurb">' + paragraphs + "</div></details>"
       : "";
 
@@ -576,6 +584,7 @@
       "<div>" +
         '<h3 class="title">' + title + "</h3>" +
         '<p class="where">' + where + runs + "</p>" +
+        (e.summary ? '<p class="gist">' + escapeHtml(e.summary) + "</p>" : "") +
         '<div class="tags">' + tags + "</div>" +
         body +
       "</div>" +

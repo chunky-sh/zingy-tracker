@@ -7,7 +7,7 @@ X-WR-CALNAME:Delhi Culture — everything
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 UID:62347b227f6806eb@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260722T053000Z
 DTEND:20260804T133000Z
 SUMMARY:UNSUNG: Celebrating the Extraordinary Grandeur of Smallness
@@ -33,7 +33,7 @@ CATEGORIES:exhibition\,art\,photography
 END:VEVENT
 BEGIN:VEVENT
 UID:571e8403cd7afc39@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260726T053000Z
 DTEND:20260802T133000Z
 SUMMARY:Flux of Being
@@ -53,7 +53,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:26ba3ca1d563f984@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260731T033000Z
 DTEND:20260801T113000Z
 SUMMARY:3rd All India Conference of East Asian Studies
@@ -79,7 +79,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:84d4d11a1997e179@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260731T123000Z
 DTEND:20260731T143000Z
 SUMMARY:BOOK DISCUSSION GROUP- Stories Carved in Stone Voices Rooted in E
@@ -102,7 +102,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:3a883197c0d56925@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260731T130000Z
 DTEND:20260731T150000Z
 SUMMARY:Twamaham Vande
@@ -130,7 +130,7 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:31f3bc600136142f@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260731T133000Z
 DTEND:20260731T153000Z
 SUMMARY:Bharatanatyam Margam
@@ -143,21 +143,20 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:6794c843651626ca@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260805
 SUMMARY:Shilpa-Abadhani
 LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:1 st Aug - 4 th Aug | Convention Centre Foyer Shilpa-Abadhani
-  A group exhibition by Dana Ghosh\, Anjana Kirtania & Sandip Das .\n\nhtt
- ps://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:A group exhibition by Dana Ghosh\, Anjana Kirtania & Sandip D
+ as .\n\nhttps://indiahabitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:c75ec54bf3f43dbd@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260803
 SUMMARY:German Teachers' Conference 2026
@@ -172,7 +171,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:9a6c12568010e8c8@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260801T033000Z
 DTEND:20260801T053000Z
 SUMMARY:3rd All India Conference of East Asian Studies (AICEAS)
@@ -199,7 +198,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:9e835ca8ca254b1a@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260801T053000Z
 DTEND:20260801T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -216,7 +215,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:9adef96dc8bf02b2@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260801T103000Z
 DTEND:20260801T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -233,7 +232,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:ca779c654244651a@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260801T123000Z
 DTEND:20260801T143000Z
 SUMMARY:Nar-Hari: 6 Verses from Shri Guru Granth Sahib & Panchvani
@@ -259,7 +258,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:24e9036b4f99823f@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260801T133000Z
 DTEND:20260801T153000Z
 SUMMARY:Bhupen Da Uncut
@@ -282,7 +281,7 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:3d17aaac2ea9ba66@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260801T140000Z
 DTEND:20260801T160000Z
 SUMMARY:The Big Fat City
@@ -305,7 +304,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:a53e529ecb585913@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260802T053000Z
 DTEND:20260802T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -322,7 +321,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:ecd1eaa06b20ddd5@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260802T053000Z
 DTEND:20260802T073000Z
 SUMMARY:The IHC Free Book X'Change
@@ -340,7 +339,7 @@ CATEGORIES:other\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:2fb113e5b486b8a7@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260802T103000Z
 DTEND:20260802T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -357,7 +356,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:77cba4afd350a8ec@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260802T133000Z
 DTEND:20260802T153000Z
 SUMMARY:Sawani - Jugalbandi
@@ -374,7 +373,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:08a76e09e95f1990@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260802T133000Z
 DTEND:20260802T153000Z
 SUMMARY:She Walked Anyway
@@ -398,7 +397,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:83809c05335c0e0e@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260802T140000Z
 DTEND:20260802T160000Z
 SUMMARY:The House of Bernarda Alba
@@ -421,7 +420,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:59b4524881b34779@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260803T130000Z
 DTEND:20260803T150000Z
 SUMMARY:Archival Echoes of a Folk Lute in the Indian Himalaya
@@ -444,7 +443,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:d63b893a4a2d8691@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260803T130000Z
 DTEND:20260803T150000Z
 SUMMARY:Cleaning Transport – Tackling Vehicular Emissions and the Futur
@@ -476,7 +475,7 @@ CATEGORIES:talk\,science\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:cf278686ae2e8f6c@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260803T133000Z
 DTEND:20260803T153000Z
 SUMMARY:Choreographic Duets - The Poetry of Two
@@ -494,7 +493,7 @@ CATEGORIES:performance\,dance\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:17ac8155ac1a796a@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260804T123000Z
 DTEND:20260804T143000Z
 SUMMARY:Fascinating Light and Colour Phenomena in Nature
@@ -522,7 +521,7 @@ CATEGORIES:talk\,nature\,science
 END:VEVENT
 BEGIN:VEVENT
 UID:79c175f74151872f@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260804T123000Z
 DTEND:20260804T143000Z
 SUMMARY:BOOK DISCUSSION GROUP- On Angels’ Wings: Beyond the Bombing of 
@@ -546,7 +545,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:a5ae9bfa3e7f427a@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260804T130000Z
 DTEND:20260804T150000Z
 SUMMARY:Partners of the Heart
@@ -564,7 +563,7 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:90c75d920bce0b25@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260804T133000Z
 DTEND:20260804T153000Z
 SUMMARY:Sophie Scholl - The Final Days | Directed by Marc Rothemund
@@ -579,7 +578,7 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:d36d3b2ebe853c3e@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260804T133000Z
 DTEND:20260804T153000Z
 SUMMARY:Decolonising the Dr. Bhau Daji Lad Museum
@@ -593,21 +592,20 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:39df2b1d11cefc54@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260810
 SUMMARY:Echoes of Time
 LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:5 th Aug - 9 th Aug | Convention Centre Foyer Echoes of Time 
- A Solo show by Suchismita Majumdar .\n\nhttps://indiahabitat.org/Exhibiti
- ons_Details
+DESCRIPTION:A Solo show by Suchismita Majumdar .\n\nhttps://indiahabitat.
+ org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:57bc93f4aae591d2@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260805T123000Z
 DTEND:20260805T143000Z
 SUMMARY:Indo-Pacific as Zone for Peace
@@ -619,21 +617,20 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:f3d538ece4760070@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20270711
 SUMMARY:Soulscapes - Mountains and Sea
 LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:6 th Aug - 10 th Jul | Open Palm Court Gallery Soulscapes - M
- ountains and Sea A solo painting exhibition by Pratap Chand .\n\nhttps://
- indiahabitat.org/Exhibitions_Details
+DESCRIPTION:A solo painting exhibition by Pratap Chand .\n\nhttps://india
+ habitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:443d150aac34ae6e@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260808T053000Z
 DTEND:20260808T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -650,7 +647,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:89a4a78d43e21883@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260808T103000Z
 DTEND:20260808T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -667,7 +664,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:0ba96d9922a450d9@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260808T133000Z
 DTEND:20260808T153000Z
 SUMMARY:IHC Lok Sangeet Sammelan. Day 1
@@ -689,7 +686,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:c0ce86409368310f@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260809T053000Z
 DTEND:20260809T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -706,7 +703,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:29bdabd91e9ffbd1@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260809T103000Z
 DTEND:20260809T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -723,7 +720,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:a54477eb36c3eb8d@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260809T133000Z
 DTEND:20260809T153000Z
 SUMMARY:IHC Lok Sangeet Sammelan. Day 2
@@ -745,21 +742,20 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:8c24ed41aa163d3d@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260815
 SUMMARY:Moments of Village
 LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:10 th Aug - 14 th Aug | Convention Centre Foyer Moments of Vi
- llage A painting exhibition by Yuvraj Patil .\n\nhttps://indiahabitat.org
- /Exhibitions_Details
+DESCRIPTION:A painting exhibition by Yuvraj Patil .\n\nhttps://indiahabit
+ at.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:0adaf691619fca9d@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260810T133000Z
 DTEND:20260810T153000Z
 SUMMARY:TERI-IHC Lecture Series
@@ -780,7 +776,7 @@ CATEGORIES:talk\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:4b22414c506114bd@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260810T133000Z
 DTEND:20260810T153000Z
 SUMMARY:Saare Jahan Se Accha Festival. Day 1
@@ -795,22 +791,21 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:8715a2ce8f1fe67b@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260817
 SUMMARY:Art Spectra
 LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:11 th Aug - 16 th Aug | Open Palm Court Gallery Art Spectra A
-  group painting exhibition by Neha Kaul\, Smita Singh\, Subuhi Khan\, Arp
- ita Som \, and Vishaka Sehdev .\n\nhttps://indiahabitat.org/Exhibitions_D
- etails
+DESCRIPTION:A group painting exhibition by Neha Kaul\, Smita Singh\, Subu
+ hi Khan\, Arpita Som \, and Vishaka Sehdev .\n\nhttps://indiahabitat.org/
+ Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:0a68c49dd461d1ce@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260811T133000Z
 DTEND:20260811T153000Z
 SUMMARY:Saare Jahan Se Accha Festival. Day 2
@@ -826,7 +821,7 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:637811c0b9ae6e63@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260812T140000Z
 DTEND:20260812T160000Z
 SUMMARY:Mahaprayan Diwas of Guru Rabindranath Tagore
@@ -841,7 +836,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:e122935261cdc213@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260814T133000Z
 DTEND:20260814T153000Z
 SUMMARY:Azaadi Se Sukoon Tak: Launch of P-SAD\, India’s Program for Pre
@@ -867,7 +862,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:89e985a7ff0c7032@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260815T053000Z
 DTEND:20260815T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -884,7 +879,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:8e2e8ff189fab728@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260815T103000Z
 DTEND:20260815T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -901,21 +896,20 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:2a1d50473978f697@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260821
 SUMMARY:What Women Carry
 LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:16 th Aug - 20 th Aug | Convention Centre Foyer What Women Ca
- rry A photographic exhibition by Margins to Access Project (MAP).\n\nhttp
- s://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:A photographic exhibition by Margins to Access Project (MAP).
+ \n\nhttps://indiahabitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:eb6a610fb1ef0e5d@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260816T053000Z
 DTEND:20260816T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -932,7 +926,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:3f79364dd256a60e@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260816T103000Z
 DTEND:20260816T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -949,7 +943,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:b2b3aa059dbf1f8c@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260816T133000Z
 DTEND:20260816T153000Z
 SUMMARY:Les Liaisons Dangereuses
@@ -970,25 +964,24 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:a1bac38a036dd93f@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260820
 SUMMARY:उद्गम / Udgam
 LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
  lhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:17 th Aug - 19 th Aug | Visual Arts Gallery उद्गम /
-  Udgam Shree Yash Art Gallery presents a group painting and sculpture exh
- ibition by Anup Kumar Chand\, Dharmendra Rathore\, Dileep Sharma\, Faraad
-  Hussain\, G. Subramanian\, Goerge Martin PJ\, Manish Pushkale\, Niren Se
- ngupta\, Phaneendranath Chaturvedi\, Pratul Dash\, Rajesh Ram\, Sidharth\
- , Siddharth Singade\, Tapan Kumar Dash \, and Wahida Ahmed .\n\nhttps://i
- ndiahabitat.org/Exhibitions_Details
+DESCRIPTION:Shree Yash Art Gallery presents a group painting and sculptur
+ e exhibition by Anup Kumar Chand\, Dharmendra Rathore\, Dileep Sharma\, F
+ araad Hussain\, G. Subramanian\, Goerge Martin PJ\, Manish Pushkale\, Nir
+ en Sengupta\, Phaneendranath Chaturvedi\, Pratul Dash\, Rajesh Ram\, Sidh
+ arth\, Siddharth Singade\, Tapan Kumar Dash \, and Wahida Ahmed .\n\nhttp
+ s://indiahabitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:ea5f522ab80f93ed@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260817T133000Z
 DTEND:20260817T153000Z
 SUMMARY:IHC Connect
@@ -1004,7 +997,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:e1b9af1b1d0173e3@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260818T133000Z
 DTEND:20260818T153000Z
 SUMMARY:Spandana
@@ -1020,7 +1013,7 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:c6573ef3da26f969@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260818T133000Z
 DTEND:20260818T153000Z
 SUMMARY:Stories of Co-Existence & Conservation from the North East
@@ -1054,7 +1047,7 @@ CATEGORIES:film\,cinema\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:d90cae68e1220ae0@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260819T133000Z
 DTEND:20260819T153000Z
 SUMMARY:Building an Athlete Brand: The Modern Athlete's Playbook
@@ -1069,7 +1062,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:074c5d5f3b2bd36c@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260819T133000Z
 DTEND:20260819T153000Z
 SUMMARY:Sargun se Nirgun: Kabir in Motion
@@ -1088,22 +1081,21 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:d2e4000b7d31bbd5@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260825
 SUMMARY:Collectively Independent 2026
 LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
  lhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:20 th Aug - 24 th Aug | Visual Arts Gallery Collectively Inde
- pendent 2026 A group art exhibition of paintings by Bharti Verma\, Ramos\
- , Ruchi Chadha \, and Sapna Gupta .\n\nhttps://indiahabitat.org/Exhibitio
- ns_Details
+DESCRIPTION:A group art exhibition of paintings by Bharti Verma\, Ramos\,
+  Ruchi Chadha \, and Sapna Gupta .\n\nhttps://indiahabitat.org/Exhibition
+ s_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:9082d29c3c99830a@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260821T133000Z
 DTEND:20260821T153000Z
 SUMMARY:21st Pandit Siyaram Tiwari Music Festival
@@ -1120,7 +1112,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:579e3b601011d174@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260821T133000Z
 DTEND:20260821T153000Z
 SUMMARY:Rashtra Yajna: Every Step in Service\, Every Beat for the Nation
@@ -1143,27 +1135,26 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:4d8ad6ffaf0bb9c1@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260827
 SUMMARY:Nirbhay Edition 2
 LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:22 nd Aug - 26 th Aug | Open Palm Court Gallery Nirbhay Editi
- on 2 Luna Arts presents a group painting exhibition by Ruchi Raveendran\,
-  Anjana Singh\, Sowmya Sebastian\, Tina Pillay\, Jay Gohil\, Jyotsna Shar
- ma\, Shesalu\, Payal Verma\, Richa Agarwal\, Anindita Sengupta\, Reet Kau
- r\, Arijit Sen\, Priyanka Nageshwari\, Sapna Gupta\, Neelam Kapoor\, Sohi
- ni Banerjee\, Tanvi Lalan\, Monica Jain\, Deepak Nayal\, Shreng Labru\, B
- harti Shrivastava\, Parul Arya\, Tripti Pandey\, Nikita Gupta\, Naila Pra
- veen\, Huma Nadeem\, Saba Bawa\, Surendra Kumar \, and Avdhesh Kumar .\n\
- nhttps://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:Luna Arts presents a group painting exhibition by Ruchi Ravee
+ ndran\, Anjana Singh\, Sowmya Sebastian\, Tina Pillay\, Jay Gohil\, Jyots
+ na Sharma\, Shesalu\, Payal Verma\, Richa Agarwal\, Anindita Sengupta\, R
+ eet Kaur\, Arijit Sen\, Priyanka Nageshwari\, Sapna Gupta\, Neelam Kapoor
+ \, Sohini Banerjee\, Tanvi Lalan\, Monica Jain\, Deepak Nayal\, Shreng La
+ bru\, Bharti Shrivastava\, Parul Arya\, Tripti Pandey\, Nikita Gupta\, Na
+ ila Praveen\, Huma Nadeem\, Saba Bawa\, Surendra Kumar \, and Avdhesh Kum
+ ar .\n\nhttps://indiahabitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:904d952ff4a120c5@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260822T053000Z
 DTEND:20260822T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -1180,7 +1171,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:5c6f8f50d7c62e1c@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260822T103000Z
 DTEND:20260822T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -1197,7 +1188,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:38840e2b9e0938de@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260822T123000Z
 DTEND:20260822T143000Z
 SUMMARY:Baul Singers of Bengal
@@ -1212,7 +1203,7 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:5a342b33e03ca9fa@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260822T133000Z
 DTEND:20260822T153000Z
 SUMMARY:Bharat Bodh: A National Seminar on India’s Knowledge Traditions
@@ -1232,7 +1223,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:9b094aa73b77d37d@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260822T133000Z
 DTEND:20260822T153000Z
 SUMMARY:चहुँमुखी... A Musical Efflorescence of Dhrupad\, 
@@ -1250,7 +1241,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:ec769161f576e5b1@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260822T133000Z
 DTEND:20260822T153000Z
 SUMMARY:Dalla Ayaara
@@ -1274,7 +1265,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:da7dc7ea8bd676b1@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260823T053000Z
 DTEND:20260823T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -1291,7 +1282,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:f23ee2f3b704a2c2@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260823T103000Z
 DTEND:20260823T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -1308,7 +1299,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:27b246994b7a5d92@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260823T133000Z
 DTEND:20260823T153000Z
 SUMMARY:Dastan - e - Raahi
@@ -1332,21 +1323,20 @@ CATEGORIES:performance\,literature\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:18840ee4ad987664@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260829
 SUMMARY:Village Lives
 LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:24 th Aug - 28 th Aug | Convention Centre Foyer Village Lives
-  An exhibition of watercolour paintings by Meenaxi Sadalge .\n\nhttps://i
- ndiahabitat.org/Exhibitions_Details
+DESCRIPTION:An exhibition of watercolour paintings by Meenaxi Sadalge .\n
+ \nhttps://indiahabitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:d15f00cc8a23694c@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260824T123000Z
 DTEND:20260824T143000Z
 SUMMARY:Hindutva and Hind Swaraj: History’s Unforgotten Ideas
@@ -1359,7 +1349,7 @@ CATEGORIES:talk\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:86d5fe3f9501fb6b@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260824T133000Z
 DTEND:20260824T153000Z
 SUMMARY:A Short History of PPP in India & The Way Forward
@@ -1373,7 +1363,7 @@ CATEGORIES:talk\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:c4a5285c091a98f6@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260824T133000Z
 DTEND:20260824T153000Z
 SUMMARY:Cultural Kaarava’n Virasat 2026
@@ -1392,23 +1382,23 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:721d12a041af32d5@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260901
 SUMMARY:One - Many
 LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
  lhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:26 th Aug - 31 st Aug | Visual Arts Gallery One - Many A grou
- p painting and sculpture exhibition by Ashish Mridha\, Deb Dutta\, Debang
- shu Biswas\, Monika Prasad\, Pabitra Pal\, Souman Basu\, Suprakash Nath\,
-  Susnata Chatterjee\, Supriyo Sahu\, Swapan Sutradhar\, Tarun Maity \, an
- d Titas Das .\n\nhttps://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:A group painting and sculpture exhibition by Ashish Mridha\, 
+ Deb Dutta\, Debangshu Biswas\, Monika Prasad\, Pabitra Pal\, Souman Basu\
+ , Suprakash Nath\, Susnata Chatterjee\, Supriyo Sahu\, Swapan Sutradhar\,
+  Tarun Maity \, and Titas Das .\n\nhttps://indiahabitat.org/Exhibitions_D
+ etails
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:7771ebdb2f94d04f@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260826T133000Z
 DTEND:20260826T153000Z
 SUMMARY:Aarambh
@@ -1423,7 +1413,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:101509b5ff134fcc@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260826T133000Z
 DTEND:20260826T153000Z
 SUMMARY:National Dance & Music Festival 2026
@@ -1438,7 +1428,7 @@ CATEGORIES:performance\,dance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:31921584f22effb5@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260826T133000Z
 DTEND:20260826T153000Z
 SUMMARY:Conversations on Public Policy
@@ -1458,27 +1448,26 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:52442b28a36485a8@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260901
 SUMMARY:Harmony
 LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:27 th Aug - 31 st Aug | Open Palm Court Gallery Harmony Maste
- r Sansar Chand Baru Memorial Charitable Trust presents a group painting a
- nd sculpture exhibition by Sharmila Sharma\, Rakhi Kumar\, Shambhu Nath G
- oswami\, Aditya Shankar\, Rahul Mhetre\, Vijaylaxmi Deepak Mer\, Monalisa
-  Sirkar\, Apurba Kharati\, Pooja Kumar\, Shyamlal Mukherjee\, Manish Rao\
- , Rakhi Kumari\, Chaitali Chanda\, Sandeep Aaher\, Nav Nath\, Javed Iqbal
- \, Suraj Kumar Kashi\, Sachindra Nath Jha\, Naushad Gayoor\, Syed Mursale
- en\, Renuka Sonde\, Vijay \, & Anubhab .\n\nhttps://indiahabitat.org/Exhi
- bitions_Details
+DESCRIPTION:Master Sansar Chand Baru Memorial Charitable Trust presents a
+  group painting and sculpture exhibition by Sharmila Sharma\, Rakhi Kumar
+ \, Shambhu Nath Goswami\, Aditya Shankar\, Rahul Mhetre\, Vijaylaxmi Deep
+ ak Mer\, Monalisa Sirkar\, Apurba Kharati\, Pooja Kumar\, Shyamlal Mukher
+ jee\, Manish Rao\, Rakhi Kumari\, Chaitali Chanda\, Sandeep Aaher\, Nav N
+ ath\, Javed Iqbal\, Suraj Kumar Kashi\, Sachindra Nath Jha\, Naushad Gayo
+ or\, Syed Mursaleen\, Renuka Sonde\, Vijay \, & Anubhab .\n\nhttps://indi
+ ahabitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:13917429d4e82842@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260827T133000Z
 DTEND:20260827T153000Z
 SUMMARY:Concert of classic melodies
@@ -1492,7 +1481,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:b407d31019d356f8@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260827T133000Z
 DTEND:20260827T153000Z
 SUMMARY:Indian Poetics on Trees / Natural World
@@ -1507,7 +1496,7 @@ CATEGORIES:talk\,nature\,science
 END:VEVENT
 BEGIN:VEVENT
 UID:70ddb9a993418be3@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260828T133000Z
 DTEND:20260828T153000Z
 SUMMARY:Parijatham
@@ -1522,21 +1511,20 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:0d9df1f1144306d9@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260903
 SUMMARY:Spandan
 LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:29 th Aug - 2 nd Sep | Convention Centre Foyer Spandan A Solo
-  art exhibition of watercolours and oil paintings by Achintya Hazra .\n\n
- https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:A Solo art exhibition of watercolours and oil paintings by Ac
+ hintya Hazra .\n\nhttps://indiahabitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:512cdf38002071c0@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260829T140000Z
 DTEND:20260829T160000Z
 SUMMARY:Parabola of Dance - Performance & Process 2026
@@ -1554,7 +1542,7 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:44efa5b67cb287af@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260830T133000Z
 DTEND:20260830T153000Z
 SUMMARY:VANDE MATARAM: BHARAT VANDAN
@@ -1571,7 +1559,7 @@ CATEGORIES:performance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:a85e6b50cea5b084@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260830T140000Z
 DTEND:20260830T160000Z
 SUMMARY:Hansika: An Adaptation of Swan Lake
@@ -1593,7 +1581,7 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:54fc5d1dba9a297a@delhi-events
-DTSTAMP:20260730T213950Z
+DTSTAMP:20260730T220836Z
 DTSTART:20260831T133000Z
 DTEND:20260831T153000Z
 SUMMARY:A Celebration of Bharat Vibhav
