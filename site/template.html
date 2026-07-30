@@ -17,17 +17,6 @@
     --hairline:#dde6ec;
     --accent:  #1b5e9c;
     --accent-soft: #e7f1f9;
-
-    /* One hue per discipline. Colour is the index, not decoration:
-       the filter chip and the listing tag always agree. */
-    --c-exhibition:  #b85c0e;  /* amber   */
-    --c-talk:        #1b5e9c;  /* blue    */
-    --c-walk:        #1b6b4a;  /* forest  */
-    --c-workshop:    #0e6e82;  /* teal    */
-    --c-film:        #3b3f8f;  /* indigo  */
-    --c-performance: #8a6d00;  /* gold    */
-    --c-festival:    #c2410c;  /* orange  */
-    --c-other:       #566a7a;
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
@@ -36,19 +25,10 @@
       --surface: #121c2a;
       --ink:     #e6eef5;
       --muted:   #8fa3b5;
-      --faint:   #6b7f91;
+      --faint:   #617486;
       --hairline:#22303f;
       --accent:  #6fb8f0;
       --accent-soft: #15283a;
-
-      --c-exhibition:  #f0a75e;
-      --c-talk:        #7bc0f5;
-      --c-walk:        #5fc79a;
-      --c-workshop:    #5fd0e0;
-      --c-film:        #a5aaf5;
-      --c-performance: #ebd065;
-      --c-festival:    #fb923c;
-      --c-other:       #8fa3b5;
       color-scheme: dark;
     }
   }
@@ -57,19 +37,10 @@
     --surface: #121c2a;
     --ink:     #e6eef5;
     --muted:   #8fa3b5;
-    --faint:   #6b7f91;
+    --faint:   #617486;
     --hairline:#22303f;
     --accent:  #6fb8f0;
     --accent-soft: #15283a;
-
-    --c-exhibition:  #f0a75e;
-    --c-talk:        #7bc0f5;
-    --c-walk:        #5fc79a;
-    --c-workshop:    #5fd0e0;
-    --c-film:        #a5aaf5;
-    --c-performance: #ebd065;
-    --c-festival:    #fb923c;
-    --c-other:       #8fa3b5;
     color-scheme: dark;
   }
 
@@ -79,19 +50,39 @@
     --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
     --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    --radius: 10px;
   }
 
-  /* Every element carrying a hue reads it from --c; these set it. */
-  [data-format="exhibition"]  { --c: var(--c-exhibition); }
-  [data-format="talk"]        { --c: var(--c-talk); }
-  [data-format="walk"]        { --c: var(--c-walk); }
-  [data-format="workshop"]    { --c: var(--c-workshop); }
-  [data-format="film"]        { --c: var(--c-film); }
-  [data-format="performance"] { --c: var(--c-performance); }
-  [data-format="festival"]    { --c: var(--c-festival); }
-  [data-format="other"]       { --c: var(--c-other); }
+  /* One hue per discipline. Colour is the index, not decoration. */
+  [data-format="exhibition"]  { --c: #b85c0e; }
+  [data-format="talk"]        { --c: #1b5e9c; }
+  [data-format="walk"]        { --c: #1b6b4a; }
+  [data-format="workshop"]    { --c: #0e6e82; }
+  [data-format="film"]        { --c: #3b3f8f; }
+  [data-format="performance"] { --c: #8a6d00; }
+  [data-format="festival"]    { --c: #c2410c; }
+  [data-format="other"]       { --c: #566a7a; }
+  @media (prefers-color-scheme: dark) {
+    [data-format="exhibition"]  { --c: #f0a75e; }
+    [data-format="talk"]        { --c: #7bc0f5; }
+    [data-format="walk"]        { --c: #5fc79a; }
+    [data-format="workshop"]    { --c: #5fd0e0; }
+    [data-format="film"]        { --c: #a5aaf5; }
+    [data-format="performance"] { --c: #ebd065; }
+    [data-format="festival"]    { --c: #fb923c; }
+    [data-format="other"]       { --c: #8fa3b5; }
+  }
+  :root[data-theme="dark"] [data-format="exhibition"]  { --c: #f0a75e; }
+  :root[data-theme="dark"] [data-format="talk"]        { --c: #7bc0f5; }
+  :root[data-theme="dark"] [data-format="walk"]        { --c: #5fc79a; }
+  :root[data-theme="dark"] [data-format="workshop"]    { --c: #5fd0e0; }
+  :root[data-theme="dark"] [data-format="film"]        { --c: #a5aaf5; }
+  :root[data-theme="dark"] [data-format="performance"] { --c: #ebd065; }
+  :root[data-theme="dark"] [data-format="festival"]    { --c: #fb923c; }
+  :root[data-theme="dark"] [data-format="other"]       { --c: #8fa3b5; }
 
   * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
 
   body {
     margin: 0;
@@ -102,290 +93,269 @@
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }
+  body.locked { overflow: hidden; }
 
-  .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px 96px; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 0 20px 80px; }
 
-  /* — masthead — */
-  header { padding: 72px 0 28px; }
+  /* ── masthead ── */
+  header { padding: 40px 0 18px; }
+  .dedication {
+    font-family: var(--serif); font-style: italic; font-size: 16px;
+    color: var(--muted); margin: 0 0 10px;
+  }
+  .dedication .heart { font-style: normal; }
   h1 {
-    font-family: var(--serif);
-    font-weight: 400;
-    font-size: clamp(38px, 7vw, 60px);
-    line-height: 1.02;
-    letter-spacing: -0.02em;
-    margin: 0 0 16px;
-    text-wrap: balance;
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(32px, 7vw, 56px);
+    line-height: 1.02; letter-spacing: -0.025em;
+    margin: 0 0 8px; text-wrap: balance;
   }
   h1 em { font-style: italic; color: var(--accent); }
-  .standfirst {
-    font-size: 15px;
-    color: var(--muted);
-    margin: 0;
-  }
+  .standfirst { font-size: 15px; color: var(--muted); margin: 0; max-width: 60ch; }
 
-  /* — controls — */
+  /* ── controls ── */
   .controls {
     position: sticky; top: 0; z-index: 20;
-    background: color-mix(in srgb, var(--paper) 88%, transparent);
+    background: color-mix(in srgb, var(--paper) 90%, transparent);
     backdrop-filter: saturate(180%) blur(12px);
     border-bottom: 1px solid var(--hairline);
-    padding: 14px 0;
+    padding: 12px 0;
   }
-  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-  .row + .row { margin-top: 10px; }
+  .bar { display: flex; gap: 8px; align-items: center; }
+  .row { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; }
+  .row + .row { margin-top: 8px; }
+  .label { font-size: 13px; color: var(--faint); min-width: 42px; }
 
   input[type=search], select {
-    font: inherit;
-    font-size: 14px;
-    color: var(--ink);
-    background: var(--surface);
-    border: 1px solid var(--hairline);
-    border-radius: 10px;
-    padding: 10px 14px;
-    transition: border-color .15s ease;
+    font: inherit; font-size: 14px; color: var(--ink);
+    background: var(--surface); border: 1px solid var(--hairline);
+    border-radius: var(--radius); padding: 10px 14px;
   }
-  input[type=search] { flex: 1 1 240px; min-width: 0; }
+  input[type=search] { flex: 1 1 180px; min-width: 0; }
   input[type=search]::placeholder { color: var(--faint); }
-  input[type=search]:hover, select:hover { border-color: var(--muted); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-  .label {
-    font-size: 13px;
-    color: var(--faint);
-    margin-right: 2px;
-    min-width: 42px;
-  }
-
   .chip {
-    font-size: 13.5px;
-    color: var(--muted);
-    background: var(--surface);
-    border: 1px solid var(--hairline);
-    border-radius: 999px;
-    padding: 6px 13px;
-    text-transform: capitalize;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: color .15s ease, border-color .15s ease, background-color .15s ease;
+    font-size: 13.5px; color: var(--muted);
+    background: var(--surface); border: 1px solid var(--hairline);
+    border-radius: 999px; padding: 6px 13px;
+    text-transform: capitalize; cursor: pointer; white-space: nowrap;
+    transition: color .15s, border-color .15s, background-color .15s;
   }
   .chip:hover { color: var(--ink); border-color: var(--muted); }
-  /* Pressed chips take the discipline's own hue, so the filter bar and the
-     listing below it are unmistakably the same colour language. */
   .chip[aria-pressed="true"] {
     color: var(--c, var(--accent));
     border-color: color-mix(in srgb, var(--c, var(--accent)) 55%, transparent);
-    background: color-mix(in srgb, var(--c, var(--accent)) 11%, transparent);
+    background: color-mix(in srgb, var(--c, var(--accent)) 12%, transparent);
   }
-  .chip .n { opacity: .55; margin-left: 6px; font-variant-numeric: tabular-nums; }
+  .chip .n { opacity: .55; margin-left: 5px; font-variant-numeric: tabular-nums; }
 
-  .count {
-    font-size: 13.5px;
-    color: var(--faint);
-    padding: 24px 0 0;
-    font-variant-numeric: tabular-nums;
+  /* The filter toggle only exists on narrow screens; on desktop the chips are
+     simply always visible and this button is hidden. */
+  .toggle {
+    display: none;
+    font: inherit; font-size: 14px; font-weight: 500; color: var(--ink);
+    background: var(--surface); border: 1px solid var(--hairline);
+    border-radius: var(--radius); padding: 10px 14px;
+    cursor: pointer; align-items: center; gap: 8px; white-space: nowrap;
+  }
+  .toggle .bars { display: inline-flex; flex-direction: column; gap: 3px; }
+  .toggle .bars i {
+    display: block; width: 15px; height: 1.5px; background: currentColor;
+    border-radius: 1px; transition: transform .2s ease, opacity .2s ease;
+  }
+  .toggle[aria-expanded="true"] { color: var(--accent); border-color: var(--accent); }
+  .toggle[aria-expanded="true"] .bars i:nth-child(1) { transform: translateY(4.5px) rotate(45deg); }
+  .toggle[aria-expanded="true"] .bars i:nth-child(2) { opacity: 0; }
+  .toggle[aria-expanded="true"] .bars i:nth-child(3) { transform: translateY(-4.5px) rotate(-45deg); }
+  .toggle .count {
+    font-size: 12px; font-weight: 600; color: #fff; background: var(--accent);
+    border-radius: 999px; min-width: 18px; height: 18px; padding: 0 5px;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+  .panel { margin-top: 10px; }
+  .clearall {
+    font: inherit; font-size: 13px; color: var(--faint);
+    background: none; border: 0; cursor: pointer; padding: 4px 2px;
+    text-decoration: underline;
+  }
+  .clearall:hover { color: var(--ink); }
+
+  .count-line {
+    font-size: 13.5px; color: var(--faint);
+    padding: 22px 0 0; font-variant-numeric: tabular-nums;
   }
 
-  /* — day sections — */
-  .day { margin-top: 40px; }
+  /* ── day sections ── */
+  .day { margin-top: 38px; }
   .day h2 {
-    display: flex; align-items: baseline; gap: 14px;
-    font-family: var(--serif);
-    font-weight: 400;
-    font-size: 25px;
-    letter-spacing: -0.01em;
-    margin: 0 0 4px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--ink);
+    display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+    font-family: var(--serif); font-weight: 400; font-size: 25px;
+    letter-spacing: -0.01em; margin: 0 0 4px;
+    padding-bottom: 10px; border-bottom: 1px solid var(--ink);
   }
-  .day h2 .dow {
-    font-family: var(--sans);
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--faint);
-  }
+  .day h2 .dow { font-size: 14px; font-weight: 500; color: var(--faint); font-family: var(--sans); }
   .day h2 .today-pill {
-    font-family: var(--sans);
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--accent);
-    background: var(--accent-soft);
-    border-radius: 999px;
-    padding: 3px 10px;
+    font-family: var(--sans); font-size: 12px; font-weight: 600;
+    color: var(--accent); background: var(--accent-soft);
+    border-radius: 999px; padding: 3px 10px;
   }
   .day.today h2 { color: var(--accent); border-bottom-color: var(--accent); }
-  .day.today h2 .dow { color: var(--accent); }
 
-  /* — the listing: ruled rows, not cards — */
+  /* ── the listing ── */
   .event {
-    display: grid;
-    grid-template-columns: 78px 1fr;
-    gap: 18px;
-    padding: 15px 0 15px 16px;
-    border-bottom: 1px solid var(--hairline);
-    /* A hairline in the discipline's hue: the index made visible down the
-       left edge, so the page can be scanned by colour alone. */
+    display: grid; grid-template-columns: 78px 1fr; gap: 18px;
+    width: 100%; text-align: left; font: inherit; color: inherit;
+    background: none; border: 0; border-bottom: 1px solid var(--hairline);
     border-left: 3px solid color-mix(in srgb, var(--c) 55%, transparent);
-    transition: border-left-color .15s ease, background-color .15s ease;
+    padding: 15px 10px 15px 16px; cursor: pointer;
+    transition: background-color .15s, border-left-color .15s;
   }
   .event:hover {
+    background: color-mix(in srgb, var(--c) 5%, transparent);
     border-left-color: var(--c);
-    background: color-mix(in srgb, var(--c) 4%, transparent);
   }
-  .time {
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--muted);
-    font-variant-numeric: tabular-nums;
-    padding-top: 4px;
-  }
+  .event > span { display: block; min-width: 0; }
+  .time { display: block; font-size: 14px; font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 3px; }
   .title {
-    font-family: var(--serif);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.28;
-    letter-spacing: -0.01em;
-    margin: 0 0 6px;
-    text-wrap: balance;
+    display: block;
+    font-family: var(--serif); font-weight: 400; font-size: 20px;
+    line-height: 1.28; letter-spacing: -0.01em; margin: 0 0 6px; text-wrap: balance;
   }
-  .title a {
-    color: inherit;
-    text-decoration: none;
-    background-image: linear-gradient(var(--c), var(--c));
-    background-size: 0% 1px;
-    background-repeat: no-repeat;
-    background-position: 0 100%;
-    transition: background-size .25s ease, color .15s ease;
-  }
-  .title a:hover { color: var(--c); background-size: 100% 1px; }
-  .where { font-size: 14px; color: var(--muted); margin: 0 0 7px; }
-  .gist {
-    font-size: 14.5px;
-    line-height: 1.5;
-    color: var(--ink);
-    margin: 0 0 10px;
-    max-width: 68ch;
-    text-wrap: pretty;
-  }
+  .where { display: block; font-size: 14px; color: var(--muted); margin: 0 0 7px; }
   .where .sep { color: var(--faint); margin: 0 6px; }
   .runs { font-style: italic; color: var(--faint); }
-
+  .gist {
+    display: block;
+    font-size: 14.5px; line-height: 1.5; color: var(--ink);
+    margin: 0 0 10px; max-width: 68ch; text-wrap: pretty;
+  }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tag {
-    font-size: 12px;
-    color: var(--muted);
+    font-size: 12px; color: var(--muted); text-transform: capitalize;
     background: color-mix(in srgb, var(--ink) 5%, transparent);
-    border-radius: 999px;
-    padding: 3px 10px;
-    text-transform: capitalize;
+    border-radius: 999px; padding: 3px 10px;
   }
-  .tag.fmt {
-    color: var(--c);
-    background: color-mix(in srgb, var(--c) 13%, transparent);
-    font-weight: 500;
+  .tag.fmt { color: var(--c); background: color-mix(in srgb, var(--c) 13%, transparent); font-weight: 500; }
+
+  .empty { font-size: 15px; color: var(--faint); padding: 70px 0; text-align: center; }
+
+  /* ── the card ── */
+  .scrim {
+    position: fixed; inset: 0; z-index: 40;
+    background: color-mix(in srgb, var(--ink) 45%, transparent);
+    backdrop-filter: blur(3px);
+    opacity: 0; transition: opacity .3s ease;
+  }
+  .scrim.in { opacity: 1; }
+
+  .card {
+    position: fixed; z-index: 50;
+    background: var(--surface);
+    border-radius: 16px;
+    box-shadow: 0 34px 68px -26px rgba(0,0,0,.5), 0 0 0 1px var(--hairline);
+    overflow: hidden; transform-origin: 0 0; will-change: transform;
+  }
+  /* A wash of the discipline hue bleeding down from the top edge. */
+  .card::before {
+    content: ""; position: absolute; left: 0; right: 0; top: 0; height: 150px;
+    background: linear-gradient(color-mix(in srgb, var(--c) 22%, transparent), transparent);
+    pointer-events: none;
+  }
+  .card::after {
+    content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: var(--c);
+  }
+  .card-in {
+    position: relative; padding: 24px 24px 20px;
+    max-height: min(76vh, 640px); overflow-y: auto;
+    /* Content fades in a beat behind the box so nothing looks stretched while
+       the card is still growing out of the row. */
+    opacity: 0; transition: opacity .22s ease .1s;
+  }
+  .card.in .card-in { opacity: 1; }
+
+  .c-eyebrow {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: .04em;
+    color: var(--c); font-variant-numeric: tabular-nums; display: block; margin-bottom: 8px;
+  }
+  .c-title {
+    font-family: var(--serif); font-weight: 400; font-size: 28px;
+    line-height: 1.15; letter-spacing: -0.018em; margin: 0 0 10px; text-wrap: balance;
+  }
+  .c-where { font-size: 14.5px; color: var(--muted); margin: 0 0 14px; }
+  .c-where .sep { color: var(--faint); margin: 0 7px; }
+  .c-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+  .c-body p {
+    font-size: 15px; line-height: 1.68; color: var(--muted);
+    margin: 0 0 .85em; text-wrap: pretty;
+  }
+  .c-body p:first-child { color: var(--ink); }
+  .c-body p.credit { font-size: 13.5px; color: var(--faint); font-style: italic; }
+
+  .c-actions {
+    position: sticky; bottom: -20px;
+    display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+    margin: 18px -24px -20px; padding: 15px 24px 20px;
+    border-top: 1px solid var(--hairline); background: var(--surface);
+  }
+  .c-actions a, .c-actions button {
+    font: inherit; font-size: 13.5px; cursor: pointer; text-decoration: none;
+    border-radius: 999px; padding: 8px 16px;
+    border: 1px solid var(--hairline); background: transparent; color: var(--muted);
+    transition: color .15s, border-color .15s, background-color .15s;
+  }
+  .c-actions .go {
+    color: var(--c); font-weight: 500;
+    border-color: color-mix(in srgb, var(--c) 45%, transparent);
+    background: color-mix(in srgb, var(--c) 10%, transparent);
+  }
+  .c-actions .go:hover { background: color-mix(in srgb, var(--c) 20%, transparent); }
+  .c-actions button:hover { color: var(--ink); border-color: var(--muted); }
+
+  /* On a phone the card is a sheet rising from the bottom edge rather than a
+     floating rectangle — there is no room to float anything. */
+  .card.sheet {
+    left: 0; right: 0; bottom: 0; top: auto; width: auto !important;
+    border-radius: 20px 20px 0 0;
+    transform: translateY(100%);
+    transition: transform .38s cubic-bezier(.16,.84,.28,1);
+  }
+  .card.sheet.in { transform: translateY(0); }
+  .card.sheet .card-in { max-height: 82vh; padding-top: 26px; }
+  .card.sheet .grab {
+    position: absolute; top: 9px; left: 50%; transform: translateX(-50%);
+    width: 38px; height: 4px; border-radius: 999px;
+    background: var(--hairline);
   }
 
-  details.body { margin-top: 11px; }
-  details.body summary {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--c);
-    cursor: pointer;
-    list-style: none;
-    padding: 3px 0;
-    user-select: none;
-  }
-  details.body summary::-webkit-details-marker { display: none; }
-  /* A rotating caret rather than a +/- glyph that shifts the text on toggle. */
-  details.body summary::before {
-    content: "";
-    width: 0; height: 0;
-    border-left: 5px solid currentColor;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    transition: transform .18s ease;
-  }
-  details.body[open] summary::before { transform: rotate(90deg); }
-  details.body summary:hover { text-decoration: underline; }
-
-  /* The blurb gets a surface of its own, tinted with the discipline hue, so it
-     reads as a distinct panel rather than loose text under the listing. */
-  .blurb {
-    margin-top: 10px;
-    padding: 16px 18px;
-    border-left: 3px solid color-mix(in srgb, var(--c) 45%, transparent);
-    border-radius: 0 10px 10px 0;
-    background: color-mix(in srgb, var(--c) 6%, var(--surface));
-  }
-  .blurb p {
-    font-size: 15px;
-    line-height: 1.68;
-    color: var(--muted);
-    margin: 0 0 0.85em;
-    max-width: 66ch;
-    text-wrap: pretty;
-  }
-  .blurb p:last-child { margin-bottom: 0; }
-  /* The opening line is almost always the one-sentence pitch. */
-  .blurb p:first-child { color: var(--ink); font-size: 15.5px; }
-  /* Trailing production credits read as footnotes, not body copy. */
-  .blurb p.credit { font-size: 13.5px; color: var(--faint); font-style: italic; }
-
-  .empty {
-    font-size: 15px;
-    color: var(--faint);
-    padding: 80px 0;
-    text-align: center;
-  }
-
-  /* — colophon — */
-  footer {
-    margin-top: 80px;
-    padding-top: 28px;
-    border-top: 1px solid var(--ink);
-    font-size: 14px;
-    color: var(--muted);
-  }
-  footer h3 {
-    font-size: 14px;
-    color: var(--ink);
-    font-weight: 600;
-    margin: 0 0 10px;
-  }
-  .feeds { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 26px; padding: 0; list-style: none; }
+  footer { margin-top: 60px; padding-top: 22px; border-top: 1px solid var(--ink); font-size: 13.5px; color: var(--muted); }
+  footer h3 { font-size: 14px; color: var(--ink); font-weight: 600; margin: 0 0 8px; }
+  .feeds { display: flex; flex-wrap: wrap; gap: 7px; margin: 0 0 18px; padding: 0; list-style: none; }
   .feeds code {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--muted);
-    border: 1px solid var(--hairline);
-    border-radius: 3px;
-    padding: 4px 8px;
+    font-family: var(--mono); font-size: 11px; color: var(--muted);
+    border: 1px solid var(--hairline); border-radius: 4px; padding: 3px 8px;
   }
-  .fineprint { max-width: 62ch; margin: 0; font-size: 13px; color: var(--faint); line-height: 1.65; }
-  /* Sits above the title as an eyebrow: read first, then stepped over. */
-  .dedication {
-    font-family: var(--serif);
-    font-style: italic;
-    font-size: 16px;
-    color: var(--muted);
-    margin: 0 0 12px;
-  }
-  .dedication .heart { font-style: normal; margin-left: 1px; }
+  .fineprint { max-width: 62ch; font-size: 13px; color: var(--faint); line-height: 1.65; margin: 0; }
 
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; animation: none !important; }
-    .title a { background-size: 100% 1px; }
+    .card-in { opacity: 1; }
   }
 
-  @media (max-width: 620px) {
-    .wrap { padding: 0 18px 72px; }
-    header { padding: 44px 0 22px; }
-    .event { grid-template-columns: 1fr; gap: 6px; }
+  @media (max-width: 720px) {
+    .wrap { padding: 0 16px 70px; }
+    header { padding: 30px 0 14px; }
+    .toggle { display: inline-flex; }
+    /* Collapsed by default so the listing starts near the top of the screen. */
+    .panel { display: none; }
+    .panel.open { display: block; }
+    .event { grid-template-columns: 1fr; gap: 5px; padding: 14px 4px 14px 14px; }
     .time { padding-top: 0; }
-    .day h2 { font-size: 21px; flex-wrap: wrap; gap: 8px; }
     .title { font-size: 19px; }
+    .day h2 { font-size: 21px; }
+    .c-title { font-size: 24px; }
+    .card-in { padding: 22px 18px 18px; }
+    .c-actions { bottom: -18px; margin: 16px -18px -18px; padding: 14px 18px 18px; }
   }
 </style>
 </head>
@@ -395,25 +365,38 @@
   <header>
     <p class="dedication">Made with love for zingy <span class="heart">&#128155;</span></p>
     <h1>What&rsquo;s on in <em>Delhi</em></h1>
-    <p class="standfirst">Art, talks, walks and workshops across six cultural centres. Refreshed {{ generated_at[:10] }}.</p>
+    <p class="standfirst">
+      Art, talks, walks and workshops across six cultural centres.
+      Refreshed {{ generated_at[:10] }}.
+    </p>
   </header>
 
   <div class="controls">
-    <div class="row">
-      <input type="search" id="q" placeholder="Search titles, venues, descriptions&hellip;" aria-label="Search events">
-      <select id="when" aria-label="Date range">
-        <option value="all">Any date</option>
-        <option value="today">Today</option>
-        <option value="week">Next 7 days</option>
-        <option value="month">Next 30 days</option>
-      </select>
-      <select id="venue" aria-label="Venue"><option value="">All venues</option></select>
+    <div class="bar">
+      <input type="search" id="q" placeholder="Search&hellip;" aria-label="Search events">
+      <button type="button" class="toggle" id="toggle" aria-expanded="false" aria-controls="panel">
+        <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        Filters<span class="count" id="activecount" hidden>0</span>
+      </button>
     </div>
-    <div class="row" id="formats"><span class="label">Type</span></div>
-    <div class="row" id="topics"><span class="label">About</span></div>
+
+    <div class="panel" id="panel">
+      <div class="row">
+        <select id="when" aria-label="Date range">
+          <option value="all">Any date</option>
+          <option value="today">Today</option>
+          <option value="week">Next 7 days</option>
+          <option value="month">Next 30 days</option>
+        </select>
+        <select id="venue" aria-label="Venue"><option value="">All venues</option></select>
+      </div>
+      <div class="row" id="formats"><span class="label">Type</span></div>
+      <div class="row" id="topics"><span class="label">About</span></div>
+      <div class="row"><button type="button" class="clearall" id="clearall" hidden>Clear all filters</button></div>
+    </div>
   </div>
 
-  <p class="count" id="count"></p>
+  <p class="count-line" id="count"></p>
   <div id="list"></div>
 
   <footer>
@@ -422,10 +405,9 @@
       {% for slug, name in feeds %}<li><code>{{ slug }}.ics</code></li>{% endfor %}
     </ul>
     <p class="fineprint">
-      Add any of these by URL rather than importing them, and they keep themselves
-      up to date. Listings come from each venue&rsquo;s own programme page and are
-      refreshed every morning. Times are IST &mdash; always confirm with the venue
-      before travelling.
+      Add these by URL rather than importing them and they keep themselves up to
+      date. Listings come from each venue&rsquo;s own programme page, refreshed every
+      morning. Times are IST &mdash; always confirm with the venue before travelling.
     </p>
   </footer>
 
@@ -439,59 +421,76 @@
   const DATA = JSON.parse(document.getElementById("data").textContent);
   const EVENTS = DATA.events;
   const BY_ID = new Map(EVENTS.map(e => [e.id, e]));
+  const REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const isPhone = () => window.matchMedia("(max-width: 720px)").matches;
 
   const state = { q: "", when: "all", venue: "", formats: new Set(), topics: new Set() };
 
-  const el = {
-    list: document.getElementById("list"),
-    count: document.getElementById("count"),
-    q: document.getElementById("q"),
-    when: document.getElementById("when"),
-    venue: document.getElementById("venue"),
-    formats: document.getElementById("formats"),
-    topics: document.getElementById("topics"),
+  const el = id => document.getElementById(id);
+  const $ = {
+    list: el("list"), count: el("count"), q: el("q"), when: el("when"),
+    venue: el("venue"), formats: el("formats"), topics: el("topics"),
+    panel: el("panel"), toggle: el("toggle"), active: el("activecount"),
+    clear: el("clearall"),
   };
 
-  // -- filter controls, built from whatever the data actually contains ----
+  const esc = s => String(s).replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  // -- filters -----------------------------------------------------------
 
   DATA.venues.forEach(v => {
-    const opt = document.createElement("option");
-    opt.value = v; opt.textContent = v;
-    el.venue.appendChild(opt);
+    const o = document.createElement("option");
+    o.value = v; o.textContent = v;
+    $.venue.appendChild(o);
   });
 
   function tally(key) {
     const counts = new Map();
-    EVENTS.forEach(e => {
-      const values = key === "format" ? [e.format] : e.topics;
-      values.forEach(v => counts.set(v, (counts.get(v) || 0) + 1));
-    });
+    EVENTS.forEach(e => (key === "format" ? [e.format] : e.topics)
+      .forEach(v => counts.set(v, (counts.get(v) || 0) + 1)));
     return counts;
   }
 
+  const chipNodes = [];
   function buildChips(container, key, set) {
-    const counts = tally(key);
-    [...counts.entries()].sort((a, b) => b[1] - a[1]).forEach(([value, n]) => {
-      const btn = document.createElement("button");
-      btn.className = "chip";
-      btn.type = "button";
-      btn.setAttribute("aria-pressed", "false");
-      // Format chips carry the discipline hue; topic chips fall back to accent.
-      if (key === "format") btn.setAttribute("data-format", value);
-      btn.innerHTML = value + '<span class="n">' + n + "</span>";
-      btn.addEventListener("click", () => {
-        if (set.has(value)) { set.delete(value); btn.setAttribute("aria-pressed", "false"); }
-        else { set.add(value); btn.setAttribute("aria-pressed", "true"); }
+    [...tally(key).entries()].sort((a, b) => b[1] - a[1]).forEach(([value, n]) => {
+      const b = document.createElement("button");
+      b.className = "chip"; b.type = "button";
+      b.setAttribute("aria-pressed", "false");
+      if (key === "format") b.setAttribute("data-format", value);
+      b.innerHTML = value + '<span class="n">' + n + "</span>";
+      b.addEventListener("click", () => {
+        if (set.has(value)) set.delete(value); else set.add(value);
+        b.setAttribute("aria-pressed", set.has(value) ? "true" : "false");
         render();
       });
-      container.appendChild(btn);
+      chipNodes.push({ node: b, set, value });
+      container.appendChild(b);
     });
   }
+  buildChips($.formats, "format", state.formats);
+  buildChips($.topics, "topic", state.topics);
 
-  buildChips(el.formats, "format", state.formats);
-  buildChips(el.topics, "topic", state.topics);
+  function activeCount() {
+    return state.formats.size + state.topics.size +
+           (state.when !== "all" ? 1 : 0) + (state.venue ? 1 : 0) + (state.q ? 1 : 0);
+  }
 
-  // -- filtering ---------------------------------------------------------
+  $.toggle.addEventListener("click", () => {
+    const open = $.panel.classList.toggle("open");
+    $.toggle.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+
+  $.clear.addEventListener("click", () => {
+    state.formats.clear(); state.topics.clear();
+    state.when = "all"; state.venue = ""; state.q = "";
+    chipNodes.forEach(c => c.node.setAttribute("aria-pressed", "false"));
+    $.when.value = "all"; $.venue.value = ""; $.q.value = "";
+    render();
+  });
+
+  // -- matching ----------------------------------------------------------
 
   function horizon() {
     if (state.when === "all") return null;
@@ -509,129 +508,214 @@
     if (state.q) {
       const hay = (e.title + " " + e.venue + " " + e.sub_venue + " " +
                    e.description + " " + e.topics.join(" ") + " " + e.format).toLowerCase();
-      if (!state.q.split(/\s+/).every(term => hay.includes(term))) return false;
+      if (!state.q.split(/\s+/).every(t => hay.includes(t))) return false;
     }
     return true;
   }
 
-  // -- rendering ---------------------------------------------------------
+  // -- the card ----------------------------------------------------------
 
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, c =>
-      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  }
+  const shortDate = s => new Date(s + "T00:00:00")
+    .toLocaleDateString("en-GB", { day: "numeric", month: "short" });
 
-  function eventHtml(e, day) {
-    const where = [e.sub_venue, e.venue].filter(Boolean).map(escapeHtml)
-      .join('<span class="sep">/</span>');
-
-    const tags = ['<span class="tag fmt">' + escapeHtml(e.format) + "</span>"]
-      .concat(e.topics.map(t => '<span class="tag">' + escapeHtml(t) + "</span>"))
-      .join("");
-
-    let runs = "";
-    if (e.multi_day) {
-      const fmt = d => new Date(d + "T00:00:00").toLocaleDateString("en-GB",
-        { day: "numeric", month: "short" });
-      runs = '<span class="sep">/</span><span class="runs">runs ' +
-             fmt(e.start_date) + " – " + fmt(e.end_date) + "</span>";
-    }
-
-    const titleText = escapeHtml(e.title);
-    const title = e.source_url
-      ? '<a href="' + escapeHtml(e.source_url) + '" target="_blank" rel="noopener">' + titleText + "</a>"
-      : titleText;
-
-    // Source blurbs arrive as newline-separated lines, not prose paragraphs.
-    // Rendering them with white-space: pre-wrap produced a ragged slab, so
-    // rebuild them as real paragraphs instead.
+  function bodyHtml(text) {
     // Venue blurbs are hard-wrapped, so a bare newline is usually a wrapped
-    // line rather than a new paragraph -- splitting on every one orphaned
-    // fragments like "click here". Rejoin a line onto the previous paragraph
-    // unless that paragraph already closed a sentence.
-    const paragraphs = e.description.slice(0, 1600)
-      .split(/\n+/)
-      .map(t => t.trim())
-      .filter(Boolean)
+    // line rather than a new paragraph. Rejoin short remnants.
+    return text.slice(0, 2000).split(/\n+/).map(t => t.trim()).filter(Boolean)
       .reduce((acc, line) => {
         const prev = acc[acc.length - 1];
-        // Only a short remnant is a wrapped line; a full-length line that
-        // merely lacks a full stop (a subtitle, a heading) stays its own para.
-        const isRemnant = prev && line.length < 40 && !/[.!?:;)\]]$/.test(prev);
-        if (isRemnant) acc[acc.length - 1] = prev + " " + line;
+        if (prev && line.length < 40 && !/[.!?:;)\]]$/.test(prev)) acc[acc.length - 1] = prev + " " + line;
         else acc.push(line);
         return acc;
       }, [])
       .map(t => {
-        // "(Collaboration: …)" / "Presented by …" trail most listings.
         const credit = /^\(?(collab|presented|organis|organiz|in association|supported|curated)/i.test(t);
-        return '<p' + (credit ? ' class="credit"' : "") + ">" + escapeHtml(t) + "</p>";
-      })
-      .join("");
+        return "<p" + (credit ? ' class="credit"' : "") + ">" + esc(t) + "</p>";
+      }).join("");
+  }
 
-    const body = paragraphs
-      ? '<details class="body"><summary>Read more</summary>' +
-        '<div class="blurb">' + paragraphs + "</div></details>"
-      : "";
+  let card = null, scrim = null, origin = null;
 
-    // On a repeated day of a run, the start time belongs to the opening day only.
+  function closeCard(instant) {
+    if (!card) return;
+    const c = card, sc = scrim, from = origin;
+    card = scrim = origin = null;
+    document.body.classList.remove("locked");
+
+    if (instant || REDUCED) { c.remove(); if (sc) sc.remove(); return; }
+    if (sc) { sc.classList.remove("in"); setTimeout(() => sc.remove(), 300); }
+    c.classList.remove("in");
+
+    if (c.classList.contains("sheet")) {
+      setTimeout(() => c.remove(), 400);
+    } else {
+      // Collapse back into the row it grew out of.
+      const r = from && from.isConnected ? from.getBoundingClientRect() : null;
+      const box = c.getBoundingClientRect();
+      if (r && r.width) {
+        c.style.transition = "transform .3s cubic-bezier(.4,0,.6,1), opacity .3s ease";
+        c.style.transform = "translate(" + (r.left - box.left) + "px," + (r.top - box.top) +
+                            "px) scale(" + (r.width / box.width) + "," + (r.height / box.height) + ")";
+      } else {
+        c.style.transition = "transform .25s ease, opacity .25s ease";
+        c.style.transform = "scale(.95)";
+      }
+      c.style.opacity = "0";
+      setTimeout(() => c.remove(), 320);
+    }
+    if (from && from.isConnected) from.focus({ preventScroll: true });
+  }
+
+  function openCard(e, node) {
+    closeCard(true);
+    origin = node;
+    document.body.classList.add("locked");
+
+    scrim = document.createElement("div");
+    scrim.className = "scrim";
+    scrim.addEventListener("click", () => closeCard());
+    document.body.appendChild(scrim);
+
+    const when = e.all_day ? "All day" : (e.time_label || "");
+    const dateLine = e.multi_day
+      ? shortDate(e.start_date) + " – " + shortDate(e.end_date)
+      : new Date(e.start_date + "T00:00:00")
+          .toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" });
+    const where = [e.sub_venue, e.venue].filter(Boolean).map(esc).join('<span class="sep">/</span>') +
+                  (e.price ? '<span class="sep">/</span>' + esc(e.price) : "");
+    const phone = isPhone();
+
+    card = document.createElement("div");
+    card.className = "card" + (phone ? " sheet" : "");
+    card.setAttribute("data-format", e.format);
+    card.setAttribute("role", "dialog");
+    card.setAttribute("aria-modal", "true");
+    card.setAttribute("aria-label", e.title);
+    card.innerHTML =
+      (phone ? '<span class="grab" aria-hidden="true"></span>' : "") +
+      '<div class="card-in">' +
+        '<span class="c-eyebrow">' + esc(dateLine) + (when ? " &nbsp;·&nbsp; " + esc(when) : "") + "</span>" +
+        '<h3 class="c-title">' + esc(e.title) + "</h3>" +
+        (where ? '<p class="c-where">' + where + "</p>" : "") +
+        '<div class="c-tags"><span class="tag fmt">' + esc(e.format) + "</span>" +
+          e.topics.map(t => '<span class="tag">' + esc(t) + "</span>").join("") + "</div>" +
+        (e.description ? '<div class="c-body">' + bodyHtml(e.description) + "</div>" : "") +
+        '<div class="c-actions">' +
+          (e.source_url ? '<a class="go" href="' + esc(e.source_url) +
+            '" target="_blank" rel="noopener">Open at venue &nearr;</a>' : "") +
+          (e.booking_url ? '<a href="' + esc(e.booking_url) +
+            '" target="_blank" rel="noopener">Book</a>' : "") +
+          '<button type="button" class="shut">Close</button>' +
+        "</div>" +
+      "</div>";
+    document.body.appendChild(card);
+    card.querySelector(".shut").addEventListener("click", () => closeCard());
+
+    if (phone) {
+      requestAnimationFrame(() => { card.classList.add("in"); scrim.classList.add("in"); });
+      card.querySelector(".shut").focus({ preventScroll: true });
+      return;
+    }
+
+    // Desktop: size it, place it near the row, keep it fully on screen.
+    const from = node.getBoundingClientRect();
+    const W = Math.min(460, window.innerWidth - 32);
+    card.style.width = W + "px";
+    const H = card.offsetHeight, pad = 16;
+    const left = Math.min(Math.max(from.left - 8, pad), window.innerWidth - W - pad);
+    const top = Math.min(Math.max(from.top - 12, pad), Math.max(pad, window.innerHeight - H - pad));
+    card.style.left = Math.round(left) + "px";
+    card.style.top = Math.round(top) + "px";
+
+    if (REDUCED) { card.classList.add("in"); scrim.classList.add("in"); return; }
+
+    // FLIP: start mapped exactly onto the row, then release.
+    card.style.transform = "translate(" + (from.left - left) + "px," + (from.top - top) +
+                           "px) scale(" + (from.width / W) + "," + (from.height / H) + ")";
+    card.style.opacity = ".45";
+    card.getBoundingClientRect();
+    card.style.transition = "transform .44s cubic-bezier(.16,.84,.28,1), opacity .2s ease";
+    card.style.transform = "none";
+    card.style.opacity = "1";
+    card.classList.add("in");
+    requestAnimationFrame(() => scrim.classList.add("in"));
+    card.querySelector(".shut").focus({ preventScroll: true });
+  }
+
+  // -- rendering ---------------------------------------------------------
+
+  function eventHtml(e, day) {
+    const where = [e.sub_venue, e.venue].filter(Boolean).map(esc).join('<span class="sep">/</span>');
+    const tags = ['<span class="tag fmt">' + esc(e.format) + "</span>"]
+      .concat(e.topics.map(t => '<span class="tag">' + esc(t) + "</span>")).join("");
+
+    let runs = "";
+    if (e.multi_day) {
+      runs = '<span class="sep">/</span><span class="runs">runs ' +
+             shortDate(e.start_date) + " – " + shortDate(e.end_date) + "</span>";
+    }
+
+    // On a repeated day of a run, the start time belongs to the opening day.
     const timeLabel = e.all_day ? "all day"
       : (e.multi_day && day !== e.start_date) ? "ongoing"
       : (e.time_label || "");
 
-    return '<article class="event" data-format="' + escapeHtml(e.format) + '">' +
-      '<div class="time">' + escapeHtml(timeLabel) + "</div>" +
-      "<div>" +
-        '<h3 class="title">' + title + "</h3>" +
-        '<p class="where">' + where + runs + "</p>" +
-        (e.summary ? '<p class="gist">' + escapeHtml(e.summary) + "</p>" : "") +
-        '<div class="tags">' + tags + "</div>" +
-        body +
-      "</div>" +
-    "</article>";
+    return '<button type="button" class="event" data-format="' + esc(e.format) +
+      '" data-id="' + esc(e.id) + '">' +
+      '<span class="time">' + esc(timeLabel) + "</span>" +
+      "<span>" +
+        '<span class="title">' + esc(e.title) + "</span>" +
+        '<span class="where">' + where + runs + "</span>" +
+        (e.summary ? '<span class="gist">' + esc(e.summary) + "</span>" : "") +
+        '<span class="tags">' + tags + "</span>" +
+      "</span>" +
+    "</button>";
   }
 
   function render() {
     const limit = horizon();
     const seen = new Set();
-    let html = "";
-    let shown = 0;
+    let html = "", shown = 0;
 
     DATA.days.forEach(day => {
       if (limit && day.date > limit) return;
       const events = day.event_ids.map(id => BY_ID.get(id)).filter(e => e && matches(e, limit));
       if (!events.length) return;
-
       shown += events.length;
       events.forEach(e => seen.add(e.id));
 
-      // "Saturday 1 August" -> weekday as an eyebrow, date as the heading.
       const parts = day.label.split(" ");
       const dow = parts.shift();
-      const rest = parts.join(" ");
-
       html += '<section class="day' + (day.is_today ? " today" : "") + '">' +
-              "<h2>" + escapeHtml(rest) +
-              '<span class="dow">' + escapeHtml(dow) + "</span>" +
+              "<h2>" + esc(parts.join(" ")) + '<span class="dow">' + esc(dow) + "</span>" +
               (day.is_today ? '<span class="today-pill">Today</span>' : "") + "</h2>" +
-              events.map(e => eventHtml(e, day.date)).join("") +
-              "</section>";
+              events.map(e => eventHtml(e, day.date)).join("") + "</section>";
     });
 
-    el.list.innerHTML = html || '<p class="empty">Nothing matches those filters</p>';
-    el.count.textContent = shown
+    $.list.innerHTML = html || '<p class="empty">Nothing matches those filters.</p>';
+    $.count.textContent = shown
       ? seen.size + " event" + (seen.size === 1 ? "" : "s") +
         (shown !== seen.size ? " · " + shown + " listings across days" : "")
       : "";
+
+    $.list.querySelectorAll(".event").forEach(node => {
+      node.addEventListener("click", () => openCard(BY_ID.get(node.dataset.id), node));
+    });
+
+    const n = activeCount();
+    $.active.hidden = n === 0;
+    $.active.textContent = n;
+    $.clear.hidden = n === 0;
   }
 
   let timer;
-  el.q.addEventListener("input", () => {
+  $.q.addEventListener("input", () => {
     clearTimeout(timer);
-    timer = setTimeout(() => { state.q = el.q.value.trim().toLowerCase(); render(); }, 120);
+    timer = setTimeout(() => { state.q = $.q.value.trim().toLowerCase(); render(); }, 120);
   });
-  el.when.addEventListener("change", () => { state.when = el.when.value; render(); });
-  el.venue.addEventListener("change", () => { state.venue = el.venue.value; render(); });
+  $.when.addEventListener("change", () => { state.when = $.when.value; render(); });
+  $.venue.addEventListener("change", () => { state.venue = $.venue.value; render(); });
+  document.addEventListener("keydown", ev => { if (ev.key === "Escape") closeCard(); });
 
   render();
 })();
