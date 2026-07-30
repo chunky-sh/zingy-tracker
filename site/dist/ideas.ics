@@ -6,58 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Delhi Culture — talks & ideas
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:30fd7f51b599d526@delhi-events
-DTSTAMP:20260728T192425Z
-DTSTART:20260729T123000Z
-DTEND:20260729T143000Z
-SUMMARY:(Se)Elections\, Violence & State: Analysing Developments in Pakis
- tan-Occupied Jammu & Kashmir
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1319
-DESCRIPTION:Panel Discussion on (Se)Elections\, Violence & State: Analysi
- ng Developments in Pakistan-Occupied Jammu & Kashmir . Discussants: Alok 
- Bansal \, Executive Vice President\, India Foundation\; Tara Kartha\, For
- mer Director\, National Security Council Secretariat\; Ajay Bisaria\, dis
- tinguished fellow\, ORF and Former High Commissioner of India to Pakistan
- . The session will be moderated by Rami Niranjan Desai \, fellow\, India 
- Foundation. Collab. India Foundation .\n\nhttps://indiahabitat.org/Events
- _details/1319
-CATEGORIES:talk\,sociology
-END:VEVENT
-BEGIN:VEVENT
-UID:a69772a5e51bb71f@delhi-events
-DTSTAMP:20260728T192425Z
-DTSTART:20260729T130000Z
-DTEND:20260729T150000Z
-SUMMARY:The Democracy to Come-Ambedkar\, Fanon\, and the Time of Counter-
- Revolution
-LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
- ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/democracy-come-ambedkar-fanon-and-time
- -counter-revolution
-DESCRIPTION:The Democracy to Come\nAmbedkar\, Fanon\, and the Time of Cou
- nter-Revolution\nSpeaker: Dr Aishwary Kumar\, Professor of History of Pol
- itical Thought and Institutions\, and Director of The Democracy Institute
-  at Cal Poly Pomona\, Chair\, The GIFT Project and the American Instituti
- ons Common Core\nChair: Dr Mujibur Rehman\, faculty\, Jamia Millia Centra
- l University\, New Delhi\nIntroductory Remarks: Dr Usha Munshi\, Chief Li
- brarian\, IIC\nThe concept of “counter-revolution” occupies a galvani
- zing place in B. R. Ambedkar’s political thought and moral psychology. 
- Unlike nationalists of his time\, Ambedkar rarely speaks of extreme viole
- nce and exploitation as a function simply of modern colonial bondage. Ins
- tead\, for him\, “inequality” is force\, a spectrum of compulsions\, 
- a desire even. Which is why its cruelty can be grasped only as a counter-
- revolutionary form that alters our very relationship to time and authorit
- y. Counter-revolution as a neo-democratic form: this singular insight—w
- hat I call "the caste contract"—puts Ambedkar in an exemplary constella
- tion of abolitionist thinkers on human freedom and moral judgment who ret
- urn to us today with a dark urgency.\n\nhttps://iicdelhi.in/programmes/de
- mocracy-come-ambedkar-fanon-and-time-counter-revolution
-CATEGORIES:talk\,sociology
-END:VEVENT
-BEGIN:VEVENT
 UID:26ba3ca1d563f984@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260731T033000Z
 DTEND:20260801T113000Z
 SUMMARY:3rd All India Conference of East Asian Studies
@@ -82,7 +32,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:84d4d11a1997e179@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260731T123000Z
 DTEND:20260731T143000Z
 SUMMARY:BOOK DISCUSSION GROUP- Stories Carved in Stone Voices Rooted in E
@@ -105,7 +55,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:ecd1eaa06b20ddd5@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260802T053000Z
 DTEND:20260802T073000Z
 SUMMARY:The IHC Free Book X'Change
@@ -123,7 +73,7 @@ CATEGORIES:other\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:08a76e09e95f1990@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260802T133000Z
 DTEND:20260802T153000Z
 SUMMARY:She Walked Anyway
@@ -147,7 +97,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:d63b893a4a2d8691@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260803T130000Z
 DTEND:20260803T150000Z
 SUMMARY:Cleaning Transport – Tackling Vehicular Emissions and the Futur
@@ -179,7 +129,7 @@ CATEGORIES:talk\,science\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:cf278686ae2e8f6c@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260803T133000Z
 DTEND:20260803T153000Z
 SUMMARY:Choreographic Duets - The Poetry of Two
@@ -197,7 +147,7 @@ CATEGORIES:performance\,dance\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:27b246994b7a5d92@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260823T133000Z
 DTEND:20260823T153000Z
 SUMMARY:Dastan - e - Raahi
@@ -221,7 +171,7 @@ CATEGORIES:performance\,literature\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:d15f00cc8a23694c@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260824T123000Z
 DTEND:20260824T143000Z
 SUMMARY:Hindutva and Hind Swaraj: History’s Unforgotten Ideas
@@ -234,7 +184,7 @@ CATEGORIES:talk\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:86d5fe3f9501fb6b@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260824T133000Z
 DTEND:20260824T153000Z
 SUMMARY:A Short History of PPP in India & The Way Forward
@@ -248,7 +198,7 @@ CATEGORIES:talk\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:31921584f22effb5@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260826T133000Z
 DTEND:20260826T153000Z
 SUMMARY:Conversations on Public Policy
@@ -268,7 +218,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:b407d31019d356f8@delhi-events
-DTSTAMP:20260728T192425Z
+DTSTAMP:20260730T211256Z
 DTSTART:20260827T133000Z
 DTEND:20260827T153000Z
 SUMMARY:Indian Poetics on Trees / Natural World

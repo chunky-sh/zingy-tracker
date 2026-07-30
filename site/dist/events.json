@@ -1,30 +1,6 @@
 {
- "generated_at": "2026-07-29T00:54:25+05:30",
+ "generated_at": "2026-07-31T02:42:56+05:30",
  "events": [
-  {
-   "id": "3be8d4cd0802ac58",
-   "title": "Bastille Day French Film Screenings | AFD Ciné Club | July 2026",
-   "description": "Celebrate Bastille Day with Alliance Française de Delhi through a curated selection of iconic French films that reflect the richness of French cinema—from timeless classics to contemporary masterpieces. Experience stories of ambition, resilience, history, and identity, while celebrating France's cultural heritage on the big screen.\nVenue: M.L. Bhartia Auditorium, Alliance Française de Delhi\nLanguage: French with English Subtitles\nEntry: Free and Open to All\n\nLost Illusions (Illusions Perdues)\n\n16 July 2026 | 6:30 PM\n\nSet in 19th-century France, Lost Illusions follows Lucien, a young poet who leaves his provincial hometown for Paris in search of fame and success. As he enters the glamorous yet ruthless world of journalism and literature, he discovers the price of ambition and the illusions behind power, wealth, and recognition.\n\nClick here for Trailer\n\n&nbsp;\n\nThe Great Escape (La Grande Vadrouille)\n\n23 July 2026 | 6:30 PM\n\nOne of France's most beloved comedy classics, The Great Escape follows two ordinary French civilians who unexpectedly find themselves helping British airmen escape Nazi-occupied Paris during World War II. Filled with humor, adventure, and unforgettable moments, the film remains a timeless celebration of courage and solidarity.\n\nThe Great Escape\n\nClick here for Trailer\n\nNous / We\n\n30 July 2026 | 6:30 PM\n\nAcclaimed filmmaker Alice Diop presents a poetic documentary that journeys through the communities living along Paris' RER B railway line. Through intimate encounters with people from diverse backgrounds, Nous (We) offers a moving portrait of contemporary France, exploring themes of belonging, memory, and shared humanity.\n\nClick here for Trailer",
-   "start": "2026-07-16T18:30:00+05:30",
-   "end": "2026-07-30T20:00:00+05:30",
-   "start_date": "2026-07-16",
-   "end_date": "2026-07-30",
-   "time_label": "6:30 pm",
-   "all_day": false,
-   "multi_day": true,
-   "venue": "Alliance Française de Delhi",
-   "sub_venue": "M.L. Bhartia Auditorium",
-   "address": "72 Lodhi Estate, New Delhi 110003",
-   "source_id": "alliance_francaise",
-   "source_url": "https://afdelhi.org/events/bastille-day-french-film-screenings-afd-cine-club-july-2026/",
-   "format": "film",
-   "topics": [
-    "cinema"
-   ],
-   "image_url": "",
-   "booking_url": "",
-   "price": ""
-  },
   {
    "id": "62347b227f6806eb",
    "title": "UNSUNG: Celebrating the Extraordinary Grandeur of Smallness",
@@ -51,30 +27,6 @@
    "price": ""
   },
   {
-   "id": "887e569eddceee41",
-   "title": "The Collective Colour Palette",
-   "description": "26 th Jul - 30 th Jul | Convention Centre Foyer The Collective Colour Palette An art exhibition by ArghaArts .",
-   "start": "2026-07-26T00:00:00+05:30",
-   "end": "2026-07-30T00:00:00+05:30",
-   "start_date": "2026-07-26",
-   "end_date": "2026-07-30",
-   "time_label": "",
-   "all_day": true,
-   "multi_day": true,
-   "venue": "India Habitat Centre",
-   "sub_venue": "Convention Centre Foyer",
-   "address": "Lodhi Road, New Delhi 110003",
-   "source_id": "ihc",
-   "source_url": "https://indiahabitat.org/Exhibitions_Details",
-   "format": "exhibition",
-   "topics": [
-    "art"
-   ],
-   "image_url": "https://indiahabitat.org/uploads/1782217231_cd86c42a690f567b0d2b.jpg",
-   "booking_url": "",
-   "price": ""
-  },
-  {
    "id": "571e8403cd7afc39",
    "title": "Flux of Being",
    "description": "Flux of Being\nA Solo Exhibition by Ravi Kant Jha, National award-winning artist, his practice investigates themes of consciousness, memory, and transformation.\nThe exhibition presents a series of paintings that explore consciousness as a state of constant transformation. Through fluid forms, layered compositions, and evocative color fields, the works blur the boundaries between memory, imagination, and reality.\nThe exhibition will be inaugurated on Saturday, 25 July’26 at 17:00 hrs\nThe exhibition will remain open daily from 11:00 to 19:00 hrs",
@@ -95,127 +47,6 @@
     "art"
    ],
    "image_url": "https://aws-static.iicdelhi.in/2026-07/Website%20Programme%20Image_26%20July%202026.png",
-   "booking_url": "",
-   "price": ""
-  },
-  {
-   "id": "30fd7f51b599d526",
-   "title": "(Se)Elections, Violence & State: Analysing Developments in Pakistan-Occupied Jammu & Kashmir",
-   "description": "Panel Discussion on (Se)Elections, Violence & State: Analysing Developments in Pakistan-Occupied Jammu & Kashmir . Discussants: Alok Bansal , Executive Vice President, India Foundation; Tara Kartha, Former Director, National Security Council Secretariat; Ajay Bisaria, distinguished fellow, ORF and Former High Commissioner of India to Pakistan. The session will be moderated by Rami Niranjan Desai , fellow, India Foundation. Collab. India Foundation .",
-   "start": "2026-07-29T18:00:00+05:30",
-   "end": null,
-   "start_date": "2026-07-29",
-   "end_date": "2026-07-29",
-   "time_label": "6:00 pm",
-   "all_day": false,
-   "multi_day": false,
-   "venue": "India Habitat Centre",
-   "sub_venue": "Gulmohar",
-   "address": "Lodhi Road, New Delhi 110003",
-   "source_id": "ihc",
-   "source_url": "https://indiahabitat.org/Events_details/1319",
-   "format": "talk",
-   "topics": [
-    "sociology"
-   ],
-   "image_url": "https://indiahabitat.org//uploads/1785151282_bab81c4d9b64292a3fe7.jpg",
-   "booking_url": "",
-   "price": ""
-  },
-  {
-   "id": "a69772a5e51bb71f",
-   "title": "The Democracy to Come-Ambedkar, Fanon, and the Time of Counter-Revolution",
-   "description": "The Democracy to Come\nAmbedkar, Fanon, and the Time of Counter-Revolution\nSpeaker: Dr Aishwary Kumar, Professor of History of Political Thought and Institutions, and Director of The Democracy Institute at Cal Poly Pomona, Chair, The GIFT Project and the American Institutions Common Core\nChair: Dr Mujibur Rehman, faculty, Jamia Millia Central University, New Delhi\nIntroductory Remarks: Dr Usha Munshi, Chief Librarian, IIC\nThe concept of “counter-revolution” occupies a galvanizing place in B. R. Ambedkar’s political thought and moral psychology. Unlike nationalists of his time, Ambedkar rarely speaks of extreme violence and exploitation as a function simply of modern colonial bondage. Instead, for him, “inequality” is force, a spectrum of compulsions, a desire even. Which is why its cruelty can be grasped only as a counter-revolutionary form that alters our very relationship to time and authority. Counter-revolution as a neo-democratic form: this singular insight—what I call \"the caste contract\"—puts Ambedkar in an exemplary constellation of abolitionist thinkers on human freedom and moral judgment who return to us today with a dark urgency.",
-   "start": "2026-07-29T18:30:00+05:30",
-   "end": null,
-   "start_date": "2026-07-29",
-   "end_date": "2026-07-29",
-   "time_label": "6:30 pm",
-   "all_day": false,
-   "multi_day": false,
-   "venue": "India International Centre",
-   "sub_venue": "Conference Room I, IIC main",
-   "address": "40 Max Mueller Marg, Lodhi Gardens, New Delhi 110003",
-   "source_id": "iic",
-   "source_url": "https://iicdelhi.in/programmes/democracy-come-ambedkar-fanon-and-time-counter-revolution",
-   "format": "talk",
-   "topics": [
-    "sociology"
-   ],
-   "image_url": "https://aws-static.iicdelhi.in/2026-07/Website%20Programme%20Image_29%20July%202026.png",
-   "booking_url": "",
-   "price": ""
-  },
-  {
-   "id": "147fc16342a35688",
-   "title": "Aarambh",
-   "description": "Aarambh . A series featuring young classical performers of music and dance. Hindustani Classical Vocal recitals by Dr. Vivek Kumar Prajapati and Sawani Lad. Collab. Raza Foundation .",
-   "start": "2026-07-29T19:00:00+05:30",
-   "end": null,
-   "start_date": "2026-07-29",
-   "end_date": "2026-07-29",
-   "time_label": "7:00 pm",
-   "all_day": false,
-   "multi_day": false,
-   "venue": "India Habitat Centre",
-   "sub_venue": "The Theatre",
-   "address": "Lodhi Road, New Delhi 110003",
-   "source_id": "ihc",
-   "source_url": "https://indiahabitat.org/Events_details/1320",
-   "format": "performance",
-   "topics": [
-    "music"
-   ],
-   "image_url": "https://indiahabitat.org//uploads/1782067575_1262fe41fb9cd422ac3e.jpg",
-   "booking_url": "",
-   "price": ""
-  },
-  {
-   "id": "d799ead59b8260bc",
-   "title": "Splendour 2026",
-   "description": "30 th Jul - 31 st Jul | Visual Arts Gallery Splendour 2026 A group exhibition of paintings by Ram Kumar, Lalu Prasad Shaw, T. Vaikuntam, Shobha Broota, Sunil Das, Sudip Roy, S. Harshavardhana etc.",
-   "start": "2026-07-30T00:00:00+05:30",
-   "end": "2026-07-31T00:00:00+05:30",
-   "start_date": "2026-07-30",
-   "end_date": "2026-07-31",
-   "time_label": "",
-   "all_day": true,
-   "multi_day": true,
-   "venue": "India Habitat Centre",
-   "sub_venue": "Visual Arts Gallery",
-   "address": "Lodhi Road, New Delhi 110003",
-   "source_id": "ihc",
-   "source_url": "https://indiahabitat.org/Exhibitions_Details",
-   "format": "exhibition",
-   "topics": [
-    "art"
-   ],
-   "image_url": "https://indiahabitat.org/uploads/1783431915_84ad6d8b1106e1198273.jpg",
-   "booking_url": "",
-   "price": ""
-  },
-  {
-   "id": "31e428f0516fe062",
-   "title": "Austrian Musical Heritage: Piano Recital",
-   "description": "Austrian Musical Heritage: Piano Recital by Andreas König . An evening celebrating Austria's rich musical heritage and its artistic dialogue with European classical music. Featuring works by Frédéric Chopin, along with masterpieces by Anton Bruckner, Franz Schubert, and Franz Liszt inspired by Vincenzo Bellini. Collab. Austrian Cultural Forum, Austrian Embassy.",
-   "start": "2026-07-30T19:00:00+05:30",
-   "end": null,
-   "start_date": "2026-07-30",
-   "end_date": "2026-07-30",
-   "time_label": "7:00 pm",
-   "all_day": false,
-   "multi_day": false,
-   "venue": "India Habitat Centre",
-   "sub_venue": "The Stein Auditorium",
-   "address": "Lodhi Road, New Delhi 110003",
-   "source_id": "ihc",
-   "source_url": "https://indiahabitat.org/Events_details/1321",
-   "format": "performance",
-   "topics": [
-    "heritage",
-    "music"
-   ],
-   "image_url": "https://indiahabitat.org//uploads/1782067621_121102397d34a735c84c.jpg",
    "booking_url": "",
    "price": ""
   },
@@ -1326,6 +1157,28 @@
    "price": ""
   },
   {
+   "id": "ea5f522ab80f93ed",
+   "title": "IHC Connect",
+   "description": "IHC Connect . A series of events to explore relevant issues and concerns related to habitat and society. Hindon River: Issues, Challenges and Solutions. Speaker: Raman Kant , River Man of India & President, Bhartiya Nadi Parishad. Chair: Prof. (Dr.) K. G. Suresh, Director, IHC. Presented by the Habitat Library & Research Centre .",
+   "start": "2026-08-17T19:00:00+05:30",
+   "end": null,
+   "start_date": "2026-08-17",
+   "end_date": "2026-08-17",
+   "time_label": "7:00 pm",
+   "all_day": false,
+   "multi_day": false,
+   "venue": "India Habitat Centre",
+   "sub_venue": "Gulmohar",
+   "address": "Lodhi Road, New Delhi 110003",
+   "source_id": "ihc",
+   "source_url": "https://indiahabitat.org/Events_details/1376",
+   "format": "talk",
+   "topics": [],
+   "image_url": "https://indiahabitat.org//uploads/1785318310_084d9455b282e56335b5.jpg",
+   "booking_url": "",
+   "price": ""
+  },
+  {
    "id": "e1b9af1b1d0173e3",
    "title": "Spandana",
    "description": "Spandana . An evening celebrating the beauty of Kuchipudi and Kathak, featuring solo and group performances by Amrita Singh and her disciples (Kuchipudi) and Ritusri Chaudhuri and her disciples (Kathak). Collab. Kuchipudi Kalamrita & Nrityakshar Foundation .",
@@ -2148,38 +2001,10 @@
  ],
  "days": [
   {
-   "date": "2026-07-29",
-   "label": "Wednesday 29 July",
-   "is_today": true,
-   "event_ids": [
-    "887e569eddceee41",
-    "3be8d4cd0802ac58",
-    "62347b227f6806eb",
-    "571e8403cd7afc39",
-    "30fd7f51b599d526",
-    "a69772a5e51bb71f",
-    "147fc16342a35688"
-   ]
-  },
-  {
-   "date": "2026-07-30",
-   "label": "Thursday 30 July",
-   "is_today": false,
-   "event_ids": [
-    "887e569eddceee41",
-    "d799ead59b8260bc",
-    "3be8d4cd0802ac58",
-    "62347b227f6806eb",
-    "571e8403cd7afc39",
-    "31e428f0516fe062"
-   ]
-  },
-  {
    "date": "2026-07-31",
    "label": "Friday 31 July",
-   "is_today": false,
+   "is_today": true,
    "event_ids": [
-    "d799ead59b8260bc",
     "62347b227f6806eb",
     "571e8403cd7afc39",
     "26ba3ca1d563f984",
@@ -2382,7 +2207,8 @@
    "event_ids": [
     "f3d538ece4760070",
     "2a1d50473978f697",
-    "a1bac38a036dd93f"
+    "a1bac38a036dd93f",
+    "ea5f522ab80f93ed"
    ]
   },
   {
@@ -3323,7 +3149,6 @@
   }
  ],
  "venues": [
-  "Alliance Française de Delhi",
   "Goethe-Institut / Max Mueller Bhavan",
   "India Habitat Centre",
   "India International Centre",
