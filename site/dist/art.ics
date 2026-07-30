@@ -7,7 +7,7 @@ X-WR-CALNAME:Delhi Culture — art & photography
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 UID:62347b227f6806eb@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260722T053000Z
 DTEND:20260804T133000Z
 SUMMARY:UNSUNG: Celebrating the Extraordinary Grandeur of Smallness
@@ -15,46 +15,45 @@ LOCATION:Art Gallery\, Kamaladevi Complex\, IIC\, India International Cen
  tre\, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
 URL:https://iicdelhi.in/programmes/exhibition-unsung-celebrating-extraord
  inary-grandeur-smallness
-DESCRIPTION:UNSUNG: Celebrating the Extraordinary Grandeur of Smallness\n
- A photography exhibition curated by Amit Mehra\, photographer\, curator\,
-  and founder of the UNSUNG project\, an ongoing initiative that celebrate
- s the lives and contributions of extraordinary yet often overlooked indiv
- iduals.\nThe photographs explore the beauty and significance of lives\, p
- laces\, and ideas that often go unnoticed. Through visual narratives by c
- ontemporary artists\, the exhibition reflects on ordinary people and unse
- en worlds whose stories reveal resilience\, conviction\, and human connec
- tion.\nThe exhibition will be inaugurated on Tuesday\, 21 July’26 at 18
- :00 hrs by Amb Shyam Saran\, President\, IIC\nThe exhibition will remain 
- open daily from 11:00 to 19:00 hrs\n(Collaboration: Srishti Manipal Insti
- tute of Art\, Design and Technology (a constituent of MAHE\, Manipal) and
-  Manipal Academy of Higher Education (MAHE)\, Manipal (Institution of Emi
- nence Deemed to be University)\n\nhttps://iicdelhi.in/programmes/exhibiti
- on-unsung-celebrating-extraordinary-grandeur-smallness
+DESCRIPTION:A photography exhibition curated by Amit Mehra\, photographer
+ \, curator\, and founder of the UNSUNG project\, an ongoing initiative th
+ at celebrates the lives and contributions of extraordinary yet often over
+ looked individuals.\nThe photographs explore the beauty and significance 
+ of lives\, places\, and ideas that often go unnoticed. Through visual nar
+ ratives by contemporary artists\, the exhibition reflects on ordinary peo
+ ple and unseen worlds whose stories reveal resilience\, conviction\, and 
+ human connection.\nThe exhibition will be inaugurated on Tuesday\, 21 Jul
+ y’26 at 18:00 hrs by Amb Shyam Saran\, President\, IIC\nThe exhibition 
+ will remain open daily from 11:00 to 19:00 hrs\n(Collaboration: Srishti M
+ anipal Institute of Art\, Design and Technology (a constituent of MAHE\, 
+ Manipal) and Manipal Academy of Higher Education (MAHE)\, Manipal (Instit
+ ution of Eminence Deemed to be University)\n\nhttps://iicdelhi.in/program
+ mes/exhibition-unsung-celebrating-extraordinary-grandeur-smallness
 CATEGORIES:exhibition\,art\,photography
 END:VEVENT
 BEGIN:VEVENT
 UID:571e8403cd7afc39@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260726T053000Z
 DTEND:20260802T133000Z
 SUMMARY:Flux of Being
 LOCATION:Art Gallery\, IIC Annexe\, India International Centre\, 40 Max M
  ueller Marg\, Lodhi Gardens\, New Delhi 110003
 URL:https://iicdelhi.in/programmes/exhibition-flux-being
-DESCRIPTION:Flux of Being\nA Solo Exhibition by Ravi Kant Jha\, National 
- award-winning artist\, his practice investigates themes of consciousness\
- , memory\, and transformation.\nThe exhibition presents a series of paint
- ings that explore consciousness as a state of constant transformation. Th
- rough fluid forms\, layered compositions\, and evocative color fields\, t
- he works blur the boundaries between memory\, imagination\, and reality.\
- nThe exhibition will be inaugurated on Saturday\, 25 July’26 at 17:00 h
- rs\nThe exhibition will remain open daily from 11:00 to 19:00 hrs\n\nhttp
- s://iicdelhi.in/programmes/exhibition-flux-being
+DESCRIPTION:A Solo Exhibition by Ravi Kant Jha\, National award-winning a
+ rtist\, his practice investigates themes of consciousness\, memory\, and 
+ transformation.\nThe exhibition presents a series of paintings that explo
+ re consciousness as a state of constant transformation. Through fluid for
+ ms\, layered compositions\, and evocative color fields\, the works blur t
+ he boundaries between memory\, imagination\, and reality.\nThe exhibition
+  will be inaugurated on Saturday\, 25 July’26 at 17:00 hrs\nThe exhibit
+ ion will remain open daily from 11:00 to 19:00 hrs\n\nhttps://iicdelhi.in
+ /programmes/exhibition-flux-being
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:6794c843651626ca@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260805
 SUMMARY:Shilpa-Abadhani
@@ -68,7 +67,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:39df2b1d11cefc54@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260810
 SUMMARY:Echoes of Time
@@ -82,7 +81,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:f3d538ece4760070@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20270711
 SUMMARY:Soulscapes - Mountains and Sea
@@ -96,7 +95,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:8c24ed41aa163d3d@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260815
 SUMMARY:Moments of Village
@@ -110,7 +109,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:8715a2ce8f1fe67b@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260817
 SUMMARY:Art Spectra
@@ -125,7 +124,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:2a1d50473978f697@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260821
 SUMMARY:What Women Carry
@@ -139,7 +138,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:a1bac38a036dd93f@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260820
 SUMMARY:उद्गम / Udgam
@@ -157,7 +156,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:d2e4000b7d31bbd5@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260825
 SUMMARY:Collectively Independent 2026
@@ -172,7 +171,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:4d8ad6ffaf0bb9c1@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260827
 SUMMARY:Nirbhay Edition 2
@@ -192,7 +191,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:18840ee4ad987664@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260829
 SUMMARY:Village Lives
@@ -206,7 +205,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:721d12a041af32d5@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260901
 SUMMARY:One - Many
@@ -222,7 +221,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:52442b28a36485a8@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260901
 SUMMARY:Harmony
@@ -242,7 +241,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:0d9df1f1144306d9@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260903
 SUMMARY:Spandan

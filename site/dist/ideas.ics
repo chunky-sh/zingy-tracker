@@ -7,7 +7,7 @@ X-WR-CALNAME:Delhi Culture — talks & ideas
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 UID:26ba3ca1d563f984@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260731T033000Z
 DTEND:20260801T113000Z
 SUMMARY:3rd All India Conference of East Asian Studies
@@ -15,24 +15,25 @@ LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
  ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
 URL:https://iicdelhi.in/programmes/3rd-all-india-conference-east-asian-st
  udies
-DESCRIPTION:3rd All India Conference of East Asian Studies\nKeynote Addre
- ss by Prof. Kan Kimura\, Graduate School of International Cooperation Stu
- dies\, Kobe University\nFollowed by Thematic discussions and a Special Le
- cture by eminent academicians\, policy experts and researchers on contemp
- orary issues in East Asian Studies\, international politics\, regional se
- curity\, technology\, economics and the environment.\nThe conference will
-  examine the evolving geopolitical\, economic and strategic landscape of 
- East Asia and the Indo-Pacific\, with a particular focus on Japan's role 
- in shaping a free\, open and rules-based regional order. Discussions will
-  explore regional security\, economic resilience\, technology\, climate a
- nd multilateral cooperation.\n(Collaboration: Institute of Chinese Studie
- s and Japan Foundation)\n\nhttps://iicdelhi.in/programmes/3rd-all-india-c
- onference-east-asian-studies
+DESCRIPTION:Dissonances in the World Order: Implications for Indo-Pacific
+  & East Asia\nKeynote Address by Prof. Kan Kimura\, Graduate School of In
+ ternational Cooperation Studies\, Kobe University\nFollowed by Thematic d
+ iscussions and a Special Lecture by eminent academicians\, policy experts
+  and researchers on contemporary issues in East Asian Studies\, internati
+ onal politics\, regional security\, technology\, economics and the enviro
+ nment.\nThe conference will examine the evolving geopolitical\, economic 
+ and strategic landscape of East Asia and the Indo-Pacific\, with a partic
+ ular focus on Japan's role in shaping a free\, open and rules-based regio
+ nal order. Discussions will explore regional security\, economic resilien
+ ce\, technology\, climate and multilateral cooperation.\nFor the detailed
+  programme\, please\nclick here\n(Collaboration: Institute of Chinese Stu
+ dies and Japan Foundation)\n\nhttps://iicdelhi.in/programmes/3rd-all-indi
+ a-conference-east-asian-studies
 CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:84d4d11a1997e179@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260731T123000Z
 DTEND:20260731T143000Z
 SUMMARY:BOOK DISCUSSION GROUP- Stories Carved in Stone Voices Rooted in E
@@ -54,8 +55,35 @@ DESCRIPTION:Book Discussion Group\nStories Carved in Stone Voices Rooted
 CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
+UID:9a6c12568010e8c8@delhi-events
+DTSTAMP:20260730T213622Z
+DTSTART:20260801T033000Z
+DTEND:20260801T053000Z
+SUMMARY:3rd All India Conference of East Asian Studies (AICEAS)
+LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
+ ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/3rd-all-india-conference-east-asian-st
+ udies-aiceas
+DESCRIPTION:Dissonances in the World Order: Implications for Indo-Pacific
+  & East Asia\nKeynote Address by Prof. Kan Kimura\, Graduate School of In
+ ternational Cooperation Studies\, Kobe University\nFollowed by Thematic d
+ iscussions and a Special Panel by eminent academicians\, policy experts a
+ nd researchers on contemporary issues in East Asian Studies\, internation
+ al politics\, regional security\, technology\, economics and the environm
+ ent.\nThe conference will examine the evolving geopolitical\, economic an
+ d strategic landscape of East Asia and the Indo-Pacific\, with a particul
+ ar focus on Japan's role in shaping a free\, open and rules-based regiona
+ l order. Discussions will explore regional security\, economic resilience
+ \, technology\, climate and multilateral cooperation.\nThis conference is
+  in continuation to the 31st July’26 programme.\nFor the detailed progr
+ amme\, please\nclick here\n(Collaboration: Institute of Chinese Studies a
+ nd Japan Foundation)\n\nhttps://iicdelhi.in/programmes/3rd-all-india-conf
+ erence-east-asian-studies-aiceas
+CATEGORIES:talk\,sociology
+END:VEVENT
+BEGIN:VEVENT
 UID:ecd1eaa06b20ddd5@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260802T053000Z
 DTEND:20260802T073000Z
 SUMMARY:The IHC Free Book X'Change
@@ -73,7 +101,7 @@ CATEGORIES:other\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:08a76e09e95f1990@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260802T133000Z
 DTEND:20260802T153000Z
 SUMMARY:She Walked Anyway
@@ -97,7 +125,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:d63b893a4a2d8691@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260803T130000Z
 DTEND:20260803T150000Z
 SUMMARY:Cleaning Transport – Tackling Vehicular Emissions and the Futur
@@ -129,7 +157,7 @@ CATEGORIES:talk\,science\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:cf278686ae2e8f6c@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260803T133000Z
 DTEND:20260803T153000Z
 SUMMARY:Choreographic Duets - The Poetry of Two
@@ -146,8 +174,60 @@ DESCRIPTION:AAI Arts Festival . Choreographic Duets - The Poetry of Two .
 CATEGORIES:performance\,dance\,literature
 END:VEVENT
 BEGIN:VEVENT
+UID:17ac8155ac1a796a@delhi-events
+DTSTAMP:20260730T213622Z
+DTSTART:20260804T123000Z
+DTEND:20260804T143000Z
+SUMMARY:Fascinating Light and Colour Phenomena in Nature
+LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
+ Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/fascinating-light-and-colour-phenomena
+ -nature
+DESCRIPTION:As part of International Day of Light (IDL) Workshop 2026\nKe
+ ynote Address: Photonics as a Key Enabling Technology: A Two-Way Link Bet
+ ween Basic Research and Innovation by Prof. John M. Dudley\, Professor at
+  the Université Marie et Louis Pasteur\, France\; International Day of L
+ ight 2026 Steering Committee Chair\nWelcome Address: K.N. Shrivastava\, D
+ irector\, IIC\nAddress: Dr. Tabassum Jamal\, IDL Workshop Chair\nOrganise
+ d as part of the International Day of Light (IDL) 2026\, the workshop is 
+ an introduction to the fascinating science of light and colour through ev
+ eryday natural phenomena. Aligned with the UNESCO theme "Light for a Sust
+ ainable Future\," it seeks to promote scientific awareness while highligh
+ ting the role of light in sustainable development.\nThe inaugural session
+  will be followed by a technical session featuring presentations by exper
+ ts in the field\nFor more details\, please\nclick here\n(Collaboration: Z
+ aheer Science Foundation\, New Delhi and Shanti Foundation International)
+ \n\nhttps://iicdelhi.in/programmes/fascinating-light-and-colour-phenomena
+ -nature
+CATEGORIES:talk\,nature\,science
+END:VEVENT
+BEGIN:VEVENT
+UID:79c175f74151872f@delhi-events
+DTSTAMP:20260730T213622Z
+DTSTART:20260804T123000Z
+DTEND:20260804T143000Z
+SUMMARY:BOOK DISCUSSION GROUP- On Angels’ Wings: Beyond the Bombing of 
+ Air India 182\, My Journey of Resilience and Courage By Sanjay Lazar (Aut
+ hor\, 2026)
+LOCATION:Lecture Room II\, IIC Annexe\, India International Centre\, 40 M
+ ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/book-discussion-group-angels-wings-bey
+ ond-bombing-air-india-182-my-journey-resilience
+DESCRIPTION:BOOK DISCUSSION GROUP\nOn Angels’ Wings: Beyond the Bombing
+  of Air India 182\, My Journey of Resilience and Courage\nBy Sanjay Lazar
+  (Author\, 2026)\nChair: Amb K P Fabian\, former Ambassador of India to Q
+ atar\nSpeakers :Amb K P Fabian\; Former Ambassador of India to Italy\, Qa
+ tar and Finland (Chief Guest)\;\nMs Kanika Sharma\; Author – Hachette B
+ ooks (Moderator) \; Shri Sanjay Chandra\, Author &amp\, Founder-Kala \; D
+ r Siddharth Sen\, Founder -Wiseowl House\; Ms Jasbir Basu\, CA &amp\; Aut
+ hor \; Shri Sanjay Lazar\nAuthor of the book\n\nhttps://iicdelhi.in/progr
+ ammes/book-discussion-group-angels-wings-beyond-bombing-air-india-182-my-
+ journey-resilience
+CATEGORIES:talk\,literature
+END:VEVENT
+BEGIN:VEVENT
 UID:27b246994b7a5d92@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260823T133000Z
 DTEND:20260823T153000Z
 SUMMARY:Dastan - e - Raahi
@@ -171,7 +251,7 @@ CATEGORIES:performance\,literature\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:d15f00cc8a23694c@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260824T123000Z
 DTEND:20260824T143000Z
 SUMMARY:Hindutva and Hind Swaraj: History’s Unforgotten Ideas
@@ -184,7 +264,7 @@ CATEGORIES:talk\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:86d5fe3f9501fb6b@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260824T133000Z
 DTEND:20260824T153000Z
 SUMMARY:A Short History of PPP in India & The Way Forward
@@ -198,7 +278,7 @@ CATEGORIES:talk\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:31921584f22effb5@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260826T133000Z
 DTEND:20260826T153000Z
 SUMMARY:Conversations on Public Policy
@@ -218,7 +298,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:b407d31019d356f8@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260827T133000Z
 DTEND:20260827T153000Z
 SUMMARY:Indian Poetics on Trees / Natural World

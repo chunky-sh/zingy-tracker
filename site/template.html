@@ -276,25 +276,54 @@
     font-weight: 500;
   }
 
-  details.body { margin-top: 10px; }
+  details.body { margin-top: 11px; }
   details.body summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     font-size: 13px;
+    font-weight: 500;
     color: var(--c);
     cursor: pointer;
     list-style: none;
-    display: inline-block;
+    padding: 3px 0;
+    user-select: none;
   }
   details.body summary::-webkit-details-marker { display: none; }
-  details.body summary::after { content: " +"; }
-  details.body[open] summary::after { content: " –"; }
-  details.body p {
-    font-size: 15px;
-    line-height: 1.6;
-    color: var(--muted);
-    margin: 10px 0 0;
-    max-width: 64ch;
-    white-space: pre-wrap;
+  /* A rotating caret rather than a +/- glyph that shifts the text on toggle. */
+  details.body summary::before {
+    content: "";
+    width: 0; height: 0;
+    border-left: 5px solid currentColor;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    transition: transform .18s ease;
   }
+  details.body[open] summary::before { transform: rotate(90deg); }
+  details.body summary:hover { text-decoration: underline; }
+
+  /* The blurb gets a surface of its own, tinted with the discipline hue, so it
+     reads as a distinct panel rather than loose text under the listing. */
+  .blurb {
+    margin-top: 10px;
+    padding: 16px 18px;
+    border-left: 3px solid color-mix(in srgb, var(--c) 45%, transparent);
+    border-radius: 0 10px 10px 0;
+    background: color-mix(in srgb, var(--c) 6%, var(--surface));
+  }
+  .blurb p {
+    font-size: 15px;
+    line-height: 1.68;
+    color: var(--muted);
+    margin: 0 0 0.85em;
+    max-width: 66ch;
+    text-wrap: pretty;
+  }
+  .blurb p:last-child { margin-bottom: 0; }
+  /* The opening line is almost always the one-sentence pitch. */
+  .blurb p:first-child { color: var(--ink); font-size: 15.5px; }
+  /* Trailing production credits read as footnotes, not body copy. */
+  .blurb p.credit { font-size: 13.5px; color: var(--faint); font-style: italic; }
 
   .empty {
     font-size: 15px;
@@ -507,9 +536,36 @@
       ? '<a href="' + escapeHtml(e.source_url) + '" target="_blank" rel="noopener">' + titleText + "</a>"
       : titleText;
 
-    const body = e.description
-      ? '<details class="body"><summary>Details</summary><p>' +
-        escapeHtml(e.description.slice(0, 1400)) + "</p></details>"
+    // Source blurbs arrive as newline-separated lines, not prose paragraphs.
+    // Rendering them with white-space: pre-wrap produced a ragged slab, so
+    // rebuild them as real paragraphs instead.
+    // Venue blurbs are hard-wrapped, so a bare newline is usually a wrapped
+    // line rather than a new paragraph -- splitting on every one orphaned
+    // fragments like "click here". Rejoin a line onto the previous paragraph
+    // unless that paragraph already closed a sentence.
+    const paragraphs = e.description.slice(0, 1600)
+      .split(/\n+/)
+      .map(t => t.trim())
+      .filter(Boolean)
+      .reduce((acc, line) => {
+        const prev = acc[acc.length - 1];
+        // Only a short remnant is a wrapped line; a full-length line that
+        // merely lacks a full stop (a subtitle, a heading) stays its own para.
+        const isRemnant = prev && line.length < 40 && !/[.!?:;)\]]$/.test(prev);
+        if (isRemnant) acc[acc.length - 1] = prev + " " + line;
+        else acc.push(line);
+        return acc;
+      }, [])
+      .map(t => {
+        // "(Collaboration: …)" / "Presented by …" trail most listings.
+        const credit = /^\(?(collab|presented|organis|organiz|in association|supported|curated)/i.test(t);
+        return '<p' + (credit ? ' class="credit"' : "") + ">" + escapeHtml(t) + "</p>";
+      })
+      .join("");
+
+    const body = paragraphs
+      ? '<details class="body"><summary>Details</summary>' +
+        '<div class="blurb">' + paragraphs + "</div></details>"
       : "";
 
     // On a repeated day of a run, the start time belongs to the opening day only.

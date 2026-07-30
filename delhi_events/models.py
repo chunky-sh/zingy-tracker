@@ -137,6 +137,18 @@ class Event(BaseModel):
         return v
 
     @model_validator(mode="after")
+    def _drop_repeated_title(self) -> Event:
+        """Venues routinely open the blurb by restating the event name, so it
+        renders twice -- once as the heading, once as the first line beneath it.
+        Fixed here rather than in the template so the ICS feeds benefit too."""
+        if not self.description or not self.title:
+            return self
+        head, _, rest = self.description.partition("\n")
+        if slugify(head) and slugify(head) == slugify(self.title):
+            object.__setattr__(self, "description", rest.lstrip("\n "))
+        return self
+
+    @model_validator(mode="after")
     def _check_range(self) -> Event:
         if not self.title:
             raise ValueError("event has no title")

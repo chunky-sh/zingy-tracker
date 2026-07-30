@@ -7,7 +7,7 @@ X-WR-CALNAME:Delhi Culture — nature & birds
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 UID:9e835ca8ca254b1a@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260801T053000Z
 DTEND:20260801T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -24,7 +24,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:9adef96dc8bf02b2@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260801T103000Z
 DTEND:20260801T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -41,7 +41,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:a53e529ecb585913@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260802T053000Z
 DTEND:20260802T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -58,7 +58,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:2fb113e5b486b8a7@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260802T103000Z
 DTEND:20260802T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -74,8 +74,36 @@ DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
 CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
+UID:17ac8155ac1a796a@delhi-events
+DTSTAMP:20260730T213622Z
+DTSTART:20260804T123000Z
+DTEND:20260804T143000Z
+SUMMARY:Fascinating Light and Colour Phenomena in Nature
+LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
+ Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/fascinating-light-and-colour-phenomena
+ -nature
+DESCRIPTION:As part of International Day of Light (IDL) Workshop 2026\nKe
+ ynote Address: Photonics as a Key Enabling Technology: A Two-Way Link Bet
+ ween Basic Research and Innovation by Prof. John M. Dudley\, Professor at
+  the Université Marie et Louis Pasteur\, France\; International Day of L
+ ight 2026 Steering Committee Chair\nWelcome Address: K.N. Shrivastava\, D
+ irector\, IIC\nAddress: Dr. Tabassum Jamal\, IDL Workshop Chair\nOrganise
+ d as part of the International Day of Light (IDL) 2026\, the workshop is 
+ an introduction to the fascinating science of light and colour through ev
+ eryday natural phenomena. Aligned with the UNESCO theme "Light for a Sust
+ ainable Future\," it seeks to promote scientific awareness while highligh
+ ting the role of light in sustainable development.\nThe inaugural session
+  will be followed by a technical session featuring presentations by exper
+ ts in the field\nFor more details\, please\nclick here\n(Collaboration: Z
+ aheer Science Foundation\, New Delhi and Shanti Foundation International)
+ \n\nhttps://iicdelhi.in/programmes/fascinating-light-and-colour-phenomena
+ -nature
+CATEGORIES:talk\,nature\,science
+END:VEVENT
+BEGIN:VEVENT
 UID:443d150aac34ae6e@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260808T053000Z
 DTEND:20260808T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -92,7 +120,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:89a4a78d43e21883@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260808T103000Z
 DTEND:20260808T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -109,7 +137,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:c0ce86409368310f@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260809T053000Z
 DTEND:20260809T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -126,7 +154,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:29bdabd91e9ffbd1@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260809T103000Z
 DTEND:20260809T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -143,7 +171,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:89e985a7ff0c7032@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260815T053000Z
 DTEND:20260815T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -160,7 +188,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:8e2e8ff189fab728@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260815T103000Z
 DTEND:20260815T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -177,7 +205,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:eb6a610fb1ef0e5d@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260816T053000Z
 DTEND:20260816T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -194,7 +222,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:3f79364dd256a60e@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260816T103000Z
 DTEND:20260816T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -211,7 +239,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:c6573ef3da26f969@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260818T133000Z
 DTEND:20260818T153000Z
 SUMMARY:Stories of Co-Existence & Conservation from the North East
@@ -245,7 +273,7 @@ CATEGORIES:film\,cinema\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:904d952ff4a120c5@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260822T053000Z
 DTEND:20260822T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -262,7 +290,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:5c6f8f50d7c62e1c@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260822T103000Z
 DTEND:20260822T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -279,7 +307,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:da7dc7ea8bd676b1@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260823T053000Z
 DTEND:20260823T070000Z
 SUMMARY:Heritage & Nature Walk
@@ -296,7 +324,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:f23ee2f3b704a2c2@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260823T103000Z
 DTEND:20260823T120000Z
 SUMMARY:Heritage & Nature Walk
@@ -313,7 +341,7 @@ CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:b407d31019d356f8@delhi-events
-DTSTAMP:20260730T213021Z
+DTSTAMP:20260730T213622Z
 DTSTART:20260827T133000Z
 DTEND:20260827T153000Z
 SUMMARY:Indian Poetics on Trees / Natural World

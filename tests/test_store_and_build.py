@@ -220,3 +220,22 @@ def test_list_separates_already_running_from_upcoming(conn, capsys):
     # The opening date is a fortnight back; it must not appear as a heading.
     stale = (now - timedelta(days=14)).strftime("%A %d %B")
     assert stale not in out
+
+
+def test_description_does_not_repeat_the_title():
+    """Venues open the blurb by restating the event name, so it rendered twice
+    -- once as the heading, once as the first line beneath it. Stripped at the
+    model so the ICS feeds benefit too, not just the page."""
+    event = make_event(
+        title="3rd All India Conference of East Asian Studies",
+        description="3rd All India Conference of East Asian Studies\nKeynote by Prof. Kimura.",
+    )
+    assert event.description == "Keynote by Prof. Kimura."
+
+
+def test_a_merely_similar_first_line_is_kept():
+    event = make_event(
+        title="Flux of Being",
+        description="Flux of Being and Becoming: new work by six artists.",
+    )
+    assert event.description.startswith("Flux of Being and Becoming")
