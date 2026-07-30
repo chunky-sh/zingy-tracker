@@ -47,7 +47,13 @@ jobs:
       - name: Test parsers
         run: pytest tests/ -q
 
+      # continue-on-error because `refresh` exits non-zero if ANY source fails,
+      # and some venues (iicdelhi.in, afdelhi.org) serve a 403 or an empty page
+      # to GitHub's datacenter IPs while working fine from a home connection.
+      # One blocked venue must not stop the other five from being published --
+      # `doctor` below is what actually reports health and reddens the run.
       - name: Refresh
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
