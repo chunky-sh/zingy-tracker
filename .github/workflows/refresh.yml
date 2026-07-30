@@ -58,6 +58,7 @@ jobs:
           fi
 
       - name: Build site
+        id: build
         run: python -m delhi_events.cli build
 
       # Runs after the build so a partial scrape still publishes what it got,
@@ -65,8 +66,11 @@ jobs:
       - name: Check source health
         run: python -m delhi_events.cli doctor
 
+      # Gated on the build rather than always(): a broken source should still
+      # publish the events that did come through, but broken *code* (failing
+      # tests, a build error) must never reach the live site.
       - name: Commit updated data
-        if: always()
+        if: always() && steps.build.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -79,10 +83,10 @@ jobs:
           fi
 
       - uses: actions/configure-pages@v5
-        if: always()
+        if: always() && steps.build.outcome == 'success'
       - uses: actions/upload-pages-artifact@v3
-        if: always()
+        if: always() && steps.build.outcome == 'success'
         with:
           path: site/dist
       - uses: actions/deploy-pages@v4
-        if: always()
+        if: always() && steps.build.outcome == 'success'
