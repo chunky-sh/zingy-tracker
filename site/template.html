@@ -355,18 +355,16 @@
     border-radius: 3px;
     padding: 4px 8px;
   }
-  .fineprint { max-width: 62ch; margin: 0 0 26px; font-size: 13px; color: var(--faint); line-height: 1.65; }
+  .fineprint { max-width: 62ch; margin: 0; font-size: 13px; color: var(--faint); line-height: 1.65; }
+  /* Sits above the title as an eyebrow: read first, then stepped over. */
   .dedication {
     font-family: var(--serif);
     font-style: italic;
-    font-size: 17px;
-    color: var(--ink);
-    text-align: center;
-    margin: 0;
-    padding-top: 22px;
-    border-top: 1px solid var(--hairline);
+    font-size: 16px;
+    color: var(--muted);
+    margin: 0 0 12px;
   }
-  .dedication .heart { font-style: normal; }
+  .dedication .heart { font-style: normal; margin-left: 1px; }
 
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; animation: none !important; }
@@ -387,6 +385,7 @@
 <div class="wrap">
 
   <header>
+    <p class="dedication">Made with love for zingy <span class="heart">&#128155;</span></p>
     <h1>What&rsquo;s on in <em>Delhi</em></h1>
     <p class="standfirst">Art, talks, walks and workshops across six cultural centres. Refreshed {{ generated_at[:10] }}.</p>
   </header>
@@ -420,7 +419,6 @@
       refreshed every morning. Times are IST &mdash; always confirm with the venue
       before travelling.
     </p>
-    <p class="dedication">Made with love for zingy <span class="heart">&#128155;</span></p>
   </footer>
 
 </div>
