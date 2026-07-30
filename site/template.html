@@ -5,156 +5,352 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title }}</title>
 <style>
-  /* Palette taken from the venues themselves: the ground is the warm paper of
-     a printed programme card, the accent is the red IIC uses on its own
-     programme badges. Neutrals are warmed toward that red rather than grey. */
+  /* Ground and ink sit in the blue family so the warmer hues have something
+     cool to sing against. Tokens are redefined for the OS preference and
+     again, at higher specificity, for a viewer's explicit theme toggle. */
   :root, :root[data-theme="light"] {
-    --bg: #fbfaf7;
+    --paper:   #f7fafc;
     --surface: #ffffff;
-    --line: #e4e0d8;
-    --ink: #1c1b18;
-    --muted: #6d6a62;
-    --accent: #9f1111;
-    --chip: #f1eee8;
+    --ink:     #10202e;
+    --muted:   #566a7a;
+    --faint:   #8698a6;
+    --hairline:#dde6ec;
+    --accent:  #1b5e9c;
+    --accent-soft: #e7f1f9;
+
+    /* One hue per discipline. Colour is the index, not decoration:
+       the filter chip and the listing tag always agree. */
+    --c-exhibition:  #b85c0e;  /* amber   */
+    --c-talk:        #1b5e9c;  /* blue    */
+    --c-walk:        #1b6b4a;  /* forest  */
+    --c-workshop:    #0e6e82;  /* teal    */
+    --c-film:        #3b3f8f;  /* indigo  */
+    --c-performance: #8a6d00;  /* gold    */
+    --c-festival:    #c2410c;  /* orange  */
+    --c-other:       #566a7a;
     color-scheme: light;
   }
-  /* The OS preference is the default; the explicit attribute below is stamped
-     on the root by a viewer's own theme toggle and has to win in both
-     directions, so it is repeated at higher specificity rather than nested. */
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #161513;
-      --surface: #1e1d1a;
-      --line: #33312c;
-      --ink: #ece9e3;
-      --muted: #9a958a;
-      --accent: #e2756f;
-      --chip: #2a2825;
+      --paper:   #0c1420;
+      --surface: #121c2a;
+      --ink:     #e6eef5;
+      --muted:   #8fa3b5;
+      --faint:   #6b7f91;
+      --hairline:#22303f;
+      --accent:  #6fb8f0;
+      --accent-soft: #15283a;
+
+      --c-exhibition:  #f0a75e;
+      --c-talk:        #7bc0f5;
+      --c-walk:        #5fc79a;
+      --c-workshop:    #5fd0e0;
+      --c-film:        #a5aaf5;
+      --c-performance: #ebd065;
+      --c-festival:    #fb923c;
+      --c-other:       #8fa3b5;
       color-scheme: dark;
     }
   }
   :root[data-theme="dark"] {
-    --bg: #161513;
-    --surface: #1e1d1a;
-    --line: #33312c;
-    --ink: #ece9e3;
-    --muted: #9a958a;
-    --accent: #e2756f;
-    --chip: #2a2825;
+    --paper:   #0c1420;
+    --surface: #121c2a;
+    --ink:     #e6eef5;
+    --muted:   #8fa3b5;
+    --faint:   #6b7f91;
+    --hairline:#22303f;
+    --accent:  #6fb8f0;
+    --accent-soft: #15283a;
+
+    --c-exhibition:  #f0a75e;
+    --c-talk:        #7bc0f5;
+    --c-walk:        #5fc79a;
+    --c-workshop:    #5fd0e0;
+    --c-film:        #a5aaf5;
+    --c-performance: #ebd065;
+    --c-festival:    #fb923c;
+    --c-other:       #8fa3b5;
     color-scheme: dark;
   }
-  :root { --radius: 10px; }
+
+  :root {
+    /* No webfont links: the artifact CSP blocks font CDNs and a silent
+       fallback would undo the whole type treatment. */
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  /* Every element carrying a hue reads it from --c; these set it. */
+  [data-format="exhibition"]  { --c: var(--c-exhibition); }
+  [data-format="talk"]        { --c: var(--c-talk); }
+  [data-format="walk"]        { --c: var(--c-walk); }
+  [data-format="workshop"]    { --c: var(--c-workshop); }
+  [data-format="film"]        { --c: var(--c-film); }
+  [data-format="performance"] { --c: var(--c-performance); }
+  [data-format="festival"]    { --c: var(--c-festival); }
+  [data-format="other"]       { --c: var(--c-other); }
+
   * { box-sizing: border-box; }
+
   body {
     margin: 0;
-    background: var(--bg);
+    background: var(--paper);
     color: var(--ink);
-    font: 16px/1.5 ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 940px; margin: 0 auto; padding: 0 20px 80px; }
 
-  header { padding: 40px 0 20px; }
-  h1 { margin: 0 0 6px; font-size: 30px; letter-spacing: -0.02em; }
-  .sub { color: var(--muted); font-size: 14px; margin: 0; }
-  .sub a { color: var(--muted); }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px 96px; }
 
+  /* — masthead — */
+  header { padding: 72px 0 28px; }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(38px, 7vw, 60px);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    margin: 0 0 16px;
+    text-wrap: balance;
+  }
+  h1 em { font-style: italic; color: var(--accent); }
+  .standfirst {
+    font-size: 15px;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  /* — controls — */
   .controls {
     position: sticky; top: 0; z-index: 20;
-    background: color-mix(in srgb, var(--bg) 92%, transparent);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--line);
-    padding: 12px 0;
-    margin-bottom: 8px;
+    background: color-mix(in srgb, var(--paper) 88%, transparent);
+    backdrop-filter: saturate(180%) blur(12px);
+    border-bottom: 1px solid var(--hairline);
+    padding: 14px 0;
   }
   .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-  .row + .row { margin-top: 8px; }
+  .row + .row { margin-top: 10px; }
 
   input[type=search], select {
-    font: inherit; color: inherit;
+    font: inherit;
+    font-size: 14px;
+    color: var(--ink);
     background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 8px 12px;
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    padding: 10px 14px;
+    transition: border-color .15s ease;
   }
-  input[type=search] { flex: 1 1 220px; min-width: 0; }
-  input[type=search]:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  input[type=search] { flex: 1 1 240px; min-width: 0; }
+  input[type=search]::placeholder { color: var(--faint); }
+  input[type=search]:hover, select:hover { border-color: var(--muted); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .label {
+    font-size: 13px;
+    color: var(--faint);
+    margin-right: 2px;
+    min-width: 42px;
+  }
 
   .chip {
-    font: inherit; font-size: 13px; color: var(--muted);
-    background: var(--chip);
-    border: 1px solid transparent;
+    font-size: 13.5px;
+    color: var(--muted);
+    background: var(--surface);
+    border: 1px solid var(--hairline);
     border-radius: 999px;
-    padding: 5px 12px;
+    padding: 6px 13px;
+    text-transform: capitalize;
     cursor: pointer;
     white-space: nowrap;
+    transition: color .15s ease, border-color .15s ease, background-color .15s ease;
   }
-  .chip:hover { border-color: var(--line); }
+  .chip:hover { color: var(--ink); border-color: var(--muted); }
+  /* Pressed chips take the discipline's own hue, so the filter bar and the
+     listing below it are unmistakably the same colour language. */
   .chip[aria-pressed="true"] {
-    background: var(--accent); border-color: var(--accent);
-    color: #fff; font-weight: 500;
+    color: var(--c, var(--accent));
+    border-color: color-mix(in srgb, var(--c, var(--accent)) 55%, transparent);
+    background: color-mix(in srgb, var(--c, var(--accent)) 11%, transparent);
   }
-  .chip .n { opacity: .6; margin-left: 5px; font-variant-numeric: tabular-nums; }
+  .chip .n { opacity: .55; margin-left: 6px; font-variant-numeric: tabular-nums; }
 
-  .label { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-right: 2px; }
+  .count {
+    font-size: 13.5px;
+    color: var(--faint);
+    padding: 24px 0 0;
+    font-variant-numeric: tabular-nums;
+  }
 
-  .count { color: var(--muted); font-size: 13px; padding: 14px 0 4px; }
-
-  .day { margin-top: 26px; }
+  /* — day sections — */
+  .day { margin-top: 40px; }
   .day h2 {
-    position: sticky; top: 116px;
-    margin: 0 0 10px;
-    font-size: 13px; font-weight: 600;
-    letter-spacing: .06em; text-transform: uppercase;
-    color: var(--muted);
-    background: var(--bg);
-    padding: 6px 0;
+    display: flex; align-items: baseline; gap: 14px;
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: -0.01em;
+    margin: 0 0 4px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--ink);
   }
-  .day.today h2 { color: var(--accent); }
+  .day h2 .dow {
+    font-family: var(--sans);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--faint);
+  }
+  .day h2 .today-pill {
+    font-family: var(--sans);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border-radius: 999px;
+    padding: 3px 10px;
+  }
+  .day.today h2 { color: var(--accent); border-bottom-color: var(--accent); }
+  .day.today h2 .dow { color: var(--accent); }
 
+  /* — the listing: ruled rows, not cards — */
   .event {
     display: grid;
-    grid-template-columns: 74px 1fr;
-    gap: 14px;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 14px 16px;
-    margin-bottom: 8px;
+    grid-template-columns: 78px 1fr;
+    gap: 18px;
+    padding: 15px 0 15px 16px;
+    border-bottom: 1px solid var(--hairline);
+    /* A hairline in the discipline's hue: the index made visible down the
+       left edge, so the page can be scanned by colour alone. */
+    border-left: 3px solid color-mix(in srgb, var(--c) 55%, transparent);
+    transition: border-left-color .15s ease, background-color .15s ease;
   }
-  .time { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; }
-  .title { margin: 0 0 4px; font-size: 16.5px; font-weight: 600; line-height: 1.35; }
-  .title a { color: inherit; text-decoration: none; }
-  .title a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
-  .where { font-size: 13.5px; color: var(--muted); margin: 0 0 8px; }
-  .tags { display: flex; flex-wrap: wrap; gap: 5px; }
-  .tag {
-    font-size: 11px; letter-spacing: .04em; text-transform: uppercase;
-    color: var(--muted); background: var(--chip);
-    border-radius: 4px; padding: 2px 7px;
+  .event:hover {
+    border-left-color: var(--c);
+    background: color-mix(in srgb, var(--c) 4%, transparent);
   }
-  .tag.fmt { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
-  .runs { font-size: 12px; color: var(--muted); font-style: italic; }
+  .time {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    padding-top: 4px;
+  }
+  .title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.28;
+    letter-spacing: -0.01em;
+    margin: 0 0 6px;
+    text-wrap: balance;
+  }
+  .title a {
+    color: inherit;
+    text-decoration: none;
+    background-image: linear-gradient(var(--c), var(--c));
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size .25s ease, color .15s ease;
+  }
+  .title a:hover { color: var(--c); background-size: 100% 1px; }
+  .where { font-size: 14px; color: var(--muted); margin: 0 0 9px; }
+  .where .sep { color: var(--faint); margin: 0 6px; }
+  .runs { font-style: italic; color: var(--faint); }
 
-  details.body { margin-top: 8px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    font-size: 12px;
+    color: var(--muted);
+    background: color-mix(in srgb, var(--ink) 5%, transparent);
+    border-radius: 999px;
+    padding: 3px 10px;
+    text-transform: capitalize;
+  }
+  .tag.fmt {
+    color: var(--c);
+    background: color-mix(in srgb, var(--c) 13%, transparent);
+    font-weight: 500;
+  }
+
+  details.body { margin-top: 10px; }
   details.body summary {
-    cursor: pointer; font-size: 13px; color: var(--accent); list-style: none;
+    font-size: 13px;
+    color: var(--c);
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
   }
   details.body summary::-webkit-details-marker { display: none; }
-  details.body summary::after { content: " ↓"; }
-  details.body[open] summary::after { content: " ↑"; }
-  details.body p { font-size: 14.5px; color: var(--muted); margin: 8px 0 0; white-space: pre-wrap; }
+  details.body summary::after { content: " +"; }
+  details.body[open] summary::after { content: " –"; }
+  details.body p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--muted);
+    margin: 10px 0 0;
+    max-width: 64ch;
+    white-space: pre-wrap;
+  }
 
-  .empty { padding: 60px 0; text-align: center; color: var(--muted); }
+  .empty {
+    font-size: 15px;
+    color: var(--faint);
+    padding: 80px 0;
+    text-align: center;
+  }
 
-  footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
-  footer a { color: var(--accent); }
-  footer code { background: var(--chip); padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+  /* — colophon — */
+  footer {
+    margin-top: 80px;
+    padding-top: 28px;
+    border-top: 1px solid var(--ink);
+    font-size: 14px;
+    color: var(--muted);
+  }
+  footer h3 {
+    font-size: 14px;
+    color: var(--ink);
+    font-weight: 600;
+    margin: 0 0 10px;
+  }
+  .feeds { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 26px; padding: 0; list-style: none; }
+  .feeds code {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    border: 1px solid var(--hairline);
+    border-radius: 3px;
+    padding: 4px 8px;
+  }
+  .fineprint { max-width: 62ch; margin: 0 0 26px; font-size: 13px; color: var(--faint); line-height: 1.65; }
+  .dedication {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 17px;
+    color: var(--ink);
+    text-align: center;
+    margin: 0;
+    padding-top: 22px;
+    border-top: 1px solid var(--hairline);
+  }
+  .dedication .heart { font-style: normal; }
 
-  @media (max-width: 560px) {
-    .event { grid-template-columns: 1fr; gap: 4px; }
-    .day h2 { top: 150px; }
-    h1 { font-size: 25px; }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+    .title a { background-size: 100% 1px; }
+  }
+
+  @media (max-width: 620px) {
+    .wrap { padding: 0 18px 72px; }
+    header { padding: 44px 0 22px; }
+    .event { grid-template-columns: 1fr; gap: 6px; }
+    .time { padding-top: 0; }
+    .day h2 { font-size: 21px; flex-wrap: wrap; gap: 8px; }
+    .title { font-size: 19px; }
   }
 </style>
 </head>
@@ -162,11 +358,8 @@
 <div class="wrap">
 
   <header>
-    <h1>{{ title }}</h1>
-    <p class="sub">
-      {{ event_count }} upcoming events across Delhi&rsquo;s cultural centres &middot;
-      updated {{ generated_at[:10] }}
-    </p>
+    <h1>What&rsquo;s on in <em>Delhi</em></h1>
+    <p class="standfirst">Art, talks, walks and workshops across six cultural centres. Refreshed {{ generated_at[:10] }}.</p>
   </header>
 
   <div class="controls">
@@ -188,11 +381,17 @@
   <div id="list"></div>
 
   <footer>
-    <p><strong>Subscribe in your calendar</strong> &mdash; add any of these by URL:</p>
-    <p>
-      {% for slug, name in feeds %}<code>{{ slug }}.ics</code>{% if not loop.last %} &middot; {% endif %}{% endfor %}
+    <h3>Subscribe in your calendar</h3>
+    <ul class="feeds">
+      {% for slug, name in feeds %}<li><code>{{ slug }}.ics</code></li>{% endfor %}
+    </ul>
+    <p class="fineprint">
+      Add any of these by URL rather than importing them, and they keep themselves
+      up to date. Listings come from each venue&rsquo;s own programme page and are
+      refreshed every morning. Times are IST &mdash; always confirm with the venue
+      before travelling.
     </p>
-    <p>Sources are the venues&rsquo; own programme pages. Times are IST. Always confirm with the venue before travelling.</p>
+    <p class="dedication">Made with love for zingy <span class="heart">&#128155;</span></p>
   </footer>
 
 </div>
@@ -242,6 +441,8 @@
       btn.className = "chip";
       btn.type = "button";
       btn.setAttribute("aria-pressed", "false");
+      // Format chips carry the discipline hue; topic chips fall back to accent.
+      if (key === "format") btn.setAttribute("data-format", value);
       btn.innerHTML = value + '<span class="n">' + n + "</span>";
       btn.addEventListener("click", () => {
         if (set.has(value)) { set.delete(value); btn.setAttribute("aria-pressed", "false"); }
@@ -286,7 +487,9 @@
   }
 
   function eventHtml(e, day) {
-    const where = [e.sub_venue, e.venue].filter(Boolean).map(escapeHtml).join(" &middot; ");
+    const where = [e.sub_venue, e.venue].filter(Boolean).map(escapeHtml)
+      .join('<span class="sep">/</span>');
+
     const tags = ['<span class="tag fmt">' + escapeHtml(e.format) + "</span>"]
       .concat(e.topics.map(t => '<span class="tag">' + escapeHtml(t) + "</span>"))
       .join("");
@@ -295,7 +498,8 @@
     if (e.multi_day) {
       const fmt = d => new Date(d + "T00:00:00").toLocaleDateString("en-GB",
         { day: "numeric", month: "short" });
-      runs = '<span class="runs">runs ' + fmt(e.start_date) + " &ndash; " + fmt(e.end_date) + "</span>";
+      runs = '<span class="sep">/</span><span class="runs">runs ' +
+             fmt(e.start_date) + " – " + fmt(e.end_date) + "</span>";
     }
 
     const titleText = escapeHtml(e.title);
@@ -313,11 +517,11 @@
       : (e.multi_day && day !== e.start_date) ? "ongoing"
       : (e.time_label || "");
 
-    return '<article class="event">' +
+    return '<article class="event" data-format="' + escapeHtml(e.format) + '">' +
       '<div class="time">' + escapeHtml(timeLabel) + "</div>" +
       "<div>" +
         '<h3 class="title">' + title + "</h3>" +
-        '<p class="where">' + where + (runs ? " &middot; " + runs : "") + "</p>" +
+        '<p class="where">' + where + runs + "</p>" +
         '<div class="tags">' + tags + "</div>" +
         body +
       "</div>" +
@@ -337,16 +541,24 @@
 
       shown += events.length;
       events.forEach(e => seen.add(e.id));
+
+      // "Saturday 1 August" -> weekday as an eyebrow, date as the heading.
+      const parts = day.label.split(" ");
+      const dow = parts.shift();
+      const rest = parts.join(" ");
+
       html += '<section class="day' + (day.is_today ? " today" : "") + '">' +
-              "<h2>" + escapeHtml(day.label) + (day.is_today ? " &middot; today" : "") + "</h2>" +
+              "<h2>" + escapeHtml(rest) +
+              '<span class="dow">' + escapeHtml(dow) + "</span>" +
+              (day.is_today ? '<span class="today-pill">Today</span>' : "") + "</h2>" +
               events.map(e => eventHtml(e, day.date)).join("") +
               "</section>";
     });
 
-    el.list.innerHTML = html || '<p class="empty">Nothing matches those filters.</p>';
+    el.list.innerHTML = html || '<p class="empty">Nothing matches those filters</p>';
     el.count.textContent = shown
       ? seen.size + " event" + (seen.size === 1 ? "" : "s") +
-        (shown !== seen.size ? " (" + shown + " listings across days)" : "")
+        (shown !== seen.size ? " · " + shown + " listings across days" : "")
       : "";
   }
 
