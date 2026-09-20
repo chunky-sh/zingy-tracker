@@ -138,3 +138,35 @@ def test_cms_placeholders_are_rejected(title):
 def test_real_titles_are_not_mistaken_for_placeholders(title):
     from delhi_events.models import is_placeholder_title
     assert not is_placeholder_title(title)
+
+
+def test_format_follows_the_earliest_mention_not_the_rule_order():
+    """A listing says what the event is up front and drops incidental mentions
+    later. A KNMA panel discussion was filed as a festival because a speaker's
+    bio mentioned "the Mumbai International Film Festival" and the festival
+    rule happens to be checked before the talk rule."""
+    fmt, _, _ = classify(
+        "The Language of Belonging",
+        "As part of KNMA's celebration of International Week of Deaf People, "
+        "this panel brings together diverse Deaf perspectives. Following the "
+        "panel, a screening of a documentary by a director who received a "
+        "Special Mention at the Mumbai International Film Festival.",
+    )
+    assert fmt is Format.TALK
+
+
+def test_rule_order_still_settles_a_tie():
+    """Two rules matching at the same offset must resolve the way they always
+    did -- the position rule is a tie-break refinement, not a reordering."""
+    fmt, _, _ = classify("Workshop", "")
+    assert fmt is Format.WORKSHOP
+
+
+def test_a_title_still_outranks_the_description():
+    """An exhibition whose blurb mentions an accompanying talk is an
+    exhibition; the title gets looked at on its own first."""
+    fmt, _, _ = classify(
+        "Exhibition: Nocturnes",
+        "A panel discussion and lecture accompany the show on its opening day.",
+    )
+    assert fmt is Format.EXHIBITION

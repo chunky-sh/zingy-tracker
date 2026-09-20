@@ -170,9 +170,20 @@ def detect_format(text: str, category: str | None = None) -> tuple[Format, bool]
     if from_category is not None and from_category is not Format.OTHER:
         return from_category, True
 
-    for fmt, pattern in _FORMAT_PATTERNS:
-        if pattern.search(text):
-            return fmt, True
+    # Take the match that appears earliest, not the first rule that happens to
+    # match somewhere. A listing says what the event *is* in its opening line
+    # and drops incidental mentions later: a panel discussion whose speaker bio
+    # notes "a Special Mention at the Mumbai International Film Festival" was
+    # being filed as a festival purely because that rule is checked first.
+    # Rule order still breaks ties, so a title matching two rules at once
+    # behaves exactly as before.
+    best: tuple[int, int, Format] | None = None
+    for order, (fmt, pattern) in enumerate(_FORMAT_PATTERNS):
+        match = pattern.search(text)
+        if match is not None and (best is None or (match.start(), order) < best[:2]):
+            best = (match.start(), order, fmt)
+    if best is not None:
+        return best[2], True
 
     if from_category is Format.OTHER:
         return Format.OTHER, True

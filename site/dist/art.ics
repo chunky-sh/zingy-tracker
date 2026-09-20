@@ -6,8 +6,96 @@ METHOD:PUBLISH
 X-WR-CALNAME:Delhi Culture — art & photography
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:6168c5dcff7a08f6@delhi-events
+DTSTAMP:20260920T105600Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20261223
+SUMMARY:In-Rhythm
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/exhibitions/bice-lazzari-and-nasreen-mo
+ hamedi-in-rhythm
+DESCRIPTION:Bice Lazzari and Nasreen Mohamedi\nIn-Rhythm brings together 
+ the works of Italian artist Bice Lazzari (1900-1981) and Indian artist Na
+ sreen Mohamedi (1937-1990)\, two artists who never met yet developed stri
+ kingly resonant approaches to abstraction across different geographies an
+ d histories. Working during a period when modernist discourse remained la
+ rgely shaped by male experience\, both artists pursued independent visual
+  languages grounded in discipline\, repetition and sustained attention. F
+ or them\, abstraction was not an escape from reality but a way of engagin
+ g with it. Formed within different cultural and social landscapes\, both 
+ artists lived through periods of profound historical rupture and pursued 
+ abstraction at a time when the structures of modernism remained largely s
+ haped by male experience. Bringing together works from 1920s-1930s and 19
+ 60s to the early 1980s\, the exhibition explores their shared engagement 
+ with line\, rhythm\, geometry and restraint. Rather than suggesting influ
+ ence\, it reveals an unexpected artistic kinship\, where limitation becom
+ es a means of creating clarity\, emotion and freedom. Through subtle vari
+ ations in line\, spacing and colour\, both artists transformed repetition
+  into something lyrical and deeply personal. Presented by KNMA in partner
+ ship with the Italian Cultural Centre\, New Delhi\, the exhibition culmin
+ ates in a direct visual dialogue between two singular practices that cont
+ inue to reshape our understanding of abstraction in art. The exhibition f
+ eatures artworks from the Archivio Bice Lazzari\, Rome. About the artists
+  Bice Lazzari Bice Lazzari (1900–1981) was one of the pioneering figure
+  of the twentieth century Italian art. She devoted her entire life to a f
+ ield that was not considered appropriate for a woman at the time. Trained
+  as a young girl in Classical piano\, and later at the Accademia di Belle
+  Arti in Venice in 1916\, she began her artistic career by working on the
+  loom\, tapestry and applied art. She collaborated closely with Giò Pont
+ i and Carlo Scarpa. Towards 1930s\, she engaged more with avant-garde abs
+ traction and became a forerunner of conceptual painting. She went on to p
+ roduce important works on canvas and paper\, ranging from figurative work
+ s to experiments in architecturally inspired geometric abstraction reveal
+ ing her nuanced exploration of minimal forms\, line\, space and repetitio
+ n. Nasreen Mohamedi Nasreen Mohamedi (1937–1990) was an Indian artist\,
+  born in Karachi and raised in Mumbai. She is regarded as an important fi
+ gure within Indian modernism\, particularly for her distinct approach to 
+ abstraction. After studying at Central Saint Martins in London\, she trav
+ elled and worked in Europe before returning to India in the early 1970s. 
+ She later joined the Faculty of Fine Arts at MS University\, Baroda\, whe
+ re she taught and developed her practice. Her visual language is defined 
+ by minimal lines\, geometric forms\, grids\, rhythm and space. Photograph
+ y also formed an important part of her practice. Influenced by poetry\, I
+ ndian classical music and modernist architecture\, she reduced forms to t
+ heir essential rhythms and structures.\n\nhttps://www.knma.org/whats-on/e
+ xhibitions/bice-lazzari-and-nasreen-mohamedi-in-rhythm
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd525302f6f73c4@delhi-events
+DTSTAMP:20260920T105600Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20261223
+SUMMARY:Inheritors of Earth
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/exhibitions/inheritors-of-earth
+DESCRIPTION:Inheritors of Earth \, curated by Premjish Achari\, invites v
+ iewers into the relational world of plants\, entities long treated as bac
+ kdrop\, resource\, or specimen rather than co-inhabitants of the earth. T
+ he title draws on Vaikom Muhammad Basheer’s Bhumiyude Avakashikal \, en
+ visioning humans\, flora and fauna as equal co-custodians of the planet\,
+  and on ecological activist Kallen Pokkudan\, whose mangrove-planting wor
+ k fused Dalit history with ecological repair. Through paintings\, photogr
+ aphs\, installations and video\, artists here practice a “phytosensitiv
+ e” approach: encountering rather than merely representing plants\, trac
+ ing colonial botanical migrations\, and honoring uncredited lower-caste k
+ nowledge-keepers erased from scientific archives. Rejecting both extracti
+ on and exoticism\, the exhibition asks viewers to look with plants\, not 
+ just at them\, moving from usefulness and utility toward humility\, kinsh
+ ip\, and coexistence—imagining a future shaped by plant life on its own
+  terms. The exhibition is proud to host a set of artworks from the Shared
+  Ecologies archive as part of an extended reading room. Ben Goldfarb has 
+ designed a special soundscape for the exhibition. Independent curator and
+  researcher Oorja Garg and IMPULSE Magazine\, New York are leading a spec
+ ial reading group for the duration of the exhibition.\n\nhttps://www.knma
+ .org/whats-on/exhibitions/inheritors-of-earth
+CATEGORIES:exhibition\,art\,history\,nature\,sociology
+END:VEVENT
+BEGIN:VEVENT
 UID:d7f6948c32ae33f4@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260923
 SUMMARY:Standing on Sacred Ground
@@ -29,7 +117,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:bb23c435c57ad5e6@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260922
 SUMMARY:Tap Aur Tapish
@@ -56,7 +144,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:de7824e340f3a2f5@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260925
 SUMMARY:Oriental Scenary
@@ -76,7 +164,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:6a02433e4ad71f7d@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART:20260916T053000Z
 DTEND:20261001T133000Z
 SUMMARY:Phulkari: A Lingering Presence By Sunaina Suneja
@@ -102,7 +190,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:357ca1dfe97c50a3@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260922
 SUMMARY:Visible Vapour
@@ -121,7 +209,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:2740c201ddf09d7d@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART:20260920T063000Z
 DTEND:20260920T083000Z
 SUMMARY:Indian Art: History and Appreciation Course
@@ -137,7 +225,7 @@ CATEGORIES:workshop\,art\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:86a0f656d1936eda@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART:20260921T130000Z
 DTEND:20260921T150000Z
 SUMMARY:INDIAN ARCHAEOLOGY
@@ -160,7 +248,7 @@ CATEGORIES:talk\,art\,heritage
 END:VEVENT
 BEGIN:VEVENT
 UID:914602fe01c0c0f5@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260927
 SUMMARY:People of Art: A Portrait Study of the Art World
@@ -173,7 +261,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:d67b93bbbd3be974@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20261001
 SUMMARY:Raj Se Swaraj Tak From Colonial Rule to Freedom- Through the Eyes
@@ -198,7 +286,7 @@ CATEGORIES:exhibition\,art\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:4aa9ae3b742b07d6@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260929
 SUMMARY:Odyssey
@@ -219,7 +307,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:e9e504c82237a11c@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART:20260923T053000Z
 DTEND:20260930T133000Z
 SUMMARY:Journey of Colours A Solo Exhibition by Sadaf Beg Khan
@@ -242,7 +330,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:b3329bf294ad2231@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260929
 SUMMARY:Main Hoon Warli
@@ -267,7 +355,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:36e414dd060b4cc2@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260928
 SUMMARY:An Origami Odyssey
@@ -280,7 +368,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:369113541f316ee2@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260927
 SUMMARY:Rang by Devi
@@ -303,8 +391,50 @@ DESCRIPTION:A curated art exhibition showcasing original artworks by wome
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
+UID:0d469fb1c0d7a618@delhi-events
+DTSTAMP:20260920T105600Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:The Language of Belonging
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/events/the-language-of-belonging
+DESCRIPTION:As part of KNMA’s celebration of International Week of Deaf
+  People\, this panel brings together diverse Deaf perspectives to explore
+  the relationship between sign language\, Deaf culture\, communication\, 
+ identity\, and belonging. The conversation considers how these themes int
+ ersect with art and creative spaces\, and how museums and cultural instit
+ utions can foster greater inclusion and participation for Deaf and hearin
+ g communities alike. Moderated by Hardeep Singh \, the panel brings toget
+ her Sunil Sahasrabudhe \, Ranveet Kau r\, Harshali Nade and Niharika Popl
+ i . Together\, they share perspectives on Deaf culture\, language\, acces
+ sibility\, and ways of creating spaces that support meaningful communicat
+ ion and participation. Following the panel\, a screening of If I Could Te
+ ll You \, a documentary by Niharika Popli \, explores the experiences of 
+ Deaf individuals through themes of language\, identity\, communication\, 
+ and the human need to express and be understood. Following Charu\, a youn
+ g Deaf woman\, alongside a hearing CODA (Child of Deaf Adults) and four y
+ oung artists\, the film considers different forms of visual and performat
+ ive expression. About the Contributors Hardeep Singh is a Deaf artist\, d
+ esigner\, and inclusion professional at KNMA\, working to advance accessi
+ bility and Deaf inclusion in museum spaces. Sunil Sahasrabudhe is Preside
+ nt of the All India Federation of the Deaf (AIFD) and a leader\, educator
+ \, and advocate for the Deaf community in India. Ranveet Kaur is a Deaf c
+ ommunity leader\, Coordinator at the Speaking Hands Institute for the Dea
+ f\, and President of The Punjab Association of Deaf. Harshali Nade is an 
+ Indian Sign Language translator and communication professional with exper
+ ience across news\, museums\, media\, and accessibility. She works to mak
+ e information more accessible to the Deaf community through ISL translati
+ on. Niharika Popli is a filmmaker\, editor\, and co-founder of Dilmaya Fi
+ lms. Her work explores language\, identity\, and belonging. Her debut doc
+ umentary\, Rasan Piya\, received the Tareque Masud Award at Film Southasi
+ a and a Special Mention at the Mumbai International Film Festival.\n\nhtt
+ ps://www.knma.org/whats-on/events/the-language-of-belonging
+CATEGORIES:talk\,art\,cinema\,sociology
+END:VEVENT
+BEGIN:VEVENT
 UID:3fc0122b39432a5e@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20261001
 SUMMARY:The Emerging Perspectives
@@ -317,7 +447,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:d4b9ed257d6b25c4@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20261007
 SUMMARY:A Moment in the Monumental
@@ -346,7 +476,7 @@ CATEGORIES:exhibition\,art\,heritage
 END:VEVENT
 BEGIN:VEVENT
 UID:fc0eb9065f6a995c@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261007
 SUMMARY:Nar Nari 2.0

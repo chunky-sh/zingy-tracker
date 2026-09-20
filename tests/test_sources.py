@@ -340,3 +340,61 @@ def test_every_configured_gallery_has_the_selectors_it_needs():
         # Empty is a normal state for a gallery between shows, and the adapter
         # raises rather than returning [] when a selector actually breaks.
         assert config.allow_empty, f"{config.id}: gallery should allow_empty"
+
+
+def test_knma_takes_the_blurb_from_the_show_s_own_page(knma, monkeypatch):
+    """The listing card carries a blurb for some shows and nothing at all for
+    others, so cards on the site were a heading with no sense of what the show
+    was. The writing lives on the detail page."""
+    source, fetcher = knma
+    _pin_gallery_today(monkeypatch, date(2026, 9, 20))
+    events = source.fetch(fetcher)
+
+    show = next(e for e in events if e.title == "Inheritors of Earth")
+    assert "curated by Premjish Achari" in show.description
+    assert any("/whats-on/exhibitions/" in url for url in fetcher.requested)
+
+
+def test_knma_drops_the_house_promo_from_the_blurb(knma, monkeypatch):
+    """Every KNMA page signs off "While you're here, explore KNMA's two ongoing
+    exhibitions...", which padded the summary and -- worse -- handed the
+    classifier the words "exhibitions" and "screenings" for a book talk."""
+    source, fetcher = knma
+    _pin_gallery_today(monkeypatch, date(2026, 9, 20))
+
+    for event in source.fetch(fetcher):
+        assert "While you" not in event.description
+        assert "two ongoing exhibitions" not in event.description
+
+
+def test_gallery_does_not_refetch_a_blurb_it_already_has(monkeypatch):
+    """The detail fetch is per current show, so it must be skipped whenever the
+    listing already said enough -- otherwise every refresh opens a page a
+    venue never needed us to."""
+    from delhi_events.sources.base import SourceConfig, load_source
+
+    listing = (
+        '<div class="card"><h2>A Show</h2><span class="d">5 - 30 October 2026</span>'
+        '<p class="blurb">' + "A full paragraph of real description. " * 4 + "</p>"
+        '<a href="/shows/a-show"></a></div>'
+    )
+
+    class CountingFetcher:
+        def __init__(self): self.urls = []
+        def get(self, url, *, referer=None, retries=3):
+            self.urls.append(url)
+            return listing
+
+    source = load_source(SourceConfig(
+        id="test_gallery", adapter="gallery", name="Test Gallery",
+        url="https://example.test/shows", options={
+            "card": ".card", "title": "h2", "dates": ".d",
+            "description": ".blurb", "detail_description": ".body",
+        },
+    ))
+    from delhi_events.sources import gallery
+    monkeypatch.setattr(gallery, "_today", lambda: date(2026, 10, 1))
+
+    fetcher = CountingFetcher()
+    assert source.fetch(fetcher)
+    assert fetcher.urls == ["https://example.test/shows"]

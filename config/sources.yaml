@@ -78,6 +78,16 @@ sources:
       # KNMA lists shows its collection travels to (MoMA, the V&A) on the same
       # page as its own programme. Keep only the Delhi-NCR spaces.
       sub_venue_allow: [KNMA, Saket, Noida]
+      # The listing card carries a blurb for some shows and nothing for others,
+      # so the card on our site read as a bare heading. The writing is on the
+      # show's own page.
+      detail_description: .detail_content_each .subtext
+      # Every page ends with house promo for the other current shows.
+      detail_stop: "While you\u2019re here|While you're here"
+
+      # Unlike a pure gallery listing, "What's On" mixes exhibitions with
+      # talks, panels and workshops, so read the format from the blurb.
+      format: auto
 
   - id: nature_morte
     adapter: gallery

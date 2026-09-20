@@ -6,8 +6,69 @@ METHOD:PUBLISH
 X-WR-CALNAME:Delhi Culture — talks & ideas
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:86c8d87bf686cb79@delhi-events
+DTSTAMP:20260920T105600Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20261123
+SUMMARY:Pata Dekhabo?
+LOCATION:KNMA Art Passage\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/exhibitions/pata-dekhabo
+DESCRIPTION:An exhibition exploring narrative scrolls\, storytelling trad
+ itions\, and vernacular image-making across Bengal and Jharkhand. The exh
+ ibition brings together picture-making traditions from Bengal and Jharkha
+ nd through narrative scrolls and single-format images spanning three cent
+ uries. Featuring works from pattachitra and Santhal traditions\, it explo
+ res how storytelling\, performance\, ritual\, and everyday life intersect
+  within these living practices. Tracing the evolving responses of patuas 
+ to social and cultural change from the nineteenth century to the present\
+ , the exhibition also situates the practices of the Jadupatuas within the
+  cultural and political histories of the Santhal community. Through these
+  works\, storytelling emerges not only as a visual form\, but also as a p
+ erformative and community-based practice shaped by changing historical an
+ d material conditions. The exhibition further reflects on the introductio
+ n of mill-made paper in colonial Bengal and its influence on narrative im
+ age-making traditions. Alongside these histories\, it explores modernist 
+ engagements with vernacular idioms through the works of artists such as J
+ amini Roy and Ramkinkar Baij \, foregrounding the continuing dialogue bet
+ ween folk traditions and modern Indian art.\n\nhttps://www.knma.org/whats
+ -on/exhibitions/pata-dekhabo
+CATEGORIES:exhibition\,history\,literature\,sociology
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd525302f6f73c4@delhi-events
+DTSTAMP:20260920T105600Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20261223
+SUMMARY:Inheritors of Earth
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/exhibitions/inheritors-of-earth
+DESCRIPTION:Inheritors of Earth \, curated by Premjish Achari\, invites v
+ iewers into the relational world of plants\, entities long treated as bac
+ kdrop\, resource\, or specimen rather than co-inhabitants of the earth. T
+ he title draws on Vaikom Muhammad Basheer’s Bhumiyude Avakashikal \, en
+ visioning humans\, flora and fauna as equal co-custodians of the planet\,
+  and on ecological activist Kallen Pokkudan\, whose mangrove-planting wor
+ k fused Dalit history with ecological repair. Through paintings\, photogr
+ aphs\, installations and video\, artists here practice a “phytosensitiv
+ e” approach: encountering rather than merely representing plants\, trac
+ ing colonial botanical migrations\, and honoring uncredited lower-caste k
+ nowledge-keepers erased from scientific archives. Rejecting both extracti
+ on and exoticism\, the exhibition asks viewers to look with plants\, not 
+ just at them\, moving from usefulness and utility toward humility\, kinsh
+ ip\, and coexistence—imagining a future shaped by plant life on its own
+  terms. The exhibition is proud to host a set of artworks from the Shared
+  Ecologies archive as part of an extended reading room. Ben Goldfarb has 
+ designed a special soundscape for the exhibition. Independent curator and
+  researcher Oorja Garg and IMPULSE Magazine\, New York are leading a spec
+ ial reading group for the duration of the exhibition.\n\nhttps://www.knma
+ .org/whats-on/exhibitions/inheritors-of-earth
+CATEGORIES:exhibition\,art\,history\,nature\,sociology
+END:VEVENT
+BEGIN:VEVENT
 UID:2740c201ddf09d7d@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART:20260920T063000Z
 DTEND:20260920T083000Z
 SUMMARY:Indian Art: History and Appreciation Course
@@ -23,7 +84,7 @@ CATEGORIES:workshop\,art\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:237b755f14e8a048@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART:20260921T123000Z
 DTEND:20260921T143000Z
 SUMMARY:BOOK DISCUSSION GROUP - What the Shadow Said
@@ -41,7 +102,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:d67b93bbbd3be974@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20261001
 SUMMARY:Raj Se Swaraj Tak From Colonial Rule to Freedom- Through the Eyes
@@ -66,7 +127,7 @@ CATEGORIES:exhibition\,art\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:ce1a08e3c752fbce@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART:20260923T123000Z
 DTEND:20260923T143000Z
 SUMMARY:BOOK DISCUSSION GROUP - Signature on the Wind
@@ -85,7 +146,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:d2aa4bb820267588@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART:20260924T123000Z
 DTEND:20260924T143000Z
 SUMMARY:As the French Say — The Little Prince
@@ -117,7 +178,7 @@ CATEGORIES:other\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:d1713a4b94845c02@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART:20260924T133000Z
 DTEND:20260924T153000Z
 SUMMARY:From Policy to Practice: Powering Maritime Excellence
@@ -131,8 +192,86 @@ DESCRIPTION:RIS-IHC Maritime Lecture Series - World Maritime Day 2026 . F
 CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
+UID:d0c976e5503f2f6c@delhi-events
+DTSTAMP:20260920T105600Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:In the Moonlit Kingdom
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/events/in-the-moonlit-kingdom
+DESCRIPTION:KNMA presents Penguin Dialogues: In the Moonlit Kingdom \, fe
+ aturing award-winning author Aishwarya Jha in conversation with Ambreen K
+ han . Centred on the launch of Jha’s second novel\, the discussion expl
+ ores a Gothic world shaped by an ancient manor house\, the family that in
+ habits it\, and the secrets and spectres that linger between generations.
+  The conversation delves into the novel’s themes of complex family dyna
+ mics\, female rage\, memory\, and belonging\, while examining how Gothic 
+ fiction can illuminate the tensions that both bind and fracture relations
+ hips. It also explores the process of world-building\, focusing on the fi
+ ctional Himalayan town at the heart of the novel and the lost Shangrilas 
+ that fiction can bring back to life. The evening concludes with an audien
+ ce Q&A and book signing\, offering readers an opportunity to engage direc
+ tly with the author and continue the conversation beyond the stage. About
+  the Speakers Aishwarya Jha is an award-winning author\, playwright\, and
+  actress. Her debut novel\, The Scent of Fallen Stars \, won the 2024 Ram
+  Nath Goenka Sahithya Samman for Fiction. Her writing has appeared in pub
+ lications including Bombay Literary Magazine \, Scroll \, and The New Ind
+ ian Express \, and she is the co-founder of Indophile\, an initiative ded
+ icated to promoting Indian culture and heritage. Ambreen Khan is Head of 
+ Corporate Communications at The Indian Express and an Adjunct Professor o
+ f Media Studies at O.P. Jindal Global University and Jamia Millia Islamia
+ . Her work spans journalism\, education\, cultural advocacy\, and strateg
+ ic communications\, with a particular interest in storytelling and the in
+ tersection of culture and public engagement.\n\nhttps://www.knma.org/what
+ s-on/events/in-the-moonlit-kingdom
+CATEGORIES:talk\,literature
+END:VEVENT
+BEGIN:VEVENT
+UID:0d469fb1c0d7a618@delhi-events
+DTSTAMP:20260920T105600Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:The Language of Belonging
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/events/the-language-of-belonging
+DESCRIPTION:As part of KNMA’s celebration of International Week of Deaf
+  People\, this panel brings together diverse Deaf perspectives to explore
+  the relationship between sign language\, Deaf culture\, communication\, 
+ identity\, and belonging. The conversation considers how these themes int
+ ersect with art and creative spaces\, and how museums and cultural instit
+ utions can foster greater inclusion and participation for Deaf and hearin
+ g communities alike. Moderated by Hardeep Singh \, the panel brings toget
+ her Sunil Sahasrabudhe \, Ranveet Kau r\, Harshali Nade and Niharika Popl
+ i . Together\, they share perspectives on Deaf culture\, language\, acces
+ sibility\, and ways of creating spaces that support meaningful communicat
+ ion and participation. Following the panel\, a screening of If I Could Te
+ ll You \, a documentary by Niharika Popli \, explores the experiences of 
+ Deaf individuals through themes of language\, identity\, communication\, 
+ and the human need to express and be understood. Following Charu\, a youn
+ g Deaf woman\, alongside a hearing CODA (Child of Deaf Adults) and four y
+ oung artists\, the film considers different forms of visual and performat
+ ive expression. About the Contributors Hardeep Singh is a Deaf artist\, d
+ esigner\, and inclusion professional at KNMA\, working to advance accessi
+ bility and Deaf inclusion in museum spaces. Sunil Sahasrabudhe is Preside
+ nt of the All India Federation of the Deaf (AIFD) and a leader\, educator
+ \, and advocate for the Deaf community in India. Ranveet Kaur is a Deaf c
+ ommunity leader\, Coordinator at the Speaking Hands Institute for the Dea
+ f\, and President of The Punjab Association of Deaf. Harshali Nade is an 
+ Indian Sign Language translator and communication professional with exper
+ ience across news\, museums\, media\, and accessibility. She works to mak
+ e information more accessible to the Deaf community through ISL translati
+ on. Niharika Popli is a filmmaker\, editor\, and co-founder of Dilmaya Fi
+ lms. Her work explores language\, identity\, and belonging. Her debut doc
+ umentary\, Rasan Piya\, received the Tareque Masud Award at Film Southasi
+ a and a Special Mention at the Mumbai International Film Festival.\n\nhtt
+ ps://www.knma.org/whats-on/events/the-language-of-belonging
+CATEGORIES:talk\,art\,cinema\,sociology
+END:VEVENT
+BEGIN:VEVENT
 UID:397bb2bddcf14d1b@delhi-events
-DTSTAMP:20260920T104112Z
+DTSTAMP:20260920T105600Z
 DTSTART:20260926T133000Z
 DTEND:20260926T153000Z
 SUMMARY:Unlocking Indian Tourism: How Deregulation and Policy Reform Can 

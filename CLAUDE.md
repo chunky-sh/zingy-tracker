@@ -113,6 +113,20 @@ nothing is generated (a test in `tests/test_nature_sources.py` fails once it lap
 by phone, then push the date forward), and a `caveat` with the venue's phone number on every
 generated event.
 
+**Galleries keep the writing on the detail page.** Several print only a title and dates on the
+listing (KNMA shows nothing at all for some), so `detail_description` opens each *current* show's
+own page — after the date filter, so KNMA costs 6 fetches rather than 33, capped by `detail_limit`
+and skipped when the listing blurb is already substantial. `detail_stop` cuts the house promo off
+the end; leaving KNMA's "While you're here, explore KNMA's two ongoing exhibitions…" in place
+padded every summary and filed a book talk as an exhibition. Format and topics are therefore
+classified *after* the description is final, and a venue whose listing mixes shows with talks and
+workshops sets `format: auto` instead of declaring one.
+
+**`detect_format` takes the earliest match, not the first rule.** A listing states what the event
+is up front and drops incidental mentions later, so position beats rule order; rule order only
+breaks ties. Without this a panel discussion was filed as a festival because a speaker bio
+mentioned the Mumbai International Film Festival.
+
 **The `gallery` adapter's two empty results mean opposite things.** No card matching the `card`
 selector means the page changed shape, so it *raises*; cards that match but have all finished is
 a gallery between shows, so it returns `[]`. That distinction is what makes `allow_empty: true`

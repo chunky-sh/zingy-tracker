@@ -37,6 +37,7 @@ from __future__ import annotations
 
 import copy
 import logging
+import re
 from datetime import date, datetime, timedelta
 from urllib.parse import urljoin
 
@@ -52,6 +53,14 @@ log = logging.getLogger(__name__)
 
 # A show dated further out than this is a misparse, not a booking.
 MAX_LEAD = timedelta(days=550)
+
+# Below this many characters a listing has given us a label, not a description,
+# and it is worth opening the show's own page for the real thing.
+MIN_DESCRIPTION = 80
+
+# Ceiling on detail pages opened per refresh, so a venue that suddenly lists a
+# hundred current shows cannot turn one refresh into a hundred requests.
+DETAIL_LIMIT = 30
 
 
 def _today() -> date:
@@ -84,26 +93,98 @@ class Source(BaseSource):
             )
 
         today = _today()
-        events: list[Event] = []
-        seen: set[str] = set()
+        parsed: list[dict] = []
+        seen: set[tuple] = set()
         undated = 0
 
         for card in cards:
-            event = self._parse_card(card, options, title_selector)
-            if event is None:
+            fields = self._parse_card(card, options, title_selector)
+            if fields is None:
                 undated += 1
                 continue
-            last_day = (event.end or event.start).date()
-            if last_day < today or event.start.date() - today > MAX_LEAD:
+            last_day = (fields["end"] or fields["start"]).date()
+            if last_day < today or fields["start"].date() - today > MAX_LEAD:
                 continue
-            if event.id in seen:
+            key = (fields["title"], fields["start"], fields["sub_venue"])
+            if key in seen:
                 continue
-            seen.add(event.id)
-            events.append(event)
+            seen.add(key)
+            parsed.append(fields)
 
+        # Only now that the listing is down to what is still on -- KNMA's page
+        # carries 33 shows and runs 6 -- is it reasonable to open a page each.
+        self._fill_descriptions(parsed, options, fetcher)
+
+        events = [Event(**self.base_fields(), **fields, **self._classify(fields, options))
+                  for fields in parsed]
         log.info("%s: %d cards, %d undated, %d current", self.id, len(cards), undated,
                  len(events))
         return events
+
+    def _fill_descriptions(self, parsed: list[dict], options: dict, fetcher: Fetcher) -> None:
+        """Pull the blurb off each show's own page, where the listing lacks one.
+
+        Several galleries print only a title and dates on the listing and keep
+        the writing on the detail page -- KNMA shows nothing at all for some of
+        its exhibitions -- which left the card on our site with a heading and
+        no indication of what the show actually is.
+        """
+        detail_selector = options.get("detail_description")
+        if not detail_selector:
+            return
+
+        budget = int(options.get("detail_limit", DETAIL_LIMIT))
+        for fields in parsed:
+            if budget <= 0:
+                break
+            if len(fields["description"]) >= MIN_DESCRIPTION:
+                continue
+            url = fields["source_url"]
+            if not url or url == self.config.url:
+                continue
+
+            budget -= 1
+            try:
+                page = BeautifulSoup(fetcher.get(url, referer=self.config.url), "lxml")
+            except RuntimeError as exc:
+                log.warning("%s: detail fetch failed %s: %s", self.id, url, exc)
+                continue
+
+            parts = [el.get_text(" ", strip=True) for el in page.select(detail_selector)]
+            text = "\n".join(p for p in parts if p)
+
+            # Venues sign off with house promo -- KNMA ends every page "While
+            # you're here, explore KNMA's two ongoing exhibitions..." -- which
+            # padded the blurb and, worse, fed the classifier the words
+            # "exhibitions" and "screenings" for what was actually a book talk.
+            if stop_pattern := options.get("detail_stop"):
+                text = re.split(stop_pattern, text, maxsplit=1, flags=re.I)[0].strip()
+
+            if text:
+                # Keep whatever the listing gave us -- usually the artist's
+                # name -- ahead of the blurb rather than discarding it.
+                existing = fields["description"]
+                fields["description"] = f"{existing}\n{text}" if existing else text
+
+    @staticmethod
+    def _classify(fields: dict, options: dict) -> dict:
+        """Decide format and topics, once the description is final.
+
+        An exhibitions listing is all exhibitions, so most venues just declare
+        the format. KNMA's "What's On" is not one of those -- it mixes shows
+        with talks, panels and workshops -- so it sets ``format: auto`` and the
+        taxonomy reads the blurb, falling back to exhibition when nothing in
+        the text says otherwise. That fallback is why this runs after the
+        detail page has been fetched: on the listing text alone almost
+        everything abstains.
+        """
+        declared = options.get("format", Format.EXHIBITION.value)
+        detected, topics, _ = classify(fields["title"], fields["description"])
+        if declared == "auto":
+            fmt = detected if detected is not Format.OTHER else Format.EXHIBITION
+        else:
+            fmt = Format(declared)
+        return {"format": fmt, "topics": topics}
 
     @staticmethod
     def _parse_dates(card: Tag, options: dict) -> tuple[datetime | None, datetime | None]:
@@ -134,7 +215,13 @@ class Source(BaseSource):
             date_text = card.get_text(" ", strip=True)
         return parse_range(date_text)
 
-    def _parse_card(self, card: Tag, options: dict, title_selector: str) -> Event | None:
+    def _parse_card(self, card: Tag, options: dict, title_selector: str) -> dict | None:
+        """Return the Event's fields rather than the Event.
+
+        The blurb may still have to be fetched from the show's own page, and
+        ``Event`` derives its id and content hash on construction -- so the
+        fields are kept open until the description is final.
+        """
         title_el = card.select_one(title_selector)
         if title_el is None:
             return None
@@ -191,21 +278,13 @@ class Source(BaseSource):
             if not any(a.lower() in sub_venue.lower() for a in allowed):
                 return None
 
-        # The page is the gallery's exhibitions listing, so the format is known
-        # from context rather than guessed at; only the topics need reading.
-        fmt = Format(options.get("format", Format.EXHIBITION.value))
-        _, topics, _ = classify(title, description)
-
-        return Event(
-            **self.base_fields(),
-            source_url=source_url,
-            title=title,
-            description=description,
-            start=start,
-            end=end,
-            all_day=True,
-            sub_venue=sub_venue,
-            format=fmt,
-            topics=topics,
-            image_url=image_url,
-        )
+        return {
+            "source_url": source_url,
+            "title": title,
+            "description": description,
+            "start": start,
+            "end": end,
+            "all_day": True,
+            "sub_venue": sub_venue,
+            "image_url": image_url,
+        }

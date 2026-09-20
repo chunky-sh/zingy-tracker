@@ -48,7 +48,7 @@ def build_source(source_id: str, adapter: str, name: str, routes: list[tuple[str
     return load_source(config), FakeFetcher(routes)
 
 
-def build_configured_source(source_id: str, fixture: str):
+def build_configured_source(source_id: str, routes):
     """Build a source from its real entry in config/sources.yaml.
 
     The gallery adapter's whole integration *is* its selectors, so the thing
@@ -58,12 +58,20 @@ def build_configured_source(source_id: str, fixture: str):
     from delhi_events.sources.base import load_configs
 
     config = next(c for c in load_configs() if c.id == source_id)
-    return load_source(config), FakeFetcher([(r".*", fixture)])
+    if isinstance(routes, str):
+        routes = [(r".*", routes)]
+    return load_source(config), FakeFetcher(routes)
 
 
 @pytest.fixture
 def knma():
-    return build_configured_source("knma", "gallery_knma.html")
+    # The detail route has to come first: KNMA keeps the blurb on each show's
+    # own page, and routing those to the listing instead would let the
+    # description-filling path pass without ever being exercised.
+    return build_configured_source("knma", [
+        (r"/whats-on/(exhibitions|events)/", "gallery_knma_detail.html"),
+        (r"/whats-on/", "gallery_knma.html"),
+    ])
 
 
 @pytest.fixture
