@@ -35,6 +35,12 @@ TARGETS = [
      None),
     ("goethe_page0.json", _page_url(0), None),
     ("bnhs_nature_trails.html", "https://www.bnhs.org/nature-trails", None),
+    ("gallery_knma.html", "https://knma.org/whats-on/", None),
+    ("gallery_latitude28.html", "https://www.latitude28.com/exhibition/", None),
+    ("bikaner_house_2026_09.html",
+     "https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9", None),
+    ("bikaner_house_2026_10.html",
+     "https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/10", None),
     ("sunder_heritage_walk.html",
      "https://www.sundernursery.org/heritage-and-nature-walk.php", None),
 ]

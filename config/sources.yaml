@@ -42,6 +42,130 @@ sources:
     enabled: true
     allow_empty: true
 
+  # Galleries hire Bikaner House's halls by the week, so one listing carries
+  # the shows of a dozen small galleries that publish no calendar themselves.
+  # Each show appears only under the month it opens in -- hence months_ahead.
+  - id: bikaner_house
+    adapter: bikaner_house
+    name: Bikaner House
+    address: Pandara Road, India Gate, New Delhi 110011
+    url: https://bikanerhouse.rajasthan.gov.in/upcoming-events
+    enabled: true
+    options:
+      months_ahead: 3
+
+  # A small gallery between shows is a normal empty. The adapter raises if the
+  # card selector stops matching, so `allow_empty` here does not mask a break.
+  # -- Commercial galleries -------------------------------------------------
+  # All of these use the shared `gallery` adapter: the selectors below are the
+  # whole integration, so adding a gallery is an entry here, not a module.
+  # Their pages carry the gallery's archive alongside its current programme;
+  # the adapter drops anything whose last day has passed.
+
+  - id: knma
+    adapter: gallery
+    name: Kiran Nadar Museum of Art
+    address: Saket, New Delhi 110017
+    url: https://knma.org/whats-on/
+    enabled: true
+    allow_empty: true
+    options:
+      card: .content_grid_v5
+      title: .content_grid_v5_info--title
+      dates: .content_grid_v5_info--text
+      description: .content_grid_v5_info--desc
+      sub_venue: .location_label
+      # KNMA lists shows its collection travels to (MoMA, the V&A) on the same
+      # page as its own programme. Keep only the Delhi-NCR spaces.
+      sub_venue_allow: [KNMA, Saket, Noida]
+
+  - id: nature_morte
+    adapter: gallery
+    name: Nature Morte
+    address: A-1 Neeti Bagh, New Delhi 110049
+    url: https://naturemorte.com/exhibitions/
+    enabled: true
+    allow_empty: true
+    options:
+      card: .card-exhibition
+      title: .subTitle
+      dates: .date
+      description: .artistName
+      sub_venue: .city
+      sub_venue_allow: [Gulmohar Park, Neeti Bagh, Dhan Mill, New Delhi]
+
+  - id: vadehra
+    adapter: gallery
+    name: Vadehra Art Gallery
+    address: D-40 / D-53 Defence Colony, New Delhi 110024
+    url: https://www.vadehraart.com/exhibitions
+    enabled: true
+    allow_empty: true
+    options:
+      # Only the "Ongoing" grid -- the page also renders a forthcoming and an
+      # archive grid, and the archive runs to two decades.
+      card: "#exhibitions-grid-current li"
+      title: h2
+      dates: .date
+      description: .description
+      sub_venue: .subtitle
+
+  - id: shrine_empire
+    adapter: gallery
+    name: Shrine Empire
+    address: 12 Defence Colony, New Delhi 110024
+    url: https://shrineempiregallery.com/exhibitions/
+    enabled: true
+    allow_empty: true
+    options:
+      card: .exib-caption
+      title: h5
+      # The h5 ends "<span>| Group Show</span>" -- a tag, not part of the name.
+      title_exclude: span
+      dates: p
+
+  - id: latitude_28
+    adapter: gallery
+    name: Latitude 28
+    address: F-208 Lado Sarai, New Delhi 110030
+    url: https://www.latitude28.com/exhibition/
+    enabled: true
+    allow_empty: true
+    options:
+      card: .exb-col
+      title: h3
+      # This one publishes the two ends in separate spans rather than a range.
+      date_start: .date-start
+      date_end: .date-end
+
+  - id: gallery_espace
+    adapter: gallery
+    name: Gallery Espace
+    address: 16 Community Centre, New Friends Colony, New Delhi 110025
+    url: https://www.galleryespace.com/exhibitions
+    enabled: true
+    allow_empty: true
+    options:
+      card: .tb-grid-column
+      title: h4.tb-heading
+      dates: .tb-fields-and-text
+
+  - id: exhibit_320
+    adapter: gallery
+    name: Exhibit 320
+    address: F-320 Lado Sarai, New Delhi 110030
+    url: https://www.exhibit320.com/
+    enabled: true
+    allow_empty: true
+    options:
+      # :has() keeps the site header, which is also .inner, out of the listing.
+      card: .inner:has(span.date)
+      title: h2
+      dates: span.date
+      description: h3
+      # Their markup spells the attribute "herf", so there is no link to follow.
+      link: none
+
   # Backfill beyond the ~2 months the IHC HTML calendar shows. Needs
   # ANTHROPIC_API_KEY and pypdf; overlapping events are merged by title+date.
   # Enable when you want the extra lead time.

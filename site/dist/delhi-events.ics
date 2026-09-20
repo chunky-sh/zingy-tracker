@@ -6,342 +6,1059 @@ METHOD:PUBLISH
 X-WR-CALNAME:Delhi Culture — everything
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:62347b227f6806eb@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260722T053000Z
-DTEND:20260804T133000Z
-SUMMARY:UNSUNG: Celebrating the Extraordinary Grandeur of Smallness
-LOCATION:Art Gallery\, Kamaladevi Complex\, IIC\, India International Cen
- tre\, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/exhibition-unsung-celebrating-extraord
- inary-grandeur-smallness
-DESCRIPTION:A photography exhibition curated by Amit Mehra\, photographer
- \, curator\, and founder of the UNSUNG project\, an ongoing initiative th
- at celebrates the lives and contributions of extraordinary yet often over
- looked individuals.\nThe photographs explore the beauty and significance 
- of lives\, places\, and ideas that often go unnoticed. Through visual nar
- ratives by contemporary artists\, the exhibition reflects on ordinary peo
- ple and unseen worlds whose stories reveal resilience\, conviction\, and 
- human connection.\nThe exhibition will be inaugurated on Tuesday\, 21 Jul
- y’26 at 18:00 hrs by Amb Shyam Saran\, President\, IIC\nThe exhibition 
- will remain open daily from 11:00 to 19:00 hrs\n(Collaboration: Srishti M
- anipal Institute of Art\, Design and Technology (a constituent of MAHE\, 
- Manipal) and Manipal Academy of Higher Education (MAHE)\, Manipal (Instit
- ution of Eminence Deemed to be University)\n\nhttps://iicdelhi.in/program
- mes/exhibition-unsung-celebrating-extraordinary-grandeur-smallness
-CATEGORIES:exhibition\,art\,photography
+UID:86c8d87bf686cb79@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20261123
+SUMMARY:Pata Dekhabo?
+LOCATION:KNMA Art Passage\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/exhibitions/pata-dekhabo
+DESCRIPTION:https://www.knma.org/whats-on/exhibitions/pata-dekhabo
+CATEGORIES:exhibition
 END:VEVENT
 BEGIN:VEVENT
-UID:571e8403cd7afc39@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260726T053000Z
-DTEND:20260802T133000Z
-SUMMARY:Flux of Being
-LOCATION:Art Gallery\, IIC Annexe\, India International Centre\, 40 Max M
- ueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/exhibition-flux-being
-DESCRIPTION:A Solo Exhibition by Ravi Kant Jha\, National award-winning a
- rtist\, his practice investigates themes of consciousness\, memory\, and 
- transformation.\nThe exhibition presents a series of paintings that explo
- re consciousness as a state of constant transformation. Through fluid for
- ms\, layered compositions\, and evocative color fields\, the works blur t
- he boundaries between memory\, imagination\, and reality.\nThe exhibition
-  will be inaugurated on Saturday\, 25 July’26 at 17:00 hrs\nThe exhibit
- ion will remain open daily from 11:00 to 19:00 hrs\n\nhttps://iicdelhi.in
- /programmes/exhibition-flux-being
+UID:aac5925be21f8bed@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20261008
+SUMMARY:MOOL
+LOCATION:Exhibit 320\, F-320 Lado Sarai\, New Delhi 110030
+URL:https://www.exhibit320.com/
+DESCRIPTION:Curated by Shaleen Wadhwana\n\nhttps://www.exhibit320.com/
+CATEGORIES:exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:797ea028b8713892@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20261006
+SUMMARY:Nocturnes | Woodcut Engravings and Etchings by P.D. Dhumal
+LOCATION:D-40 Defence Colony\, New Delhi\, Vadehra Art Gallery\, D-40 / D
+ -53 Defence Colony\, New Delhi 110024
+URL:https://www.vadehraart.com/exhibitions/318-nocturnes-woodcut-engravin
+ gs-and-etchings-by-p.d.-d-40-defence-colony-new-delhi/overview/
+DESCRIPTION:Purushottam Dhumal emerged on the scene soon after but around
+  the same period as Laxma [Goud]\, D.L.N. Reddy and Devraj [Dakoji] — a
+ ll deeply committed to printmaking. In a series of highly accomplished et
+ chings\, Dhumal deployed an unabashed phallic imagery with an intense mas
+ culine charge. It is difficult to identify...\n\nhttps://www.vadehraart.c
+ om/exhibitions/318-nocturnes-woodcut-engravings-and-etchings-by-p.d.-d-40
+ -defence-colony-new-delhi/overview/
+CATEGORIES:exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:127a65e3bf588f63@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20261011
+SUMMARY:The Evolution of the Soothsayer Part 1
+LOCATION:Gulmohar Park\, Nature Morte\, A-1 Neeti Bagh\, New Delhi 110049
+URL:https://naturemorte.com/public/exhibitions/the-evolution-of-the-sooth
+ sayer-part-1
+DESCRIPTION:Manisha Parekh\n\nhttps://naturemorte.com/public/exhibitions/
+ the-evolution-of-the-soothsayer-part-1
+CATEGORIES:exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:6168c5dcff7a08f6@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20261223
+SUMMARY:In-Rhythm
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/exhibitions/bice-lazzari-and-nasreen-mo
+ hamedi-in-rhythm
+DESCRIPTION:Bice Lazzari and Nasreen Mohamedi\n\nhttps://www.knma.org/wha
+ ts-on/exhibitions/bice-lazzari-and-nasreen-mohamedi-in-rhythm
+CATEGORIES:exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd525302f6f73c4@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20261223
+SUMMARY:Inheritors of Earth
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/exhibitions/inheritors-of-earth
+DESCRIPTION:https://www.knma.org/whats-on/exhibitions/inheritors-of-earth
+CATEGORIES:exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:bdad9a5d8626fd61@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260909T183000Z
+DTEND:20260923T183000Z
+SUMMARY:AFD Cine Club | September 2026
+LOCATION:Alliance Française de Delhi\, 72 Lodhi Estate\, New Delhi 11000
+ 3
+URL:https://afdelhi.org/events/afd-cine-club-september-2026/
+DESCRIPTION:Discover French cinema at the AFD Cine Club\, a monthly film 
+ screening series at Alliance Française de Delhi. From animated adventure
+ s and historical stories to thought-provoking tales\, explore the richnes
+ s and diversity of French-language cinema.\n🎬 Calamity\n10 September 2
+ 026 | 6:30 PM\n\nCalamity follows Martha Jane\, a fearless young girl tra
+ velling west across 19th-century America. When her father is injured\, sh
+ e takes charge of the family wagon and horses. Free-spirited and determin
+ ed\, Martha Jane challenges expectations\, disguises herself as a boy\, a
+ nd sets out to prove her innocence after being accused of theft. Along th
+ e way\, she discovers a world where her courage and independent spirit ca
+ n truly shine.\n\n&nbsp\;\n\n&nbsp\;\n\n&nbsp\;\n🎬 Ernest &amp\; Celes
+ tine: The Journey to Charabia\n17 September 2026 | 6:30 PM\n\nErnest and 
+ Celestine travel to Charabia to repair Ernest’s violin\, only to discov
+ er that music has been banned. Determined to bring music and joy back to 
+ the city\, they join forces with their friends and a mysterious masked vi
+ gilante to challenge injustice and restore the freedom to make music.\n\n
+ &nbsp\;\n🎬 A Monkey’s Tale\n24 September 2026 | 6:30 PM\n\nLe Châte
+ au des singes (A Monkey’s Tale) is a 1999 French animated film directed
+  by Jean-François Laguionie. The story follows a young monkey who ventur
+ es beyond the familiar world of his home and discovers a mysterious new c
+ ivilisation. A charming adventure exploring curiosity\, difference and th
+ e discovery of new worlds.\n\n&nbsp\;\n\n&nbsp\;\n\n&nbsp\;\n\n&nbsp\;\n\
+ n🎞️ French Films with English Subtitles\n\n📍 Venue: M.L. Bhartia 
+ Auditorium\, Alliance Française de Delhi\n\nFree Entry | First come firs
+ t serve\n\nJoin us for an evening of French cinema\, stories and culture 
+ at the AFD Cine Club.\n\nhttps://afdelhi.org/events/afd-cine-club-septemb
+ er-2026/
+CATEGORIES:film\,cinema\,music
+END:VEVENT
+BEGIN:VEVENT
+UID:d7f6948c32ae33f4@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260923
+SUMMARY:Standing on Sacred Ground
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:Presented by Kalakriti Art Gallery\, Hyderabad\, in this grou
+ p exhibition the artists have examined the shifts of the recent past thro
+ ugh the lens of their own visual vocabulary. This could range from sudden
+  presence or sudden lack of colour\; moving from big to small canvases or
+  from figuration to abstraction. A set of artists in this group can be se
+ en archiving family histories some\, having noticed the lack of represent
+ ation of caste/gender\, are rectifying that by inserting figures/archival
+  material into their work. The constant presence of memories of a loved o
+ ne\, lost in the recent past\, is being memorialized through found object
+ s. \nThe exhibition also looks at personal awakenings and has been curate
+ d by Avantika Bhuniya.\n\nhttps://bikanerhouse.rajasthan.gov.in/upcoming-
+ events/2026/9
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:26ba3ca1d563f984@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260731T033000Z
-DTEND:20260801T113000Z
-SUMMARY:3rd All India Conference of East Asian Studies
-LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
- ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/3rd-all-india-conference-east-asian-st
- udies
-DESCRIPTION:Dissonances in the World Order: Implications for Indo-Pacific
-  & East Asia\nKeynote Address by Prof. Kan Kimura\, Graduate School of In
- ternational Cooperation Studies\, Kobe University\nFollowed by Thematic d
- iscussions and a Special Lecture by eminent academicians\, policy experts
-  and researchers on contemporary issues in East Asian Studies\, internati
- onal politics\, regional security\, technology\, economics and the enviro
- nment.\nThe conference will examine the evolving geopolitical\, economic 
- and strategic landscape of East Asia and the Indo-Pacific\, with a partic
- ular focus on Japan's role in shaping a free\, open and rules-based regio
- nal order. Discussions will explore regional security\, economic resilien
- ce\, technology\, climate and multilateral cooperation.\nFor the detailed
-  programme\, please\nclick here\n(Collaboration: Institute of Chinese Stu
- dies and Japan Foundation)\n\nhttps://iicdelhi.in/programmes/3rd-all-indi
- a-conference-east-asian-studies
-CATEGORIES:talk\,sociology
+UID:bb23c435c57ad5e6@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260922
+SUMMARY:Tap Aur Tapish
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:Presented by Art Explore\, this exhibition serves as a powerf
+ ul platform to present Vipul Kumar’s artistic journey — from his earl
+ y stone sculptures to his transformative engagement with clay. Central to
+  the show are works that explore environmental fragility\, spiritual intr
+ ospection\, and mythological symbolism. Drawing from Jain and Buddhist co
+ smologies\, as well as poetic traditions such as that of Kabir\, Kumar’
+ s sculptures evoke a timeless quality while remaining deeply rooted in co
+ ntemporary concerns. The exhibition will include key pieces and newly dev
+ eloped works that mark a turning point in his career. With raw\, weathere
+ d surfaces and organic\, monumental forms\, the sculptures invite viewers
+  into a meditative space where philosophical inquiry meets sensory experi
+ ence. This proposed solo exhibition highlights Vipul Kumar’s mastery ov
+ er material and form and asserts his pivotal role in shaping contemporary
+  Indian ceramics. It reaffirms ceramics as a serious medium of artistic e
+ xpression and brings critical and curatorial attention to an artist who c
+ ontinues to challenge boundaries with quiet intensity and profound clarit
+ y.\n\nhttps://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:84d4d11a1997e179@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260731T123000Z
-DTEND:20260731T143000Z
-SUMMARY:BOOK DISCUSSION GROUP- Stories Carved in Stone Voices Rooted in E
- arth Silent Walls\, Speaking Stones & Indigenized/ Tribalized: Poems
-LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
- Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/book-discussion-group-stories-carved-s
- tone-voices-rooted-earth-silent-walls-speaking
-DESCRIPTION:Book Discussion Group\nStories Carved in Stone Voices Rooted 
- in Earth\nSilent Walls\, Speaking Stones & Indigenized/ Tribalized\nBy Ni
- shi Chawla (Human Error Publishing\, 2026)\nDiscussants: Prof. Amrita Bha
- lla\, Academician\, Author and critic\, Associate Professor\, Department 
- of English\, Jesus and Mary College\, University of Delhi\; Prof. Sukrita
-  Paul Kumar\, Guest Editor\, Indian Literature\, Poet\, Academic and Crit
- ic\; Prof Ratna Raman\, Dept of English\, Sri Venkateswara College\, DU\;
-  Dr Nishi Chawla\, Author of the book\n\nhttps://iicdelhi.in/programmes/b
- ook-discussion-group-stories-carved-stone-voices-rooted-earth-silent-wall
- s-speaking
+UID:de7824e340f3a2f5@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260925
+SUMMARY:Oriental Scenary
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:This exhibition brings together rare maps of India to reveal 
+ how cartography functioned as an instrument of power—shaping\, controll
+ ing\, and continually reimagining the subcontinent. The exhibition traces
+  the evolution of cartographic practices in India from the sixteenth cent
+ ury onwards\, beginning with early European attempts to visualize the sub
+ continent and extending through colonial surveys to modern printed maps. 
+ Initially conceived as instruments of navigation\, conquest and imperial 
+ control\, these maps reveal how knowledge of territory was systematically
+  produced and codified. This exhibition is curated by Swapna Liddle.\n\nh
+ ttps://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:6a02433e4ad71f7d@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260916T053000Z
+DTEND:20261001T133000Z
+SUMMARY:Phulkari: A Lingering Presence By Sunaina Suneja
+LOCATION:Art Gallery\, Kamaladevi Complex\, IIC\, India International Cen
+ tre\, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/exhibition-phulkari-lingering-presence
+ -sunaina-suneja
+DESCRIPTION:Phulkari: A Lingering Presence\nBy Sunaina Suneja\nPhulkari\,
+  the vibrant embroidery tradition of Punjab\, evokes nostalgic memories o
+ f color\, music\, dance and poetry. The exhibition traces the journey of 
+ reviving the thread-counted Phulkari embroidery and its iconic Pehchaan m
+ otif\, celebrating Punjabi womanhood through a rich collection of vintage
+  heirlooms alongside contemporary works.\nThe exhibition will be inaugura
+ ted on Wednesday 16 September at 11:30 hrs\nA walkthrough by Sunaina Sune
+ ja will be conducted on Friday\, September 18 & 25\, Saturday\, September
+  19 & 26 at 16:00 hrs.\nA session titled “We Are All Daughters” invit
+ ing participants to bring a treasured object associated with a mother\, g
+ randmother or another significant woman in their lives\, and share the me
+ mories it holds will be on Wednesday\, 23 September at 16:00 hrs.\nThe ex
+ hibition will remain open daily from 11:00 to 19:00 hrs\n\nhttps://iicdel
+ hi.in/programmes/exhibition-phulkari-lingering-presence-sunaina-suneja
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:357ca1dfe97c50a3@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260922
+SUMMARY:Visible Vapour
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:Shree Naik is a Delhi-based landscape architect and artist wh
+ ose creative journey beautifully blends design and fine art. Known for hi
+ s exceptional versatility and ambidextrous talent\, he moves effortlessly
+  between landscape architecture\, painting\, sketching\, and visual expre
+ ssion. Inspired by nature and everyday experiences\, his works reflect a 
+ keen eye for detail\, composition\, and emotion. This exhibition celebrat
+ es his 50th birthday\, marking five decades of creativity\, exploration\,
+  and artistic passion.\n\nhttps://bikanerhouse.rajasthan.gov.in/upcoming-
+ events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:5e316fe9661ac245@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260920T043000Z
+DTEND:20260920T063000Z
+SUMMARY:Writing Life on Paper: Discovering Your Script
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1443
+DESCRIPTION:An interactive session led by Tannishtha Chatterjee \, actres
+ s\, writer\, and director\; and Sharib Hashmi \, actor and writer — on 
+ the art of transforming life experiences\, thoughts\, and emotions into c
+ ompelling scripts. For registrations and details\, write to habitatprogra
+ mmes@gmail.com\n\nhttps://indiahabitat.org/Events_details/1443
+CATEGORIES:workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:21113af910f06943@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260920T053000Z
+DTEND:20260920T070000Z
+SUMMARY:Heritage & Nature Walk
+LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
+  Delhi 110013
+URL:https://www.sundernursery.org/heritage-and-nature-walk.php
+DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
+  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
+ led from Sunder Nursery's published standing timetable\, not from a dated
+  listing — the venue does not publish one. Confirm before travelling: 9
+ 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
+ ure-walk.php
+CATEGORIES:walk\,heritage\,nature
+END:VEVENT
+BEGIN:VEVENT
+UID:2740c201ddf09d7d@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260920T063000Z
+DTEND:20260920T083000Z
+SUMMARY:Indian Art: History and Appreciation Course
+LOCATION:Casuarina\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1410
+DESCRIPTION:I ndian Art: History and Appreciation Course by Art Historian
+ \, Prof. Benoy K Behl . A journey through Indian art\, across ancient and
+  medieval times\, profusely illustrated by Prof. Behl's well-known photog
+ raphs and films on Indian art. For registrations and details\, write to p
+ riyanka@indiahabitat.org with a brief resume .\n\nhttps://indiahabitat.or
+ g/Events_details/1410
+CATEGORIES:workshop\,art\,history
+END:VEVENT
+BEGIN:VEVENT
+UID:15712243a988c422@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260920T063000Z
+DTEND:20260920T083000Z
+SUMMARY:IHC Theatre Festival 2026. Home in a Suitcase
+LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
+ 03
+URL:https://indiahabitat.org/Events_details/1412
+DESCRIPTION:IHC Theatre Festival 2026 . Home in a Suitcase (English\, Hin
+ di/65 mins) Written & Devised by Ramanjit Kaur & Ruhani Singh. Dir. Raman
+ jit Kaur . Performed by Ruhani Singh . Home in a Suitcase is an intimate 
+ solo performance that explores migration\, memory\, identity\, and the se
+ arch for belonging. Set in an unnamed airport\, the play follows Taarini\
+ , a young woman navigating the emotional terrain of leaving one home in s
+ earch of another. Through evocative storytelling\, movement\, immersive s
+ oundscapes\, and audience interaction\, the performance asks a question t
+ hat feels increasingly relevant today: Do we ever truly find home\, or do
+  we simply carry it with us? Prod. The Creative Arts . Entry by Registrat
+ ion. Late entry is strictly prohibited .\n\nhttps://indiahabitat.org/Even
+ ts_details/1412
+CATEGORIES:performance\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:389062a22598c8bf@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260920T103000Z
+DTEND:20260920T120000Z
+SUMMARY:Heritage & Nature Walk
+LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
+  Delhi 110013
+URL:https://www.sundernursery.org/heritage-and-nature-walk.php
+DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
+  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
+ led from Sunder Nursery's published standing timetable\, not from a dated
+  listing — the venue does not publish one. Confirm before travelling: 9
+ 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
+ ure-walk.php
+CATEGORIES:walk\,heritage\,nature
+END:VEVENT
+BEGIN:VEVENT
+UID:0256708dd74a1f95@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260920T103000Z
+DTEND:20260920T123000Z
+SUMMARY:IHC Theatre Festival 2026. Home in a Suitcase
+LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
+ 03
+URL:https://indiahabitat.org/Events_details/1413
+DESCRIPTION:IHC Theatre Festival 2026 . Home in a Suitcase (English\, Hin
+ di/65 mins) Written & Devised by Ramanjit Kaur & Ruhani Singh. Dir. Raman
+ jit Kaur . Performed by Ruhani Singh . Home in a Suitcase is an intimate 
+ solo performance that explores migration\, memory\, identity\, and the se
+ arch for belonging. Set in an unnamed airport\, the play follows Taarini\
+ , a young woman navigating the emotional terrain of leaving one home in s
+ earch of another. Through evocative storytelling\, movement\, immersive s
+ oundscapes\, and audience interaction\, the performance asks a question t
+ hat feels increasingly relevant today: Do we ever truly find home\, or do
+  we simply carry it with us? Prod. The Creative Arts . Entry by Registrat
+ ion. Late entry is strictly prohibited .\n\nhttps://indiahabitat.org/Even
+ ts_details/1413
+CATEGORIES:performance\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:f80b1d8380730adf@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260920T113000Z
+DTEND:20260920T133000Z
+SUMMARY:Home in a Suitcase: Story\, Act and Beyond
+LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
+ 03
+URL:https://indiahabitat.org/Events_details/1444
+DESCRIPTION:An interactive session with Ramanjit Kaur \, film and theatre
+  actor-director\, and performer Ruhani Singh \, exploring the relationshi
+ p between storytelling\, performance\, and the creative process. For regi
+ strations and details\, write to habitatprogrammes@gmail.com\n\nhttps://i
+ ndiahabitat.org/Events_details/1444
+CATEGORIES:workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:1e967fe5044558a1@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260920T133000Z
+DTEND:20260920T153000Z
+SUMMARY:IHC Theatre Festival 2026. Amb Da Boota
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1411
+DESCRIPTION:IHC Theatre Festival 2026 . Amb Da Boota (Hindi\, Punjabi\, E
+ nglish/ 75 mins) Devised & Performed by Anya Ghai\, Bhavya Rampal\, Jai P
+ rakash Kumar\, Pranjal Vaid\, Priyanshu Gupta . Lata\, diagnosed with a t
+ erminal illness and nearing death\, expresses a quiet\, unexpected wish- 
+ to become a mango tree. While her family struggles to navigate a growing 
+ chasm of grief\, anger\, betrayal\, and confusion. Lata embarks on a whim
+ sical\, inward journey of her own. The play delicately balances the emoti
+ onal weight of death and loss with moments of tenderness and imagination.
+  It explores the complexities of relationships\, and the quiet intricacie
+ s of loneliness\, asking what it means to seek transformation even at the
+  edge of life. Prod. Mantavya Collective . Tickets at Rs.200\, Rs.350\, &
+  Rs.500 are available on bookmyshow.com and at the Habitat Programmes des
+ k. Late entry is strictly prohibited .\n\nhttps://indiahabitat.org/Events
+ _details/1411
+CATEGORIES:performance\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:f449f6a1b9dfa805@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260921T043000Z
+DTEND:20260921T063000Z
+SUMMARY:An Interaction with the Team of Amb Da Boota.
+LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
+ 03
+URL:https://indiahabitat.org/Events_details/1445
+DESCRIPTION:https://indiahabitat.org/Events_details/1445
+CATEGORIES:workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:d3528a0d1710ed92@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260921T103000Z
+DTEND:20260921T123000Z
+SUMMARY:New Programme- KODAVA NATIONAL SEMINAR - Coorg Cultural & Food Ce
+ lebration
+LOCATION:C.D. Deshmukh Auditorium\, IIC main\, India International Centre
+ \, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/new-programme-kodava-national-seminar-
+ coorg-cultural-food-celebration
+DESCRIPTION:KODAVA NATIONAL SEMINAR\nCoorg Cultural & Food Celebration\nE
+ xperience the Soul of Kodagu\, an evening of heritage\, culture\, music\,
+  dance & the flavors of Coorg\nFrom 16:00 to 16:45\nInaugural addresses a
+ nd lighting of the Lamp.\nFollowed by a screening and presentation on ‘
+ Sanduka’\, The Living Museum of Kodava Culture.\nAt 17:00 hrs\nPanel Di
+ scussions on Sports\, Culture\, Food and Cuisine and Language.\nAt 18:30 
+ hrs\nCultural evening with performances including Ummat Art\, Gejje Thand
+ \, Narri Kali and Aat Paat\nFollowed by a Culinary treat of Kodava food f
+ or IIC members and their guests in the Rose Garden on payment and pre-reg
+ istration basis. To register for the same\, please visit the website.\n(C
+ ollaboration: Delhi Kodava Samaja\; Karnataka Kodava Sahitya Academy)\n\n
+ https://iicdelhi.in/programmes/new-programme-kodava-national-seminar-coor
+ g-cultural-food-celebration
+CATEGORIES:festival
+END:VEVENT
+BEGIN:VEVENT
+UID:237b755f14e8a048@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260921T123000Z
+DTEND:20260921T143000Z
+SUMMARY:BOOK DISCUSSION GROUP - What the Shadow Said
+LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
+ ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/book-discussion-group-what-shadow-said
+DESCRIPTION:Book Discussion Group\nWhat the Shadow Said\nBy K. Jayakumar 
+ (Alcove Publishers\, 2026)\nChair: Dr. Sukrita Paul Kumar\, Poet\, litera
+ ry critic and scholar\nDiscussants:Prof Rumki Basu\, Former professor\, J
+ amia Millia Islamia and Poet\; Jamshed\, Poet and columnist\; Bindiya Bed
+ i Charan Noronhna\, writer\, social worker\, educationist\; K Jayakumar\,
+  Former Chief Secretary of Kerala\, poet lyricist and Author of the book.
+ \n\nhttps://iicdelhi.in/programmes/book-discussion-group-what-shadow-said
 CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
-UID:3a883197c0d56925@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260731T130000Z
-DTEND:20260731T150000Z
-SUMMARY:Twamaham Vande
-LOCATION:C.D. Deshmukh Auditorium\, IIC main\, India International Centre
- \, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/twamaham-vande
-DESCRIPTION:A journey for the search of One through the vision of two\nCo
- ncept\, direction and performance by Jalsa Chandra\, renowned Bharatanaty
- am and Kathak dancer\, choreographer\, fellow of Ministry of Culture and 
- empanelled artiste of ICCR and Doordarshan. Trained under eminent gurus i
- ncluding Smt. Thankamani Kutty\, Pt. Rajendra Kumar Gangani\, Smt. Nandin
- i Ramani\, Padma Shri Chitra Visweswaran\, Smt. Rama Vaidyanathan\, and P
- adma Bhushan Saroja Vaidyanathan.\nAccompanying artistes: Pallabi Chatter
- jee\, Adrija Mondal and Agnimita Das\nThe performance presents a soulful 
- journey of the maturing spirit\, exploring the "one-to-one realization of
-  God" through the timeless wisdom of Bhakti saints. This production weave
- s together the cosmic rhythms of the Nasadiya Sukta with the intricate "D
- eha Tatwa" of Lalon Fakir to depict the cyclical nature of creation. From
-  the unwavering faith of Sita to the Thevaram in celebration of the liber
- ation to find and love the Divine in one's own light. The journey culmina
- tes in the oneness of the Parabrahman\, where individual identities disso
- lve like rivers into the vast ocean.\n\nhttps://iicdelhi.in/programmes/tw
- amaham-vande
-CATEGORIES:performance\,dance
+UID:e89e79560f04607f@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260921T130000Z
+DTEND:20260921T150000Z
+SUMMARY:Beyond Tailpipe: Electric Mobility at the Intersection of Air Qua
+ lity and Energy Security
+LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1391
+DESCRIPTION:The event has been rescheduled from 11th September to 21st Se
+ ptember. TERI-IHC Lecture Series . Beyond Tailpipe: Electric Mobility at 
+ the Intersection of Air Quality and Energy Security . Welcome Remarks: Dr
+ . Vibha Dhawan \, Director General\, The Energy and Resources Institute. 
+ Special Remarks: Prof. (Dr.) K. G. Suresh \, Director\, IHC. Panelists: A
+ numita Roychowdhury \, Executive Director - Research & Advocacy\, Centre 
+ for Science and Environment\; Anirudh Arun \, CEO\, Refex Mobility\; Nave
+ en Gupta \, Founder & CEO\, Trev Mobility. Moderator: Sanjay Seth \, Seni
+ or Director\, Sustainable Infrastructure Programme\, The Energy and Resou
+ rces Institute. Collab. TERI .\n\nhttps://indiahabitat.org/Events_details
+ /1391
+CATEGORIES:talk\,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:31f3bc600136142f@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260731T133000Z
-DTEND:20260731T153000Z
-SUMMARY:Bharatanatyam Margam
+UID:86a0f656d1936eda@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260921T130000Z
+DTEND:20260921T150000Z
+SUMMARY:INDIAN ARCHAEOLOGY
+LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
+ Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/indian-archaeology-151
+DESCRIPTION:Prehistoric Vindhyan Childhoods: Investigating Rock Art as a 
+ Knowledge System in Indian Prehistory\nSpeaker: Dr. Ajay Pratap is former
+  Head and Professor\, Department of History\, Banaras Hindu University.\n
+ Chair: K. N. Shrivastava\, Director\, IIC\nModerator: Pratap Bhanu Singh 
+ Sengar\, former Director (Monuments) Archaeological Survey of India\nThe 
+ emergence of an archaeology of childhood recognises the crucial roles of 
+ women and children in prehistoric cultures and communities. The presentat
+ ion explores their role as active users of visual symbolic representation
+ \, as teachers and learners\, through rock art depicting self-images\, de
+ signs\, narrative scenes\, line drawings and practice figures. It examine
+ s rock art as a means of transmitting traditional knowledge\, aesthetics 
+ and memory.\n\nhttps://iicdelhi.in/programmes/indian-archaeology-151
+CATEGORIES:talk\,art\,heritage
+END:VEVENT
+BEGIN:VEVENT
+UID:85ccac416e0889ae@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260921T133000Z
+DTEND:20260921T153000Z
+SUMMARY:IHC Theatre Festival 2026
 LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
  elhi 110003
-URL:https://indiahabitat.org/Events_details/1322
-DESCRIPTION:A Bharatanatyam Margam by Sathvika Ranganathan .\n\nhttps://i
- ndiahabitat.org/Events_details/1322
-CATEGORIES:performance\,dance
+URL:https://indiahabitat.org/Events_details/1414
+DESCRIPTION:IHC Theatre Festival 2026 . Tickets at Rs.200\, Rs.350\, & Rs
+ .500 are available on bookmyshow.com and at the Habitat Programmes desk. 
+ Late entry is strictly prohibited .\n\nhttps://indiahabitat.org/Events_de
+ tails/1414
+CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
-UID:6794c843651626ca@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260805
-SUMMARY:Shilpa-Abadhani
+UID:914602fe01c0c0f5@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260927
+SUMMARY:People of Art: A Portrait Study of the Art World
 LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A group exhibition by Dana Ghosh\, Anjana Kirtania & Sandip D
- as .\n\nhttps://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:A painting exhibition by Ambalika Chitkara . Curated by Gargi
+  Seth .\n\nhttps://indiahabitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:c75ec54bf3f43dbd@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260803
-SUMMARY:German Teachers' Conference 2026
-LOCATION:Goethe-Institut / Max Mueller Bhavan\, 3 Kasturba Gandhi Marg\, 
- New Delhi 110001
-URL:https://www.goethe.de/ins/in/en/m/ver.cfm?event_id=27307676&fuseactio
- n=events.detail
-DESCRIPTION:North-India & Nepal | Conference | Entry by Invitation\n\nhtt
- ps://www.goethe.de/ins/in/en/m/ver.cfm?event_id=27307676&fuseaction=event
- s.detail
+UID:3e13083b823bc68c@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260922T130000Z
+DTEND:20260922T150000Z
+SUMMARY:Police Reforms – 20 years
+LOCATION:Seminar Rooms 1\,2\,3\, India International Centre\, 40 Max Muel
+ ler Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/police-reforms-20-years
+DESCRIPTION:Chair: Justice Vineet Saran\, former Judge\, Supreme Court of
+  India\nDiscussants: Prakash Singh\, Former Director General BSF\, DGP UP
+ \, and DGP Assam\; G K Pillai\, Former Home Secretary\; and Vipul Mudgal\
+ , Director Common Cause\nThe British left behind a colonial police struct
+ ure at the time of Independence\, which continues nearly eight decades la
+ ter. Despite the Supreme Court’s directions of September 22\, 2006 for 
+ comprehensive police reforms\, implementation by the states has remained 
+ largely half-hearted. Police reforms are a must for a progressive India. 
+ The vision of a Viksit Bharat cannot be achieved without the solid founda
+ tion of good law and order\, which only a professional police force uphol
+ ding the rule of law can provide. Twenty years after the judicial directi
+ ons\, it is essential that the campaign for police reforms is sustained a
+ nd given greater impetus.\n\nhttps://iicdelhi.in/programmes/police-reform
+ s-20-years
 CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
-UID:9a6c12568010e8c8@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260801T033000Z
-DTEND:20260801T053000Z
-SUMMARY:3rd All India Conference of East Asian Studies (AICEAS)
-LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
- ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/3rd-all-india-conference-east-asian-st
- udies-aiceas
-DESCRIPTION:Dissonances in the World Order: Implications for Indo-Pacific
-  & East Asia\nKeynote Address by Prof. Kan Kimura\, Graduate School of In
- ternational Cooperation Studies\, Kobe University\nFollowed by Thematic d
- iscussions and a Special Panel by eminent academicians\, policy experts a
- nd researchers on contemporary issues in East Asian Studies\, internation
- al politics\, regional security\, technology\, economics and the environm
- ent.\nThe conference will examine the evolving geopolitical\, economic an
- d strategic landscape of East Asia and the Indo-Pacific\, with a particul
- ar focus on Japan's role in shaping a free\, open and rules-based regiona
- l order. Discussions will explore regional security\, economic resilience
- \, technology\, climate and multilateral cooperation.\nThis conference is
-  in continuation to the 31st July’26 programme.\nFor the detailed progr
- amme\, please\nclick here\n(Collaboration: Institute of Chinese Studies a
- nd Japan Foundation)\n\nhttps://iicdelhi.in/programmes/3rd-all-india-conf
- erence-east-asian-studies-aiceas
-CATEGORIES:talk\,sociology
-END:VEVENT
-BEGIN:VEVENT
-UID:9e835ca8ca254b1a@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260801T053000Z
-DTEND:20260801T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:9adef96dc8bf02b2@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260801T103000Z
-DTEND:20260801T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:ca779c654244651a@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260801T123000Z
-DTEND:20260801T143000Z
-SUMMARY:Nar-Hari: 6 Verses from Shri Guru Granth Sahib & Panchvani
-LOCATION:C.D. Deshmukh Auditorium\, IIC main\, India International Centre
- \, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/nar-hari-6-verses-shri-guru-granth-sah
- ib-panchvani-0
-DESCRIPTION:An Inclusive Sankirtan where Music\, Mysticism & Spirituality
-  Meet Science\nPerformers: Ayush Jha\, vocalist and/or on Harmonium\; Kan
- ha Trehan\, vocalist & with khartaal\; Rajat Kanungo\, vocalist and/or on
-  harmonium\; Sanvi Katoch\, vocalist and/or on harmonium\; Dr Sangeeta\, 
- vocalist and/or on harmonium\; Satvik on Tabla\; Amar on Guitar\; Pragshu
-  on Cajun\; Anya Katoch\, chorus singer\nGuest of Honour & Patron: Prof. 
- Charanjit Singh Shah\, Chairman & Founder\, Creative Group LLP\nPerforman
- ce inspired by the teachings of the 15th-century Bhakti saint Ravidas\, w
- hose compositions are enshrined in both the Shri Guru Granth Sahib and Pa
- nchvani. Blending devotional music\, participatory Sankirtan and narratio
- n\, the programme explores the dialogue between spirituality and contempo
- rary scientific thought\, offering a reflective experience that celebrate
- s joy\, inclusivity and inner transformation.\n\nhttps://iicdelhi.in/prog
- rammes/nar-hari-6-verses-shri-guru-granth-sahib-panchvani-0
-CATEGORIES:performance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:24e9036b4f99823f@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260801T133000Z
-DTEND:20260801T153000Z
-SUMMARY:Bhupen Da Uncut
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1328
-DESCRIPTION:Birth Centenary of Dr. Bhupen Hazarika . Bhupen Da Uncut (Doc
- u/2025/Assamese with English subtitles/65 mins) Dir. Bobbeeta Sharma . A 
- rare\, vintage first-person account filmed 25 years ago in London\, where
-  the legendary maestro reflects on his extraordinary journey. The documen
- tary follows Dr. Hazarika as he speaks intimately about his childhood\, t
- he profound influence of Assamese cinema pioneer Jyoti Prasad Agarwala\, 
- his higher studies in New York\, and the dynamics of his relationship wit
- h his wife\, Priyamvada Patel. Offering a window into his mind and philos
- ophy\, Bhupen Da Uncut features the legend reciting several of his unpubl
- ished poems\, capturing the essence of the man and his masterpieces. Scre
- ening followed by a discussion with Bobbeeta Sharma \, director\; Chinmoy
-  Sharma \, executive producer\; Ravindra Badgaiyan \, editor .\n\nhttps:/
- /indiahabitat.org/Events_details/1328
-CATEGORIES:film\,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:3d17aaac2ea9ba66@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260801T140000Z
-DTEND:20260801T160000Z
-SUMMARY:The Big Fat City
+UID:00e8b698926032a8@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260922T133000Z
+DTEND:20260922T153000Z
+SUMMARY:IHC Theatre Festival 2026. The Tragedy of Ham MacLear
 LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
  elhi 110003
-URL:https://indiahabitat.org/Events_details/1329
-DESCRIPTION:The Big Fat City (Hindi/90 mins) Wri. Mahesh Dattani . Dir. S
- hilpi Marwaha . A thought-provoking drama that explores the complexities 
- of urban life in Mumbai. The story revolves around Murli and his wife\, w
- ho are struggling to pay off their loan after Murli loses his job. Desper
- ate for financial help\, they host a dinner for Murli’s former collegem
- ate\, hoping he can secure them another loan. The arrival of their neighb
- our\, a TV actress with her own financial troubles and a drunken husband\
- , complicates the situation. The play explores how financial stress strai
- ns relationships while revealing the harsh realities behind the glamouriz
- ed version of city life. Prod. Sukhmanch Theatre . Tickets at Rs.500\, Rs
- .350 & Rs.200 are available online on bookmyshow.com and at the Habitat P
- rogrammes desk .\n\nhttps://indiahabitat.org/Events_details/1329
+URL:https://indiahabitat.org/Events_details/1416
+DESCRIPTION:IHC Theatre Festival 2026 . The Tragedy of Ham MacLear (Engli
+ sh/65 mins) Wri. & Dir. Akash Khurana . Cast. Akash Khurana\, Garima Yajn
+ ik & Mantra . Ham MacLear\, a passionate Shakespeare veteran\, begins to 
+ struggle with dementia. His long-time companions\, Busker and Chorus\, mu
+ st navigate the delicate balance between honouring his legacy and ensurin
+ g his well-being. As Ham begins to confuse reality with his beloved plays
+ \, their clever and heartwarming attempts to help him bring the trio face
+ -to-face with the harsh realities of ageing and the inevitability of chan
+ ge. A poignant exploration of love\, friendship\, and the enduring power 
+ of the arts\, even in the face of life’s most challenging obstacles. Pr
+ od. Akvarious Productions . Tickets at Rs.200\, Rs.350\, & Rs.500 are ava
+ ilable on bookmyshow.com and at the Habitat Programmes desk. Late entry i
+ s strictly prohibited .\n\nhttps://indiahabitat.org/Events_details/1416
 CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
-UID:a53e529ecb585913@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260802T053000Z
-DTEND:20260802T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
+UID:d67b93bbbd3be974@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20261001
+SUMMARY:Raj Se Swaraj Tak From Colonial Rule to Freedom- Through the Eyes
+  of Shekhawati
+LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
+ lhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:To mark India’s 80th year of Independence\, MOHAR (Museum o
+ f Heritage and Art at Ramgarh) presents “Raj Se Swaraj Tak”\, an imme
+ rse eight-day journey of pre-independence and Post independence India in 
+ the 1800s and 1900s\, through the discoveries in the Havelies of the Shek
+ hawati Seths\, who created the magical frescoed region of Shekhawati\, ca
+ lled the “Open-air Art gallery of Rajasthan”.\nThe exhibition and oth
+ er events will showcase cultural narratives and lifestyles through the wa
+ ll frescoes of Shekhawati\, the art and design influences\, belief system
+ s\, religious and folk stories\, the British influence\, political art\, 
+ lifestyle secrets\, architecture\, attire\, objects created or acquired b
+ y the Shekhawati Seths - Art\, Media\, Manuscripts\, Telegrams\, Newspape
+ rs\, Letters\, Maps\, spectacular oleographs\,\n\nhttps://indiahabitat.or
+ g/Exhibitions_Details
+CATEGORIES:exhibition\,art\,history
 END:VEVENT
 BEGIN:VEVENT
-UID:ecd1eaa06b20ddd5@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260802T053000Z
-DTEND:20260802T073000Z
-SUMMARY:The IHC Free Book X'Change
-LOCATION:Near the IHC Information Centre\, India Habitat Centre\, Lodhi R
- oad\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1330
-DESCRIPTION:The IHC Free Book X'Change . A ‘book flea market’ where t
- he books are free. A book lovers’ 'adda'. Meet fellow bookworms and exc
- hange books and recommendations. Browse and pick up a read of your choice
- \, or drop off books that you may no longer have space for and let others
-  enjoy them. You are requested to limit the number of books to take away 
- to a Maximum of 2 books at every X'Change Sunday .\n\nhttps://indiahabita
- t.org/Events_details/1330
+UID:4aa9ae3b742b07d6@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260929
+SUMMARY:Odyssey
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:Presented by Khushi Art his exhibition by Poonam Bhatnagar is
+  about mythological characters\, world universes and landscapes as well a
+ s an abstract series of geometry and symbolism in contemporary characters
+ . Her exhibition of acrylics on canvas as well as drawings on paper creat
+ ed in terms of Mythos accents and characters from Indian mythology. Her d
+ etails\, her narrative and her compositional brilliance are a set of stor
+ ies that transcend both time and tradition. As an artist she has been tra
+ cing tradition in the old ideology of mythos and studying landscapes. She
+  combines the lexicon of language with the concept of the rustic rhythms 
+ of Indian identities in Mythos. This show is curated by Uma Nair.\n\nhttp
+ s://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:2387fa080a789677@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260923T043000Z
+DTEND:20260923T063000Z
+SUMMARY:Find Your Voice
+LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
+ 03
+URL:https://indiahabitat.org/Events_details/1446
+DESCRIPTION:Find Your Voice. An interactive session with Indian actor Man
+ tra. For registrations and details\, write to habitatprogrammes@gmail.com
+ \n\nhttps://indiahabitat.org/Events_details/1446
+CATEGORIES:workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:e9e504c82237a11c@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260923T053000Z
+DTEND:20260930T133000Z
+SUMMARY:Journey of Colours A Solo Exhibition by Sadaf Beg Khan
+LOCATION:Art Gallery\, IIC Annexe\, India International Centre\, 40 Max M
+ ueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/exhibition-journey-colours-solo-exhibi
+ tion-sadaf-beg-khan
+DESCRIPTION:Journey of Colours\nA Solo Exhibition by Sadaf Beg Khan\nAn e
+ xhibition of artworks inspired by emotions\, experiences and everyday lif
+ e. The artist explores varied moods\, ideas and perspectives\, inviting v
+ iewers to engage with the distinctive expressions and narratives that sha
+ pe her artistic practice. Sadaf Beg Khan\, visual artist whose practice d
+ raws deeply from nature and explores themes of femininity\, beauty and vu
+ lnerability.\nThe exhibition will be inaugurated on Tuesday 22nd Septembe
+ r’26 at 17:30 hrs by Chief Guests Mohammad Adeeb\, former Member of Par
+ liament and Talal Adeeb\nThe exhibition will remain open daily from 11:00
+  to 19:00 hrs\n\nhttps://iicdelhi.in/programmes/exhibition-journey-colour
+ s-solo-exhibition-sadaf-beg-khan
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:ce1a08e3c752fbce@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260923T123000Z
+DTEND:20260923T143000Z
+SUMMARY:BOOK DISCUSSION GROUP - Signature on the Wind
+LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
+ Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/book-discussion-group-signature-wind
+DESCRIPTION:Book Discussion Group\nSignature on the Wind\nBy Kailash Vajp
+ eyi\; translated by Ananya Vajpeyi (Sahitya Akademi\, 2026)\nDiscussants:
+  Dr. Udayan Vajpeyi\, Hindi poet\, essayist\, short fiction and script wr
+ iter\; Prof. Rita Kothari\; Professor of English and Co-director\, Ashoka
+  Centre for Translation\, Ashoka University: Prof. Prasanta Chakravarty\,
+  Dept. of English\, Delhi University \; Dr Ananya Vajpeyi\, Author and Pr
+ ofessor\, Centre for the study of Developing societies.\n\nhttps://iicdel
+ hi.in/programmes/book-discussion-group-signature-wind
+CATEGORIES:talk\,literature
+END:VEVENT
+BEGIN:VEVENT
+UID:ab1c8255b3220831@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260923T130000Z
+DTEND:20260923T150000Z
+SUMMARY:Delimitation after 2026: Electoral Equality or Federal Balance?
+LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
+ ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/delimitation-after-2026-electoral-equa
+ lity-or-federal-balance
+DESCRIPTION:Moderator: Dr. Amitabh Kundu\, Professor Emeritus at L. J. Un
+ iversity Ahmedabad.\nDiscussants: Dr Yogendra Yadav\, Author\, Activist a
+ nd Public Intellectual\; Prof Santosh Mehrotra\, Senior Fellow Nehru Memo
+ rial Museum and Library\; Dr S. Y. Quraishi\, Former Chief Election Commi
+ ssioner of India\nThe proposed delimitation of parliamentary constituenci
+ es after 2026 raises complex questions\, the discussion examines the impl
+ ications for states that have successfully managed population growth and 
+ the challenge of balancing the democratic principle of ‘one person\, on
+ e vote’ with regional equality within India’s federal system. Explori
+ ng a possible middle path of allocating incremental parliamentary seats b
+ ased on contemporary population data without reducing the existing repres
+ entation of states.\n\nhttps://iicdelhi.in/programmes/delimitation-after-
+ 2026-electoral-equality-or-federal-balance
+CATEGORIES:talk
+END:VEVENT
+BEGIN:VEVENT
+UID:14d64e763d5cba3d@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260923T133000Z
+DTEND:20260923T153000Z
+SUMMARY:Visthapana
+LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1418
+DESCRIPTION:Visthapana (2026/Hindi\, English/46 mins) Dirs. Neha Dixit & 
+ Ashhar Farooqui . This film traces the history of the Satpura voluntary r
+ elocation model\, one of the most successful instances of forest-village 
+ relocation in India. Through slow\, thoughtful conversations with the ers
+ twhile forest-folk as well as the officials who oversaw the relocation pr
+ oject itself\, the film examines the pros and cons\, highlights and risks
+  of such large projects – and how they affect the landscape\, its wildl
+ ife and its human custodians. Curated by Aanchal Kapur . Collab. Global W
+ ildlife Fair .\n\nhttps://indiahabitat.org/Events_details/1418
+CATEGORIES:film\,cinema\,nature
+END:VEVENT
+BEGIN:VEVENT
+UID:1e71e18f7862cdff@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260923T133000Z
+DTEND:20260923T153000Z
+SUMMARY:IHC Theatre Festival 2026. Window Tak Aashiqui
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1417
+DESCRIPTION:IHC Theatre Festival 2026 . Window Tak Aashiqui (Hindi\, Engl
+ ish/90 mins) Written & Performed by Manurishi Chadha . Set against the no
+ stalgic backdrop of Old Delhi\, the play captures the innocence\, longing
+ \, and charm of first love. Monu reminisces about his childhood love—a 
+ love built through fleeting glances\, silent conversations\, cassette son
+ gs\, and a single open window. Rooted in the old-world culture of “wind
+ ow wala romance”\, the play evokes the bittersweet emotions of youthful
+  love-never fully expressed\, yet unforgettable. Prod. Kathabaaz Films . 
+ Tickets at Rs.200\, Rs.350\, & Rs.500 are available on bookmyshow.com and
+  at the Habitat Programmes desk. Late entry is strictly prohibited .\n\nh
+ ttps://indiahabitat.org/Events_details/1417
+CATEGORIES:performance\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:b3329bf294ad2231@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260929
+SUMMARY:Main Hoon Warli
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:The solo exhibition of Warli paintings by acclaimed artist Sa
+ njay Parhad seeks to illuminate the timeless visual language of Warli art
+ —one of India’s most vital tribal art forms—by tracing its deep-roo
+ ted cultural ethos and its evolving contemporary resonance. Sanjay’s wo
+ rk vividly portrays the oral histories\, customs\, and cosmologies of the
+  Warli community in Maharashtra. His paintings draw from the tribal commu
+ nity’s collective memory\, rendering sacred myths and everyday scenes w
+ ith poetic rhythm and meticulous detail. While rooted in tradition\, Parh
+ ad’s practice has expanded to engage with contemporary themes\, transfo
+ rming Warli art into a living\, breathing narrative of the present. Known
+  for his signature linear style\, fluid motion\, and masterful use of sca
+ le and space\, Parhad bridges generations of storytelling—evoking ances
+ tral spirits and ecological harmony\, while commenting on modern realitie
+ s. This exhibition is curated by Chhavi Jain.\n\nhttps://bikanerhouse.raj
+ asthan.gov.in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:a7fdfd22c6bdf841@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260924T040000Z
+DTEND:20260924T060000Z
+SUMMARY:Sagarmatha Samta-India Largest Inclusive Trek to Everest Base Cam
+ p
+LOCATION:C.D. Deshmukh Auditorium\, IIC main\, India International Centre
+ \, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/film-sagarmatha-samta-india-largest-in
+ clusive-trek-everest-base-camp
+DESCRIPTION:(2026\;46 minutes\; Hindi with English subtitles)\nIntroducti
+ on about the film: Satish Kapoor\, Founding Director\, Brotherhood and We
+  Care film festival on disability issues\nA film documenting India’s la
+ rgest inclusive trek to Everest Base Camp\, undertaken on 14 April 2026 b
+ y a team of six persons with disabilities and seven non-disabled particip
+ ants. The expedition traversed Himalayan terrain demonstrating possibilit
+ ies of accessibility and inclusion.\nThe screening will be followed by an
+  Interaction with artists with disability in the film\n(Collaboration: Br
+ otherhood and We Care Film Fest and Tinkesh Ability Foundation)\n\nhttps:
+ //iicdelhi.in/programmes/film-sagarmatha-samta-india-largest-inclusive-tr
+ ek-everest-base-camp
+CATEGORIES:film\,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:d2aa4bb820267588@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260924T123000Z
+DTEND:20260924T143000Z
+SUMMARY:As the French Say — The Little Prince
+LOCATION:Library\, Alliance Française de Delhi\, 72 Lodhi Estate\, New D
+ elhi 110003
+URL:https://afdelhi.org/events/as-the-french-say-the-little-prince/
+DESCRIPTION:Alliance Française de Delhi’s Book club\, As the French Sa
+ y\, opens its first edition with one of the world’s most beloved litera
+ ry classics: The Little Prince by Antoine de Saint-Exupéry.\nWhat makes 
+ this little book so timeless? Why does The Little Prince continue to spea
+ k to readers of all ages\, across languages and generations?\nIn this fir
+ st edition of our French literature book club in Delhi\, we explore the p
+ hilosophy hidden within the simplicity of Saint-Exupéry’s story. Throu
+ gh a journey among stars and planets\, The Little Prince invites us to re
+ flect on love\, friendship\, loneliness\, wonder\, growing up\, and the i
+ mportance of seeing the world with curiosity.\nWhether you are discoverin
+ g The Little Prince for the first time or returning to a story you have l
+ oved for years\, this is an opportunity to look at the book from a new pe
+ rspective and share your thoughts with fellow book lovers and readers of 
+ French literature.\n\n“Well\, I must endure the presence of a few cater
+ pillars if I wish to become acquainted with the butterflies.”\n\nCome r
+ ead between the stars with us\, revisit a familiar story\, and discover t
+ he questions it leaves behind.\n\nEvent Details\nDate: 24 September 2026\
+ nTime: 6 PM\nVenue: Library\, Alliance Française de Delhi\nRegister Here
+ : https://forms.gle/GqDiceGJC5AtkK3E7\n\nCome for the book. Stay for the 
+ questions it leaves behind.\n\n&nbsp\;\n\n&nbsp\;\n\nhttps://afdelhi.org/
+ events/as-the-french-say-the-little-prince/
 CATEGORIES:other\,literature
 END:VEVENT
 BEGIN:VEVENT
-UID:2fb113e5b486b8a7@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260802T103000Z
-DTEND:20260802T120000Z
+UID:e3c7d8522aec0e24@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260924T123000Z
+DTEND:20260924T143000Z
+SUMMARY:IIC DOUBLE BILL: MUSIC AND DANCE RECITAL
+LOCATION:C.D. Deshmukh Auditorium\, IIC main\, India International Centre
+ \, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/iic-double-bill-music-and-dance-recita
+ l
+DESCRIPTION:Hindustani Vocal Duet Recital\nBy Madhura Kirpekar & Bhairavi
+  Kirpekar from Satara\, Maharashtra\, Disciple of Pt. Hrishikesh Bodas\nA
+ ccompanists: Chetan Nigam (Harmonium)\; and Anurag Jha (Tabla)\nAt 19:00\
+ nKathak recital\nBy Garvita Sharma from Delhi\, Disciple of (Late) Pt. Bi
+ rju Maharaj & Saswati Sen\nAccompanists: Jaywardhan Dadhich (Vocal & Harm
+ onium)\; Lavinya Ambade (Sitar)\; Siddharth Dalbehera (Flute)\; Himanshi 
+ Gogini (Padhant)\; and Ashish Mishra (Tabla)\n\nhttps://iicdelhi.in/progr
+ ammes/iic-double-bill-music-and-dance-recital
+CATEGORIES:performance\,dance\,music
+END:VEVENT
+BEGIN:VEVENT
+UID:d1713a4b94845c02@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260924T133000Z
+DTEND:20260924T153000Z
+SUMMARY:From Policy to Practice: Powering Maritime Excellence
+LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1419
+DESCRIPTION:RIS-IHC Maritime Lecture Series - World Maritime Day 2026 . F
+ rom Policy to Practice: Powering Maritime Excellence by Rajeev Nayyer \, 
+ President\, Institute of Marine Engineers (India) & Maritime Consultant\,
+  former CEO\, OGD Services Ltd.\, Essar Group. Collab. RIS (CMEC) .\n\nht
+ tps://indiahabitat.org/Events_details/1419
+CATEGORIES:talk\,sociology
+END:VEVENT
+BEGIN:VEVENT
+UID:a2774b06b39d18d3@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260924T133000Z
+DTEND:20260924T153000Z
+SUMMARY:Cilappatikaram / The Anklet's Verdict
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1420
+DESCRIPTION:IHC Theatre Festival 2026 . Cilappatikaram / The Anklet's Ver
+ dict (Tamil/105 mins) An adaptation in Kutiyattam. Written by Ilango Adig
+ al. Conceived & Directed by Sooraj Nambiar . Cast. Sooraj Nambiar\, Kapil
+ a Venu\, Sankar Venkateswaran\, Tharun Bharath & others. A powerful reima
+ gining of the ancient Tamil epic Cilappatikaram through the expressive vo
+ cabulary of Kutiyattam\, the world's oldest living Sanskrit theatre tradi
+ tion. This production brings to life the journey of its female protagonis
+ t\, Kannaki\, from love and loss to divine justice through a deeply expre
+ ssive and meditative performance. Rooted in Kutiyattam's canonical tradit
+ ions and rare in its convergence of Tamil and Sanskrit legacies—this pr
+ oduction is an immersive encounter with myth\, memory\, and theatre's end
+ uring essence. Prod. TRIPUDI Ensemble . Tickets at Rs.200\, Rs.350 & Rs.5
+ 00 are available on bookmyshow.com and at the Habitat Programmes desk. La
+ te entry is strictly prohibited .\n\nhttps://indiahabitat.org/Events_deta
+ ils/1420
+CATEGORIES:performance\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:84aa20002882e937@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+SUMMARY:The Act of Doing | Season 2
+LOCATION:Goethe-Institut / Max Mueller Bhavan\, 3 Kasturba Gandhi Marg\, 
+ New Delhi 110001
+URL:https://www.goethe.de/ins/in/en/m/ver.cfm?event_id=27339287&fuseactio
+ n=events.detail
+DESCRIPTION:Conversations About Pedagogical Practices and Knowledge Makin
+ g | Presented by The Third Eye | Conference\n\nhttps://www.goethe.de/ins/
+ in/en/m/ver.cfm?event_id=27339287&fuseaction=events.detail
+CATEGORIES:talk
+END:VEVENT
+BEGIN:VEVENT
+UID:36e414dd060b4cc2@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+SUMMARY:An Origami Odyssey
+LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:A solo origami exhibition by Ishaan Gupta .\n\nhttps://indiah
+ abitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:369113541f316ee2@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:Rang by Devi
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:A curated art exhibition showcasing original artworks by wome
+ n legal professionals of the Supreme Court of India\, celebrating the int
+ ersection of law\, creativity\, and personal expression. DEVI is a collec
+ tive of passionate and dedicated women legal professionals\, who strive t
+ o promote gender equality\, justice\, and empowerment through various ini
+ tiatives. Initiated in 2022 by a group of young enthusiastic advocates\, 
+ the collective has fostered a strong team of women lawyers to execute its
+  tasks. Started with the idea of extolling the virtues of Indian arts to 
+ spread the message of equality and Inclusivity. DEVI has successfully man
+ aged to build a cohort that believes in working together to celebrate art
+ \, culture and women’s empowerment. Since it works within the legal fra
+ ternity\, DEVI has encouraged members of the legal world to contribute as
+  performing artists for its events.\n\nhttps://bikanerhouse.rajasthan.gov
+ .in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:d0c976e5503f2f6c@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:In the Moonlit Kingdom
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/events/in-the-moonlit-kingdom
+DESCRIPTION:https://www.knma.org/whats-on/events/in-the-moonlit-kingdom
+CATEGORIES:exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:104e9be79162a80d@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260925T043000Z
+DTEND:20260925T063000Z
+SUMMARY:Understanding Kutiyattam: A Dialogue with the Experts
+LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
+ 03
+URL:https://indiahabitat.org/Events_details/1447
+DESCRIPTION:This session brings together distinguished practitioners and 
+ experts who have dedicated their lives to the art form — Sooraj Nambiar
+  \, Kutiyattam Director and Actor\; Kapila Venu \, Kutiyattam exponent\; 
+ Kalamandalam Rajeev \, Mizhavu Player\; and Kalanilayam Unnikrishnan \, I
+ daykka Artiste. For registrations and details\, write to habitatprogramme
+ s@gmail.com\n\nhttps://indiahabitat.org/Events_details/1447
+CATEGORIES:workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:cbe66b5f628c6171@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260925T130000Z
+DTEND:20260925T150000Z
+SUMMARY:The Infrastructure of Chinese Civilizationism
+LOCATION:Seminar Rooms 1\,2\,3\, India International Centre\, 40 Max Muel
+ ler Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/infrastructure-chinese-civilizationism
+DESCRIPTION:Speaker: Prasenjit Duara\, Professor Emeritus\, Oscar Tang Di
+ stinguished Chair of East Asian Studies at Duke University. Formerly\, Ch
+ airman of the History Dept at University of Chicago and Raffles Professor
+  and Director of the Asia Research Institute at the National University o
+ f Singapore.\nChair: Amb Shivshankar Menon\, former NSA and Foreign Secre
+ tary\nThe Civilizationisms project is a global collaboration that examine
+ s how contemporary states use the idea of civilization for political legi
+ timation. The talk analyses the rise of Chinese civilizationism as a mode
+  of global power that seeks not only to challenge Western dominance but t
+ o reshape the world order through infrastructure. It traces this developm
+ ent through ecological civilization\, the Belt and Road Initiative\, and 
+ the expansion of Chinese digital and financial networks across the Global
+  South. These initiatives operate as an “infrastructure of civilization
+ \,” embedding norms\, standards and digital dependencies into governanc
+ e and economic life\, reflecting a broader transformation in global power
+  towards infrastructural integration.\n\nhttps://iicdelhi.in/programmes/i
+ nfrastructure-chinese-civilizationism
+CATEGORIES:talk
+END:VEVENT
+BEGIN:VEVENT
+UID:285b2021f3b2d36a@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260925T130000Z
+DTEND:20260925T150000Z
+SUMMARY:Oslo: A Tail of Promise
+LOCATION:Lecture Room I\, IIC Annexe\, India International Centre\, 40 Ma
+ x Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/film-oslo-tail-promise
+DESCRIPTION:(2025\; 86 mins.\; English and Marathi with English subtitles
+ \; Documentary)\nDirector: Isha Pungaliya\nWith Pooja R. Bhale and Oslo K
+ hanwalkar\nProducers: John Abraham\, Minnakshi Das and Amey Gosavi\nA mov
+ ing true story about the bond between Pooja and Oslo\, a Siberian Husky w
+ ith a troubled past. Set against a journey from Pune to the Himalayas\, t
+ he film weaves together experience of longing\, loss\, grief\, love\,and 
+ surrender\, exploring how animals and nature can become sources of compan
+ ionship.\n\nhttps://iicdelhi.in/programmes/film-oslo-tail-promise
+CATEGORIES:film\,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:88a995a297bbe8a4@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260925T133000Z
+DTEND:20260925T153000Z
+SUMMARY:IHC Theatre Festival 2026. Har Marz Ki Dawa
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1421
+DESCRIPTION:IHC Theatre Festival 2026 . Har Marz Ki Dawa (Hindi/75 mins).
+  Wri. Moliere . Directed & Adapted by Saurabh Nayyar . Cast. Rana Pratap 
+ Senger\, Preeti Rao\, Pubali Sanyal\, Kanak Khanna\, Navendra Mishra \, a
+ nd others. A hilarious adaptation of Molière's classic comedy The Doctor
+  in Spite of Himself . When a vengeful wife tricks everyone into believin
+ g that her drunken barber husband is a miracle doctor\, chaos ensues as h
+ e is drawn into a series of increasingly absurd situations\, proving that
+  deception can sometimes be the best medicine. Prod. Jubilee Theatre Foun
+ dation . Tickets at Rs.200\, Rs.350 & Rs.500 are available on bookmyshow.
+ com and at the Habitat Programmes desk. Late entry is strictly prohibited
+  .\n\nhttps://indiahabitat.org/Events_details/1421
+CATEGORIES:performance\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:0d469fb1c0d7a618@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:The Language of Belonging
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/events/the-language-of-belonging
+DESCRIPTION:https://www.knma.org/whats-on/events/the-language-of-belongin
+ g
+CATEGORIES:exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:bd83e8550ef2d6fe@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260926T043000Z
+DTEND:20260926T063000Z
+SUMMARY:Interaction with the Team of Har Marz Ki Dawa.
+LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
+ 03
+URL:https://indiahabitat.org/Events_details/1448
+DESCRIPTION:https://indiahabitat.org/Events_details/1448
+CATEGORIES:workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:7d766dc7c5a19db7@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260926T053000Z
+DTEND:20260926T070000Z
 SUMMARY:Heritage & Nature Walk
 LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
   Delhi 110013
@@ -355,284 +1072,444 @@ DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
 CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:77cba4afd350a8ec@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260802T133000Z
-DTEND:20260802T153000Z
-SUMMARY:Sawani - Jugalbandi
-LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
- 03
-URL:https://indiahabitat.org/Events_details/1331
-DESCRIPTION:Sawani - Jugalbandi by Aastha Goswami (Vocals) and Dr. Chandr
- ima Majumdar (Sarod)\, featuring monsoon ragas\, soulful Kajri\, Jhoola\,
-  and sawan ke geet from Banarasi and Braj traditions celebrating the rain
- y season as a timeless source of inspiration. Accompanied by Akhtar Hassa
- n on Tabla and Lalit Sisodia on Harmonium. Collab. Culturally Active Delh
- iites .\n\nhttps://indiahabitat.org/Events_details/1331
-CATEGORIES:performance\,music
+UID:4d073d0fde378b4d@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260926T103000Z
+DTEND:20260926T120000Z
+SUMMARY:Heritage & Nature Walk
+LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
+  Delhi 110013
+URL:https://www.sundernursery.org/heritage-and-nature-walk.php
+DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
+  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
+ led from Sunder Nursery's published standing timetable\, not from a dated
+  listing — the venue does not publish one. Confirm before travelling: 9
+ 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
+ ure-walk.php
+CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:08a76e09e95f1990@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260802T133000Z
-DTEND:20260802T153000Z
-SUMMARY:She Walked Anyway
-LOCATION:Casuarina\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1332
-DESCRIPTION:Book Launch & Discussion . She Walked Anyway by Dr. Sazina Kh
- an . A collection of poems and a lyrical meditation on quiet courage\, in
- ner reclamation\, and the profound strength of moving forward without per
- mission or validation. Through evocative poems such as Unannounced Becomi
- ng\, Permissionless\, Grace\, Unrequested\, The Yes I Gave Myself\, and B
- ecoming Without Allowance \, this collection traces the inner evolution o
- f a woman who chooses motion over hesitation and self-trust over approval
- . Publisher: White Falcon . The author will be in conversation on Walking
-  Through Storms: Women\, Memory and the Making of the Inner Self with Oro
- on Das \, actor\, theatre artist and Dr. Gilles Chuyen \, director\, chor
- eographer\, actor. Moderator: Meera Khanna \, writer\, poet\, Trustee & P
- resident\, The Guild for Service. Chief Guest: Prof. (Dr.) K. G. Suresh \
- , Director\, India Habitat Centre.\n\nhttps://indiahabitat.org/Events_det
- ails/1332
-CATEGORIES:talk\,literature
-END:VEVENT
-BEGIN:VEVENT
-UID:83809c05335c0e0e@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260802T140000Z
-DTEND:20260802T160000Z
-SUMMARY:The House of Bernarda Alba
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1333
-DESCRIPTION:The House of Bernarda Alba (English/130 mins with interval) D
- esign & Direction by Shomik Ray . Written by Spanish playwright\, Federic
- o García Lorca in June 1936\, during the turbulent period of the Spanish
-  Revolution. The play explores domestic oppression\, love\, desire\, and 
- betrayal while serving as a powerful reflection on authoritarian systems 
- that suppress individual voices in the name of society. Through Bernarda 
- Alba’s household\, Lorca examines themes of power\, control\, repressio
- n\, and the human longing for freedom\, combining emotional conflict\, da
- rk humour\, and violence into a timeless theatrical experience. Prod. Sha
- pno Ekhon . Tickets at Rs.500\, Rs.350 & Rs.200 are available online on b
- ookmyshow.com and at the Habitat Programmes desk .\n\nhttps://indiahabita
- t.org/Events_details/1333
-CATEGORIES:performance\,theatre
-END:VEVENT
-BEGIN:VEVENT
-UID:59b4524881b34779@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260803T130000Z
-DTEND:20260803T150000Z
-SUMMARY:Archival Echoes of a Folk Lute in the Indian Himalaya
-LOCATION:Conference Room I\, IIC main\, India International Centre\, 40 M
- ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/archival-echoes-folk-lute-indian-himal
- aya
-DESCRIPTION:Speaker: Dr. Katherine Freeze Wolf\, Independent scholar\, wi
- th PhD in Musicology and Ethnomusicology\, Brown University\nModerator: S
- hubha Chaudhuri\, Associate Director General (Academic)\, Archives and Re
- search Centre for Ethnomusicology\, American Institute of Indian Studies\
- nThe speaker will share their experience studying the Western Tibetan fol
- k lute gowo (called ko-phongs in Ladakhi) in Ladakh\, and the repatriatio
- n of musical recordings made between the 1930s and 1970s. The talk will e
- xplore the significance of these recordings in understanding the instrume
- nt's diverse performance styles\, song ecologies and heritage narratives.
- \n\nhttps://iicdelhi.in/programmes/archival-echoes-folk-lute-indian-himal
- aya
-CATEGORIES:talk
-END:VEVENT
-BEGIN:VEVENT
-UID:d63b893a4a2d8691@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260803T130000Z
-DTEND:20260803T150000Z
-SUMMARY:Cleaning Transport – Tackling Vehicular Emissions and the Futur
- e of Mobility Uniting Science\, Health\, Policy & People
-LOCATION:Lecture Room II\, IIC Annexe\, India International Centre\, 40 M
- ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/cleaning-transport-tackling-vehicular-
- emissions-and-future-mobility-uniting-science
-DESCRIPTION:Cleaning Transport – Tackling Vehicular Emissions and the F
- uture of Mobility\nUniting Science\, Health\, Policy & People\nModerator:
-  Sarika Panda\, Co-founder\, Raahgiri Foundation and Director\, Nagarro\n
- Discussants: Dr. Virinder Sharma\, Member (Technical)\, CAQM\; Niharika R
- ai\, Secretary-cum-Commissioner\, Transport Dpt\, Govt of NCT of Delhi\; 
- Mahmood Ahmed\, Additional Secretary (Transport)\, Ministry of Road Trans
- port and Highways\; J. Ganesan\, Chairman\, Haryana State Pollution Contr
- ol Board\; Amit Bhatt\, India Managing Director\, International Council o
- n Clean Transportation\; Trupti Deshpande\, Energiva Ventures\nTransition
- ing to clean urban mobility yields profound benefits—ranging from impro
- ved air quality and reduced greenhouse gas emissions to quieter and more 
- livable cities. This session will explore how to accelerate the shift tow
- ard zero-emission transport by scaling up electric vehicle ecosystems\, m
- odernizing public transit networks\, and enforcing stringent emission reg
- ulations.\nThis is the fourth discussion in the series of dialogues under
-  the umbrella of ‘Uniting Science\, Health\, Policy & People’\n(Colla
- boration: Commission for Air Quality Management (CAQM) and Raahgiri Found
- ation)\n\nhttps://iicdelhi.in/programmes/cleaning-transport-tackling-vehi
- cular-emissions-and-future-mobility-uniting-science
-CATEGORIES:talk\,science\,sociology
-END:VEVENT
-BEGIN:VEVENT
-UID:cf278686ae2e8f6c@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260803T133000Z
-DTEND:20260803T153000Z
-SUMMARY:Choreographic Duets - The Poetry of Two
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1334
-DESCRIPTION:AAI Arts Festival . Choreographic Duets - The Poetry of Two .
-  To experiment within the classical framework\, engage in rhythmic interp
- lay\, and discover new dimensions of laya\, abhinaya\, and samanvay (sync
- hrony). Kathak Duets by Shailja Nalwade and Anasua Majumdar \; Gaurav Bha
- tti and Aamrapali Bhandari \; Ashmita Aich and Sujata Gawade-Sawant . Col
- lab. Artist Association of India .\n\nhttps://indiahabitat.org/Events_det
- ails/1334
-CATEGORIES:performance\,dance\,literature
-END:VEVENT
-BEGIN:VEVENT
-UID:17ac8155ac1a796a@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260804T123000Z
-DTEND:20260804T143000Z
-SUMMARY:Fascinating Light and Colour Phenomena in Nature
-LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
- Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/fascinating-light-and-colour-phenomena
- -nature
-DESCRIPTION:As part of International Day of Light (IDL) Workshop 2026\nKe
- ynote Address: Photonics as a Key Enabling Technology: A Two-Way Link Bet
- ween Basic Research and Innovation by Prof. John M. Dudley\, Professor at
-  the Université Marie et Louis Pasteur\, France\; International Day of L
- ight 2026 Steering Committee Chair\nWelcome Address: K.N. Shrivastava\, D
- irector\, IIC\nAddress: Dr. Tabassum Jamal\, IDL Workshop Chair\nOrganise
- d as part of the International Day of Light (IDL) 2026\, the workshop is 
- an introduction to the fascinating science of light and colour through ev
- eryday natural phenomena. Aligned with the UNESCO theme "Light for a Sust
- ainable Future\," it seeks to promote scientific awareness while highligh
- ting the role of light in sustainable development.\nThe inaugural session
-  will be followed by a technical session featuring presentations by exper
- ts in the field\nFor more details\, please\nclick here\n(Collaboration: Z
- aheer Science Foundation\, New Delhi and Shanti Foundation International)
- \n\nhttps://iicdelhi.in/programmes/fascinating-light-and-colour-phenomena
- -nature
-CATEGORIES:talk\,nature\,science
-END:VEVENT
-BEGIN:VEVENT
-UID:79c175f74151872f@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260804T123000Z
-DTEND:20260804T143000Z
-SUMMARY:BOOK DISCUSSION GROUP- On Angels’ Wings: Beyond the Bombing of 
- Air India 182\, My Journey of Resilience and Courage By Sanjay Lazar (Aut
- hor\, 2026)
-LOCATION:Lecture Room II\, IIC Annexe\, India International Centre\, 40 M
- ax Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/book-discussion-group-angels-wings-bey
- ond-bombing-air-india-182-my-journey-resilience
-DESCRIPTION:BOOK DISCUSSION GROUP\nOn Angels’ Wings: Beyond the Bombing
-  of Air India 182\, My Journey of Resilience and Courage\nBy Sanjay Lazar
-  (Author\, 2026)\nChair: Amb K P Fabian\, former Ambassador of India to Q
- atar\nSpeakers :Amb K P Fabian\; Former Ambassador of India to Italy\, Qa
- tar and Finland (Chief Guest)\;\nMs Kanika Sharma\; Author – Hachette B
- ooks (Moderator) \; Shri Sanjay Chandra\, Author &amp\, Founder-Kala \; D
- r Siddharth Sen\, Founder -Wiseowl House\; Ms Jasbir Basu\, CA &amp\; Aut
- hor \; Shri Sanjay Lazar\nAuthor of the book\n\nhttps://iicdelhi.in/progr
- ammes/book-discussion-group-angels-wings-beyond-bombing-air-india-182-my-
- journey-resilience
-CATEGORIES:talk\,literature
-END:VEVENT
-BEGIN:VEVENT
-UID:a5ae9bfa3e7f427a@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260804T130000Z
-DTEND:20260804T150000Z
-SUMMARY:Partners of the Heart
-LOCATION:Lecture Room I\, IIC Annexe\, India International Centre\, 40 Ma
- x Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/film-partners-heart
-DESCRIPTION:(57 minutes\; 2003\; English)\nDirector: Andrea Kalin\nIntrod
- uctory Remarks: Dr A Sampath Kumar\, Emeritus professor\, AIIMS\, New Del
- hi\nAgainst the backdrop of a racially segregated America\, the documenta
- ry explores the inspiring partnership between visionary surgeon Alfred Bl
- alock and exceptional African American medical researcher Vivien Thomas\,
-  whose pioneering innovations forever changed the course of cardiac surge
- ry.\n\nhttps://iicdelhi.in/programmes/film-partners-heart
+UID:24c786f461fa1c41@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260926T123000Z
+DTEND:20260926T143000Z
+SUMMARY:Guru Padmasambhava - The Second Buddha
+LOCATION:Online\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1423
+DESCRIPTION:GLIMPSES OF CULTURE . Guru Padmasambhava - The Second Buddha 
+ . Screening followed by discussion with Benoy K. Behl . Prod. Doordarshan
+  . Join Zoom Meeting https://us06web.zoom.us/j/87119278892?pwd=a7ZHaF0poQ
+ DBM1Xekx7PbcqNIfw2Zi.1 Meeting ID: 871 1927 8892 Passcode: 188593\n\nhttp
+ s://indiahabitat.org/Events_details/1423
 CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:90c75d920bce0b25@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260804T133000Z
-DTEND:20260804T153000Z
-SUMMARY:Sophie Scholl - The Final Days | Directed by Marc Rothemund
+UID:ac513b6ebc240881@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260926T133000Z
+DTEND:20260926T153000Z
+SUMMARY:IHC Theatre Festival 2026. The Queen
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1424
+DESCRIPTION:IHC Theatre Festival 2026 . The Queen (English/80 mins) Playw
+ right by Aditya Rawal . Directed by Daniel Owen Dsouza . Cast. Puja Sarup
+ \, Sharvari Deshpande\, Danish Husain \, and Dheer Hira . Banasvan\, 1585
+ . Shunted to the west wing of the palace after her husband takes another 
+ wife\, Queen Durga wrestles with her fading relevance\, her son’s futur
+ e\, and her estranged husband’s uneasy ties to Akbar\, knowing that one
+  wrong move could cost them the kingdom and their lives. Prod. 72° East 
+ Productions . Tickets at Rs.200\, Rs.350\, & Rs.500 are available on book
+ myshow.com and at the Habitat Programmes desk. Late entry is strictly pro
+ hibited .\n\nhttps://indiahabitat.org/Events_details/1424
+CATEGORIES:performance\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:397bb2bddcf14d1b@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260926T133000Z
+DTEND:20260926T153000Z
+SUMMARY:Unlocking Indian Tourism: How Deregulation and Policy Reform Can 
+ Drive Growth
+LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1438
+DESCRIPTION:Unlocking Indian Tourism: How Deregulation and Policy Reform 
+ Can Drive Growth . Speakers: K J Alphons \, former Tourism Minister of In
+ dia\; Aman Nath \, Founder\, Neemrana Hotels & Heritage Conversationist\;
+  Suman Billa \, IAS\, Additional Secretary and Director General\, Ministr
+ y of Tourism\; Yugal Kishore Joshi \, Programme Director\, Tourism & Cult
+ ure\, NITI Aayog. Moderator: Prof. Shobhit Mathur \, Vice-Chancellor\, Ri
+ shihood University. Collab. Rishihood University .\n\nhttps://indiahabita
+ t.org/Events_details/1438
+CATEGORIES:talk\,sociology
+END:VEVENT
+BEGIN:VEVENT
+UID:3fc0122b39432a5e@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20261001
+SUMMARY:The Emerging Perspectives
+LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:A group exhibition by Sakib Khan\, Mohd. Danish \, and Naznee
+ n Praveen .\n\nhttps://indiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:d4b9ed257d6b25c4@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20261007
+SUMMARY:A Moment in the Monumental
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:Art Alive Gallery\, which was set up in New Delhi in 2001 and
+  celebrates its silver anniversary in 2026. In arriving at this benchmark
+ \, the gallery has played a critical role in taking Indian art forward wi
+ th key exhibitions\, a vibrant publishing platform\, vital support for ar
+ t events and collaborations\, and a diverse range of activities. Its rost
+ er of artists has ranged from modern masters to senior and respected cont
+ emporaries whose works it has exhibited\, including S.H. Raza\, M.F. Husa
+ in\, Krishen Khanna\, Akbar Padamsee\, Anjolie Ela Menon\, K.G. Subramany
+ an\, Satish Gujral\, Sakti Burman\, Senaka Senanayake\, K. Laxma Goud\, J
+ ogen Chowdhury and Paritosh Sen on the one hand\, and Manu Parekh\, Madhv
+ i Parekh\, Paresh Maity\, Jayasri Burman\, Arpana Caur\, Thota Vaikuntam 
+ and Veer Munshi\, among others\, on the other hand these artists have bee
+ n important contributors to the making of the Indian art story and Art Al
+ ive features these and a whole host of other artists as part of its anniv
+ ersary exhibition that is being curated to draw parallels that have exist
+ ed in India’s art making practice since the very dawn of civilization. 
+ The exhibition hopes to start conversations on the past\, present and fut
+ ure of Indian art in engaging and meaningful ways.\n\nhttps://bikanerhous
+ e.rajasthan.gov.in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art\,heritage
+END:VEVENT
+BEGIN:VEVENT
+UID:2d5073027ab94b70@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260927T053000Z
+DTEND:20260927T070000Z
+SUMMARY:Heritage & Nature Walk
+LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
+  Delhi 110013
+URL:https://www.sundernursery.org/heritage-and-nature-walk.php
+DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
+  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
+ led from Sunder Nursery's published standing timetable\, not from a dated
+  listing — the venue does not publish one. Confirm before travelling: 9
+ 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
+ ure-walk.php
+CATEGORIES:walk\,heritage\,nature
+END:VEVENT
+BEGIN:VEVENT
+UID:7ffcffce950e0ee9@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260927T063000Z
+DTEND:20260927T083000Z
+SUMMARY:Hindi Medium Tight
+LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
+ 03
+URL:https://indiahabitat.org/Events_details/1439
+DESCRIPTION:IHC Theatre Festival 2026 . Hindi Medium Tight (Hindi/80 mins
+ ) Based on ‘Hindi Medium Tight’ by Prabhat Ranjan . Adapted and Perfo
+ rmed by Himanshu Tyagi . Design & Direction by Bijesh Jayarajan . Produce
+ d by Shalini Vatsa . A solo performance\, set in Delhi University’s Hin
+ du College in the early 90s\, it explores the world of “Hindiwallahs”
+ - students navigating the divide between Hindi and English\, where langua
+ ge becomes a marker of class\, confidence and belonging. Through humour\,
+  poetry and sharp satirical self-criticism\, the performance examines the
+  insecurities\, friendships and social hierarchies shaped by language\, w
+ hile celebrating the courage to laugh\, push back and find one’s own vo
+ ice. Presented by You and Me Productions . Entry by Registration. Late en
+ try is strictly prohibited .\n\nhttps://indiahabitat.org/Events_details/1
+ 439
+CATEGORIES:performance\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:f389bd7ea70b1395@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260927T103000Z
+DTEND:20260927T120000Z
+SUMMARY:Heritage & Nature Walk
+LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
+  Delhi 110013
+URL:https://www.sundernursery.org/heritage-and-nature-walk.php
+DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
+  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
+ led from Sunder Nursery's published standing timetable\, not from a dated
+  listing — the venue does not publish one. Confirm before travelling: 9
+ 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
+ ure-walk.php
+CATEGORIES:walk\,heritage\,nature
+END:VEVENT
+BEGIN:VEVENT
+UID:4405dbaa56cc31dd@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260927T103000Z
+DTEND:20260927T123000Z
+SUMMARY:IHC Theatre Festival 2026. Hindi Medium Tight
+LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
+ 03
+URL:https://indiahabitat.org/Events_details/1428
+DESCRIPTION:IHC Theatre Festival 2026 . Hindi Medium Tight (English/80 mi
+ ns) Based on ‘Hindi Medium Tight’ by Prabhat Ranjan . Adapted and Per
+ formed by Himanshu Tyagi . Design & Direction by Bijesh Jayarajan . Produ
+ ced by Shalini Vatsa . A solo performance\, set in Delhi University’s H
+ indu College in the early 90s\, it explores the world of “Hindiwallahs
+ ”- students navigating the divide between Hindi and English\, where lan
+ guage becomes a marker of class\, confidence and belonging. Through humou
+ r\, poetry and sharp satirical self- criticism\, the performance examines
+  the insecurities\, friendships and social hierarchies shaped by language
+ \, while celebrating the courage to laugh\, push back and find one’s ow
+ n voice. Presented by You and Me Productions . Entry by Registration. Lat
+ e entry is strictly prohibited .\n\nhttps://indiahabitat.org/Events_detai
+ ls/1428
+CATEGORIES:performance\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:c1e2e1cb2e43a3f9@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260927T133000Z
+DTEND:20260927T153000Z
+SUMMARY:IHC Theatre Festival 2026. Bhasbharatam
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1426
+DESCRIPTION:IHC Theatre Festival 2026 . Bhasbharatam (Hindi/110 mins) Wri
+ . Mahakavi Bhasa . Playwright Asif Ali . Dir. Piyal Bhattacharya . A trad
+ itional storytelling performance based on Bhasa’s Mahabharata\, narrate
+ d through Charan and Bhatta\, the ancient narrators of India. Through fiv
+ e classic Sanskrit plays of Bhasa— Pancharatram\, Dootvakyam\, Karnabha
+ ram\, Dutaghatotkacha\, and Urubhangam —the production journeys through
+  key moments of the Mahabharata: exile\, peace attempts\, war\, and final
+  redemption. Bookended by the Bharat Vakya\, preaching the enduring value
+  of wisdom. Prod. National School of Drama\, Sikkim Repertory Company . T
+ ickets at Rs.200\, Rs.350\, & Rs.500 are available on bookmyshow.com and 
+ at the Habitat Programmes desk . Late entry is strictly prohibited .\n\nh
+ ttps://indiahabitat.org/Events_details/1426
+CATEGORIES:performance\,theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:c444ca3faa61e06e@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260928T123000Z
+DTEND:20260928T143000Z
+SUMMARY:Invincible Somnath: A Saga of Millennia
+LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1429
+DESCRIPTION:Book Discussion on Invincible Somnath: A Saga of Millennia by
+  Dr. Meenakshi Jain \, Member of Parliament\, Rajya Sabha. Collab. India 
+ Foundation .\n\nhttps://indiahabitat.org/Events_details/1429
+CATEGORIES:talk
+END:VEVENT
+BEGIN:VEVENT
+UID:226901fd750b4d33@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260928T133000Z
+DTEND:20260928T153000Z
+SUMMARY:Kummatty
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1435
+DESCRIPTION:35mm Film Club Screening. Kummatty (1979/ Malayalam/90 mins) 
+ Dir. G. Aravindan. An adaptation of a Central Kerala folk tale about a wa
+ ndering magician who transforms a group of village children into animals 
+ — and the boy left behind as a dog when the spell is broken. Shot in th
+ e scenic northern Malabar region\, the film features celebrated musician-
+ dancer Ramunni in his screen debut. Collab. NFDC-National Film Archive of
+  India .\n\nhttps://indiahabitat.org/Events_details/1435
+CATEGORIES:film\,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:249c75f58dcf7580@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260929T133000Z
+DTEND:20260929T153000Z
+SUMMARY:Ahiṃsā and Prakṛti
+LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1430
+DESCRIPTION:IHC - ICPR Study Circle\, Lecture Series . Ahiṃsā and Prak
+ ṛti presented by the Bharat Bodh Kendra\, Habitat Library & Research Ce
+ ntre . Talk by Prof. Veer Sagar Jain \, Professor\, Department of Jain Da
+ rshan\, Shri Lal Bahadur Shastri National Sanskrit University. Co-Conveno
+ r: Prof. Bindu Puri \, Centre for Philosophy\, Jawaharlal Nehru Universit
+ y. Chair: Prof. (Dr.) K. G. Suresh \, Director\, IHC.\n\nhttps://indiahab
+ itat.org/Events_details/1430
+CATEGORIES:talk
+END:VEVENT
+BEGIN:VEVENT
+UID:e635b60058907238@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260929T133000Z
+DTEND:20260929T153000Z
+SUMMARY:Arpan – Festival of Dance & Music
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1431
+DESCRIPTION:Arpan – Festival of Dance & Music . Kathak composition pres
+ ented by senior disciples of Guru Mahua Shankar . Performing Artistes: Sa
+ shwat Ishaan Shankar\, Aakanksha Saxena\, Yu-Wei-Ting\, Navdeep Kaur\, Ta
+ nishka Choudhary\, Parth Sarthi\, Priyanka Dhar & Soumika Sarkar . Follow
+ ed by a Sarangi–Sitar Duet by Ustad Murad Ali Khan and Ustad Fateh Ali 
+ Khan . Collab. Guru Pradeep Shankar Academy of Promoting & Performing Art
+ s .\n\nhttps://indiahabitat.org/Events_details/1431
+CATEGORIES:festival\,dance\,music
+END:VEVENT
+BEGIN:VEVENT
+UID:bb8a25f7ce0927cd@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:DCAW 2026
+LOCATION:Gallery Espace\, 16 Community Centre\, New Friends Colony\, New 
+ Delhi 110025
+URL:https://galleryespace.com/exhibition-espace/dcaw-2026/
+DESCRIPTION:https://galleryespace.com/exhibition-espace/dcaw-2026/
+CATEGORIES:exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:75435c3367b6339d@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260930T133000Z
+DTEND:20260930T153000Z
+SUMMARY:Sarat Smriti 2026: Agni
+LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
+ elhi 110003
+URL:https://indiahabitat.org/Events_details/1432
+DESCRIPTION:Sarat Smriti 2026: Agni . An Odissi presentation by Geeta Mah
+ alik and repertory. A dance drama depicting the philosophy of life\, deat
+ h and regeneration. Collab. Geeta’s Upasana .\n\nhttps://indiahabitat.o
+ rg/Events_details/1432
+CATEGORIES:performance\,dance
+END:VEVENT
+BEGIN:VEVENT
+UID:fc0eb9065f6a995c@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261007
+SUMMARY:Nar Nari 2.0
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/10
+DESCRIPTION:Nar Nari 2.0 is a new and evolved body of work exploring the 
+ eternal balance between masculine and feminine energies. The collection r
+ eflects equality\, coexistence\, emotional strength\, and the idea that t
+ wo contrasting forces together create wholeness. Rather than conflict\, t
+ he works celebrate harmony between opposites—logic and intuition\, stru
+ cture and softness\, earth and spirit. Mahesh Sharma is an Indian multidi
+ sciplinary artist and designer known for his powerful fusion of fine art\
+ , sculpture\, and collectible design. With over twenty-five years of crea
+ tive experience\, his work spans exhibitions\, installations\, furniture-
+ art\, and large-scale conceptual presentations in India and abroad. His a
+ rtistic language is rooted in nature\, human psychology\, equality\, spir
+ ituality\, and material transformation. Through painting\, sculpture\, an
+ d mixed media\, Mahesh Sharma creates works that are both visually striki
+ ng and philosophically layered. He is widely recognized for developing or
+ iginal collections that merge art and function while maintaining a strong
+  emotional and symbolic presence.\n\nhttps://bikanerhouse.rajasthan.gov.i
+ n/upcoming-events/2026/10
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:82b1475a250bbc0f@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:If Trees Could Write
+LOCATION:KNMA\, New Delhi\, Kiran Nadar Museum of Art\, Saket\, New Delhi
+  110017
+URL:https://www.knma.org/whats-on/workshops/if-trees-could-write
+DESCRIPTION:https://www.knma.org/whats-on/workshops/if-trees-could-write
+CATEGORIES:exhibition\,nature
+END:VEVENT
+BEGIN:VEVENT
+UID:f0c913687556761b@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261003T053000Z
+DTEND:20261003T070000Z
+SUMMARY:Heritage & Nature Walk
+LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
+  Delhi 110013
+URL:https://www.sundernursery.org/heritage-and-nature-walk.php
+DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
+  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
+ led from Sunder Nursery's published standing timetable\, not from a dated
+  listing — the venue does not publish one. Confirm before travelling: 9
+ 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
+ ure-walk.php
+CATEGORIES:walk\,heritage\,nature
+END:VEVENT
+BEGIN:VEVENT
+UID:1cd7397b501e0b74@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261003T103000Z
+DTEND:20261003T120000Z
+SUMMARY:Heritage & Nature Walk
+LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
+  Delhi 110013
+URL:https://www.sundernursery.org/heritage-and-nature-walk.php
+DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
+  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
+ led from Sunder Nursery's published standing timetable\, not from a dated
+  listing — the venue does not publish one. Confirm before travelling: 9
+ 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
+ ure-walk.php
+CATEGORIES:walk\,heritage\,nature
+END:VEVENT
+BEGIN:VEVENT
+UID:723bf8477bf13ec4@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261004T053000Z
+DTEND:20261004T070000Z
+SUMMARY:Heritage & Nature Walk
+LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
+  Delhi 110013
+URL:https://www.sundernursery.org/heritage-and-nature-walk.php
+DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
+  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
+ led from Sunder Nursery's published standing timetable\, not from a dated
+  listing — the venue does not publish one. Confirm before travelling: 9
+ 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
+ ure-walk.php
+CATEGORIES:walk\,heritage\,nature
+END:VEVENT
+BEGIN:VEVENT
+UID:4464c01202372151@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261004T103000Z
+DTEND:20261004T120000Z
+SUMMARY:Heritage & Nature Walk
+LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
+  Delhi 110013
+URL:https://www.sundernursery.org/heritage-and-nature-walk.php
+DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
+  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
+ led from Sunder Nursery's published standing timetable\, not from a dated
+  listing — the venue does not publish one. Confirm before travelling: 9
+ 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
+ ure-walk.php
+CATEGORIES:walk\,heritage\,nature
+END:VEVENT
+BEGIN:VEVENT
+UID:5a5f29913ff9f27e@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261006T133000Z
+DTEND:20261006T153000Z
+SUMMARY:Nico | Directed by: Eline Gehring
 LOCATION:Goethe-Institut / Max Mueller Bhavan\, 3 Kasturba Gandhi Marg\, 
  New Delhi 110001
-URL:https://www.goethe.de/ins/in/en/m/ver.cfm?event_id=27311559&fuseactio
+URL:https://www.goethe.de/ins/in/en/m/ver.cfm?event_id=27349647&fuseactio
  n=events.detail
 DESCRIPTION:Goethe Kino | Curated by Vani Subramanian | Film Screening\n\
- nhttps://www.goethe.de/ins/in/en/m/ver.cfm?event_id=27311559&fuseaction=e
+ nhttps://www.goethe.de/ins/in/en/m/ver.cfm?event_id=27349647&fuseaction=e
  vents.detail
 CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:d36d3b2ebe853c3e@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260804T133000Z
-DTEND:20260804T153000Z
-SUMMARY:Decolonising the Dr. Bhau Daji Lad Museum
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1335
-DESCRIPTION:V. S. Gaitonde Memorial Lecture on Decolonising the Dr. Bhau 
- Daji Lad Museum by Tasneem Zakaria Mehta \, art historian\, writer & cura
- tor. Collab. Raza Foundation .\n\nhttps://indiahabitat.org/Events_details
- /1335
-CATEGORIES:talk
-END:VEVENT
-BEGIN:VEVENT
-UID:39df2b1d11cefc54@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260810
-SUMMARY:Echoes of Time
-LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A Solo show by Suchismita Majumdar .\n\nhttps://indiahabitat.
- org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:57bc93f4aae591d2@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260805T123000Z
-DTEND:20260805T143000Z
-SUMMARY:Indo-Pacific as Zone for Peace
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1374
-DESCRIPTION:Panel Discussion on Indo-Pacific as Zone for Peace. Collab. I
- ndia Foundation .\n\nhttps://indiahabitat.org/Events_details/1374
-CATEGORIES:talk
-END:VEVENT
-BEGIN:VEVENT
-UID:f3d538ece4760070@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260806
-DTEND;VALUE=DATE:20270711
-SUMMARY:Soulscapes - Mountains and Sea
-LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A solo painting exhibition by Pratap Chand .\n\nhttps://india
- habitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:443d150aac34ae6e@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260808T053000Z
-DTEND:20260808T070000Z
+UID:f4792496a66b8afc@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261010T053000Z
+DTEND:20261010T070000Z
 SUMMARY:Heritage & Nature Walk
 LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
   Delhi 110013
@@ -646,10 +1523,10 @@ DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
 CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:89a4a78d43e21883@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260808T103000Z
-DTEND:20260808T120000Z
+UID:67be009066fef368@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261010T103000Z
+DTEND:20261010T120000Z
 SUMMARY:Heritage & Nature Walk
 LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
   Delhi 110013
@@ -663,32 +1540,10 @@ DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
 CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:0ba96d9922a450d9@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260808T133000Z
-DTEND:20260808T153000Z
-SUMMARY:IHC Lok Sangeet Sammelan. Day 1
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1326
-DESCRIPTION:IHC Lok Sangeet Sammelan . Day 1. A Tribute to Teejan Bai . F
- olk Tradition of Pandavani by Prabha Yadav \, disciple of Late Jhaduram D
- evangan. An evening devoted to the Vedamati tradition of Pandavani\, the 
- narrative art from Chhattisgarh\, where episodes from the Mahabharata are
-  brought to life through strong vocals\, expressive gestures\, and the re
- sonant Ektara. In the Vedamati style\, the performance will focus on the 
- intense episode of Draupadi Cheer Haran . Accompanied by Shiv Nishad (Man
- jira)\, Mohan Patel (Harmonium)\, Lilak Sahu (Tabla)\, Lakshmi Narayan (B
- anjo)\, and Nitesh Yadav (Dafli)\, together offering an experience that i
- s both contemplative and dramatic. Collab. Anwesha Kala Kendra\n\nhttps:/
- /indiahabitat.org/Events_details/1326
-CATEGORIES:performance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:c0ce86409368310f@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260809T053000Z
-DTEND:20260809T070000Z
+UID:e46ad92e27da544a@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261011T053000Z
+DTEND:20261011T070000Z
 SUMMARY:Heritage & Nature Walk
 LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
   Delhi 110013
@@ -702,10 +1557,10 @@ DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
 CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:29bdabd91e9ffbd1@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260809T103000Z
-DTEND:20260809T120000Z
+UID:b950c637d856e3ce@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261011T103000Z
+DTEND:20261011T120000Z
 SUMMARY:Heritage & Nature Walk
 LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
   Delhi 110013
@@ -719,152 +1574,10 @@ DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
 CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:a54477eb36c3eb8d@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260809T133000Z
-DTEND:20260809T153000Z
-SUMMARY:IHC Lok Sangeet Sammelan. Day 2
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1327
-DESCRIPTION:IHC Lok Sangeet Sammelan . Day 2. Pulluvan Pattu by Sree Sank
- aran Memorial Pulluvan Pattu Kala Samithi . A rendition of the ritual art
-  of Pulluvan Pattu \, a traditional ritualistic folk music of Kerala that
-  propitiates serpent deities through rustic verses drawn from the Mahabha
- rata and Puranic lore. Led by Sathyanarayanan. P \, the performance unfol
- ds through the single-stringed Pulluvan Veena\, the earthen-pot Pulluvan 
- Kudam\, and bell-metal Ilathalam Cymbals\, with an ensemble including Bin
- dhu K. P\, Suresh Babu E\, Sreejith P\, and Sreejil P. Set around the myt
- h of serpents\, this ancient oral tradition is driven by rhythm and percu
- ssive beats. Collab. Anwesha Kala Kendra .\n\nhttps://indiahabitat.org/Ev
- ents_details/1327
-CATEGORIES:performance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:8c24ed41aa163d3d@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260815
-SUMMARY:Moments of Village
-LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A painting exhibition by Yuvraj Patil .\n\nhttps://indiahabit
- at.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:0adaf691619fca9d@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260810T133000Z
-DTEND:20260810T153000Z
-SUMMARY:TERI-IHC Lecture Series
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1340
-DESCRIPTION:TERI-IHC Lecture Series . From Solar Farms to Smart Farms: Ag
- riPV and the Future of the Food-Energy Nexus . Welcome Remarks by Dr. Vib
- ha Dhawan \, Director General\, TERI\; Special Remarks by Prof. (Dr.) K. 
- G. Suresh \, Director\, IHC\; Introduction by Dr. Arunendra Kumar Tiwari 
- \, Fellow\, TERI. Panellists : Dr Amit Kumar Singh Parihar \, Director\, 
- Clean Power Program\, Energiva Ventures\; Mr. Subrahmanyam Pulipaka \, CE
- O\, NSEFI\; Dr. D.K. Singh \, Former Principal Scientist\, Water Technolo
- gy Centre and Professor\, Division of Agricultural Engineering\, ICAR-IAR
- I\; Dr. Shyam Sundar Sharma \, TERI. Moderator: Dr. A.K. Tripathi \, TERI
- . Closing Remarks by Mr. Sachin Singh \, Associate Director\, TERI Collab
- . TERI .\n\nhttps://indiahabitat.org/Events_details/1340
-CATEGORIES:talk\,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:4b22414c506114bd@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260810T133000Z
-DTEND:20260810T153000Z
-SUMMARY:Saare Jahan Se Accha Festival. Day 1
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1373
-DESCRIPTION:Saare Jahan Se Accha Festival . Day 1. Chitrangada - The Warr
- ior Princess . Odissi presentation by senior disciples of Utsav repertory
- . Collab. Utsav - Educational & Cultural Society .\n\nhttps://indiahabita
- t.org/Events_details/1373
-CATEGORIES:performance\,dance
-END:VEVENT
-BEGIN:VEVENT
-UID:8715a2ce8f1fe67b@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260817
-SUMMARY:Art Spectra
-LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A group painting exhibition by Neha Kaul\, Smita Singh\, Subu
- hi Khan\, Arpita Som \, and Vishaka Sehdev .\n\nhttps://indiahabitat.org/
- Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:0a68c49dd461d1ce@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260811T133000Z
-DTEND:20260811T153000Z
-SUMMARY:Saare Jahan Se Accha Festival. Day 2
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1341
-DESCRIPTION:Saare Jahan Se Accha Festival . Day 2. Odissi by disciples of
-  Guru Ranjana Gauhar \; Odissi by Guru Ratikant Mohapatra and disciples. 
- Bharatanatyam by Guru Ananda Shankar Jayant and disciple\; Kathak by Guru
-  Rajendra Gangani and disciples. Collab. Utsav - Educational & Cultural S
- ociety .\n\nhttps://indiahabitat.org/Events_details/1341
-CATEGORIES:performance\,dance
-END:VEVENT
-BEGIN:VEVENT
-UID:637811c0b9ae6e63@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260812T140000Z
-DTEND:20260812T160000Z
-SUMMARY:Mahaprayan Diwas of Guru Rabindranath Tagore
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1344
-DESCRIPTION:To mark Baishe Srabon - Mahaprayan Diwas of Guru Rabindranath
-  Tagore \, an evening of Rabindra Sangeet by Srikanta Acharya \, singer\,
-  songwriter\, and music director. Collab. Impresario India .\n\nhttps://i
- ndiahabitat.org/Events_details/1344
-CATEGORIES:performance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:e122935261cdc213@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260814T133000Z
-DTEND:20260814T153000Z
-SUMMARY:Azaadi Se Sukoon Tak: Launch of P-SAD\, India’s Program for Pre
- vention of Stress\, Anxiety & Depression
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1346
-DESCRIPTION:Azaadi Se Sukoon Tak: Launch of P-SAD\, India’s Program for
-  Prevention of Stress\, Anxiety & Depression . Session 1: The Weight We C
- arry: Recognising the Rising Burden of Stress\, Anxiety & Depression in I
- ndia . Panelists: Dr. Aijaz Ilmi \, Senior Consultant & Head\, Preventive
-  Medicine\, Pacific OneHealth\; Dr. Nimesh Desai \, Chief Psychiatrist\, 
- Pacific OneHealth. Moderator: Kanikka Malhotra \, Lead\, Corporate Health
-  Wellness & Workforce Health Transformation\, Pacific OneHealth. Session 
- 2: From Awareness to Action: Operationalising P-SAD Across Corporate and 
- School Settings . Panelists: Dr. Aastha Dewan \, Senior Consultant\, Ment
- al Health\, Pacific OneHealth. Moderator: Dr. Preetaish Kaul \, Consultan
- t Medical Editor\, OneHealth Academy. Keynote session: Freedom in the Lat
- er Years: Preventing Stress\, Anxiety & Depression in Senior Care and Hom
- e Care by Dr. G.S. Grewal \, Senior Consultant Geriatrician\, Pacific One
- Health. Collab. HEAL Foundation .\n\nhttps://indiahabitat.org/Events_deta
- ils/1346
-CATEGORIES:talk
-END:VEVENT
-BEGIN:VEVENT
-UID:89e985a7ff0c7032@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260815T053000Z
-DTEND:20260815T070000Z
+UID:fe01d9f36a199324@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261017T053000Z
+DTEND:20261017T070000Z
 SUMMARY:Heritage & Nature Walk
 LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
   Delhi 110013
@@ -878,10 +1591,10 @@ DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
 CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:8e2e8ff189fab728@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260815T103000Z
-DTEND:20260815T120000Z
+UID:7c12cb3580003aa7@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261017T103000Z
+DTEND:20261017T120000Z
 SUMMARY:Heritage & Nature Walk
 LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
   Delhi 110013
@@ -895,23 +1608,10 @@ DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
 CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:2a1d50473978f697@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260821
-SUMMARY:What Women Carry
-LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A photographic exhibition by Margins to Access Project (MAP).
- \n\nhttps://indiahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:eb6a610fb1ef0e5d@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260816T053000Z
-DTEND:20260816T070000Z
+UID:cbec806054a222ad@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261018T053000Z
+DTEND:20261018T070000Z
 SUMMARY:Heritage & Nature Walk
 LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
   Delhi 110013
@@ -925,10 +1625,10 @@ DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
 CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:3f79364dd256a60e@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260816T103000Z
-DTEND:20260816T120000Z
+UID:917ecd073e300ff9@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20261018T103000Z
+DTEND:20261018T120000Z
 SUMMARY:Heritage & Nature Walk
 LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
   Delhi 110013
@@ -942,657 +1642,16 @@ DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
 CATEGORIES:walk\,heritage\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:b2b3aa059dbf1f8c@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260816T133000Z
-DTEND:20260816T153000Z
-SUMMARY:Les Liaisons Dangereuses
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1347
-DESCRIPTION:NT Live Broadcast . Les Liaisons Dangereuses (English/170 min
- s with interval) by Christopher Hampton . Dir. Marianne Elliott . Based o
- n the novel by Pierre Choderlos de Laclos . Cast: Lesley Manville\, Aidan
-  Turner\, Monica Barbaro & others. Marquise de Merteuil is a master in th
- e art of survival. Alongside the magnetic Vicomte de Valmont\, they turn 
- seduction into strategy and weaponise desire. But when their alliance col
- lapses into rivalry\, the battle between them threatens to destroy everyo
- ne in their path. Tickets at Rs.500\, Rs.350 & Rs.250 are available onlin
- e on bookmyshow.com and at the Habitat Programmes desk .\n\nhttps://india
- habitat.org/Events_details/1347
-CATEGORIES:film\,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:a1bac38a036dd93f@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260820
-SUMMARY:उद्गम / Udgam
-LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
- lhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:Shree Yash Art Gallery presents a group painting and sculptur
- e exhibition by Anup Kumar Chand\, Dharmendra Rathore\, Dileep Sharma\, F
- araad Hussain\, G. Subramanian\, Goerge Martin PJ\, Manish Pushkale\, Nir
- en Sengupta\, Phaneendranath Chaturvedi\, Pratul Dash\, Rajesh Ram\, Sidh
- arth\, Siddharth Singade\, Tapan Kumar Dash \, and Wahida Ahmed .\n\nhttp
- s://indiahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:ea5f522ab80f93ed@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260817T133000Z
-DTEND:20260817T153000Z
-SUMMARY:IHC Connect
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1376
-DESCRIPTION:IHC Connect . A series of events to explore relevant issues a
- nd concerns related to habitat and society. Hindon River: Issues\, Challe
- nges and Solutions. Speaker: Raman Kant \, River Man of India & President
- \, Bhartiya Nadi Parishad. Chair: Prof. (Dr.) K. G. Suresh\, Director\, I
- HC. Presented by the Habitat Library & Research Centre .\n\nhttps://india
- habitat.org/Events_details/1376
-CATEGORIES:talk
-END:VEVENT
-BEGIN:VEVENT
-UID:e1b9af1b1d0173e3@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260818T133000Z
-DTEND:20260818T153000Z
-SUMMARY:Spandana
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1349
-DESCRIPTION:Spandana . An evening celebrating the beauty of Kuchipudi and
-  Kathak\, featuring solo and group performances by Amrita Singh and her d
- isciples (Kuchipudi) and Ritusri Chaudhuri and her disciples (Kathak). Co
- llab. Kuchipudi Kalamrita & Nrityakshar Foundation .\n\nhttps://indiahabi
- tat.org/Events_details/1349
-CATEGORIES:performance\,dance
-END:VEVENT
-BEGIN:VEVENT
-UID:c6573ef3da26f969@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260818T133000Z
-DTEND:20260818T153000Z
-SUMMARY:Stories of Co-Existence & Conservation from the North East
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1350
-DESCRIPTION:Stories of Co-Existence & Conservation from the North East . 
- Blurred Boundaries: The Mishmi and the Forest (Mishmi with English subtit
- les/13 mins) Dir. Imrana Khan . Vanishing Scavengers: Assam’s Vulture C
- onservation Efforts (English\, Hindi with English subtitles/4 mins) Dir. 
- Jahnu Baruah . Azuram Reserve: Manipur's Fight to Save Its Forest (Englis
- h\, Hindi with English subtitles/5 mins) Dir. Mordecai Panmei . Raimona N
- ational Park: Assam's Wildlife Sanctuary (English\, Assamese\, Boro with 
- English subtitles/8 mins) Dir. Arghadeep Barua . Chinese Pangolin: Manipu
- r's Fight to Save an Endangered Species (English\, Lianmai with English s
- ubtitles/6 mins) Dir. Mordecai Panmei . The Story of Peno: Protecting Aru
- nachal's Rich Biodiversity (Hindi with English subtitles/4 mins) Dir. Tal
- lo Anthony . World Cup Cicada: Meghalaya's Rare Forest Delicacy (Bhoi wit
- h English subtitles/4 mins) Dir. Thejavikho Chase . The Last Honey Hunter
- : Nagaland's Vanishing Cliffside Tradition (Wui with English subtitles/4 
- mins) Dir. Chentei Khiamniungan . Sikkim’s Indigenous Seed Keeper: Pres
- erving Lepcha Heritage (Lepcha with English subtitles/4 mins) Dir. Seela 
- Lepcha . Thangnang: Mizoram's Famous Stink Bug (Mizo with English subtitl
- es/4 mins) Dir. Thejavikho Chase . Bonaji: Tripura's Tribal Healing Tradi
- tions (Kokborok with English subtitles/2 mins) Dir. Karabi Jamatia . Ziro
- : The Land of Apatani People of Arunachal Pradesh (Apatani with English s
- ubtitles/5 mins) Dir. Pramod Saikia . Collab. Global Wildlife Fair . Foll
- owed by a discussion with Imrana Khan \, Dusty Foot Productions\; Mohit A
- ggarwal \, Global Wildlife Fair .\n\nhttps://indiahabitat.org/Events_deta
- ils/1350
-CATEGORIES:film\,cinema\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:d90cae68e1220ae0@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260819T133000Z
-DTEND:20260819T153000Z
-SUMMARY:Building an Athlete Brand: The Modern Athlete's Playbook
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1351
-DESCRIPTION:Raising An Athlete Sports Talk Series . Building an Athlete B
- rand: The Modern Athlete's Playbook . Panelists: Latika Khaneja \, Founde
- r & Director\, Collage Sports Management. Moderator: Amita Malhotra Lalwa
- ni \, Founder\, Equalsportz. Collab. Equalsportz .\n\nhttps://indiahabita
- t.org/Events_details/1351
-CATEGORIES:talk
-END:VEVENT
-BEGIN:VEVENT
-UID:074c5d5f3b2bd36c@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260819T133000Z
-DTEND:20260819T153000Z
-SUMMARY:Sargun se Nirgun: Kabir in Motion
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1352
-DESCRIPTION:Sargun se Nirgun: Kabir in Motion. A Bharatanatyam performanc
- e by Bhadra Sinha and Gayathri Sharma \, exploring the philosophy of Sant
-  Kabir as a journey from ignorance to awareness\, and from ritual to real
- ization. Rooted in Bhakti\, Kabir's verses transcend religion\, and throu
- gh expressive abhinaya\, rhythmic footwork\, and symbolic choreography\, 
- the performance highlights the enduring relevance of his teachings in mod
- ern life. Collab. Kalakriti Arts and Satyanjali Trust .\n\nhttps://indiah
- abitat.org/Events_details/1352
-CATEGORIES:performance\,dance
-END:VEVENT
-BEGIN:VEVENT
-UID:d2e4000b7d31bbd5@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260825
-SUMMARY:Collectively Independent 2026
-LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
- lhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A group art exhibition of paintings by Bharti Verma\, Ramos\,
-  Ruchi Chadha \, and Sapna Gupta .\n\nhttps://indiahabitat.org/Exhibition
- s_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:9082d29c3c99830a@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260821T133000Z
-DTEND:20260821T153000Z
-SUMMARY:21st Pandit Siyaram Tiwari Music Festival
-LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
- 03
-URL:https://indiahabitat.org/Events_details/1353
-DESCRIPTION:21st Pandit Siyaram Tiwari Music Festival . Dhrupad vocal rec
- ital by Dr. Sumeet Anand Pandey (Darbhanga Tradition). Followed by Tabla 
- Solo by Pt. Shubh Maharaj (Benaras Tradition). Accompanists: Salman Warsi
-  (Pakhawaj)\, Tanish Dholpuri (Sarangi)\, Mukesh Bhardwaj (Harmonium). Co
- llab. Pandit Siyaram Tiwari Trust .\n\nhttps://indiahabitat.org/Events_de
- tails/1353
-CATEGORIES:performance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:579e3b601011d174@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260821T133000Z
-DTEND:20260821T153000Z
-SUMMARY:Rashtra Yajna: Every Step in Service\, Every Beat for the Nation
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1354
-DESCRIPTION:Rashtra Yajna: Every Step in Service\, Every Beat for the Nat
- ion . To Commemorate the 150th Anniversary of Vande Mataram . Woven with 
- the grace\, discipline and expressive power of Bharatanatyam\, the perfor
- mance transforms every movement into an offering of devotion and every rh
- ythmic beat into a tribute to the spirit of the Nation. Enriched by the i
- mmediacy and emotional depth of live musicians\, the production celebrate
- s India's invaluable cultural heritage\, orally transmitted for thousands
-  of years\, now inscribed in the Memory of the World (MOW) by UNESCO\, th
- e sacrifices of its freedom fighters\, and the enduring ideals of beauty\
- , nature's bounty\, unity and nationalism. Presented by IHC in collaborat
- ion with Prathibha Prahlad & Prasiddha Repertory .\n\nhttps://indiahabita
- t.org/Events_details/1354
-CATEGORIES:performance\,dance
-END:VEVENT
-BEGIN:VEVENT
-UID:4d8ad6ffaf0bb9c1@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260822
-DTEND;VALUE=DATE:20260827
-SUMMARY:Nirbhay Edition 2
-LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:Luna Arts presents a group painting exhibition by Ruchi Ravee
- ndran\, Anjana Singh\, Sowmya Sebastian\, Tina Pillay\, Jay Gohil\, Jyots
- na Sharma\, Shesalu\, Payal Verma\, Richa Agarwal\, Anindita Sengupta\, R
- eet Kaur\, Arijit Sen\, Priyanka Nageshwari\, Sapna Gupta\, Neelam Kapoor
- \, Sohini Banerjee\, Tanvi Lalan\, Monica Jain\, Deepak Nayal\, Shreng La
- bru\, Bharti Shrivastava\, Parul Arya\, Tripti Pandey\, Nikita Gupta\, Na
- ila Praveen\, Huma Nadeem\, Saba Bawa\, Surendra Kumar \, and Avdhesh Kum
- ar .\n\nhttps://indiahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:904d952ff4a120c5@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260822T053000Z
-DTEND:20260822T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:5c6f8f50d7c62e1c@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260822T103000Z
-DTEND:20260822T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:38840e2b9e0938de@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260822T123000Z
-DTEND:20260822T143000Z
-SUMMARY:Baul Singers of Bengal
-LOCATION:Online\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1355
-DESCRIPTION:GLIMPSES OF CULTURE . Baul Singers of Bengal . Screening foll
- owed by discussion with Benoy K. Behl . Prod. Doordarshan . Join Zoom Mee
- ting https://us06web.zoom.us/j/82967829744?pwd=SD30DNT87QUvzS1z18BUWKLE4D
- OTH7.1 Meeting ID: 829 6782 9744 Passcode: 318814\n\nhttps://indiahabitat
- .org/Events_details/1355
-CATEGORIES:film\,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:5a342b33e03ca9fa@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260822T133000Z
-DTEND:20260822T153000Z
-SUMMARY:Bharat Bodh: A National Seminar on India’s Knowledge Traditions
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1356
-DESCRIPTION:Bharat Bodh: A National Seminar on India’s Knowledge Tradit
- ions . Presented by the Bharat Bodh Kendra \, Habitat Library & Research 
- Centre & Anjana Welfare Society . A discussion on the relevance of India
- ’s knowledge traditions in contemporary education\, inspired by the Nat
- ional Education Policy (NEP) 2020 and Indian Knowledge Systems (IKS). Spe
- akers: Guru Nalini & Kamalini Asthana \, Kathak exponents\; Maya Kulshres
- htha \, Kathak artist\; Dr. Karunashankar Upadhyay \, Professor & Head\, 
- Department of Hindi\, University of Mumbai\; Prof. (Dr.) K. G. Suresh \, 
- Director\, India Habitat Centre..\n\nhttps://indiahabitat.org/Events_deta
- ils/1356
-CATEGORIES:talk
-END:VEVENT
-BEGIN:VEVENT
-UID:9b094aa73b77d37d@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260822T133000Z
-DTEND:20260822T153000Z
-SUMMARY:चहुँमुखी... A Musical Efflorescence of Dhrupad\, 
- Khayal\, Thumri & Bhajan
-LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
- 03
-URL:https://indiahabitat.org/Events_details/1357
-DESCRIPTION:चहुँमुखी... A Musical Efflorescence of Dhrupa
- d\, Khayal\, Thumri & Bhajan . Conceptualised & performed by Dr. Aditi Sh
- arma Garg . Chahunmukhi presents a commanding rendition of Dhrupad\, capt
- ures the vivid imaginative flair of Khayal Gayaki\, reflects the playful 
- nuances of Thumri\, and embodies the profound devotion of Bhakti Sangeet.
- \n\nhttps://indiahabitat.org/Events_details/1357
-CATEGORIES:performance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:ec769161f576e5b1@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260822T133000Z
-DTEND:20260822T153000Z
-SUMMARY:Dalla Ayaara
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1358
-DESCRIPTION:Dalla Ayaara (Hindustani\, Urdu/40 mins) Performed by Meera R
- izvi & Usman Siddiqui . Followed by Dastan - e - Chhabeeli Bhatiyarin (Hi
- ndustani\, Urdu/50 mins) Performed by Meera Rizvi & Rana Pratap Sengar . 
- Adapted by Meera Rizvi . Dir. Mahmood Farooqui . Produced by Anusha Rizvi
-  . Two hilarious qissas from the 19th century about wily women and their 
- stratagems. Dalla Ayaara is witty\, quick-thinking\, and charming\, and m
- anages to con anyone and everyone who crosses her path\, often with hilar
- ious results. Chhabeeli is a qissa where the story pits the other woman (
- Chhabeeli) and the Prince’s wife (Nachhattar) against each other in a c
- ontest of wits as they compete to win the affections of a rather entitled
-  and silly Prince. Prod. Dastangoi Collective . Tickets at Rs.500\, Rs.35
- 0 & Rs.200 are available online on bookmyshow.com and at the Habitat Prog
- rammes desk .\n\nhttps://indiahabitat.org/Events_details/1358
-CATEGORIES:performance\,theatre
-END:VEVENT
-BEGIN:VEVENT
-UID:da7dc7ea8bd676b1@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260823T053000Z
-DTEND:20260823T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:f23ee2f3b704a2c2@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260823T103000Z
-DTEND:20260823T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:27b246994b7a5d92@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260823T133000Z
-DTEND:20260823T153000Z
-SUMMARY:Dastan - e - Raahi
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1359
-DESCRIPTION:Dastan - e - Raahi (Hindustani\, Urdu\, Bhojpuri/90 mins with
-  interval) Adapted by Darain Shahidi . Performed by Darain Shahidi & Raje
- sh Kumar . Dir. Mahmood Farooqui . Produced by Anusha Rizvi . Celebrating
-  the centenary of the great Hindi writer Dr. Rahi Masoom Raza\, this Dast
- angoi performance traces his extraordinary journey from his childhood in 
- Gangauli to his years as an uncompromising academic and the legendary wri
- ter who gave us the rustic soul of Aadha Gaon \, a landmark of Hindi lite
- rature. It narrates his remarkable career as a writer and lyricist in the
-  Bombay film industry\, culminating in his screenplay and dialogues for B
- . R. Chopra's epoch-defining television serial Mahabharata . Prod. Dastan
- goi Collective . Tickets at Rs.500\, Rs.350 & Rs.200 are available online
-  on bookmyshow.com and at the Habitat Programmes desk .\n\nhttps://indiah
- abitat.org/Events_details/1359
-CATEGORIES:performance\,literature\,theatre
-END:VEVENT
-BEGIN:VEVENT
-UID:18840ee4ad987664@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260829
-SUMMARY:Village Lives
-LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:An exhibition of watercolour paintings by Meenaxi Sadalge .\n
- \nhttps://indiahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:d15f00cc8a23694c@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260824T123000Z
-DTEND:20260824T143000Z
-SUMMARY:Hindutva and Hind Swaraj: History’s Unforgotten Ideas
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1375
-DESCRIPTION:Book Discussion on Hindutva and Hind Swaraj: History’s Unfo
- rgotten Ideas by Prof. Makarand Paranjape. Collab. India Foundation .\n\n
- https://indiahabitat.org/Events_details/1375
-CATEGORIES:talk\,history
-END:VEVENT
-BEGIN:VEVENT
-UID:86d5fe3f9501fb6b@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260824T133000Z
-DTEND:20260824T153000Z
-SUMMARY:A Short History of PPP in India & The Way Forward
-LOCATION:Casuarina\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1361
-DESCRIPTION:RIS-IHC Maritime Lecture Series . A Short History of PPP in I
- ndia & The Way Forward by Vinayak Chatterjee \, Founder & Managing Truste
- e\, The Infravision Foundation. Collab. RIS (CMEC) .\n\nhttps://indiahabi
- tat.org/Events_details/1361
-CATEGORIES:talk\,history
-END:VEVENT
-BEGIN:VEVENT
-UID:c4a5285c091a98f6@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260824T133000Z
-DTEND:20260824T153000Z
-SUMMARY:Cultural Kaarava’n Virasat 2026
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1362
-DESCRIPTION:Cultural Kaarava’n Virasat 2026. Commemorating the 150th an
- niversary of Vande Mataram and the 79th Independence Day of India . Vocal
-  recital by Pt. Sajan Mishra \, and Swaransh Mishra \; accompanied by Pt.
-  Dharmnath Mishra (Harmonium) and Abhishek Mishra (Tabla). Followed by a 
- violin recital by Dr. N. Rajam \; accompanied by Ragini Shankar (Violin) 
- and Abhishek Mishra (Tabla). Presented on the occasion of the 15th Founda
- tion Day of Sahityaotsava Jashn-e-Adab .\n\nhttps://indiahabitat.org/Even
- ts_details/1362
-CATEGORIES:performance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:721d12a041af32d5@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260826
-DTEND;VALUE=DATE:20260901
-SUMMARY:One - Many
-LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
- lhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A group painting and sculpture exhibition by Ashish Mridha\, 
- Deb Dutta\, Debangshu Biswas\, Monika Prasad\, Pabitra Pal\, Souman Basu\
- , Suprakash Nath\, Susnata Chatterjee\, Supriyo Sahu\, Swapan Sutradhar\,
-  Tarun Maity \, and Titas Das .\n\nhttps://indiahabitat.org/Exhibitions_D
- etails
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:7771ebdb2f94d04f@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260826T133000Z
-DTEND:20260826T153000Z
-SUMMARY:Aarambh
-LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
- 03
-URL:https://indiahabitat.org/Events_details/1363
-DESCRIPTION:Aarambh . A series featuring young classical performers of mu
- sic and dance. Santoor recital by Divyansh Harshit Srivastava . Hindustan
- i classical vocal recital by Deepika Bhide Bhagwat . Collab. Raza Foundat
- ion .\n\nhttps://indiahabitat.org/Events_details/1363
-CATEGORIES:performance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:101509b5ff134fcc@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260826T133000Z
-DTEND:20260826T153000Z
-SUMMARY:National Dance & Music Festival 2026
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1364
-DESCRIPTION:National Dance & Music Festival 2026 . Flute recital Pt. Ronu
-  Majumdar \, accompanied by Ustad Akram Khan on Tabla. Prahallad Bhakti B
- ijaya \, an Odissi dance presentation by Tridhara .\n\nhttps://indiahabit
- at.org/Events_details/1364
-CATEGORIES:performance\,dance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:31921584f22effb5@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260826T133000Z
-DTEND:20260826T153000Z
-SUMMARY:Conversations on Public Policy
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1365
-DESCRIPTION:Conversations on Public Policy . A series designed to bridge 
- the gap between academic theory and real-world governance in India\, brin
- ging together distinguished policymakers\, thought leaders\, and seasoned
-  practitioners to foster robust dialogue\, offering students and faculty 
- nuanced insights into how grassroots challenges are addressed through pub
- lic policy and strategic governance. Introduction by Prof. Rajat Kathuria
-  \, Pro Vice-Chancellor & Dean\, School of Humanities and Social Sciences
- . Moderator: Indranil Sen Gupta \, Professor of Practice\, Department of 
- Economics. Collab. Shiv Nadar University .\n\nhttps://indiahabitat.org/Ev
- ents_details/1365
-CATEGORIES:talk\,sociology
-END:VEVENT
-BEGIN:VEVENT
-UID:52442b28a36485a8@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260901
-SUMMARY:Harmony
-LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:Master Sansar Chand Baru Memorial Charitable Trust presents a
-  group painting and sculpture exhibition by Sharmila Sharma\, Rakhi Kumar
- \, Shambhu Nath Goswami\, Aditya Shankar\, Rahul Mhetre\, Vijaylaxmi Deep
- ak Mer\, Monalisa Sirkar\, Apurba Kharati\, Pooja Kumar\, Shyamlal Mukher
- jee\, Manish Rao\, Rakhi Kumari\, Chaitali Chanda\, Sandeep Aaher\, Nav N
- ath\, Javed Iqbal\, Suraj Kumar Kashi\, Sachindra Nath Jha\, Naushad Gayo
- or\, Syed Mursaleen\, Renuka Sonde\, Vijay \, & Anubhab .\n\nhttps://indi
- ahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:13917429d4e82842@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260827T133000Z
-DTEND:20260827T153000Z
-SUMMARY:Concert of classic melodies
-LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
- 03
-URL:https://indiahabitat.org/Events_details/1366
-DESCRIPTION:Concert of classic melodies old and new\, patriotic\, regiona
- l\, folk and semi-classical songs by Tarannum Choir . Conducted by Ravi R
- aj Sagar.\n\nhttps://indiahabitat.org/Events_details/1366
-CATEGORIES:performance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:b407d31019d356f8@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260827T133000Z
-DTEND:20260827T153000Z
-SUMMARY:Indian Poetics on Trees / Natural World
-LOCATION:Gulmohar\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
-URL:https://indiahabitat.org/Events_details/1367
-DESCRIPTION:IHC - ICPR Study Circle\, Lecture Series . Indian Poetics on 
- Trees / Natural World presented by the Bharat Bodh Kendra\, Habitat Libra
- ry & Research Centre . Talk by Prof. Dhananjay Singh \, Member Secretary\
- , Indian Council of Social Science Research. Chair: Prof. (Dr.) K. G. Sur
- esh \, Director\, IHC.\n\nhttps://indiahabitat.org/Events_details/1367
-CATEGORIES:talk\,nature\,science
-END:VEVENT
-BEGIN:VEVENT
-UID:70ddb9a993418be3@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260828T133000Z
-DTEND:20260828T153000Z
-SUMMARY:Parijatham
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1368
-DESCRIPTION:Parijatham - Vilasini Natyam performance by Swapnasundari . F
- ollowed by Sarve Jana Sukhino Bhavanthu in Agama Bharatam by Ganesa Natya
- laya . Collab. Madhavi Foundation .\n\nhttps://indiahabitat.org/Events_de
- tails/1368
-CATEGORIES:performance\,dance
-END:VEVENT
-BEGIN:VEVENT
-UID:0d9df1f1144306d9@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260829
-DTEND;VALUE=DATE:20260903
-SUMMARY:Spandan
-LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A Solo art exhibition of watercolours and oil paintings by Ac
- hintya Hazra .\n\nhttps://indiahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:512cdf38002071c0@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260829T140000Z
-DTEND:20260829T160000Z
-SUMMARY:Parabola of Dance - Performance & Process 2026
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1369
-DESCRIPTION:Parabola of Dance - Performance & Process 2026 (Hindi & Engli
- sh/ 90 mins) Curated by Aditi Mangaldas . An evening of performances and 
- dialogue. Performing artistes: Malti Shyam (Kathak)\; Swapnokalpa Dasgupt
- a (Odissi)\; Kavya Ganesh (Bharatanatyam). Prod. Aditi Mangaldas Dance Co
- mpany & The Drishtikon Dance Foundation . Tickets at Rs.500\, Rs.350 & Rs
- .200 are available online on bookmyshow.com and at the Habitat Programmes
-  desk.\n\nhttps://indiahabitat.org/Events_details/1369
-CATEGORIES:performance\,dance
-END:VEVENT
-BEGIN:VEVENT
-UID:44efa5b67cb287af@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260830T133000Z
-DTEND:20260830T153000Z
-SUMMARY:VANDE MATARAM: BHARAT VANDAN
-LOCATION:The Theatre\, India Habitat Centre\, Lodhi Road\, New Delhi 1100
- 03
-URL:https://indiahabitat.org/Events_details/1370
-DESCRIPTION:VANDE MATARAM: BHARAT VANDAN by Pandita Anuradha Pal’s Coll
- ective . Experience Sujalam\, Suphalam\, Shakti and Ek Bharat as seven mu
- sical traditions—Vocal\, Sitar\, Violin\, Flute\, Mridangam\, Tabla–P
- akhawaj and Folk Music—come together in a stirring celebration of India
- ’s unity in diversity. Conceived and composed by Tabla maestro\, Pandit
- a Anuradha Pal .\n\nhttps://indiahabitat.org/Events_details/1370
-CATEGORIES:performance\,music
-END:VEVENT
-BEGIN:VEVENT
-UID:a85e6b50cea5b084@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260830T140000Z
-DTEND:20260830T160000Z
-SUMMARY:Hansika: An Adaptation of Swan Lake
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1371
-DESCRIPTION:Hansika: An Adaptation of Swan Lake (English/75 mins) Choreog
- raphed by Sharmila Mukerjee \, performed by her with the Sanjali Ensemble
- . Original Music Score & Direction by Praveen D Rao . Hansika is an adapt
- ation of Swan Lake\, the ballet composed by Pyotr Ilyich Tchaikovsky\, in
-  the context of Indian classical dance–Odissi. Inspired by the story of
-  Odette\, a princess turned into a swan by an evil sorcerer's curse\, the
-  production explores the humane aspect of the plot through the Indian wor
- ld of raga\, taal\, laya and rasa. Prod. Sanjali Centre for Odissi Dance 
- . Tickets at Rs.500\, Rs.400 & Rs.250 are available online on bookmyshow.
- com and at the Habitat Programmes desk.\n\nhttps://indiahabitat.org/Event
- s_details/1371
-CATEGORIES:performance\,dance
-END:VEVENT
-BEGIN:VEVENT
-UID:54fc5d1dba9a297a@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260831T133000Z
-DTEND:20260831T153000Z
-SUMMARY:A Celebration of Bharat Vibhav
-LOCATION:The Stein Auditorium\, India Habitat Centre\, Lodhi Road\, New D
- elhi 110003
-URL:https://indiahabitat.org/Events_details/1372
-DESCRIPTION:Nritya Katha Festival . A Celebration of Bharat Vibhav . An e
- vening celebrating the beauty and richness of India's traditional dance h
- eritage through thoughtfully crafted short choreographies\, featuring Kat
- hak & Mayurbhanj Chhau. Concept & Choreography by Maitreyee Pahari .\n\nh
- ttps://indiahabitat.org/Events_details/1372
-CATEGORIES:performance\,dance
+UID:e8d643422da00359@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261213
+SUMMARY:The Evolution of the Soothsayer Part 2
+LOCATION:New Delhi\, Nature Morte\, A-1 Neeti Bagh\, New Delhi 110049
+URL:https://naturemorte.com/public/exhibitions/the-evolution-of-the-sooth
+ sayer-part-2
+DESCRIPTION:https://naturemorte.com/public/exhibitions/the-evolution-of-t
+ he-soothsayer-part-2
+CATEGORIES:exhibition
 END:VEVENT
 END:VCALENDAR

@@ -6,239 +6,369 @@ METHOD:PUBLISH
 X-WR-CALNAME:Delhi Culture — art & photography
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:62347b227f6806eb@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260722T053000Z
-DTEND:20260804T133000Z
-SUMMARY:UNSUNG: Celebrating the Extraordinary Grandeur of Smallness
+UID:d7f6948c32ae33f4@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260923
+SUMMARY:Standing on Sacred Ground
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:Presented by Kalakriti Art Gallery\, Hyderabad\, in this grou
+ p exhibition the artists have examined the shifts of the recent past thro
+ ugh the lens of their own visual vocabulary. This could range from sudden
+  presence or sudden lack of colour\; moving from big to small canvases or
+  from figuration to abstraction. A set of artists in this group can be se
+ en archiving family histories some\, having noticed the lack of represent
+ ation of caste/gender\, are rectifying that by inserting figures/archival
+  material into their work. The constant presence of memories of a loved o
+ ne\, lost in the recent past\, is being memorialized through found object
+ s. \nThe exhibition also looks at personal awakenings and has been curate
+ d by Avantika Bhuniya.\n\nhttps://bikanerhouse.rajasthan.gov.in/upcoming-
+ events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:bb23c435c57ad5e6@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260922
+SUMMARY:Tap Aur Tapish
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:Presented by Art Explore\, this exhibition serves as a powerf
+ ul platform to present Vipul Kumar’s artistic journey — from his earl
+ y stone sculptures to his transformative engagement with clay. Central to
+  the show are works that explore environmental fragility\, spiritual intr
+ ospection\, and mythological symbolism. Drawing from Jain and Buddhist co
+ smologies\, as well as poetic traditions such as that of Kabir\, Kumar’
+ s sculptures evoke a timeless quality while remaining deeply rooted in co
+ ntemporary concerns. The exhibition will include key pieces and newly dev
+ eloped works that mark a turning point in his career. With raw\, weathere
+ d surfaces and organic\, monumental forms\, the sculptures invite viewers
+  into a meditative space where philosophical inquiry meets sensory experi
+ ence. This proposed solo exhibition highlights Vipul Kumar’s mastery ov
+ er material and form and asserts his pivotal role in shaping contemporary
+  Indian ceramics. It reaffirms ceramics as a serious medium of artistic e
+ xpression and brings critical and curatorial attention to an artist who c
+ ontinues to challenge boundaries with quiet intensity and profound clarit
+ y.\n\nhttps://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:de7824e340f3a2f5@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260925
+SUMMARY:Oriental Scenary
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:This exhibition brings together rare maps of India to reveal 
+ how cartography functioned as an instrument of power—shaping\, controll
+ ing\, and continually reimagining the subcontinent. The exhibition traces
+  the evolution of cartographic practices in India from the sixteenth cent
+ ury onwards\, beginning with early European attempts to visualize the sub
+ continent and extending through colonial surveys to modern printed maps. 
+ Initially conceived as instruments of navigation\, conquest and imperial 
+ control\, these maps reveal how knowledge of territory was systematically
+  produced and codified. This exhibition is curated by Swapna Liddle.\n\nh
+ ttps://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:6a02433e4ad71f7d@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260916T053000Z
+DTEND:20261001T133000Z
+SUMMARY:Phulkari: A Lingering Presence By Sunaina Suneja
 LOCATION:Art Gallery\, Kamaladevi Complex\, IIC\, India International Cen
  tre\, 40 Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/exhibition-unsung-celebrating-extraord
- inary-grandeur-smallness
-DESCRIPTION:A photography exhibition curated by Amit Mehra\, photographer
- \, curator\, and founder of the UNSUNG project\, an ongoing initiative th
- at celebrates the lives and contributions of extraordinary yet often over
- looked individuals.\nThe photographs explore the beauty and significance 
- of lives\, places\, and ideas that often go unnoticed. Through visual nar
- ratives by contemporary artists\, the exhibition reflects on ordinary peo
- ple and unseen worlds whose stories reveal resilience\, conviction\, and 
- human connection.\nThe exhibition will be inaugurated on Tuesday\, 21 Jul
- y’26 at 18:00 hrs by Amb Shyam Saran\, President\, IIC\nThe exhibition 
- will remain open daily from 11:00 to 19:00 hrs\n(Collaboration: Srishti M
- anipal Institute of Art\, Design and Technology (a constituent of MAHE\, 
- Manipal) and Manipal Academy of Higher Education (MAHE)\, Manipal (Instit
- ution of Eminence Deemed to be University)\n\nhttps://iicdelhi.in/program
- mes/exhibition-unsung-celebrating-extraordinary-grandeur-smallness
-CATEGORIES:exhibition\,art\,photography
+URL:https://iicdelhi.in/programmes/exhibition-phulkari-lingering-presence
+ -sunaina-suneja
+DESCRIPTION:Phulkari: A Lingering Presence\nBy Sunaina Suneja\nPhulkari\,
+  the vibrant embroidery tradition of Punjab\, evokes nostalgic memories o
+ f color\, music\, dance and poetry. The exhibition traces the journey of 
+ reviving the thread-counted Phulkari embroidery and its iconic Pehchaan m
+ otif\, celebrating Punjabi womanhood through a rich collection of vintage
+  heirlooms alongside contemporary works.\nThe exhibition will be inaugura
+ ted on Wednesday 16 September at 11:30 hrs\nA walkthrough by Sunaina Sune
+ ja will be conducted on Friday\, September 18 & 25\, Saturday\, September
+  19 & 26 at 16:00 hrs.\nA session titled “We Are All Daughters” invit
+ ing participants to bring a treasured object associated with a mother\, g
+ randmother or another significant woman in their lives\, and share the me
+ mories it holds will be on Wednesday\, 23 September at 16:00 hrs.\nThe ex
+ hibition will remain open daily from 11:00 to 19:00 hrs\n\nhttps://iicdel
+ hi.in/programmes/exhibition-phulkari-lingering-presence-sunaina-suneja
+CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:571e8403cd7afc39@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART:20260726T053000Z
-DTEND:20260802T133000Z
-SUMMARY:Flux of Being
+UID:357ca1dfe97c50a3@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260922
+SUMMARY:Visible Vapour
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:Shree Naik is a Delhi-based landscape architect and artist wh
+ ose creative journey beautifully blends design and fine art. Known for hi
+ s exceptional versatility and ambidextrous talent\, he moves effortlessly
+  between landscape architecture\, painting\, sketching\, and visual expre
+ ssion. Inspired by nature and everyday experiences\, his works reflect a 
+ keen eye for detail\, composition\, and emotion. This exhibition celebrat
+ es his 50th birthday\, marking five decades of creativity\, exploration\,
+  and artistic passion.\n\nhttps://bikanerhouse.rajasthan.gov.in/upcoming-
+ events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:2740c201ddf09d7d@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260920T063000Z
+DTEND:20260920T083000Z
+SUMMARY:Indian Art: History and Appreciation Course
+LOCATION:Casuarina\, India Habitat Centre\, Lodhi Road\, New Delhi 110003
+URL:https://indiahabitat.org/Events_details/1410
+DESCRIPTION:I ndian Art: History and Appreciation Course by Art Historian
+ \, Prof. Benoy K Behl . A journey through Indian art\, across ancient and
+  medieval times\, profusely illustrated by Prof. Behl's well-known photog
+ raphs and films on Indian art. For registrations and details\, write to p
+ riyanka@indiahabitat.org with a brief resume .\n\nhttps://indiahabitat.or
+ g/Events_details/1410
+CATEGORIES:workshop\,art\,history
+END:VEVENT
+BEGIN:VEVENT
+UID:86a0f656d1936eda@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260921T130000Z
+DTEND:20260921T150000Z
+SUMMARY:INDIAN ARCHAEOLOGY
+LOCATION:Conference Room II\, IIC main\, India International Centre\, 40 
+ Max Mueller Marg\, Lodhi Gardens\, New Delhi 110003
+URL:https://iicdelhi.in/programmes/indian-archaeology-151
+DESCRIPTION:Prehistoric Vindhyan Childhoods: Investigating Rock Art as a 
+ Knowledge System in Indian Prehistory\nSpeaker: Dr. Ajay Pratap is former
+  Head and Professor\, Department of History\, Banaras Hindu University.\n
+ Chair: K. N. Shrivastava\, Director\, IIC\nModerator: Pratap Bhanu Singh 
+ Sengar\, former Director (Monuments) Archaeological Survey of India\nThe 
+ emergence of an archaeology of childhood recognises the crucial roles of 
+ women and children in prehistoric cultures and communities. The presentat
+ ion explores their role as active users of visual symbolic representation
+ \, as teachers and learners\, through rock art depicting self-images\, de
+ signs\, narrative scenes\, line drawings and practice figures. It examine
+ s rock art as a means of transmitting traditional knowledge\, aesthetics 
+ and memory.\n\nhttps://iicdelhi.in/programmes/indian-archaeology-151
+CATEGORIES:talk\,art\,heritage
+END:VEVENT
+BEGIN:VEVENT
+UID:914602fe01c0c0f5@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260927
+SUMMARY:People of Art: A Portrait Study of the Art World
+LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
+ w Delhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:A painting exhibition by Ambalika Chitkara . Curated by Gargi
+  Seth .\n\nhttps://indiahabitat.org/Exhibitions_Details
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:d67b93bbbd3be974@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20261001
+SUMMARY:Raj Se Swaraj Tak From Colonial Rule to Freedom- Through the Eyes
+  of Shekhawati
+LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
+ lhi 110003
+URL:https://indiahabitat.org/Exhibitions_Details
+DESCRIPTION:To mark India’s 80th year of Independence\, MOHAR (Museum o
+ f Heritage and Art at Ramgarh) presents “Raj Se Swaraj Tak”\, an imme
+ rse eight-day journey of pre-independence and Post independence India in 
+ the 1800s and 1900s\, through the discoveries in the Havelies of the Shek
+ hawati Seths\, who created the magical frescoed region of Shekhawati\, ca
+ lled the “Open-air Art gallery of Rajasthan”.\nThe exhibition and oth
+ er events will showcase cultural narratives and lifestyles through the wa
+ ll frescoes of Shekhawati\, the art and design influences\, belief system
+ s\, religious and folk stories\, the British influence\, political art\, 
+ lifestyle secrets\, architecture\, attire\, objects created or acquired b
+ y the Shekhawati Seths - Art\, Media\, Manuscripts\, Telegrams\, Newspape
+ rs\, Letters\, Maps\, spectacular oleographs\,\n\nhttps://indiahabitat.or
+ g/Exhibitions_Details
+CATEGORIES:exhibition\,art\,history
+END:VEVENT
+BEGIN:VEVENT
+UID:4aa9ae3b742b07d6@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260929
+SUMMARY:Odyssey
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:Presented by Khushi Art his exhibition by Poonam Bhatnagar is
+  about mythological characters\, world universes and landscapes as well a
+ s an abstract series of geometry and symbolism in contemporary characters
+ . Her exhibition of acrylics on canvas as well as drawings on paper creat
+ ed in terms of Mythos accents and characters from Indian mythology. Her d
+ etails\, her narrative and her compositional brilliance are a set of stor
+ ies that transcend both time and tradition. As an artist she has been tra
+ cing tradition in the old ideology of mythos and studying landscapes. She
+  combines the lexicon of language with the concept of the rustic rhythms 
+ of Indian identities in Mythos. This show is curated by Uma Nair.\n\nhttp
+ s://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:e9e504c82237a11c@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART:20260923T053000Z
+DTEND:20260930T133000Z
+SUMMARY:Journey of Colours A Solo Exhibition by Sadaf Beg Khan
 LOCATION:Art Gallery\, IIC Annexe\, India International Centre\, 40 Max M
  ueller Marg\, Lodhi Gardens\, New Delhi 110003
-URL:https://iicdelhi.in/programmes/exhibition-flux-being
-DESCRIPTION:A Solo Exhibition by Ravi Kant Jha\, National award-winning a
- rtist\, his practice investigates themes of consciousness\, memory\, and 
- transformation.\nThe exhibition presents a series of paintings that explo
- re consciousness as a state of constant transformation. Through fluid for
- ms\, layered compositions\, and evocative color fields\, the works blur t
- he boundaries between memory\, imagination\, and reality.\nThe exhibition
-  will be inaugurated on Saturday\, 25 July’26 at 17:00 hrs\nThe exhibit
- ion will remain open daily from 11:00 to 19:00 hrs\n\nhttps://iicdelhi.in
- /programmes/exhibition-flux-being
+URL:https://iicdelhi.in/programmes/exhibition-journey-colours-solo-exhibi
+ tion-sadaf-beg-khan
+DESCRIPTION:Journey of Colours\nA Solo Exhibition by Sadaf Beg Khan\nAn e
+ xhibition of artworks inspired by emotions\, experiences and everyday lif
+ e. The artist explores varied moods\, ideas and perspectives\, inviting v
+ iewers to engage with the distinctive expressions and narratives that sha
+ pe her artistic practice. Sadaf Beg Khan\, visual artist whose practice d
+ raws deeply from nature and explores themes of femininity\, beauty and vu
+ lnerability.\nThe exhibition will be inaugurated on Tuesday 22nd Septembe
+ r’26 at 17:30 hrs by Chief Guests Mohammad Adeeb\, former Member of Par
+ liament and Talal Adeeb\nThe exhibition will remain open daily from 11:00
+  to 19:00 hrs\n\nhttps://iicdelhi.in/programmes/exhibition-journey-colour
+ s-solo-exhibition-sadaf-beg-khan
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:6794c843651626ca@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260805
-SUMMARY:Shilpa-Abadhani
-LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A group exhibition by Dana Ghosh\, Anjana Kirtania & Sandip D
- as .\n\nhttps://indiahabitat.org/Exhibitions_Details
+UID:b3329bf294ad2231@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260929
+SUMMARY:Main Hoon Warli
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:The solo exhibition of Warli paintings by acclaimed artist Sa
+ njay Parhad seeks to illuminate the timeless visual language of Warli art
+ —one of India’s most vital tribal art forms—by tracing its deep-roo
+ ted cultural ethos and its evolving contemporary resonance. Sanjay’s wo
+ rk vividly portrays the oral histories\, customs\, and cosmologies of the
+  Warli community in Maharashtra. His paintings draw from the tribal commu
+ nity’s collective memory\, rendering sacred myths and everyday scenes w
+ ith poetic rhythm and meticulous detail. While rooted in tradition\, Parh
+ ad’s practice has expanded to engage with contemporary themes\, transfo
+ rming Warli art into a living\, breathing narrative of the present. Known
+  for his signature linear style\, fluid motion\, and masterful use of sca
+ le and space\, Parhad bridges generations of storytelling—evoking ances
+ tral spirits and ecological harmony\, while commenting on modern realitie
+ s. This exhibition is curated by Chhavi Jain.\n\nhttps://bikanerhouse.raj
+ asthan.gov.in/upcoming-events/2026/9
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:39df2b1d11cefc54@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260810
-SUMMARY:Echoes of Time
-LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A Solo show by Suchismita Majumdar .\n\nhttps://indiahabitat.
- org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:f3d538ece4760070@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260806
-DTEND;VALUE=DATE:20270711
-SUMMARY:Soulscapes - Mountains and Sea
+UID:36e414dd060b4cc2@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+SUMMARY:An Origami Odyssey
 LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A solo painting exhibition by Pratap Chand .\n\nhttps://india
- habitat.org/Exhibitions_Details
+DESCRIPTION:A solo origami exhibition by Ishaan Gupta .\n\nhttps://indiah
+ abitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:8c24ed41aa163d3d@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260815
-SUMMARY:Moments of Village
+UID:369113541f316ee2@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:Rang by Devi
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:A curated art exhibition showcasing original artworks by wome
+ n legal professionals of the Supreme Court of India\, celebrating the int
+ ersection of law\, creativity\, and personal expression. DEVI is a collec
+ tive of passionate and dedicated women legal professionals\, who strive t
+ o promote gender equality\, justice\, and empowerment through various ini
+ tiatives. Initiated in 2022 by a group of young enthusiastic advocates\, 
+ the collective has fostered a strong team of women lawyers to execute its
+  tasks. Started with the idea of extolling the virtues of Indian arts to 
+ spread the message of equality and Inclusivity. DEVI has successfully man
+ aged to build a cohort that believes in working together to celebrate art
+ \, culture and women’s empowerment. Since it works within the legal fra
+ ternity\, DEVI has encouraged members of the legal world to contribute as
+  performing artists for its events.\n\nhttps://bikanerhouse.rajasthan.gov
+ .in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art
+END:VEVENT
+BEGIN:VEVENT
+UID:3fc0122b39432a5e@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20261001
+SUMMARY:The Emerging Perspectives
 LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
  w Delhi 110003
 URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A painting exhibition by Yuvraj Patil .\n\nhttps://indiahabit
- at.org/Exhibitions_Details
+DESCRIPTION:A group exhibition by Sakib Khan\, Mohd. Danish \, and Naznee
+ n Praveen .\n\nhttps://indiahabitat.org/Exhibitions_Details
 CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
-UID:8715a2ce8f1fe67b@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260817
-SUMMARY:Art Spectra
-LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A group painting exhibition by Neha Kaul\, Smita Singh\, Subu
- hi Khan\, Arpita Som \, and Vishaka Sehdev .\n\nhttps://indiahabitat.org/
- Exhibitions_Details
-CATEGORIES:exhibition\,art
+UID:d4b9ed257d6b25c4@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20261007
+SUMMARY:A Moment in the Monumental
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/9
+DESCRIPTION:Art Alive Gallery\, which was set up in New Delhi in 2001 and
+  celebrates its silver anniversary in 2026. In arriving at this benchmark
+ \, the gallery has played a critical role in taking Indian art forward wi
+ th key exhibitions\, a vibrant publishing platform\, vital support for ar
+ t events and collaborations\, and a diverse range of activities. Its rost
+ er of artists has ranged from modern masters to senior and respected cont
+ emporaries whose works it has exhibited\, including S.H. Raza\, M.F. Husa
+ in\, Krishen Khanna\, Akbar Padamsee\, Anjolie Ela Menon\, K.G. Subramany
+ an\, Satish Gujral\, Sakti Burman\, Senaka Senanayake\, K. Laxma Goud\, J
+ ogen Chowdhury and Paritosh Sen on the one hand\, and Manu Parekh\, Madhv
+ i Parekh\, Paresh Maity\, Jayasri Burman\, Arpana Caur\, Thota Vaikuntam 
+ and Veer Munshi\, among others\, on the other hand these artists have bee
+ n important contributors to the making of the Indian art story and Art Al
+ ive features these and a whole host of other artists as part of its anniv
+ ersary exhibition that is being curated to draw parallels that have exist
+ ed in India’s art making practice since the very dawn of civilization. 
+ The exhibition hopes to start conversations on the past\, present and fut
+ ure of Indian art in engaging and meaningful ways.\n\nhttps://bikanerhous
+ e.rajasthan.gov.in/upcoming-events/2026/9
+CATEGORIES:exhibition\,art\,heritage
 END:VEVENT
 BEGIN:VEVENT
-UID:2a1d50473978f697@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260821
-SUMMARY:What Women Carry
-LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A photographic exhibition by Margins to Access Project (MAP).
- \n\nhttps://indiahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:a1bac38a036dd93f@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260820
-SUMMARY:उद्गम / Udgam
-LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
- lhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:Shree Yash Art Gallery presents a group painting and sculptur
- e exhibition by Anup Kumar Chand\, Dharmendra Rathore\, Dileep Sharma\, F
- araad Hussain\, G. Subramanian\, Goerge Martin PJ\, Manish Pushkale\, Nir
- en Sengupta\, Phaneendranath Chaturvedi\, Pratul Dash\, Rajesh Ram\, Sidh
- arth\, Siddharth Singade\, Tapan Kumar Dash \, and Wahida Ahmed .\n\nhttp
- s://indiahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:d2e4000b7d31bbd5@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260825
-SUMMARY:Collectively Independent 2026
-LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
- lhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A group art exhibition of paintings by Bharti Verma\, Ramos\,
-  Ruchi Chadha \, and Sapna Gupta .\n\nhttps://indiahabitat.org/Exhibition
- s_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:4d8ad6ffaf0bb9c1@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260822
-DTEND;VALUE=DATE:20260827
-SUMMARY:Nirbhay Edition 2
-LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:Luna Arts presents a group painting exhibition by Ruchi Ravee
- ndran\, Anjana Singh\, Sowmya Sebastian\, Tina Pillay\, Jay Gohil\, Jyots
- na Sharma\, Shesalu\, Payal Verma\, Richa Agarwal\, Anindita Sengupta\, R
- eet Kaur\, Arijit Sen\, Priyanka Nageshwari\, Sapna Gupta\, Neelam Kapoor
- \, Sohini Banerjee\, Tanvi Lalan\, Monica Jain\, Deepak Nayal\, Shreng La
- bru\, Bharti Shrivastava\, Parul Arya\, Tripti Pandey\, Nikita Gupta\, Na
- ila Praveen\, Huma Nadeem\, Saba Bawa\, Surendra Kumar \, and Avdhesh Kum
- ar .\n\nhttps://indiahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:18840ee4ad987664@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260829
-SUMMARY:Village Lives
-LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:An exhibition of watercolour paintings by Meenaxi Sadalge .\n
- \nhttps://indiahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:721d12a041af32d5@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260826
-DTEND;VALUE=DATE:20260901
-SUMMARY:One - Many
-LOCATION:Visual Arts Gallery\, India Habitat Centre\, Lodhi Road\, New De
- lhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A group painting and sculpture exhibition by Ashish Mridha\, 
- Deb Dutta\, Debangshu Biswas\, Monika Prasad\, Pabitra Pal\, Souman Basu\
- , Suprakash Nath\, Susnata Chatterjee\, Supriyo Sahu\, Swapan Sutradhar\,
-  Tarun Maity \, and Titas Das .\n\nhttps://indiahabitat.org/Exhibitions_D
- etails
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:52442b28a36485a8@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260901
-SUMMARY:Harmony
-LOCATION:Open Palm Court Gallery\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:Master Sansar Chand Baru Memorial Charitable Trust presents a
-  group painting and sculpture exhibition by Sharmila Sharma\, Rakhi Kumar
- \, Shambhu Nath Goswami\, Aditya Shankar\, Rahul Mhetre\, Vijaylaxmi Deep
- ak Mer\, Monalisa Sirkar\, Apurba Kharati\, Pooja Kumar\, Shyamlal Mukher
- jee\, Manish Rao\, Rakhi Kumari\, Chaitali Chanda\, Sandeep Aaher\, Nav N
- ath\, Javed Iqbal\, Suraj Kumar Kashi\, Sachindra Nath Jha\, Naushad Gayo
- or\, Syed Mursaleen\, Renuka Sonde\, Vijay \, & Anubhab .\n\nhttps://indi
- ahabitat.org/Exhibitions_Details
-CATEGORIES:exhibition\,art
-END:VEVENT
-BEGIN:VEVENT
-UID:0d9df1f1144306d9@delhi-events
-DTSTAMP:20260730T221950Z
-DTSTART;VALUE=DATE:20260829
-DTEND;VALUE=DATE:20260903
-SUMMARY:Spandan
-LOCATION:Convention Centre Foyer\, India Habitat Centre\, Lodhi Road\, Ne
- w Delhi 110003
-URL:https://indiahabitat.org/Exhibitions_Details
-DESCRIPTION:A Solo art exhibition of watercolours and oil paintings by Ac
- hintya Hazra .\n\nhttps://indiahabitat.org/Exhibitions_Details
+UID:fc0eb9065f6a995c@delhi-events
+DTSTAMP:20260920T104112Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261007
+SUMMARY:Nar Nari 2.0
+LOCATION:Bikaner House\, Pandara Road\, India Gate\, New Delhi 110011
+URL:https://bikanerhouse.rajasthan.gov.in/upcoming-events/2026/10
+DESCRIPTION:Nar Nari 2.0 is a new and evolved body of work exploring the 
+ eternal balance between masculine and feminine energies. The collection r
+ eflects equality\, coexistence\, emotional strength\, and the idea that t
+ wo contrasting forces together create wholeness. Rather than conflict\, t
+ he works celebrate harmony between opposites—logic and intuition\, stru
+ cture and softness\, earth and spirit. Mahesh Sharma is an Indian multidi
+ sciplinary artist and designer known for his powerful fusion of fine art\
+ , sculpture\, and collectible design. With over twenty-five years of crea
+ tive experience\, his work spans exhibitions\, installations\, furniture-
+ art\, and large-scale conceptual presentations in India and abroad. His a
+ rtistic language is rooted in nature\, human psychology\, equality\, spir
+ ituality\, and material transformation. Through painting\, sculpture\, an
+ d mixed media\, Mahesh Sharma creates works that are both visually striki
+ ng and philosophically layered. He is widely recognized for developing or
+ iginal collections that merge art and function while maintaining a strong
+  emotional and symbolic presence.\n\nhttps://bikanerhouse.rajasthan.gov.i
+ n/upcoming-events/2026/10
 CATEGORIES:exhibition\,art
 END:VEVENT
 END:VCALENDAR

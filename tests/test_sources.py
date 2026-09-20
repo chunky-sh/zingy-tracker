@@ -9,7 +9,11 @@ Refresh the fixtures with `make fixtures` when a site legitimately changes.
 
 from __future__ import annotations
 
-from delhi_events.models import Format, Topic
+from datetime import date, datetime
+
+import pytest
+
+from delhi_events.models import IST, Format, Topic
 
 
 def test_iic_parses_listing(iic):
@@ -136,10 +140,11 @@ def test_goethe_parses_api_payload(goethe):
     assert conference.end.strftime("%Y-%m-%d") == "2026-08-02"
 
 
-def test_every_adapter_returns_usable_events(iic, ihc, alliance_francaise, goethe):
+def test_every_adapter_returns_usable_events(iic, ihc, alliance_francaise, goethe,
+                                             bikaner_house):
     """A blanket sanity check: no adapter may emit an untitled or unvenued
     event, because both flow straight into the site and the calendar feed."""
-    for source, fetcher in (iic, ihc, alliance_francaise, goethe):
+    for source, fetcher in (iic, ihc, alliance_francaise, goethe, bikaner_house):
         for event in source.fetch(fetcher):
             assert event.title.strip()
             assert event.venue.strip()
@@ -147,3 +152,191 @@ def test_every_adapter_returns_usable_events(iic, ihc, alliance_francaise, goeth
             assert event.id
             if event.end is not None:
                 assert event.end >= event.start
+
+
+# -- Bikaner House ----------------------------------------------------------
+
+def _pin_today(monkeypatch, when: datetime) -> None:
+    """Freeze the adapter's notion of today so the month walk lands on the two
+    months we have golden files for."""
+    from delhi_events.sources import bikaner_house
+    monkeypatch.setattr(bikaner_house, "_today", lambda: when.replace(tzinfo=IST))
+
+
+def test_bikaner_house_walks_forward_past_the_current_month(bikaner_house, monkeypatch):
+    """Each show is listed only under the month it opens in, so a one-month
+    fetch gives no notice at all of an exhibition opening on the 1st."""
+    source, fetcher = bikaner_house
+    _pin_today(monkeypatch, datetime(2026, 9, 15))
+    events = source.fetch(fetcher)
+
+    assert any("/2026/9" in url for url in fetcher.requested)
+    assert any("/2026/10" in url for url in fetcher.requested)
+
+    october_only = next(e for e in events if e.title == "Nar Nari 2.0")
+    assert october_only.start.strftime("%Y-%m-%d") == "2026-10-01"
+    assert october_only.end.strftime("%Y-%m-%d") == "2026-10-06"
+
+
+def test_bikaner_house_parses_a_gallery_show(bikaner_house, monkeypatch):
+    source, fetcher = bikaner_house
+    _pin_today(monkeypatch, datetime(2026, 9, 15))
+    events = source.fetch(fetcher)
+
+    show = next(e for e in events if e.title == "A Moment in the Monumental")
+    assert show.start.strftime("%Y-%m-%d") == "2026-09-27"
+    assert show.end.strftime("%Y-%m-%d") == "2026-10-06"
+    assert show.all_day
+    assert show.venue == "Bikaner House"
+    assert show.format is Format.EXHIBITION
+    assert show.description.startswith("Art Alive Gallery")
+    # The date line lives in the title box; letting it into the blurb would put
+    # "27th September 2026 - 06th October 2026" at the head of the card summary.
+    assert "27th September 2026" not in show.description
+
+
+def test_bikaner_house_does_not_repeat_a_show_across_month_pages(bikaner_house, monkeypatch):
+    """The walk re-requests a page whenever the routing repeats a month; the
+    same show must not land in the store twice."""
+    source, fetcher = bikaner_house
+    _pin_today(monkeypatch, datetime(2026, 9, 15))
+    ids = [e.id for e in source.fetch(fetcher)]
+    assert len(ids) == len(set(ids))
+
+
+def test_bikaner_house_raises_when_the_current_month_is_unreadable(monkeypatch):
+    """Convention: an adapter raises on genuine failure. Returning the empty
+    list would read to `doctor` as "the venue has nothing on"."""
+    from delhi_events.sources.base import SourceConfig, load_source
+
+    class DeadFetcher:
+        def get(self, url, *, referer=None, retries=3):
+            raise RuntimeError("could not fetch")
+
+    source = load_source(SourceConfig(
+        id="bikaner_house", adapter="bikaner_house",
+        name="Bikaner House", url="https://example.test/",
+    ))
+    with pytest.raises(RuntimeError):
+        source.fetch(DeadFetcher())
+
+
+def test_bikaner_house_tolerates_a_missing_later_month(bikaner_house, monkeypatch):
+    """A month page that 404s because nothing is booked yet is normal and must
+    not sink the months that did load."""
+    source, fetcher = bikaner_house
+    _pin_today(monkeypatch, datetime(2026, 9, 15))
+
+    real_get = fetcher.get
+
+    def flaky(url, *, referer=None, retries=3):
+        if "/2026/11" in url or "/2026/12" in url:
+            raise RuntimeError("404")
+        return real_get(url, referer=referer, retries=retries)
+
+    fetcher.get = flaky
+    assert source.fetch(fetcher)
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("27th September 2026 - 06th October 2026", ("2026-09-27", "2026-10-06")),
+    ("15th August 2026", ("2026-08-15", None)),          # one-day event
+    ("06th October 2026 - 27th September 2026", ("2026-10-06", None)),  # reversed
+    ("31st September 2026", (None, None)),               # impossible date
+    ("coming soon", (None, None)),
+])
+def test_bikaner_house_date_ranges(text, expected):
+    from delhi_events.sources.bikaner_house import _parse_range
+    start, end = _parse_range(text)
+    fmt = lambda d: d.strftime("%Y-%m-%d") if d else None
+    assert (fmt(start), fmt(end)) == expected
+
+
+# -- galleries (shared selector-driven adapter) -----------------------------
+
+def _pin_gallery_today(monkeypatch, when: date) -> None:
+    from delhi_events.sources import gallery
+    monkeypatch.setattr(gallery, "_today", lambda: when)
+
+
+def test_knma_parses_its_own_shows(knma, monkeypatch):
+    source, fetcher = knma
+    _pin_gallery_today(monkeypatch, date(2026, 9, 20))
+    events = source.fetch(fetcher)
+
+    show = next(e for e in events if e.title == "In-Rhythm")
+    assert show.start.strftime("%Y-%m-%d") == "2026-09-09"
+    # The date line ends with opening hours -- "09 Sep 2026 — 22 Dec 2026
+    # 11:00 am - 8:00 pm" -- which must not be read as the closing date.
+    assert show.end.strftime("%Y-%m-%d") == "2026-12-22"
+    assert show.all_day
+    assert show.format is Format.EXHIBITION
+    assert show.source_url.startswith("https://www.knma.org/whats-on/")
+
+
+def test_knma_drops_shows_that_are_not_in_delhi(knma, monkeypatch):
+    """KNMA lists shows its collection travels to on the same page as its own
+    programme; a Delhi tracker should not carry a show at MoMA."""
+    source, fetcher = knma
+    _pin_gallery_today(monkeypatch, date(2026, 9, 20))
+    events = source.fetch(fetcher)
+
+    assert events, "expected KNMA's own shows to survive the allowlist"
+    for event in events:
+        assert any(k in event.sub_venue for k in ("KNMA", "Saket", "Noida")), event.sub_venue
+    assert not any("Museum of Modern Art" in e.sub_venue for e in events)
+
+
+def test_gallery_filters_out_finished_shows(knma, monkeypatch):
+    """The listing carries the archive on the same page as the current shows."""
+    source, fetcher = knma
+    _pin_gallery_today(monkeypatch, date(2027, 12, 31))
+    assert source.fetch(fetcher) == []
+
+
+def test_latitude_28_reads_split_start_and_end_elements(latitude_28, monkeypatch):
+    """This one publishes the two ends in separate spans, with no range text to
+    parse -- reading the card's text instead gives "Aug 21, 2026 Sep 19, 2026"
+    with no separator, and the end date is silently lost."""
+    source, fetcher = latitude_28
+    _pin_gallery_today(monkeypatch, date(2026, 9, 1))
+    events = source.fetch(fetcher)
+
+    show = next(e for e in events if e.title == "Between Dust and Distant Sky")
+    assert show.start.strftime("%Y-%m-%d") == "2026-08-21"
+    assert show.end.strftime("%Y-%m-%d") == "2026-09-19"
+    # src is a blank SVG placeholder; the real file is in data-src.
+    assert show.image_url.startswith("https://")
+    assert not show.image_url.startswith("data:")
+
+
+def test_gallery_raises_when_the_card_selector_stops_matching(monkeypatch):
+    """A redesign that breaks the selector must not read as "nothing on" --
+    every gallery entry sets allow_empty, so `doctor` would say nothing."""
+    from delhi_events.sources.base import SourceConfig, load_source
+
+    class EmptyPage:
+        def get(self, url, *, referer=None, retries=3):
+            return "<html><body><p>Coming soon</p></body></html>"
+
+    source = load_source(SourceConfig(
+        id="test_gallery", adapter="gallery", name="Test Gallery",
+        url="https://example.test/", options={"card": ".exhibition", "title": "h2"},
+    ))
+    with pytest.raises(RuntimeError, match="no cards matched"):
+        source.fetch(EmptyPage())
+
+
+def test_every_configured_gallery_has_the_selectors_it_needs():
+    """The selectors are the whole integration, so a config entry missing one
+    is a broken source that would only show up on the next live refresh."""
+    from delhi_events.sources.base import load_configs
+
+    galleries = [c for c in load_configs() if c.adapter == "gallery"]
+    assert galleries, "expected gallery sources to be configured"
+    for config in galleries:
+        assert config.options.get("card"), f"{config.id}: no card selector"
+        assert config.options.get("title"), f"{config.id}: no title selector"
+        # Empty is a normal state for a gallery between shows, and the adapter
+        # raises rather than returning [] when a selector actually breaks.
+        assert config.allow_empty, f"{config.id}: gallery should allow_empty"

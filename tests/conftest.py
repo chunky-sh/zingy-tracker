@@ -48,6 +48,29 @@ def build_source(source_id: str, adapter: str, name: str, routes: list[tuple[str
     return load_source(config), FakeFetcher(routes)
 
 
+def build_configured_source(source_id: str, fixture: str):
+    """Build a source from its real entry in config/sources.yaml.
+
+    The gallery adapter's whole integration *is* its selectors, so the thing
+    worth testing is the shipped config rather than a copy of it -- a typo in
+    sources.yaml should fail the suite, not just break the next refresh.
+    """
+    from delhi_events.sources.base import load_configs
+
+    config = next(c for c in load_configs() if c.id == source_id)
+    return load_source(config), FakeFetcher([(r".*", fixture)])
+
+
+@pytest.fixture
+def knma():
+    return build_configured_source("knma", "gallery_knma.html")
+
+
+@pytest.fixture
+def latitude_28():
+    return build_configured_source("latitude_28", "gallery_latitude28.html")
+
+
 @pytest.fixture
 def iic():
     return build_source("iic", "iic", "India International Centre", [
@@ -86,6 +109,17 @@ def goethe():
 def bnhs():
     return build_source("bnhs", "bnhs", "BNHS Conservation Education Centre", [
         (r"nature-trails", "bnhs_nature_trails.html"),
+    ])
+
+
+@pytest.fixture
+def bikaner_house():
+    # Two month pages, matched most-specific first, so the adapter's month walk
+    # is answered with genuinely different listings rather than one page echoed
+    # back -- an event that appears only in October has to come from October.
+    return build_source("bikaner_house", "bikaner_house", "Bikaner House", [
+        (r"/upcoming-events/\d{4}/10", "bikaner_house_2026_10.html"),
+        (r"/upcoming-events/", "bikaner_house_2026_09.html"),
     ])
 
 

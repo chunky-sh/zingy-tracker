@@ -4,7 +4,7 @@
 
 ### *Delhi's culture, minus the FOMO.*
 
-Six venues. One page. Zero doomscrolling through Instagram at 11pm<br>wondering if you missed the good exhibition. **(You did. Not any more.)**
+Fourteen venues. One page. Zero doomscrolling through Instagram at 11pm<br>wondering if you missed the good exhibition. **(You did. Not any more.)**
 
 ![Python](https://img.shields.io/badge/python-3.12+-9f1111?style=for-the-badge&logo=python&logoColor=white)
 ![Refreshes](https://img.shields.io/badge/refreshes-daily%20at%206am%20IST-e2756f?style=for-the-badge)
@@ -19,7 +19,7 @@ Six venues. One page. Zero doomscrolling through Instagram at 11pm<br>wondering 
 
 ## 🎪 What it actually does
 
-Scrapes **IIC**, **India Habitat Centre**, **Alliance Française**, **Goethe/Max Mueller Bhavan**, **BNHS** and **Sunder Nursery** every morning, sorts everything into *what kind of thing it is* (walk, talk, exhibition, film…) and *what it's about* (art, nature, birds, sociology…), then spits out a filterable page and calendar feeds you can subscribe to.
+Scrapes **IIC**, **India Habitat Centre**, **Alliance Française**, **Goethe/Max Mueller Bhavan**, **BNHS**, **Sunder Nursery**, **Bikaner House** and the gallery circuit — **KNMA**, **Nature Morte**, **Vadehra**, **Shrine Empire**, **Latitude 28**, **Gallery Espace**, **Exhibit 320** — every morning, sorts everything into *what kind of thing it is* (walk, talk, exhibition, film…) and *what it's about* (art, nature, birds, sociology…), then spits out a filterable page and calendar feeds you can subscribe to.
 
 Two axes, because **"nature"** isn't a type of event — it's a walk, a talk *and* a photo show. Filter by what you care about, not by what shape it comes in. 🐦
 
@@ -66,6 +66,8 @@ make refresh-llm             # let Claude tag the ambiguous ones (needs ANTHROPI
 ## 🧠 Two things to know
 
 **Adapters must raise, never return `[]`.** An empty list is how `make doctor` spots a parser that broke silently after a site redesign — so it has to mean *"nothing's on"*, not *"I fell over"*. Sources where empty is normal (hi, BNHS) set `allow_empty: true`.
+
+**Galleries are config, not code.** All seven share one selector-driven adapter, so adding the eighth is a few lines of `config/sources.yaml` — `card`, `title`, and where the dates live. 🎨
 
 **Some walks are declared, not scraped.** Sunder Nursery publishes no dated events anywhere, so its standing weekend walk lives in `config/recurring.yaml` behind a `confirmed_until` date. ⏰ **A test fails when it lapses** — ring the venue, confirm, push the date out. No silent fabrication.
 

@@ -296,3 +296,33 @@ def test_summary_reaches_events_json(conn, tmp_path):
     import json
     payload = json.loads((tmp_path / "events.json").read_text())
     assert payload["events"][0]["summary"].startswith("A guided walk along the Yamuna")
+
+
+# -- fetching ---------------------------------------------------------------
+
+def test_accept_encoding_only_advertises_what_we_can_decode():
+    """Advertising "br" without the brotli package installed makes a server
+    answer in Brotli that urllib3 hands back as binary -- the adapter then sees
+    a page with no cards on it and reports the venue as empty rather than
+    failing. Two galleries picked Brotli the moment it was offered.
+    """
+    import importlib
+
+    from delhi_events.fetch import DEFAULT_HEADERS
+
+    advertised = {c.strip() for c in DEFAULT_HEADERS["Accept-Encoding"].split(",")}
+    assert {"gzip", "deflate"} <= advertised
+
+    def installed(*modules) -> bool:
+        for module in modules:
+            try:
+                importlib.import_module(module)
+                return True
+            except ImportError:
+                continue
+        return False
+
+    if "br" in advertised:
+        assert installed("brotli", "brotlicffi"), "advertised br without a decoder"
+    if "zstd" in advertised:
+        assert installed("zstandard"), "advertised zstd without a decoder"

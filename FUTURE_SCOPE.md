@@ -1,8 +1,10 @@
 # Future scope
 
-v1 covers four cultural centres: IIC, IHC, Alliance Française and Goethe/MMB.
-This file records everything considered but not built, with the feasibility
-notes gathered while scoping so the next person doesn't re-do the reconnaissance.
+v1 covered four cultural centres: IIC, IHC, Alliance Française and Goethe/MMB.
+Since then Bikaner House and seven of the commercial galleries have been built
+too -- see the README. This file records what is *still* unbuilt, with the
+feasibility notes gathered while scoping so the next person doesn't re-do the
+reconnaissance.
 
 Adding a source is a new module in `delhi_events/sources/` plus an entry in
 `config/sources.yaml`. The adapter's only job is to return `Event` objects; the
@@ -12,20 +14,38 @@ store, taxonomy, dedupe, site and feeds need no changes.
 
 ## Museums and galleries
 
+**Built:** Bikaner House (its own adapter, because it paginates by month) plus
+KNMA, Nature Morte, Vadehra, Shrine Empire, Latitude 28, Gallery Espace and
+Exhibit 320 (all on the shared selector-driven `gallery` adapter -- adding one
+more is a `config/sources.yaml` entry, not a module).
+
+What that exercise established, for whoever adds the next one:
+
+- **Gallery listings carry their own archive on the same page.** Shrine Empire
+  serves 106 cards, one of which is current. The adapter filters by date; a
+  gallery genuinely between shows is why they all set `allow_empty`.
+- **Several galleries list shows their artists appear in elsewhere** -- KNMA
+  carries MoMA and the V&A, Nature Morte carries London. Use `sub_venue_allow`
+  to keep a Delhi tracker about Delhi.
+- **Do not advertise an encoding you cannot decode.** Gallery Espace and
+  Exhibit 320 both answered in Brotli the moment `Accept-Encoding` offered it,
+  and the binary that came back looked exactly like a page with no events on
+  it. Fixed in `fetch.py`; worth remembering when a new venue comes up empty.
+
+Still unbuilt:
+
 | Venue | Endpoint | Notes |
 |---|---|---|
-| **KNMA** (Kiran Nadar Museum of Art) | `knma.org/whats-on/` | **Verified fetchable.** Server-rendered, ~159KB, date ranges like `05 Feb 2026 — 26 Jul 2026` present in the HTML. Serves gzip without negotiation — send `Accept-Encoding` and decompress (`requests` does this automatically; a raw socket client will get binary). Note `knma.in` 301s to `knma.org`. Two JSON-LD blocks exist but neither is an `Event`. |
-| **Bikaner House** | `bikanerhouse.rajasthan.gov.in/upcoming-events/<YYYY>/<M>` | **Predictable month URLs** — the cleanest pagination of any source found. Iterate the next 3 months. Also `/gallery/<YYYY>/<M>`. |
-| **NGMA** | `ngmaindia.gov.in` | `exhibition.asp` 404s; the current path needs rediscovering. Government site, expect fragility. |
-| **Vadehra Art Gallery** | `vadehraart.com/exhibitions/` | Artlogic-style platform; exhibitions carry explicit date ranges. Two Defence Colony spaces (D40, D53) — treat as `sub_venue`. |
-| **Nature Morte** | `naturemorte.com` | Not probed. |
-| **Shrine Empire** | `shrineempiregallery.com` | Has a `/news` section alongside exhibitions. |
-| **Latitude 28**, **Gallery Espace**, **Exhibit 320**, **Blueprint12** | — | Small commercial galleries. Individually low volume; collectively significant for the `art` topic. |
-| **Triveni Kala Sangam**, **Sanskriti Kendra** | — | Not probed. |
-
-Galleries mostly publish a handful of long-running shows rather than a daily
-programme, so they suit the `all_day` + date-range shape the IHC exhibitions
-adapter already uses — start by copying `_parse_exhibition` from `sources/ihc.py`.
+| **NGMA** | `ngmaindia.gov.in` | `exhibition.asp` 404s and the site root serves an 801-byte shell; the current path needs rediscovering. Government site, expect fragility. |
+| **DAG** | `dagworld.com` | TLS handshake fails from here (`SSLError`); may need a different client or may simply be misconfigured. |
+| **Akar Prakar**, **Sanskriti Kendra** | — | Same `SSLError`. |
+| **Blueprint12** | `blueprint12.com/exhibitions/` | The listing is client-rendered -- the served HTML has the nav and nothing else. Needs the underlying JSON endpoint or a headless fetch. |
+| **Threshold**, **Palette Art** | — | Served pages carry no dates. |
+| **Art Alive** | `artalivegallery.com` | `/exhibitions` 404s; find the real path. |
+| **Museo Camera** (Gurugram) | `museocamera.org/exhibitions/` | **Verified fetchable**, 213 date strings, photography-focused. NCR rather than Delhi -- worth adding if the tracker's radius grows. |
+| **Lalit Kala Akademi** | `lalitkala.gov.in` | **Verified fetchable**, 60 date strings. Government, so expect the markup to move. |
+| **Anant Art**, **Art Heritage**, **Triveni Kala Sangam**, **Ojas Art**, **PHOTOINK** | — | All fetchable with dates present; selectors not yet worked out. |
+| **India Art Fair** | `indiaartfair.in` | Annual (February) rather than a rolling programme. |
 
 ## Nature, birds and walks
 

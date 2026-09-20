@@ -9,6 +9,7 @@ each rediscover it.
 from __future__ import annotations
 
 import hashlib
+import importlib
 import logging
 import time
 from pathlib import Path
@@ -24,11 +25,34 @@ UA = (
     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 )
 
+
+def _accept_encoding() -> str:
+    """Advertise only the codings we can actually decode.
+
+    Hard-coding "gzip, deflate, br" invites a server to answer in Brotli, which
+    urllib3 decodes only when the brotli package is installed. Without it the
+    response comes back as binary, `resp.text` is mojibake, and the adapter
+    reports a page with no cards on it rather than an error -- which reads to
+    `doctor` as a venue with nothing on. Gallery Espace and Exhibit 320 both
+    pick Brotli when offered it.
+    """
+    codings = ["gzip", "deflate"]
+    for module, coding in (("brotli", "br"), ("brotlicffi", "br"), ("zstandard", "zstd")):
+        if coding in codings:
+            continue
+        try:
+            importlib.import_module(module)
+        except ImportError:
+            continue
+        codings.append(coding)
+    return ", ".join(codings)
+
+
 DEFAULT_HEADERS = {
     "User-Agent": UA,
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-GB,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Encoding": _accept_encoding(),
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
 }

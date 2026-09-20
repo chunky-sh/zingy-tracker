@@ -4,8 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A scraper + static-site generator for Delhi's cultural venues (IIC, India Habitat Centre,
-Alliance Française, Goethe/Max Mueller Bhavan, BNHS, Sunder Nursery). It pulls each venue's
+A scraper + static-site generator for Delhi's cultural venues -- four cultural centres (IIC,
+India Habitat Centre, Alliance Française, Goethe/Max Mueller Bhavan), two nature-walk organisers
+(BNHS, Sunder Nursery), Bikaner House, and the commercial gallery circuit (KNMA, Nature Morte,
+Vadehra, Shrine Empire, Latitude 28, Gallery Espace, Exhibit 320). It pulls each venue's
 programme into SQLite (`data/events.db`) and publishes a filterable page plus four subscribable
 `.ics` feeds into `site/dist/`. README calls the project "zingy-tracker"; the package is
 `delhi_events`.
@@ -57,7 +59,14 @@ Data flows one way: **adapter → `Event` → store → build**. Each stage spea
 
 - `delhi_events/sources/` — one module per venue, each exposing `Source(BaseSource)` with
   `fetch(fetcher) -> list[Event]`. Adapters never touch the DB. `base.py` holds `SourceConfig`
-  and loads adapters by name from `config/sources.yaml`.
+  and loads adapters by name from `config/sources.yaml`. `gallery.py` is the exception to
+  "one module per venue": it is driven entirely by CSS selectors in `options`, so the seven
+  commercial galleries share it and adding an eighth is a config entry rather than a module.
+- `delhi_events/daterange.py` — `parse_range`, which reads the date line galleries print above
+  a show. Every gallery abbreviates differently ("10 Oct - 12 Dec 2026", "10 - 25 October 2026",
+  "September 5 - October 10, 2026"), so each side is parsed for whatever parts it carries and
+  the left is backfilled from the right. It also skips non-date fragments, because KNMA runs the
+  opening hours onto the same line.
 - `delhi_events/models.py` — the `Event` pydantic model, the `Format`/`Topic`/`Status` enums,
   and the normalisation everything depends on. Naive datetimes are coerced to IST here (times
   are IST throughout the project). `Event.id` is a hash of
@@ -104,10 +113,27 @@ nothing is generated (a test in `tests/test_nature_sources.py` fails once it lap
 by phone, then push the date forward), and a `caveat` with the venue's phone number on every
 generated event.
 
+**The `gallery` adapter's two empty results mean opposite things.** No card matching the `card`
+selector means the page changed shape, so it *raises*; cards that match but have all finished is
+a gallery between shows, so it returns `[]`. That distinction is what makes `allow_empty: true`
+safe on every gallery entry -- without it, a redesign would read as "nothing on" and `doctor`
+would stay quiet. Galleries also list shows their artists appear in elsewhere (KNMA carries MoMA
+and the V&A), so `sub_venue_allow` keeps a Delhi tracker about Delhi.
+
+**Never advertise a Content-Encoding we cannot decode.** `fetch.py` builds `Accept-Encoding` from
+the codecs actually importable rather than hard-coding `br`. Offering Brotli without the `brotli`
+package made two galleries answer in binary, which parsed as a page with no events on it — a
+silent wrong answer rather than an error.
+
 **Disable sources in `config/sources.yaml` rather than deleting them** — `doctor` only checks
 enabled ones. `ihc_pdf` (Claude-extracted PDF backfill) is disabled by default.
 
-**Adding a source:** write `delhi_events/sources/<name>.py` with a `Source(BaseSource)` class,
+**Adding a gallery** is usually just a `config/sources.yaml` entry pointing `adapter: gallery` at
+the venue's listing page with `card`/`title` selectors (plus `dates` or `date_start`+`date_end`).
+`tests/conftest.py::build_configured_source` builds the source from the *shipped* config, so a
+selector typo fails the suite rather than the next refresh.
+
+**Adding a source with a shape of its own:** write `delhi_events/sources/<name>.py` with a `Source(BaseSource)` class,
 register it in `config/sources.yaml`, save a response fixture in `tests/fixtures/`, add it to
 `TARGETS` in `scripts/capture_fixtures.py`, and add a fixture in `tests/conftest.py` plus a test
 asserting real field values. Nothing downstream (store, taxonomy, build, feeds) needs changes.
