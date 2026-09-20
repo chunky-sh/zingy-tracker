@@ -4,7 +4,7 @@
 
 ### *Delhi's culture, minus the FOMO.*
 
-Fourteen venues. One page. Zero doomscrolling through Instagram at 11pm<br>wondering if you missed the good exhibition. **(You did. Not any more.)**
+Thirteen venues. One page. Zero doomscrolling through Instagram at 11pm<br>wondering if you missed the good exhibition. **(You did. Not any more.)**
 
 ![Python](https://img.shields.io/badge/python-3.12+-9f1111?style=for-the-badge&logo=python&logoColor=white)
 ![Refreshes](https://img.shields.io/badge/refreshes-daily%20at%206am%20IST-e2756f?style=for-the-badge)
@@ -19,7 +19,7 @@ Fourteen venues. One page. Zero doomscrolling through Instagram at 11pm<br>wonde
 
 ## 🎪 What it actually does
 
-Scrapes **IIC**, **India Habitat Centre**, **Alliance Française**, **Goethe/Max Mueller Bhavan**, **BNHS**, **Sunder Nursery**, **Bikaner House** and the gallery circuit — **KNMA**, **Nature Morte**, **Vadehra**, **Shrine Empire**, **Latitude 28**, **Gallery Espace**, **Exhibit 320** — every morning, sorts everything into *what kind of thing it is* (walk, talk, exhibition, film…) and *what it's about* (art, nature, birds, sociology…), then spits out a filterable page and calendar feeds you can subscribe to.
+Scrapes **IIC**, **India Habitat Centre**, **Alliance Française**, **Goethe/Max Mueller Bhavan**, **BNHS**, **Bikaner House** and the gallery circuit — **KNMA**, **Nature Morte**, **Vadehra**, **Shrine Empire**, **Latitude 28**, **Gallery Espace**, **Exhibit 320** — every morning, sorts everything into *what kind of thing it is* (walk, talk, exhibition, film…) and *what it's about* (art, nature, birds, sociology…), then spits out a filterable page and calendar feeds you can subscribe to.
 
 Two axes, because **"nature"** isn't a type of event — it's a walk, a talk *and* a photo show. Filter by what you care about, not by what shape it comes in. 🐦
 
@@ -69,7 +69,7 @@ make refresh-llm             # let Claude tag the ambiguous ones (needs ANTHROPI
 
 **Galleries are config, not code.** All seven share one selector-driven adapter, so adding the eighth is a few lines of `config/sources.yaml` — `card`, `title`, and where the dates live. 🎨
 
-**Some walks are declared, not scraped.** Sunder Nursery publishes no dated events anywhere, so its standing weekend walk lives in `config/recurring.yaml` behind a `confirmed_until` date. ⏰ **A test fails when it lapses** — ring the venue, confirm, push the date out. No silent fabrication.
+**Some walks can be declared rather than scraped.** For a venue that publishes a standing timetable but no dated events, `config/recurring.yaml` expands the schedule behind a `confirmed_until` date. ⏰ **A test fails when a live one lapses** — ring the venue, confirm, push the date out. No silent fabrication. (Sunder Nursery's weekend walk is the worked example, currently disabled.)
 
 Deeper notes live in `FUTURE_SCOPE.md` (what's next, and the reconnaissance already done), and in the docstrings — every adapter explains its venue's particular weirdness.
 

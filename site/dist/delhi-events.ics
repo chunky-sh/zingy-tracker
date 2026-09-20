@@ -7,7 +7,7 @@ X-WR-CALNAME:Delhi Culture — everything
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 UID:86c8d87bf686cb79@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20261123
 SUMMARY:Pata Dekhabo?
@@ -37,7 +37,7 @@ CATEGORIES:exhibition\,history\,literature\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:aac5925be21f8bed@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20261008
 SUMMARY:MOOL
@@ -48,7 +48,7 @@ CATEGORIES:exhibition
 END:VEVENT
 BEGIN:VEVENT
 UID:797ea028b8713892@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20261006
 SUMMARY:Nocturnes | Woodcut Engravings and Etchings by P.D. Dhumal
@@ -67,7 +67,7 @@ CATEGORIES:exhibition
 END:VEVENT
 BEGIN:VEVENT
 UID:127a65e3bf588f63@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20261011
 SUMMARY:The Evolution of the Soothsayer Part 1
@@ -80,7 +80,7 @@ CATEGORIES:exhibition
 END:VEVENT
 BEGIN:VEVENT
 UID:6168c5dcff7a08f6@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20261223
 SUMMARY:In-Rhythm
@@ -137,7 +137,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:2bd525302f6f73c4@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20261223
 SUMMARY:Inheritors of Earth
@@ -168,7 +168,7 @@ CATEGORIES:exhibition\,art\,history\,nature\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:bdad9a5d8626fd61@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260909T183000Z
 DTEND:20260923T183000Z
 SUMMARY:AFD Cine Club | September 2026
@@ -206,7 +206,7 @@ CATEGORIES:film\,cinema\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:d7f6948c32ae33f4@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260923
 SUMMARY:Standing on Sacred Ground
@@ -228,7 +228,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:bb23c435c57ad5e6@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260922
 SUMMARY:Tap Aur Tapish
@@ -255,7 +255,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:de7824e340f3a2f5@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260925
 SUMMARY:Oriental Scenary
@@ -275,7 +275,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:6a02433e4ad71f7d@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260916T053000Z
 DTEND:20261001T133000Z
 SUMMARY:Phulkari: A Lingering Presence By Sunaina Suneja
@@ -301,7 +301,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:357ca1dfe97c50a3@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260922
 SUMMARY:Visible Vapour
@@ -320,7 +320,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:5e316fe9661ac245@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260920T043000Z
 DTEND:20260920T063000Z
 SUMMARY:Writing Life on Paper: Discovering Your Script
@@ -335,25 +335,8 @@ DESCRIPTION:An interactive session led by Tannishtha Chatterjee \, actres
 CATEGORIES:workshop
 END:VEVENT
 BEGIN:VEVENT
-UID:21113af910f06943@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20260920T053000Z
-DTEND:20260920T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
 UID:2740c201ddf09d7d@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260920T063000Z
 DTEND:20260920T083000Z
 SUMMARY:Indian Art: History and Appreciation Course
@@ -369,7 +352,7 @@ CATEGORIES:workshop\,art\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:15712243a988c422@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260920T063000Z
 DTEND:20260920T083000Z
 SUMMARY:IHC Theatre Festival 2026. Home in a Suitcase
@@ -391,25 +374,8 @@ DESCRIPTION:IHC Theatre Festival 2026 . Home in a Suitcase (English\, Hin
 CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
-UID:389062a22598c8bf@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20260920T103000Z
-DTEND:20260920T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
 UID:0256708dd74a1f95@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260920T103000Z
 DTEND:20260920T123000Z
 SUMMARY:IHC Theatre Festival 2026. Home in a Suitcase
@@ -432,7 +398,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:f80b1d8380730adf@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260920T113000Z
 DTEND:20260920T133000Z
 SUMMARY:Home in a Suitcase: Story\, Act and Beyond
@@ -448,7 +414,7 @@ CATEGORIES:workshop
 END:VEVENT
 BEGIN:VEVENT
 UID:1e967fe5044558a1@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260920T133000Z
 DTEND:20260920T153000Z
 SUMMARY:IHC Theatre Festival 2026. Amb Da Boota
@@ -473,7 +439,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:f449f6a1b9dfa805@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260921T043000Z
 DTEND:20260921T063000Z
 SUMMARY:An Interaction with the Team of Amb Da Boota.
@@ -485,7 +451,7 @@ CATEGORIES:workshop
 END:VEVENT
 BEGIN:VEVENT
 UID:d3528a0d1710ed92@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260921T103000Z
 DTEND:20260921T123000Z
 SUMMARY:New Programme- KODAVA NATIONAL SEMINAR - Coorg Cultural & Food Ce
@@ -511,7 +477,7 @@ CATEGORIES:festival
 END:VEVENT
 BEGIN:VEVENT
 UID:237b755f14e8a048@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260921T123000Z
 DTEND:20260921T143000Z
 SUMMARY:BOOK DISCUSSION GROUP - What the Shadow Said
@@ -529,7 +495,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:e89e79560f04607f@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260921T130000Z
 DTEND:20260921T150000Z
 SUMMARY:Beyond Tailpipe: Electric Mobility at the Intersection of Air Qua
@@ -551,7 +517,7 @@ CATEGORIES:talk\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:86a0f656d1936eda@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260921T130000Z
 DTEND:20260921T150000Z
 SUMMARY:INDIAN ARCHAEOLOGY
@@ -574,7 +540,7 @@ CATEGORIES:talk\,art\,heritage
 END:VEVENT
 BEGIN:VEVENT
 UID:85ccac416e0889ae@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260921T133000Z
 DTEND:20260921T153000Z
 SUMMARY:IHC Theatre Festival 2026
@@ -589,7 +555,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:914602fe01c0c0f5@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260927
 SUMMARY:People of Art: A Portrait Study of the Art World
@@ -602,7 +568,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:3e13083b823bc68c@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260922T130000Z
 DTEND:20260922T150000Z
 SUMMARY:Police Reforms – 20 years
@@ -627,7 +593,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:00e8b698926032a8@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260922T133000Z
 DTEND:20260922T153000Z
 SUMMARY:IHC Theatre Festival 2026. The Tragedy of Ham MacLear
@@ -651,7 +617,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:d67b93bbbd3be974@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20261001
 SUMMARY:Raj Se Swaraj Tak From Colonial Rule to Freedom- Through the Eyes
@@ -676,7 +642,7 @@ CATEGORIES:exhibition\,art\,history
 END:VEVENT
 BEGIN:VEVENT
 UID:4aa9ae3b742b07d6@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260929
 SUMMARY:Odyssey
@@ -697,7 +663,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:2387fa080a789677@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260923T043000Z
 DTEND:20260923T063000Z
 SUMMARY:Find Your Voice
@@ -711,7 +677,7 @@ CATEGORIES:workshop
 END:VEVENT
 BEGIN:VEVENT
 UID:e9e504c82237a11c@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260923T053000Z
 DTEND:20260930T133000Z
 SUMMARY:Journey of Colours A Solo Exhibition by Sadaf Beg Khan
@@ -734,7 +700,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:ce1a08e3c752fbce@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260923T123000Z
 DTEND:20260923T143000Z
 SUMMARY:BOOK DISCUSSION GROUP - Signature on the Wind
@@ -753,7 +719,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:ab1c8255b3220831@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260923T130000Z
 DTEND:20260923T150000Z
 SUMMARY:Delimitation after 2026: Electoral Equality or Federal Balance?
@@ -778,7 +744,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:14d64e763d5cba3d@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260923T133000Z
 DTEND:20260923T153000Z
 SUMMARY:Visthapana
@@ -797,7 +763,7 @@ CATEGORIES:film\,cinema\,nature
 END:VEVENT
 BEGIN:VEVENT
 UID:1e71e18f7862cdff@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260923T133000Z
 DTEND:20260923T153000Z
 SUMMARY:IHC Theatre Festival 2026. Window Tak Aashiqui
@@ -819,7 +785,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:b3329bf294ad2231@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260929
 SUMMARY:Main Hoon Warli
@@ -844,7 +810,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:a7fdfd22c6bdf841@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260924T040000Z
 DTEND:20260924T060000Z
 SUMMARY:Sagarmatha Samta-India Largest Inclusive Trek to Everest Base Cam
@@ -868,7 +834,7 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:d2aa4bb820267588@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260924T123000Z
 DTEND:20260924T143000Z
 SUMMARY:As the French Say — The Little Prince
@@ -900,7 +866,7 @@ CATEGORIES:other\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:e3c7d8522aec0e24@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260924T123000Z
 DTEND:20260924T143000Z
 SUMMARY:IIC DOUBLE BILL: MUSIC AND DANCE RECITAL
@@ -920,7 +886,7 @@ CATEGORIES:performance\,dance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:d1713a4b94845c02@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260924T133000Z
 DTEND:20260924T153000Z
 SUMMARY:From Policy to Practice: Powering Maritime Excellence
@@ -935,7 +901,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:a2774b06b39d18d3@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260924T133000Z
 DTEND:20260924T153000Z
 SUMMARY:Cilappatikaram / The Anklet's Verdict
@@ -961,7 +927,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:84aa20002882e937@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260928
 SUMMARY:The Act of Doing | Season 2
@@ -976,7 +942,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:36e414dd060b4cc2@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260928
 SUMMARY:An Origami Odyssey
@@ -989,7 +955,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:369113541f316ee2@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260927
 SUMMARY:Rang by Devi
@@ -1013,7 +979,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:d0c976e5503f2f6c@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:In the Moonlit Kingdom
@@ -1049,7 +1015,7 @@ CATEGORIES:talk\,literature
 END:VEVENT
 BEGIN:VEVENT
 UID:104e9be79162a80d@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260925T043000Z
 DTEND:20260925T063000Z
 SUMMARY:Understanding Kutiyattam: A Dialogue with the Experts
@@ -1066,7 +1032,7 @@ CATEGORIES:workshop
 END:VEVENT
 BEGIN:VEVENT
 UID:cbe66b5f628c6171@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260925T130000Z
 DTEND:20260925T150000Z
 SUMMARY:The Infrastructure of Chinese Civilizationism
@@ -1094,7 +1060,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:285b2021f3b2d36a@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260925T130000Z
 DTEND:20260925T150000Z
 SUMMARY:Oslo: A Tail of Promise
@@ -1113,7 +1079,7 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:88a995a297bbe8a4@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260925T133000Z
 DTEND:20260925T153000Z
 SUMMARY:IHC Theatre Festival 2026. Har Marz Ki Dawa
@@ -1135,7 +1101,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:0d469fb1c0d7a618@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:The Language of Belonging
@@ -1177,7 +1143,7 @@ CATEGORIES:talk\,art\,cinema\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:bd83e8550ef2d6fe@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260926T043000Z
 DTEND:20260926T063000Z
 SUMMARY:Interaction with the Team of Har Marz Ki Dawa.
@@ -1188,42 +1154,8 @@ DESCRIPTION:https://indiahabitat.org/Events_details/1448
 CATEGORIES:workshop
 END:VEVENT
 BEGIN:VEVENT
-UID:7d766dc7c5a19db7@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20260926T053000Z
-DTEND:20260926T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:4d073d0fde378b4d@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20260926T103000Z
-DTEND:20260926T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
 UID:24c786f461fa1c41@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260926T123000Z
 DTEND:20260926T143000Z
 SUMMARY:Guru Padmasambhava - The Second Buddha
@@ -1238,7 +1170,7 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:ac513b6ebc240881@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260926T133000Z
 DTEND:20260926T153000Z
 SUMMARY:IHC Theatre Festival 2026. The Queen
@@ -1259,7 +1191,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:397bb2bddcf14d1b@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260926T133000Z
 DTEND:20260926T153000Z
 SUMMARY:Unlocking Indian Tourism: How Deregulation and Policy Reform Can 
@@ -1278,7 +1210,7 @@ CATEGORIES:talk\,sociology
 END:VEVENT
 BEGIN:VEVENT
 UID:3fc0122b39432a5e@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20261001
 SUMMARY:The Emerging Perspectives
@@ -1291,7 +1223,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:d4b9ed257d6b25c4@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20261007
 SUMMARY:A Moment in the Monumental
@@ -1319,25 +1251,8 @@ DESCRIPTION:Art Alive Gallery\, which was set up in New Delhi in 2001 and
 CATEGORIES:exhibition\,art\,heritage
 END:VEVENT
 BEGIN:VEVENT
-UID:2d5073027ab94b70@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20260927T053000Z
-DTEND:20260927T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
 UID:7ffcffce950e0ee9@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260927T063000Z
 DTEND:20260927T083000Z
 SUMMARY:Hindi Medium Tight
@@ -1360,25 +1275,8 @@ DESCRIPTION:IHC Theatre Festival 2026 . Hindi Medium Tight (Hindi/80 mins
 CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
-UID:f389bd7ea70b1395@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20260927T103000Z
-DTEND:20260927T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
 UID:4405dbaa56cc31dd@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260927T103000Z
 DTEND:20260927T123000Z
 SUMMARY:IHC Theatre Festival 2026. Hindi Medium Tight
@@ -1402,7 +1300,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:c1e2e1cb2e43a3f9@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260927T133000Z
 DTEND:20260927T153000Z
 SUMMARY:IHC Theatre Festival 2026. Bhasbharatam
@@ -1425,7 +1323,7 @@ CATEGORIES:performance\,theatre
 END:VEVENT
 BEGIN:VEVENT
 UID:c444ca3faa61e06e@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260928T123000Z
 DTEND:20260928T143000Z
 SUMMARY:Invincible Somnath: A Saga of Millennia
@@ -1438,7 +1336,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:226901fd750b4d33@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260928T133000Z
 DTEND:20260928T153000Z
 SUMMARY:Kummatty
@@ -1456,7 +1354,7 @@ CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:249c75f58dcf7580@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260929T133000Z
 DTEND:20260929T153000Z
 SUMMARY:Ahiṃsā and Prakṛti
@@ -1473,7 +1371,7 @@ CATEGORIES:talk
 END:VEVENT
 BEGIN:VEVENT
 UID:e635b60058907238@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260929T133000Z
 DTEND:20260929T153000Z
 SUMMARY:Arpan – Festival of Dance & Music
@@ -1491,7 +1389,7 @@ CATEGORIES:festival\,dance\,music
 END:VEVENT
 BEGIN:VEVENT
 UID:bb8a25f7ce0927cd@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:DCAW 2026
@@ -1503,7 +1401,7 @@ CATEGORIES:exhibition
 END:VEVENT
 BEGIN:VEVENT
 UID:75435c3367b6339d@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20260930T133000Z
 DTEND:20260930T153000Z
 SUMMARY:Sarat Smriti 2026: Agni
@@ -1518,7 +1416,7 @@ CATEGORIES:performance\,dance
 END:VEVENT
 BEGIN:VEVENT
 UID:fc0eb9065f6a995c@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261007
 SUMMARY:Nar Nari 2.0
@@ -1545,7 +1443,7 @@ CATEGORIES:exhibition\,art
 END:VEVENT
 BEGIN:VEVENT
 UID:82b1475a250bbc0f@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:If Trees Could Write
@@ -1570,76 +1468,8 @@ DESCRIPTION:Create a handmade zine that brings together plants\, stories\
 CATEGORIES:workshop\,nature
 END:VEVENT
 BEGIN:VEVENT
-UID:f0c913687556761b@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261003T053000Z
-DTEND:20261003T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:1cd7397b501e0b74@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261003T103000Z
-DTEND:20261003T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:723bf8477bf13ec4@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261004T053000Z
-DTEND:20261004T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:4464c01202372151@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261004T103000Z
-DTEND:20261004T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
 UID:5a5f29913ff9f27e@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART:20261006T133000Z
 DTEND:20261006T153000Z
 SUMMARY:Nico | Directed by: Eline Gehring
@@ -1653,144 +1483,8 @@ DESCRIPTION:Goethe Kino | Curated by Vani Subramanian | Film Screening\n\
 CATEGORIES:film\,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:f4792496a66b8afc@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261010T053000Z
-DTEND:20261010T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:67be009066fef368@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261010T103000Z
-DTEND:20261010T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:e46ad92e27da544a@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261011T053000Z
-DTEND:20261011T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:b950c637d856e3ce@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261011T103000Z
-DTEND:20261011T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:fe01d9f36a199324@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261017T053000Z
-DTEND:20261017T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:7c12cb3580003aa7@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261017T103000Z
-DTEND:20261017T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:cbec806054a222ad@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261018T053000Z
-DTEND:20261018T070000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
-UID:917ecd073e300ff9@delhi-events
-DTSTAMP:20260920T105600Z
-DTSTART:20261018T103000Z
-DTEND:20261018T120000Z
-SUMMARY:Heritage & Nature Walk
-LOCATION:Coffee Kiosk (meeting point)\, Sunder Nursery\, Nizamuddin\, New
-  Delhi 110013
-URL:https://www.sundernursery.org/heritage-and-nature-walk.php
-DESCRIPTION:A guided walk through Sunder Nursery's heritage monuments and
-  gardens\, led by Sair-e-Nizamuddin. Meets at the Coffee Kiosk.\n\nSchedu
- led from Sunder Nursery's published standing timetable\, not from a dated
-  listing — the venue does not publish one. Confirm before travelling: 9
- 871066025 / 9911949854.\n\nhttps://www.sundernursery.org/heritage-and-nat
- ure-walk.php
-CATEGORIES:walk\,heritage\,nature
-END:VEVENT
-BEGIN:VEVENT
 UID:e8d643422da00359@delhi-events
-DTSTAMP:20260920T105600Z
+DTSTAMP:20260920T125633Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261213
 SUMMARY:The Evolution of the Soothsayer Part 2

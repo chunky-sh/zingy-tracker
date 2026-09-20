@@ -10,6 +10,10 @@
 # To re-confirm: phone the number in `caveat`, ask whether the walk is still
 # running, then push `confirmed_until` forward.
 
+# Nothing here is live at the moment: sunder_nursery is disabled in
+# config/sources.yaml, so this schedule is not expanded. It is kept both as the
+# worked example for the next standing timetable and so re-enabling is one line.
+
 schedules:
   - source_id: sunder_nursery
     title: Heritage & Nature Walk

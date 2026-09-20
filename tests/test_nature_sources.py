@@ -215,6 +215,12 @@ def test_occurrences_picks_the_right_weekdays():
                     date(2026, 8, 8), date(2026, 8, 9)]
 
 
+def _enabled_source_ids() -> set[str]:
+    from delhi_events.sources.base import load_configs
+
+    return {c.id for c in load_configs() if c.enabled}
+
+
 def test_shipped_config_is_valid():
     """The schedule file is hand-edited; a typo there is silent otherwise."""
     schedules = load_schedules(CONFIG)
@@ -224,12 +230,31 @@ def test_shipped_config_is_valid():
         for required in ("source_id", "title", "weekdays", "confirmed_until", "url"):
             assert schedule.get(required), f"{required} missing from {schedule.get('title')}"
         assert schedule.get("marker"), "a schedule without a marker cannot be verified"
-        # A configured walk that already lapsed would silently produce nothing.
+        limit = schedule["confirmed_until"]
+        if isinstance(limit, str):
+            limit = datetime.strptime(limit, "%Y-%m-%d").date()
+        assert limit < date.today() + timedelta(days=400), "confirmation window too long"
+
+
+def test_live_schedules_have_not_lapsed():
+    """A walk we still publish must have been confirmed recently, or we are
+    inventing events nobody checked.
+
+    Only for schedules whose source is *enabled*: the guard exists to stop us
+    fabricating listings, and a disabled source fabricates nothing. Without
+    that scoping, dropping a walk from the site left this failing every day
+    after its confirmation date -- demanding somebody ring a venue about
+    something we had deliberately stopped listing.
+    """
+    live = _enabled_source_ids()
+
+    for schedule in load_schedules(CONFIG):
+        if schedule["source_id"] not in live:
+            continue
         limit = schedule["confirmed_until"]
         if isinstance(limit, str):
             limit = datetime.strptime(limit, "%Y-%m-%d").date()
         assert limit > date.today(), (
             f"{schedule['title']} lapsed on {limit} — re-confirm with the venue "
-            "and update config/recurring.yaml"
+            "and update config/recurring.yaml, or disable the source"
         )
-        assert limit < date.today() + timedelta(days=400), "confirmation window too long"

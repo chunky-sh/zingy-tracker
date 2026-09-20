@@ -5,8 +5,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## What this is
 
 A scraper + static-site generator for Delhi's cultural venues -- four cultural centres (IIC,
-India Habitat Centre, Alliance Française, Goethe/Max Mueller Bhavan), two nature-walk organisers
-(BNHS, Sunder Nursery), Bikaner House, and the commercial gallery circuit (KNMA, Nature Morte,
+India Habitat Centre, Alliance Française, Goethe/Max Mueller Bhavan), BNHS, Bikaner House, and
+the commercial gallery circuit (KNMA, Nature Morte,
 Vadehra, Shrine Empire, Latitude 28, Gallery Espace, Exhibit 320). It pulls each venue's
 programme into SQLite (`data/events.db`) and publishes a filterable page plus four subscribable
 `.ics` feeds into `site/dist/`. README calls the project "zingy-tracker"; the package is
@@ -105,13 +105,15 @@ usually all-Mumbai) set `allow_empty: true` in `config/sources.yaml`; `doctor` t
 as a note rather than a failure. `doctor` also flags a source whose count dropped below
 `DROP_RATIO` (0.5) of its recent baseline as a possible partial parse.
 
-**`config/recurring.yaml` declares events rather than scraping them.** Sunder Nursery publishes
-no dated listings, so its standing weekend walk is generated from a declared schedule. Three
-guards keep that honest and must be preserved when editing:
+**`config/recurring.yaml` declares events rather than scraping them**, for a venue that
+publishes a standing timetable but no dated listings. Nothing in it is live right now --
+`sunder_nursery` is disabled (issue #1), and the schedule is kept as the worked example. Three
+guards keep the mechanism honest and must be preserved when editing:
 a `marker` string re-checked on the venue page each run, a `confirmed_until` date past which
-nothing is generated (a test in `tests/test_nature_sources.py` fails once it lapses — re-confirm
-by phone, then push the date forward), and a `caveat` with the venue's phone number on every
-generated event.
+nothing is generated (`test_live_schedules_have_not_lapsed` fails once it lapses — re-confirm by
+phone, then push the date forward), and a `caveat` with the venue's phone number on every
+generated event. That lapse check covers only schedules whose source is *enabled*: the guard is
+there to stop us fabricating listings, and a disabled source fabricates nothing.
 
 **Galleries keep the writing on the detail page.** Several print only a title and dates on the
 listing (KNMA shows nothing at all for some), so `detail_description` opens each *current* show's

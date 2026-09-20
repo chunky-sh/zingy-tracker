@@ -34,12 +34,16 @@ sources:
     allow_empty: true
 
   # Declared, not scraped -- see config/recurring.yaml and sources/recurring.py.
+  # Disabled: the walk runs twice a day every weekend, so it generated 18
+  # near-identical rows -- about a fifth of the whole site -- and we would
+  # rather not list it. The schedule is kept in config/recurring.yaml so this
+  # is a one-line revert. See issue #1.
   - id: sunder_nursery
     adapter: recurring
     name: Sunder Nursery
     address: Nizamuddin, New Delhi 110013
     url: https://www.sundernursery.org/heritage-and-nature-walk.php
-    enabled: true
+    enabled: false
     allow_empty: true
 
   # Galleries hire Bikaner House's halls by the week, so one listing carries
