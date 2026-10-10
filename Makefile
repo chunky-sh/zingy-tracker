@@ -3,11 +3,12 @@ PIP := .venv/bin/pip
 
 PORT ?= 8000
 
-.PHONY: help install refresh refresh-llm build test doctor list serve dev fixtures clean
+.PHONY: help install refresh refresh-local refresh-llm build test doctor list serve dev fixtures clean
 
 help:
 	@echo "make install     create .venv and install dependencies"
 	@echo "make refresh     scrape all enabled sources into data/events.db"
+	@echo "make refresh-local scrape the venues CI is blocked from (IIC); then commit data/events.db"
 	@echo "make refresh-llm same, plus Claude tagging for ambiguous events"
 	@echo "make build       write site/dist (index.html, events.json, *.ics)"
 	@echo "make test        run the golden-file test suite"
@@ -30,6 +31,12 @@ install: .venv
 
 refresh:
 	$(PY) -m delhi_events.cli refresh
+
+# Pull first: CI commits data/events.db daily, and a binary file cannot merge.
+refresh-local:
+	git pull --ff-only
+	$(PY) -m delhi_events.cli refresh --local-only
+	@echo "\nNow: git commit -m 'Refresh local-only sources' data/events.db && git push"
 
 refresh-llm:
 	$(PY) -m delhi_events.cli refresh --llm

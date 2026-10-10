@@ -80,6 +80,27 @@ def latitude_28():
 
 
 @pytest.fixture
+def art_heritage():
+    return build_configured_source("art_heritage", [
+        (r"/exhibitions/.+", "gallery_art_heritage_detail.html"),
+        (r"/exhibitions$", "gallery_art_heritage.html"),
+    ])
+
+
+@pytest.fixture
+def anant_art():
+    return build_configured_source("anant_art", [(r"/exhibitions$", "gallery_anant_art.html")])
+
+
+@pytest.fixture
+def ojas_art():
+    return build_configured_source("ojas_art", [
+        (r"/exhibitions-cpt/", "gallery_ojas_art_detail.html"),
+        (r"/exhibitions$", "gallery_ojas_art.html"),
+    ])
+
+
+@pytest.fixture
 def iic():
     return build_source("iic", "iic", "India International Centre", [
         (r"/programmes/current", "iic_current.html"),

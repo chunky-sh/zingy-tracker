@@ -19,7 +19,7 @@ Thirteen venues. One page. Zero doomscrolling through Instagram at 11pm<br>wonde
 
 ## 🎪 What it actually does
 
-Scrapes **IIC**, **India Habitat Centre**, **Alliance Française**, **Goethe/Max Mueller Bhavan**, **BNHS**, **Bikaner House** and the gallery circuit — **KNMA**, **Nature Morte**, **Vadehra**, **Shrine Empire**, **Latitude 28**, **Gallery Espace**, **Exhibit 320** — every morning, sorts everything into *what kind of thing it is* (walk, talk, exhibition, film…) and *what it's about* (art, nature, birds, sociology…), then spits out a filterable page and calendar feeds you can subscribe to.
+Scrapes **IIC**, **India Habitat Centre**, **Alliance Française**, **Goethe/Max Mueller Bhavan**, **BNHS**, **Bikaner House** and the gallery circuit — **KNMA**, **Nature Morte**, **Vadehra**, **Shrine Empire**, **Latitude 28**, **Gallery Espace**, **Exhibit 320**, **Art Heritage**, **Anant Art**, **Ojas Art** — every morning, sorts everything into *what kind of thing it is* (walk, talk, exhibition, film…) and *what it's about* (art, nature, birds, sociology…), then spits out a filterable page and calendar feeds you can subscribe to.
 
 Two axes, because **"nature"** isn't a type of event — it's a walk, a talk *and* a photo show. Filter by what you care about, not by what shape it comes in. 🐦
 
@@ -67,7 +67,7 @@ make refresh-llm             # let Claude tag the ambiguous ones (needs ANTHROPI
 
 **Adapters must raise, never return `[]`.** An empty list is how `make doctor` spots a parser that broke silently after a site redesign — so it has to mean *"nothing's on"*, not *"I fell over"*. Sources where empty is normal (hi, BNHS) set `allow_empty: true`.
 
-**Galleries are config, not code.** All seven share one selector-driven adapter, so adding the eighth is a few lines of `config/sources.yaml` — `card`, `title`, and where the dates live. 🎨
+**Galleries are config, not code.** All ten share one selector-driven adapter, so adding the eleventh is a few lines of `config/sources.yaml` — `card`, `title`, and where the dates live. 🎨
 
 **Some walks can be declared rather than scraped.** For a venue that publishes a standing timetable but no dated events, `config/recurring.yaml` expands the schedule behind a `confirmed_until` date. ⏰ **A test fails when a live one lapses** — ring the venue, confirm, push the date out. No silent fabrication. (Sunder Nursery's weekend walk is the worked example, currently disabled.)
 

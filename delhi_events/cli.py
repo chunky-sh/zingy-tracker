@@ -18,6 +18,13 @@ from .sources.base import load_configs
 # `doctor` needs both a floor and a drop threshold to tell rot from calm.
 DROP_RATIO = 0.5
 
+# Venues blip -- a timeout, a bad deploy -- and recover by the next morning. A
+# failure only counts once it has lasted FAIL_STREAK runs in a row, or once a
+# source has gone STALE_DAYS without a good scrape (which is also what reminds
+# us that a local_only source is due a `make refresh-local`).
+FAIL_STREAK = 3
+STALE_DAYS = 7
+
 
 def _log_setup(verbose: bool) -> None:
     logging.basicConfig(
@@ -29,7 +36,8 @@ def _log_setup(verbose: bool) -> None:
 
 def cmd_refresh(args: argparse.Namespace) -> int:
     conn = db.connect(args.db)
-    report = refresh(conn, only=args.source, cache_ttl=args.cache_ttl, tag_with_llm=args.llm)
+    report = refresh(conn, only=args.source, cache_ttl=args.cache_ttl, tag_with_llm=args.llm,
+                     local_only=args.local_only)
     print("\nRefresh report:")
     print(report.render())
     conn.close()
@@ -100,45 +108,65 @@ def cmd_list(args: argparse.Namespace) -> int:
     return 0
 
 
+def source_health(config, rows, now: datetime) -> tuple[str | None, str | None]:
+    """Judge one source from its recent runs, newest first.
+
+    Returns (problem, note); at most one is set. Kept apart from `cmd_doctor`
+    so the thresholds can be tested without a database.
+    """
+    source_id = config.id
+    if not rows:
+        return f"{source_id}: has never run", None
+
+    streak = next((i for i, r in enumerate(rows) if r["ok"]), len(rows))
+    ok_rows = [r for r in rows if r["ok"]]
+    error = rows[0]["error"].splitlines()[0][:100] if streak else ""
+
+    if streak >= FAIL_STREAK or not ok_rows:
+        return f"{source_id}: failed the last {streak} runs — {error}", None
+
+    last_ok = ok_rows[0]
+    age = now - datetime.fromisoformat(last_ok["started_at"])
+    if age > timedelta(days=STALE_DAYS):
+        hint = " — run `make refresh-local`" if config.local_only else ""
+        return f"{source_id}: no successful scrape in {age.days} days{hint}", None
+
+    if last_ok["count"] == 0:
+        if not config.allow_empty:
+            return f"{source_id}: returned 0 events (parser likely broken)", None
+        # BNHS genuinely has nothing in Delhi most weeks; galleries sit
+        # between shows. Worth saying, not failing.
+        return None, f"{source_id}: 0 events (expected for this source)"
+
+    previous = [r["count"] for r in ok_rows[1:]]
+    baseline = max(previous, default=0)
+    if baseline and last_ok["count"] < baseline * DROP_RATIO:
+        return (f"{source_id}: {last_ok['count']} events, down from {baseline} — "
+                "possible partial parse"), None
+
+    if streak:
+        return None, f"{source_id}: last run failed ({streak} in a row, flagged at {FAIL_STREAK}) — {error}"
+    return None, None
+
+
 def cmd_doctor(args: argparse.Namespace) -> int:
     conn = db.connect(args.db)
     enabled = [c for c in load_configs() if c.enabled]
     problems: list[str] = []
     notes: list[str] = []
+    now = datetime.now(IST)
 
     for config in enabled:
-        source_id = config.id
         rows = conn.execute(
             "SELECT ok, count, error, started_at FROM runs WHERE source_id = ? "
-            "ORDER BY started_at DESC LIMIT 5",
-            (source_id,),
+            "ORDER BY started_at DESC LIMIT 10",
+            (config.id,),
         ).fetchall()
-
-        if not rows:
-            problems.append(f"{source_id}: has never run")
-            continue
-
-        latest = rows[0]
-        if not latest["ok"]:
-            problems.append(f"{source_id}: last run failed — {latest['error'].splitlines()[0][:100]}")
-            continue
-        if latest["count"] == 0:
-            if config.allow_empty:
-                # BNHS genuinely has nothing in Delhi most weeks; Sunder Nursery
-                # stops when its confirmation lapses. Worth saying, not failing.
-                notes.append(f"{source_id}: 0 events (expected for this source)")
-            else:
-                problems.append(f"{source_id}: returned 0 events (parser likely broken)")
-            continue
-
-        previous = [r["count"] for r in rows[1:] if r["ok"]]
-        if previous:
-            baseline = max(previous)
-            if baseline and latest["count"] < baseline * DROP_RATIO:
-                problems.append(
-                    f"{source_id}: {latest['count']} events, down from {baseline} — "
-                    "possible partial parse"
-                )
+        problem, note = source_health(config, rows, now)
+        if problem:
+            problems.append(problem)
+        if note:
+            notes.append(note)
 
     total = len(db.active_events(conn))
     print(f"{len(enabled)} sources enabled, {total} active future events.")
@@ -207,6 +235,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--cache-ttl", type=int, default=0,
                    help="reuse responses newer than N seconds (development aid)")
     p.add_argument("--llm", action="store_true", help="tag ambiguous events with Claude")
+    p.add_argument("--local-only", action="store_true",
+                   help="only the local_only sources CI cannot reach (e.g. iic)")
     p.set_defaults(func=cmd_refresh)
 
     p = sub.add_parser("build", help="write events.json, ICS feeds and the site")

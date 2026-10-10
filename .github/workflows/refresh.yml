@@ -16,6 +16,9 @@ on:
       - "delhi_events/**"
       - "site/template.html"
       - "config/sources.yaml"
+      # A pushed `make refresh-local` publishes straight away. The bot's own
+      # daily commit of this file cannot loop: GITHUB_TOKEN pushes trigger nothing.
+      - "data/events.db"
 
 permissions:
   contents: write
@@ -48,10 +51,10 @@ jobs:
         run: pytest tests/ -q
 
       # continue-on-error because `refresh` exits non-zero if ANY source fails,
-      # and some venues (iicdelhi.in, afdelhi.org) serve a 403 or an empty page
-      # to GitHub's datacenter IPs while working fine from a home connection.
-      # One blocked venue must not stop the other five from being published --
+      # and one flaky venue must not stop the rest from being published --
       # `doctor` below is what actually reports health and reddens the run.
+      # Venues that block datacenter IPs outright (iicdelhi.in) are marked
+      # local_only in config/sources.yaml and skipped here.
       - name: Refresh
         continue-on-error: true
         env:

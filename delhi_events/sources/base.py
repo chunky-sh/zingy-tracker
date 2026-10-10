@@ -28,6 +28,12 @@ class SourceConfig:
     # Delhi. `doctor` skips its zero-events check for these.
     allow_empty: bool = False
 
+    # Set for venues that refuse datacenter IPs outright -- iicdelhi.in's load
+    # balancer 403s every GitHub Actions runner, whatever the headers. CI skips
+    # these rather than logging a doomed request; `make refresh-local` scrapes
+    # them from a home connection, and `doctor` flags them once they go stale.
+    local_only: bool = False
+
     # Free-form per-source settings. Keeps adapter-specific knobs out of the
     # shared schema.
     options: dict = field(default_factory=dict)

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import os
 import sqlite3
 import traceback
 from dataclasses import dataclass, field
@@ -96,10 +97,19 @@ def refresh_source(conn: sqlite3.Connection, source: BaseSource, fetcher: Fetche
 
 
 def refresh(conn: sqlite3.Connection, only: list[str] | None = None,
-            cache_ttl: int = 0, tag_with_llm: bool = False) -> RefreshReport:
+            cache_ttl: int = 0, tag_with_llm: bool = False,
+            local_only: bool = False) -> RefreshReport:
     fetcher = Fetcher(cache_ttl=cache_ttl)
     report = RefreshReport()
+    in_ci = bool(os.environ.get("CI"))
     for source in load_all(only=only):
+        if local_only and not source.config.local_only:
+            continue
+        if in_ci and source.config.local_only:
+            # Skipped, not failed: no run is recorded and nothing is reconciled,
+            # so its events stay listed until `doctor` says they are stale.
+            log.info("skipping %s: local_only, and this is CI", source.id)
+            continue
         log.info("refreshing %s", source.id)
         report.results.append(refresh_source(conn, source, fetcher, tag_with_llm))
     return report

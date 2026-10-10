@@ -398,3 +398,48 @@ def test_gallery_does_not_refetch_a_blurb_it_already_has(monkeypatch):
     fetcher = CountingFetcher()
     assert source.fetch(fetcher)
     assert fetcher.urls == ["https://example.test/shows"]
+
+
+def test_art_heritage_reads_the_listing_and_the_show_s_page(art_heritage, monkeypatch):
+    """The listing is a thumbnail, a title and "September 18 – October 31, 2026";
+    what the show is about is only on its own page."""
+    source, fetcher = art_heritage
+    _pin_gallery_today(monkeypatch, date(2026, 10, 9))
+    events = source.fetch(fetcher)
+
+    assert [e.title for e in events] == ["Chronicles of [un]Seen Labour[er]"]
+    show = events[0]
+    assert show.start.strftime("%Y-%m-%d") == "2026-09-18"
+    assert show.end.strftime("%Y-%m-%d") == "2026-10-31"
+    assert show.format is Format.EXHIBITION
+    assert "Avijit Dutta" in show.description
+    assert show.venue == "Art Heritage"
+
+
+def test_anant_art_keeps_the_featured_grid(anant_art, monkeypatch):
+    """Current shows sit in a separate "featured" grid above the archive; a
+    selector on the archive grid alone returned nothing while two were on."""
+    source, fetcher = anant_art
+    _pin_gallery_today(monkeypatch, date(2026, 10, 9))
+    events = source.fetch(fetcher)
+
+    assert sorted(e.title for e in events) == ["Phantasms", "The Anatomy of Wonder"]
+    show = next(e for e in events if e.title == "The Anatomy of Wonder")
+    assert show.start.strftime("%Y-%m-%d") == "2026-09-10"
+    assert show.end.strftime("%Y-%m-%d") == "2026-10-31"
+    assert "Surrealism" in show.description
+
+
+def test_ojas_art_parses_its_dates_and_drops_the_artwork_captions(ojas_art, monkeypatch):
+    """Dates read "03 SEPTEMBER, 2026 TO 01 OCTOBER, 2026", and the show's page
+    follows the blurb with a caption per work -- year, medium, size."""
+    source, fetcher = ojas_art
+    _pin_gallery_today(monkeypatch, date(2026, 9, 20))
+    events = source.fetch(fetcher)
+
+    show = next(e for e in events if e.title.startswith("THREE SPACES"))
+    assert show.start.strftime("%Y-%m-%d") == "2026-09-03"
+    assert show.end.strftime("%Y-%m-%d") == "2026-10-01"
+    assert "Mayank Singh Shyam" in show.description
+    assert "Acrylic & ink on canvas" not in show.description
+    assert "x 94 in" not in show.description

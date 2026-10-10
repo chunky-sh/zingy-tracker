@@ -9,12 +9,15 @@ sources:
     url: https://afdelhi.org/events/
     enabled: true
 
+  # iicdelhi.in's AWS load balancer 403s GitHub's runners (homepage included,
+  # any headers), so CI skips it and it is refreshed locally: `make refresh-local`.
   - id: iic
     adapter: iic
     name: India International Centre
     address: 40 Max Mueller Marg, Lodhi Gardens, New Delhi 110003
     url: https://iicdelhi.in/programmes/current
     enabled: true
+    local_only: true
 
   - id: ihc
     adapter: ihc
@@ -179,6 +182,51 @@ sources:
       description: h3
       # Their markup spells the attribute "herf", so there is no link to follow.
       link: none
+
+  - id: art_heritage
+    adapter: gallery
+    name: Art Heritage
+    address: Triveni Kala Sangam, 205 Tansen Marg, New Delhi 110001
+    url: https://artheritagegallery.com/exhibitions
+    enabled: true
+    allow_empty: true
+    options:
+      card: .exhibition-col
+      title: h3
+      dates: p
+      # The listing is a thumbnail, a title and dates; the writing is on the show's page.
+      detail_description: .exhibition-desc p
+
+  - id: anant_art
+    adapter: gallery
+    name: Anant Art
+    address: B-5/3 Safdarjung Enclave, New Delhi 110029
+    url: https://www.anantart.com/exhibitions
+    enabled: true
+    allow_empty: true
+    options:
+      # Two grids: a "featured" one holding the current shows, then the archive.
+      card: .records_list li
+      title: h2
+      dates: .date
+      description: .description
+
+  - id: ojas_art
+    adapter: gallery
+    name: Ojas Art
+    address: 1AQ Near Qutab Minar, Mehrauli, New Delhi 110030
+    url: https://www.ojasart.com/exhibitions
+    enabled: true
+    allow_empty: true
+    options:
+      card: .exhibition-outer
+      title: .title_exhibition
+      # "03 SEPTEMBER, 2026 TO 01 OCTOBER, 2026"
+      dates: .date_exhibition
+      # Elementor page: no stable class around the blurb, and every paragraph
+      # after it is an artwork caption that opens with the year on its own line.
+      detail_description: .elementor-widget-container > p
+      detail_stop: "\n(?:19|20)\\d\\d\n"
 
   # Backfill beyond the ~2 months the IHC HTML calendar shows. Needs
   # ANTHROPIC_API_KEY and pypdf; overlapping events are merged by title+date.

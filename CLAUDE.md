@@ -7,7 +7,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 A scraper + static-site generator for Delhi's cultural venues -- four cultural centres (IIC,
 India Habitat Centre, Alliance Française, Goethe/Max Mueller Bhavan), BNHS, Bikaner House, and
 the commercial gallery circuit (KNMA, Nature Morte,
-Vadehra, Shrine Empire, Latitude 28, Gallery Espace, Exhibit 320). It pulls each venue's
+Vadehra, Shrine Empire, Latitude 28, Gallery Espace, Exhibit 320, Art Heritage, Anant Art,
+Ojas Art). It pulls each venue's
 programme into SQLite (`data/events.db`) and publishes a filterable page plus four subscribable
 `.ics` feeds into `site/dist/`. README calls the project "zingy-tracker"; the package is
 `delhi_events`.
@@ -19,9 +20,10 @@ The project is run from its checkout, never installed — always go through the 
 ```sh
 make install                 # create .venv, install requirements + pytest/anthropic/pypdf
 make refresh                 # scrape all enabled sources into data/events.db
+make refresh-local           # pull, then scrape only the local_only venues CI can't reach (IIC)
 make build                   # write site/dist (index.html, events.json, *.ics)
 make dev                     # live site on :8000, rebuilds + reloads on change
-make test                    # golden-file suite, no network (95 tests, <1s)
+make test                    # golden-file suite, no network (137 tests, ~1s)
 make doctor                  # detect silently broken parsers
 make list                    # upcoming events in the terminal
 make fixtures                # re-capture tests/fixtures/ from the live sites
@@ -60,7 +62,7 @@ Data flows one way: **adapter → `Event` → store → build**. Each stage spea
 - `delhi_events/sources/` — one module per venue, each exposing `Source(BaseSource)` with
   `fetch(fetcher) -> list[Event]`. Adapters never touch the DB. `base.py` holds `SourceConfig`
   and loads adapters by name from `config/sources.yaml`. `gallery.py` is the exception to
-  "one module per venue": it is driven entirely by CSS selectors in `options`, so the seven
+  "one module per venue": it is driven entirely by CSS selectors in `options`, so the ten
   commercial galleries share it and adding an eighth is a config entry rather than a module.
 - `delhi_events/daterange.py` — `parse_range`, which reads the date line galleries print above
   a show. Every gallery abbreviates differently ("10 Oct - 12 Dec 2026", "10 - 25 October 2026",
@@ -140,6 +142,17 @@ and the V&A), so `sub_venue_allow` keeps a Delhi tracker about Delhi.
 the codecs actually importable rather than hard-coding `br`. Offering Brotli without the `brotli`
 package made two galleries answer in binary, which parsed as a page with no events on it — a
 silent wrong answer rather than an error.
+
+**`doctor` tolerates blips, not outages.** A failed run is a note until it has failed
+`FAIL_STREAK` (3) runs in a row; a source with no successful scrape in `STALE_DAYS` (7) is a
+problem either way. The rules live in `cli.source_health` and are tested in `tests/test_doctor.py`.
+
+**Some venues block datacenter IPs outright.** iicdelhi.in's AWS load balancer 403s every GitHub
+Actions runner -- homepage included, whatever the headers (probed from a runner, Oct 2026). Such
+sources set `local_only: true`: CI skips them entirely (no run recorded, nothing reconciled, so
+their events stay listed), and they are refreshed from a home connection with `make
+refresh-local` and a pushed `data/events.db`, which redeploys. The 7-day staleness rule is the
+reminder. Don't try to defeat the block with headers; it is by IP.
 
 **Disable sources in `config/sources.yaml` rather than deleting them** — `doctor` only checks
 enabled ones. `ihc_pdf` (Claude-extracted PDF backfill) is disabled by default.
