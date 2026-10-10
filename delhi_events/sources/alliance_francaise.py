@@ -32,13 +32,20 @@ NON_EVENT_SLUGS = {"feed", "page", "category", "tag", "ical"}
 VENUE_LINE_RE = re.compile(r"^\s*venue\s*[:\-]\s*(.+)$", re.I | re.M)
 
 
-def _discover_permalinks(fetcher: Fetcher) -> list[str]:
-    """Union of the listing page and the RSS feed.
+# Events Manager's own empty-state, inside the list container. Its presence is
+# what lets an empty listing mean "nothing on" rather than "the page changed".
+NO_EVENTS_RE = re.compile(r'class="[^"]*\bem-events-list\b[^"]*"[^>]*>\s*No Events\s*<')
+
+
+def _discover_permalinks(fetcher: Fetcher) -> tuple[list[str], bool]:
+    """Union of the listing page and the RSS feed, and whether the listing
+    explicitly said it has nothing on.
 
     Two sources because each truncates differently: WordPress caps RSS at ten
     items by default, and the listing paginates. Neither alone is trustworthy.
     """
     slugs: dict[str, None] = {}
+    says_empty = False
 
     for url in (LISTING_URL, RSS_URL):
         try:
@@ -46,11 +53,13 @@ def _discover_permalinks(fetcher: Fetcher) -> list[str]:
         except RuntimeError as exc:
             log.warning("alliance_francaise: could not fetch %s: %s", url, exc)
             continue
+        if url == LISTING_URL and NO_EVENTS_RE.search(body):
+            says_empty = True
         for slug in PERMALINK_RE.findall(body):
             if slug not in NON_EVENT_SLUGS:
                 slugs.setdefault(slug, None)
 
-    return [f"https://afdelhi.org/events/{slug}/" for slug in slugs]
+    return [f"https://afdelhi.org/events/{slug}/" for slug in slugs], says_empty
 
 
 def _ical_text(component, key: str) -> str:
@@ -77,8 +86,17 @@ def _as_datetime(value) -> datetime | None:
 
 class Source(BaseSource):
     def fetch(self, fetcher: Fetcher) -> list[Event]:
-        permalinks = _discover_permalinks(fetcher)
+        permalinks, says_empty = _discover_permalinks(fetcher)
         log.info("alliance_francaise: %d permalinks", len(permalinks))
+        if not permalinks:
+            if says_empty:
+                # Between seasons (October 2026): the listing reads "No Events"
+                # and the feed is empty. Genuine, so config sets allow_empty.
+                return []
+            raise RuntimeError(
+                "alliance_francaise: no event links on the listing or feed, and "
+                "no 'No Events' notice either -- the page has likely changed shape"
+            )
 
         events: list[Event] = []
         for url in permalinks:

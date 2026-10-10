@@ -120,6 +120,33 @@ def test_alliance_francaise_uses_both_discovery_paths(alliance_francaise):
     assert any(u.endswith("/events/") for u in fetcher.requested)
 
 
+def test_alliance_francaise_between_seasons_is_empty_not_broken():
+    """In October 2026 the listing read "No Events" and the feed was empty:
+    a genuine empty, which `doctor` should hear as one."""
+    from tests.conftest import build_source
+
+    source, fetcher = build_source("alliance_francaise", "alliance_francaise",
+                                   "Alliance Française de Delhi", [
+                                       (r"/events/feed/", "af_feed_empty.xml"),
+                                       (r"/events/$", "af_listing_empty.html"),
+                                   ])
+    assert source.fetch(fetcher) == []
+
+
+def test_alliance_francaise_raises_when_the_listing_changes_shape():
+    """No links and no "No Events" notice is a redesign, not a quiet month --
+    returning [] here would hide a broken parser behind allow_empty."""
+    from tests.conftest import build_source
+
+    source, fetcher = build_source("alliance_francaise", "alliance_francaise",
+                                   "Alliance Française de Delhi", [
+                                       (r"/events/feed/", "af_feed_empty.xml"),
+                                       (r"/events/$", "gallery_latitude28.html"),
+                                   ])
+    with pytest.raises(RuntimeError, match="changed shape"):
+        source.fetch(fetcher)
+
+
 def test_goethe_parses_api_payload(goethe):
     source, fetcher = goethe
     events = source.fetch(fetcher)

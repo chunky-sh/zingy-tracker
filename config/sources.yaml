@@ -8,6 +8,9 @@ sources:
     address: 72 Lodhi Estate, New Delhi 110003
     url: https://afdelhi.org/events/
     enabled: true
+    # Between seasons the listing says "No Events" (October 2026). The adapter
+    # returns [] only on that notice and raises on any other empty page.
+    allow_empty: true
 
   # iicdelhi.in's AWS load balancer 403s GitHub's runners (homepage included,
   # any headers), so CI skips it and it is refreshed locally: `make refresh-local`.
