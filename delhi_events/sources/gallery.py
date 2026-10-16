@@ -20,6 +20,7 @@ An entry looks like::
         description: .card-text
         link: a[href]
         image: img[src]
+        topics: [art]                 # always added; this is the default
 
 Two things this adapter does that a per-venue scraper would not have to:
 
@@ -45,7 +46,7 @@ from bs4 import BeautifulSoup, Tag
 
 from ..daterange import parse_range
 from ..fetch import Fetcher
-from ..models import IST, Event, Format
+from ..models import IST, Event, Format, Topic
 from ..taxonomy import classify
 from .base import BaseSource
 
@@ -180,6 +181,12 @@ class Source(BaseSource):
         """
         declared = options.get("format", Format.EXHIBITION.value)
         detected, topics, _ = classify(fields["title"], fields["description"])
+        # A gallery show is an art show whether or not its blurb says "art" --
+        # Anant Art's two October shows didn't, and so were missing from
+        # art.ics. Appended, so whatever the blurb is about still leads.
+        for topic in map(Topic, options.get("topics", [Topic.ART.value])):
+            if topic not in topics:
+                topics.append(topic)
         if declared == "auto":
             fmt = detected if detected is not Format.OTHER else Format.EXHIBITION
         else:

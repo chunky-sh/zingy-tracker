@@ -470,3 +470,12 @@ def test_ojas_art_parses_its_dates_and_drops_the_artwork_captions(ojas_art, monk
     assert "Mayank Singh Shyam" in show.description
     assert "Acrylic & ink on canvas" not in show.description
     assert "x 94 in" not in show.description
+
+
+def test_gallery_shows_are_art_even_when_the_blurb_never_says_so(anant_art, monkeypatch):
+    """Anant Art's blurbs talk about Surrealism and lullabies, never "art", so
+    keyword tagging left both shows out of the art feed."""
+    source, fetcher = anant_art
+    _pin_gallery_today(monkeypatch, date(2026, 10, 9))
+    for event in source.fetch(fetcher):
+        assert Topic.ART in event.topics, event.title

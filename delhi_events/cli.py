@@ -121,6 +121,8 @@ def source_health(config, rows, now: datetime) -> tuple[str | None, str | None]:
     streak = next((i for i, r in enumerate(rows) if r["ok"]), len(rows))
     ok_rows = [r for r in rows if r["ok"]]
     error = rows[0]["error"].splitlines()[0][:100] if streak else ""
+    blip = (f"{source_id}: last run failed ({streak} in a row, flagged at {FAIL_STREAK}) — {error}"
+            if streak else None)
 
     if streak >= FAIL_STREAK or not ok_rows:
         return f"{source_id}: failed the last {streak} runs — {error}", None
@@ -135,8 +137,9 @@ def source_health(config, rows, now: datetime) -> tuple[str | None, str | None]:
         if not config.allow_empty:
             return f"{source_id}: returned 0 events (parser likely broken)", None
         # BNHS genuinely has nothing in Delhi most weeks; galleries sit
-        # between shows. Worth saying, not failing.
-        return None, f"{source_id}: 0 events (expected for this source)"
+        # between shows. Worth saying, not failing -- but a failure since is
+        # the more useful thing to say, so it must not be swallowed here.
+        return None, blip or f"{source_id}: 0 events (expected for this source)"
 
     previous = [r["count"] for r in ok_rows[1:]]
     baseline = max(previous, default=0)
@@ -144,9 +147,7 @@ def source_health(config, rows, now: datetime) -> tuple[str | None, str | None]:
         return (f"{source_id}: {last_ok['count']} events, down from {baseline} — "
                 "possible partial parse"), None
 
-    if streak:
-        return None, f"{source_id}: last run failed ({streak} in a row, flagged at {FAIL_STREAK}) — {error}"
-    return None, None
+    return None, blip
 
 
 def cmd_doctor(args: argparse.Namespace) -> int:

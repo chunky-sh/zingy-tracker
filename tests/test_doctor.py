@@ -28,6 +28,15 @@ def test_a_single_failure_is_a_note_not_a_problem():
     assert "1 in a row" in note and "read timed out" in note
 
 
+def test_a_failure_is_reported_even_when_the_last_good_run_was_empty():
+    """Latitude 28 timed out on a morning when its last good run had found
+    nothing on; the note said "0 events (expected)" and the failure vanished."""
+    rows = [run(0, ok=False, error="read timed out"), run(1, count=0)]
+    problem, note = source_health(config(allow_empty=True), rows, NOW)
+    assert problem is None
+    assert "last run failed" in note and "read timed out" in note
+
+
 def test_a_failure_that_persists_is_a_problem():
     rows = [run(i, ok=False, error="403 Forbidden") for i in range(FAIL_STREAK)] + [run(FAIL_STREAK)]
     problem, _ = source_health(config(), rows, NOW)
