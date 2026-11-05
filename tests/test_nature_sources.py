@@ -120,8 +120,27 @@ def test_bnhs_missing_year_resolves_forward():
 
 # -- Sunder Nursery / recurring --------------------------------------------
 
-def test_configured_schedule_expands_to_both_daily_sessions(sunder_nursery):
-    source, fetcher = sunder_nursery
+@pytest.fixture
+def confirmed_walk(sunder_nursery, monkeypatch):
+    """The shipped walk, as though someone had re-confirmed it last week.
+
+    These tests are about the expansion machinery, not about whether the
+    shipped schedule is current -- that is test_live_schedules_have_not_lapsed's
+    job, and it is scoped to enabled sources. Read off the real calendar, they
+    all went red the day after the disabled walk's confirmation lapsed, though
+    nothing had broken. Fourteen days sits inside the 28-day horizon, so the
+    confirmation date is what ends generation.
+    """
+    import delhi_events.sources.recurring as recurring
+
+    limit = date.today() + timedelta(days=14)
+    confirmed = [dict(s, confirmed_until=limit) for s in load_schedules(CONFIG)]
+    monkeypatch.setattr(recurring, "load_schedules", lambda *a, **k: confirmed)
+    return sunder_nursery
+
+
+def test_configured_schedule_expands_to_both_daily_sessions(confirmed_walk):
+    source, fetcher = confirmed_walk
     events = source.fetch(fetcher)
 
     assert events, "the configured walk should still be generating"
@@ -137,10 +156,10 @@ def test_configured_schedule_expands_to_both_daily_sessions(sunder_nursery):
     assert all(e.start.weekday() in (5, 6) for e in events)
 
 
-def test_same_day_sessions_are_separate_events(sunder_nursery):
+def test_same_day_sessions_are_separate_events(confirmed_walk):
     """Two walks at 11:00 and 16:00 share a title, date and meeting point.
     Without the time in the identity key the second overwrites the first."""
-    source, fetcher = sunder_nursery
+    source, fetcher = confirmed_walk
     events = source.fetch(fetcher)
 
     by_day = {}
@@ -151,22 +170,22 @@ def test_same_day_sessions_are_separate_events(sunder_nursery):
     assert len({e.id for e in a_day}) == 2
 
 
-def test_events_carry_the_unverified_caveat(sunder_nursery):
+def test_events_carry_the_unverified_caveat(confirmed_walk):
     """These are declared, not scraped -- every event says so and carries the
     venue's number."""
-    source, fetcher = sunder_nursery
+    source, fetcher = confirmed_walk
     event = source.fetch(fetcher)[0]
     assert "not from a dated listing" in event.description
     assert "9871066025" in event.description
 
 
-def test_generation_stops_when_the_page_drops_the_walk(sunder_nursery, tmp_path):
+def test_generation_stops_when_the_page_drops_the_walk(confirmed_walk, tmp_path):
     from tests.conftest import FakeFetcher
 
     page = tmp_path / "gone.html"
     page.write_text("<html><body>Sunder Nursery. No walks listed.</body></html>")
 
-    source, _ = sunder_nursery
+    source, _ = confirmed_walk
     fetcher = FakeFetcher([])
     fetcher._resolve = lambda url: page  # type: ignore[method-assign]
 
@@ -184,9 +203,9 @@ def test_generation_stops_once_confirmation_lapses(sunder_nursery, monkeypatch):
     assert source.fetch(fetcher) == []
 
 
-def test_a_fetch_failure_does_not_empty_the_calendar(sunder_nursery):
+def test_a_fetch_failure_does_not_empty_the_calendar(confirmed_walk):
     """A venue site being down for a day must not silently drop the walks."""
-    source, fetcher = sunder_nursery
+    source, fetcher = confirmed_walk
 
     def boom(url, **kwargs):
         raise RuntimeError("connection reset")
@@ -195,16 +214,17 @@ def test_a_fetch_failure_does_not_empty_the_calendar(sunder_nursery):
     assert source.fetch(fetcher)
 
 
-def test_horizon_never_runs_past_the_confirmation_date(sunder_nursery):
-    source, fetcher = sunder_nursery
-    schedule = next(s for s in load_schedules(CONFIG)
+def test_horizon_never_runs_past_the_confirmation_date(confirmed_walk):
+    import delhi_events.sources.recurring as recurring
+
+    source, fetcher = confirmed_walk
+    schedule = next(s for s in recurring.load_schedules()
                     if s["source_id"] == "sunder_nursery")
-
     limit = schedule["confirmed_until"]
-    if isinstance(limit, str):
-        limit = datetime.strptime(limit, "%Y-%m-%d").date()
 
-    for event in source.fetch(fetcher):
+    events = source.fetch(fetcher)
+    assert events
+    for event in events:
         assert event.start.date() <= limit
 
 
