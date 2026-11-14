@@ -99,12 +99,17 @@ sources:
       # talks, panels and workshops, so read the format from the blurb.
       format: auto
 
+  # Disabled while naturemorte.com is a holding page: since 31 Oct 2026 every
+  # path redirects to /public/, "Website Under Maintenance -- Coming Soon!".
+  # Disabling keeps the show already stored listed until it closes, where a
+  # failing run would eventually redden doctor and an empty one would retire
+  # it. Re-check these selectors against the new site before re-enabling.
   - id: nature_morte
     adapter: gallery
     name: Nature Morte
     address: A-1 Neeti Bagh, New Delhi 110049
     url: https://naturemorte.com/exhibitions/
-    enabled: true
+    enabled: false
     allow_empty: true
     options:
       card: .card-exhibition
