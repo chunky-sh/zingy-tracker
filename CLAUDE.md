@@ -20,7 +20,7 @@ The project is run from its checkout, never installed — always go through the 
 ```sh
 make install                 # create .venv, install requirements + pytest/anthropic/pypdf
 make refresh                 # scrape all enabled sources into data/events.db
-make refresh-local           # pull, then scrape only the local_only venues CI can't reach (IIC)
+make refresh-local           # pull, then scrape only the local_only venues CI can't reach (IIC, Bikaner House)
 make build                   # write site/dist (index.html, events.json, *.ics)
 make dev                     # live site on :8000, rebuilds + reloads on change
 make test                    # golden-file suite, no network (137 tests, ~1s)
@@ -148,11 +148,12 @@ silent wrong answer rather than an error.
 problem either way. The rules live in `cli.source_health` and are tested in `tests/test_doctor.py`.
 
 **Some venues block datacenter IPs outright.** iicdelhi.in's AWS load balancer 403s every GitHub
-Actions runner -- homepage included, whatever the headers (probed from a runner, Oct 2026). Such
-sources set `local_only: true`: CI skips them entirely (no run recorded, nothing reconciled, so
-their events stay listed), and they are refreshed from a home connection with `make
-refresh-local` and a pushed `data/events.db`, which redeploys. The 7-day staleness rule is the
-reminder. Don't try to defeat the block with headers; it is by IP.
+Actions runner -- homepage included, whatever the headers (probed from a runner, Oct 2026).
+bikanerhouse.rajasthan.gov.in has timed out on every runner connection since 31 Oct 2026, while
+answering a home connection at once. Such sources set `local_only: true`: CI skips them entirely
+(no run recorded, nothing reconciled, so their events stay listed), and they are refreshed from a
+home connection with `make refresh-local` and a pushed `data/events.db`, which redeploys. The
+7-day staleness rule is the reminder. Don't try to defeat the block with headers; it is by IP.
 
 **Disable sources in `config/sources.yaml` rather than deleting them** — `doctor` only checks
 enabled ones. `ihc_pdf` (Claude-extracted PDF backfill) is disabled by default.

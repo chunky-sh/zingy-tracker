@@ -8,7 +8,7 @@ PORT ?= 8000
 help:
 	@echo "make install     create .venv and install dependencies"
 	@echo "make refresh     scrape all enabled sources into data/events.db"
-	@echo "make refresh-local scrape the venues CI is blocked from (IIC); then commit data/events.db"
+	@echo "make refresh-local scrape the venues CI is blocked from (IIC, Bikaner House); then commit data/events.db"
 	@echo "make refresh-llm same, plus Claude tagging for ambiguous events"
 	@echo "make build       write site/dist (index.html, events.json, *.ics)"
 	@echo "make test        run the golden-file test suite"

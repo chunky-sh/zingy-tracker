@@ -53,8 +53,8 @@ jobs:
       # continue-on-error because `refresh` exits non-zero if ANY source fails,
       # and one flaky venue must not stop the rest from being published --
       # `doctor` below is what actually reports health and reddens the run.
-      # Venues that block datacenter IPs outright (iicdelhi.in) are marked
-      # local_only in config/sources.yaml and skipped here.
+      # Venues that block datacenter IPs outright (iicdelhi.in, Bikaner House)
+      # are marked local_only in config/sources.yaml and skipped here.
       - name: Refresh
         continue-on-error: true
         env:
